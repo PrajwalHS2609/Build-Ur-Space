@@ -142,7 +142,7 @@
 }
 @media screen and (min-width: 990px) {
   .navBarContainer {
-    border: solid;
+    /* border: solid; */
     height: 17vh;
     position: sticky;
     top: 0;
