@@ -13,7 +13,7 @@ const HomeHeaderImgTxt = () => {
       </div>
       <div className="homeHeaderImgTxtWel">
         <p>
-          Welcome to BUILD UR SPACE, your trusted partner in construction
+          Welcome to <span>BUILD UR SPACE</span>, your trusted partner in construction
           solutions.
         </p>
       </div>

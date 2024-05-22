@@ -81,7 +81,7 @@
   font-size: 13px;
   margin: 5px;
 }
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 600px) {
   .homeAppContainer {
     /* border: solid red; */
     width: 100%;
@@ -236,12 +236,12 @@
     justify-content: center;
     align-items: center;
   }
-  .homeAppHeading{
+  .homeAppHeading {
     /* border: solid; */
     width: 100%;
   }
   .homeAppHeading > h1 {
-    text-align: start;
+    text-align: center;
   }
   .appDot {
     /* border: solid green; */
@@ -292,7 +292,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    flex-direction:row;
+    flex-direction: row;
     gap: 20px;
     height: 100%;
   }
@@ -332,12 +332,12 @@
     justify-content: center;
     align-items: center;
   }
-  .homeAppHeading{
+  .homeAppHeading {
     /* border: solid; */
     width: 100%;
   }
   .homeAppHeading > h1 {
-    text-align: center;
+    text-align: start;
   }
   .appDot {
     /* border: solid green; */
@@ -388,7 +388,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    flex-direction:row;
+    flex-direction: row;
     gap: 20px;
     height: 100%;
   }
@@ -428,12 +428,13 @@
     justify-content: center;
     align-items: center;
   }
-  .homeAppHeading{
+  .homeAppHeading {
     /* border: solid; */
     width: 100%;
   }
   .homeAppHeading > h1 {
-    text-align: center;font-size: 30px;
+    text-align: start;
+    font-size: 30px;
   }
   .appDot {
     /* border: solid green; */
