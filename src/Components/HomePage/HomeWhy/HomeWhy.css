@@ -1,0 +1,411 @@
+.homeWhyContainer {
+  /* border: solid; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.homeWhyContent {
+  /* border: solid; */
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.homeWhyHeadContainer {
+  /* border: solid; */
+  width: fit-content;
+}
+.homeWhyHeadContainer > h1 {
+  width: 100%;
+  letter-spacing: 1px;
+}
+.homeWhyHeadContainer > h1 > span {
+  color: var(--customColor);
+}
+
+.homeWhyHeadContainer > p {
+  width: 70%;
+  font-size: 20px;
+}
+.homeWhyMainContainer {
+  /* border: solid blue; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.homeWhyCardContainer {
+  /* border: solid red; */
+  width: 22%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #fff6f4;
+}
+.homeWhyCardImgContainer {
+  /* border: solid; */
+  width: 100%;
+  height: 80%;
+}
+.homeWhyCardImgContainer > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.homeWhyCardContainer > h2 {
+  text-align: center;
+  width: 100%;
+  height: 10%;
+}
+.homeWhyCardContainer > h2 > a {
+  text-align: center;
+  width: 100%;
+  color: black;
+}
+.homeWhyCardContainer > p {
+  /* border: solid; */
+  text-align: center;
+  color: grey;
+  font-size: 17px;
+  height: 10%;
+  height: 100%;
+}
+@media screen and (min-width: 320px) and (max-width: 600px) {
+  .homeWhyContainer {
+    /* border: solid; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .homeWhyContent {
+    /* border: solid; */
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .homeWhyHeadContainer {
+    /* border: solid; */
+    width: 100%;
+  }
+  .homeWhyHeadContainer > h1 {
+    width: 100%;
+    letter-spacing: 1px;
+    font-size: 20px;
+  }
+  .homeWhyHeadContainer > p {
+    width: 100%;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .homeWhyMainContainer {
+    /* border: solid blue; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .homeWhyCardContainer {
+    /* border: solid red; */
+    width: 40%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fff6f4;
+    margin: 10px;
+  }
+  .homeWhyCardImgContainer {
+    /* border: solid; */
+    width: 100%;
+    height: 60%;
+  }
+  .homeWhyCardImgContainer > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .homeWhyCardYTxtContainer {
+    /* border: solid blue; */
+    height: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+  }
+  .homeWhyCardContainer > h2 {
+    width: 100%;
+    height: 80%;
+  }
+  .homeWhyCardContainer > h2 > a {
+    text-align: center;
+    width: 100%;
+    color: black;
+  }
+  .homeWhyCardContainer > p {
+    /* border: solid; */
+    text-align: center;
+    font-size: 15px;
+    height: 40%;
+    width: 90%;
+    margin-top: 10px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .homeWhyContainer {
+    /* border: solid; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .homeWhyContent {
+    /* border: solid; */
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .homeWhyHeadContainer {
+    /* border: solid; */
+    width: fit-content;
+  }
+  .homeWhyHeadContainer > h1 {
+    width: 100%;
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+  .homeWhyHeadContainer > p {
+    width: 70%;
+    font-size: 20px;
+  }
+  .homeWhyMainContainer {
+    /* border: solid blue; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .homeWhyCardContainer {
+    /* border: solid red; */
+    width: 20%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fff6f4;
+    margin: 20px;
+  }
+  .homeWhyCardImgContainer {
+    /* border: solid; */
+    width: 100%;
+    height: 60%;
+  }
+  .homeWhyCardImgContainer > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .homeWhyCardYTxtContainer {
+    /* border: solid blue; */
+    height: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+  }
+  .homeWhyCardContainer > h2 {
+    width: 100%;
+    height: 40%;
+  }
+  .homeWhyCardContainer > h2 > a {
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    color: black;
+  }
+  .homeWhyCardContainer > p {
+    /* border: solid; */
+    text-align: center;
+    font-size: 17px;
+    width: 100%;
+    height: 40%;
+  }
+}
+@media screen and (min-width: 990px) {
+  .homeWhyContainer {
+    /* border: solid; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .homeWhyContent {
+    /* border: solid; */
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .homeWhyHeadContainer {
+    /* border: solid; */
+    width: 100%;
+  }
+  .homeWhyHeadContainer > h1 {
+    width: 100%;
+    letter-spacing: 1px;
+  }
+  .homeWhyHeadContainer > p {
+    width: 70%;
+    font-size: 20px;
+  }
+  .homeWhyMainContainer {
+    /* border: solid blue; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .homeWhyCardContainer {
+    /* border: solid red; */
+    width: 15%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fff6f4;
+    margin: 30px;
+  }
+  .homeWhyCardImgContainer {
+    /* border: solid; */
+    width: 100%;
+    height: 60%;
+  }
+  .homeWhyCardImgContainer > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .homeWhyCardYTxtContainer {
+    /* border: solid blue; */
+    height: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+  }
+  .homeWhyCardContainer > h2 {
+    width: 100%;
+    height: 40%;
+  }
+  .homeWhyCardContainer > h2 > a {
+    text-align: center;
+    width: 100%;
+    color: black;
+  }
+  .homeWhyCardContainer > p {
+    /* border: solid; */
+    text-align: center;
+    font-size: 15px;
+    width: 90%;
+    height: 40%;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .homeWhyContainer {
+    /* border: solid; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .homeWhyContent {
+    /* border: solid; */
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .homeWhyHeadContainer {
+    /* border: solid; */
+    width: fit-content;
+    width: 100%;
+  }
+  .homeWhyHeadContainer > h1 {
+    width: 100%;
+    letter-spacing: 1px;
+  }
+  .homeWhyHeadContainer > p {
+    width: 70%;
+    font-size: 20px;
+  }
+  .homeWhyMainContainer {
+    /* border: solid blue; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0px;
+  }
+  .homeWhyCardContainer {
+    /* border: solid red; */
+    width: 10%;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fff6f4;
+  }
+  .homeWhyCardImgContainer {
+    /* border: solid; */
+    width: 100%;
+    height: 60%;
+  }
+  .homeWhyCardImgContainer > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .homeWhyCardContainer > h2 {
+    /* border: solid; */
+    text-align: center;
+    width: 100%;
+    height: 40%;
+  }
+  .homeWhyCardContainer > h2 > a {
+    text-align: center;
+    width: 100%;
+    color: black;
+  }
+  .homeWhyCardContainer > p {
+    /* border: solid; */
+    text-align: center;
+    font-size: 15px;
+    width: 90%;
+    height: 40%;
+    margin-top: 20px;
+  }
+}

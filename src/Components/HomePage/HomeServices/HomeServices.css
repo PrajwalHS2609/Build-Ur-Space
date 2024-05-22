@@ -1,0 +1,538 @@
+.homeServiceContainer {
+  /* border: solid blue; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff6f4;
+}
+.homeServiceHeaderContainer {
+  /* border: solid brown; */
+  width: 80%;
+}
+.homeServiceHeaderContent {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+.homeServiceHeadItem2 {
+  /* border: solid; */
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.homeServiceHeadItem2 > p {
+  /* border: solid; */
+  width: 97%;
+  font-size: 20px;
+}
+.homeServiceMainContainer {
+  /* border: solid green; */
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 30px;
+}
+.homeServiceCardContainer {
+  /* border: solid; */
+  width: 40%;
+  height: 40vh;
+}
+.homeServiceCardImg {
+  /* border: solid green; */
+  height: 85%;
+  overflow: hidden;
+}
+.homeServiceCardImg > img {
+  width: 100%;
+  height: 100%;
+  transition: 300ms ease-in-out;
+}
+.homeServiceCardTxt {
+  /* border: solid yellowgreen; */
+  position: relative;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+.homeServiceCardCover {
+  /* border: solid red; */
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 10%;
+  background-color: var(--customColor);
+  transition: 300ms ease-in-out;
+}
+.homeServiceCardTxt > h2 {
+  /* border: solid; */
+  height: 100%;
+  width: 90%;
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: absolute;
+  color: white;
+}
+.homeServiceCardContainer:hover .homeServiceCardCover {
+  height: 100%;
+}
+.homeServiceCardContainer:hover .homeServiceCardImg > img {
+  transform: scale(1.1);
+}
+@media screen and (min-width: 320px) {
+  .homeServiceContainer {
+    /* border: solid blue; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff6f4;
+  }
+  .homeServiceHeaderContainer {
+    /* border: solid brown; */
+    width: 100%;
+  }
+  .homeServiceHeaderContent {
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .serviceHeadContainer {
+    /* border: solid red; */
+    width: 83%;
+  }
+  .serviceHeadContainer > h1 {
+    font-size: 20px;
+    width: 90%;
+  }
+  .homeServiceHeadItem2 {
+    /* border: solid; */
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .homeServiceHeadItem2 > p {
+    /* border: solid; */
+    width: 88%;
+    font-size: 20px;
+  }
+  .homeServiceMainContainer {
+    /* border: solid green; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  .homeServiceCardContainer {
+    /* border: solid; */
+    width: 95%;
+    height: 40vh;
+  }
+  .homeServiceCardImg {
+    /* border: solid green; */
+    height: 85%;
+    overflow: hidden;
+  }
+  .homeServiceCardImg > img {
+    width: 100%;
+    height: 100%;
+    transition: 300ms ease-in-out;
+  }
+  .homeServiceCardTxt {
+    /* border: solid yellowgreen; */
+    position: relative;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+  }
+  .homeServiceCardCover {
+    /* border: solid red; */
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 10%;
+    background-color: var(--customColor);
+    transition: 300ms ease-in-out;
+  }
+  .homeServiceCardTxt > h2 {
+    /* border: solid; */
+    height: 100%;
+    width: 90%;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    color: white;
+  }
+  .serviceDotContainer {
+    /* border: solid teal; */
+    width: 5%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .serviceDotContainer > .dot {
+    /* border: solid; */
+    width: 20px;
+    height: 20px;
+    background-color: var(--customColor);
+    transform: skew(-40deg);
+  }
+}
+@media screen and (min-width: 768px) {
+  .homeServiceContainer {
+    /* border: solid blue; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff6f4;
+  }
+  .homeServiceHeaderContainer {
+    /* border: solid brown; */
+    width: 100%;
+  }
+  .homeServiceHeaderContent {
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .serviceHeadContainer {
+    /* border: solid red; */
+    width: 83%;
+  }
+  .serviceHeadContainer > h1 {
+    font-size: 20px;
+    width: 90%;
+  }
+  .homeServiceHeadItem2 {
+    /* border: solid; */
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .homeServiceHeadItem2 > p {
+    /* border: solid; */
+    width: 88%;
+    font-size: 20px;
+  }
+  .homeServiceMainContainer {
+    /* border: solid green; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  .homeServiceCardContainer {
+    /* border: solid; */
+    width: 50%;
+    height: 40vh;
+  }
+  .homeServiceCardImg {
+    /* border: solid green; */
+    height: 85%;
+    overflow: hidden;
+  }
+  .homeServiceCardImg > img {
+    width: 100%;
+    height: 100%;
+    transition: 300ms ease-in-out;
+  }
+  .homeServiceCardTxt {
+    /* border: solid yellowgreen; */
+    position: relative;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+  }
+  .homeServiceCardCover {
+    /* border: solid red; */
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 10%;
+    background-color: var(--customColor);
+    transition: 300ms ease-in-out;
+  }
+  .homeServiceCardTxt > h2 {
+    /* border: solid; */
+    height: 100%;
+    width: 90%;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    color: white;
+  }
+  .serviceDotContainer {
+    /* border: solid teal; */
+    width: 5%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .serviceDotContainer > .dot {
+    /* border: solid; */
+    width: 20px;
+    height: 20px;
+    background-color: var(--customColor);
+    transform: skew(-40deg);
+  }
+}
+@media screen and (min-width: 990px) {
+  .homeServiceContainer {
+    /* border: solid blue; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff6f4;
+  }
+  .homeServiceHeaderContainer {
+    /* border: solid brown; */
+    width: 100%;
+  }
+  .homeServiceHeaderContent {
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .serviceHeadContainer {
+    /* border: solid red; */
+    width: 83%;
+  }
+  .serviceHeadContainer > h1 {
+    font-size: 30px;
+    width: 90%;
+  }
+  .homeServiceHeadItem2 {
+    /* border: solid; */
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .homeServiceHeadItem2 > p {
+    /* border: solid; */
+    width: 88%;
+    font-size: 20px;
+  }
+  .homeServiceMainContainer {
+    /* border: solid green; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  .homeServiceCardContainer {
+    /* border: solid red; */
+    width: 35%;
+    height: 40vh;
+  }
+  .homeServiceCardImg {
+    /* border: solid green; */
+    height: 85%;
+    overflow: hidden;
+  }
+  .homeServiceCardImg > img {
+    width: 100%;
+    height: 100%;
+    transition: 300ms ease-in-out;
+  }
+  .homeServiceCardTxt {
+    /* border: solid yellowgreen; */
+    position: relative;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+  }
+  .homeServiceCardCover {
+    /* border: solid red; */
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 10%;
+    background-color: var(--customColor);
+    transition: 300ms ease-in-out;
+  }
+  .homeServiceCardTxt > h2 {
+    /* border: solid; */
+    height: 100%;
+    width: 90%;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    color: white;
+  }
+  .serviceDotContainer {
+    /* border: solid teal; */
+    width: 5%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .serviceDotContainer > .dot {
+    /* border: solid; */
+    width: 20px;
+    height: 20px;
+    background-color: var(--customColor);
+    transform: skew(-40deg);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .homeServiceContainer {
+    /* border: solid blue; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff6f4;
+  }
+  .homeServiceHeaderContainer {
+    /* border: solid brown; */
+    width: 100%;
+  }
+  .homeServiceHeaderContent {
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .serviceHeadContainer {
+    /* border: solid red; */
+    width: 83%;
+  }
+  .serviceHeadContainer > h1 {
+    font-size: 30px;
+    width: 90%;
+  }
+  .homeServiceHeadItem2 {
+    /* border: solid; */
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .homeServiceHeadItem2 > p {
+    /* border: solid; */
+    width: 88%;
+    font-size: 20px;
+  }
+  .homeServiceMainContainer {
+    /* border: solid green; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  .homeServiceCardContainer {
+    /* border: solid red; */
+    width: 35%;
+    height: 40vh;
+  }
+  .homeServiceCardImg {
+    /* border: solid green; */
+    height: 85%;
+    overflow: hidden;
+  }
+  .homeServiceCardImg > img {
+    width: 100%;
+    height: 100%;
+    transition: 300ms ease-in-out;
+  }
+  .homeServiceCardTxt {
+    /* border: solid yellowgreen; */
+    position: relative;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+  }
+  .homeServiceCardCover {
+    /* border: solid red; */
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 10%;
+    background-color: var(--customColor);
+    transition: 300ms ease-in-out;
+  }
+  .homeServiceCardTxt > h2 {
+    /* border: solid; */
+    height: 100%;
+    width: 90%;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    color: white;
+  }
+  .serviceDotContainer {
+    /* border: solid teal; */
+    width: 5%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .serviceDotContainer > .dot {
+    /* border: solid; */
+    width: 20px;
+    height: 20px;
+    background-color: var(--customColor);
+    transform: skew(-40deg);
+  }
+}
