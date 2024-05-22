@@ -1,0 +1,24 @@
+.ourPhiloList {
+  width: 90%;
+}
+@media screen and (min-width: 320px) {
+  .ourPhiloList > ul > li {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .ourPhiloList > ul > li {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 990px) {
+  .ourPhiloList > ul > li {
+    font-size: 15px;
+    margin: -6px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .ourPhiloList > ul > li {
+    font-size: 20px;margin: 0;
+  }
+}

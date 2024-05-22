@@ -3,14 +3,16 @@ import HomeHeader from "./HomeHeader/HomeHeader";
 import HomeWhy from "./HomeWhy/HomeWhy";
 import HomeServices from "./HomeServices/HomeServices";
 import"./HomePage.css"
-import HomeAppPage from "./HomeAppPage/HomeAppPage";
+import HomeOurApproach from "./HomeOurApproach/HomeOurApproach";
+import HomeOurPhilo from "./HomeOurPhilo/HomeOurPhilo";
 const HomePage = () => {
   return (
     <div className="homePageContainer">
       <HomeHeader />
       <HomeServices/>
       <HomeWhy />
-      <HomeAppPage/>
+      <HomeOurApproach/>
+      <HomeOurPhilo/>
     </div>
   );
 };
