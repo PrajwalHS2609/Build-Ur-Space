@@ -5,6 +5,7 @@ import HomeServices from "./HomeServices/HomeServices";
 import"./HomePage.css"
 import HomeOurApproach from "./HomeOurApproach/HomeOurApproach";
 import HomeOurPhilo from "./HomeOurPhilo/HomeOurPhilo";
+import HomeOurVision from "./HomeOurVision/HomeOurVision";
 const HomePage = () => {
   return (
     <div className="homePageContainer">
@@ -13,6 +14,7 @@ const HomePage = () => {
       <HomeWhy />
       <HomeOurApproach/>
       <HomeOurPhilo/>
+      <HomeOurVision/>
     </div>
   );
 };

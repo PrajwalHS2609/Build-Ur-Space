@@ -156,13 +156,17 @@
 
   .navBarContent1 {
     /* border: solid red; */
-    width: 20%;
+    width: 30%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 0;
   }
+    .navBarContent1>img {
+      height: 90%;width: 90%;
+    }
+
   .navBarContent2 {
     /* border: solid blue; */
     width: 80%;
@@ -225,7 +229,7 @@
 
   .navBarContent1 {
     /* border: solid red; */
-    width: 20%;
+    width: 30%;
     height: 100%;
     display: flex;
     justify-content: center;
