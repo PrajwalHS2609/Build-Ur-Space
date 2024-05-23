@@ -8,5 +8,11 @@
   box-sizing: border-box;
 }
 h1 {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Futura Std Condensed";
+  font-weight: bold;
+}
+@font-face {
+  font-family: "medium";
+  src: local("futura-medium"),
+    url("./Fonts/futura/FUTURA55REGULAR.TTF") format("truetype");
 }

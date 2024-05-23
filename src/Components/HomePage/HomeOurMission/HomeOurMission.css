@@ -188,7 +188,7 @@
   }
   .ourMissionImgContainer > img {
     height: 100%;
-    width: 100%;
+    width: 90%;
   }
   .ourMissionListContainer {
     /* border: solid; */
@@ -239,11 +239,14 @@
   }
   .ourMissionImgContainer {
     /* border: solid green; */
-    height: 100%;
+    height: 100%; display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .ourMissionImgContainer > img {
-    height: 100%;
+    height: 80%;
     width: 100%;
+   
   }
   .ourMissionListContainer {
     /* border: solid; */

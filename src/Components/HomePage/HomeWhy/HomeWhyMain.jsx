@@ -1,12 +1,12 @@
 import React from "react";
 import "./HomeWhy.css";
 import HomeWhyCard from "./HomeWhyCard";
-
+import icon1 from "./../../../Images/Icon1.png"
 const HomeWhyMain = () => {
   return (
     <div className="homeWhyMainContainer">
       <HomeWhyCard
-        img="https://bricknbolt-gallery.s3.ap-south-1.amazonaws.com/lp-construction-request-page/brick-bolt-payment-i-ilustration-3.svg"
+        img={icon1}
         // head="Safe Money Transaction"
         para="Human-centric design"
       />
