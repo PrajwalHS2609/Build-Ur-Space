@@ -116,6 +116,10 @@
   color: var(--customColor);
 }
 @media screen and (min-width: 320px) {
+  .homeHeaderContainer {
+    /* border: solid; */
+    width: 100%;
+  }
   .homeHeaderImgContainer {
     width: 100%;
     height: 100%;
@@ -123,6 +127,7 @@
   .homeHeaderImgContainer > img {
     width: 100%;
     height: 100%;
+    
   }
   .homeHeadContainer {
     /* border: solid; */
@@ -131,7 +136,7 @@
   .homeHeadingContainer {
     /* border: solid; */
     width: 100%;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     gap: 30px;
@@ -192,7 +197,6 @@
     align-items: center;
     flex-direction: column;
     backdrop-filter: blur(10px);
-    background-color: rgba(0, 0, 0, 0.544);
     gap: 20px;
     top: -100px;
   }
@@ -241,6 +245,10 @@
   }
 }
 @media screen and (min-width: 768px) {
+  .homeHeaderContainer {
+    /* border: solid; */
+    width: 100%;
+  }
   .homeHeaderImgContainer {
     width: 100%;
   }
@@ -255,7 +263,7 @@
   .homeHeadingContainer {
     /* border: solid; */
     width: 100%;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     gap: 30px;
@@ -320,6 +328,10 @@
   }
 }
 @media screen and (min-width: 990px) {
+  .homeHeaderContainer {
+    /* border: solid; */
+    width: 100%;
+  }
   .homeHeaderImgContainer {
     width: 100%;
   }
@@ -334,7 +346,7 @@
   .homeHeadingContainer {
     /* border: solid; */
     width: 100%;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     gap: 30px;
@@ -381,7 +393,7 @@
     transform: skew(-40deg);
   }
   .homeHeaderImgTxt {
-        /* border: solid red; */
+    /* border: solid red; */
     position: absolute;
     z-index: 1;
     height: 100%;
@@ -391,7 +403,8 @@
     align-items: center;
     flex-direction: column;
     backdrop-filter: blur(10px);
-    gap: 20px;margin-top: 100px;
+    top: 0px;
+    gap: 20px;
   }
   .homeHeaderImgTxtContainer {
     /* border: solid blue; */
@@ -442,6 +455,9 @@
   }
 }
 @media screen and (min-width: 1200px) {
+  .homeHeaderContainer {
+    width: 100%;
+  }
   .homeHeaderImgContainer {
     width: 100%;
   }
@@ -452,7 +468,7 @@
   .homeHeadingContainer {
     /* border: solid; */
     width: 100%;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     gap: 30px;
@@ -508,7 +524,8 @@
     align-items: center;
     flex-direction: column;
     backdrop-filter: blur(10px);
-    gap: 20px;margin-top: 150px;
+    top: 50px;
+    gap: 20px;
   }
   .homeHeaderImgTxtContainer {
     /* border: solid blue; */

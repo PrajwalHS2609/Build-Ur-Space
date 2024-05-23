@@ -1,0 +1,115 @@
+.welcomeContainer {
+  /* border: solid; */
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+}
+.welcomeContainer > h1 {
+  text-align: center;
+}
+.welcomeContainer > p {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 30px;
+}
+@media screen and (min-width: 320px) {
+  .welcomeContainer {
+    /* border: solid; */
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+  }
+  .welcomeContainer > h1 {
+    text-align: center;
+    font-size: 20px;
+  }
+  .welcomeContainer > p {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .welcomeContainer {
+    /* border: solid; */
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+  }
+  .welcomeContainer > h1 {
+    text-align: center;font-size: 30px;
+  }
+  .welcomeContainer > p {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+    .welcomeContainer {
+      /* border: solid; */
+      display: flex;
+      width: 90%;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 10px;
+    }
+    .welcomeContainer > h1 {
+      text-align: center;font-size: 30px;
+    }
+    .welcomeContainer > p {
+      text-align: center;
+      font-size: 20px;
+      margin-top: 30px;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .welcomeContainer {
+      /* border: solid; */
+      display: flex;
+      width: 90%;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 10px;
+    }
+    .welcomeContainer > h1 {
+      text-align: center;font-size: 30px;
+    }
+    .welcomeContainer > p {
+      text-align: center;
+      font-size: 20px;
+      margin-top: 30px;
+    }
+  }
+  @media screen and (min-width: 990px) {
+    .welcomeContainer {
+      /* border: solid; */
+      display: flex;
+      width: 90%;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 10px;
+    }
+    .welcomeContainer > h1 {
+      text-align: center;font-size: 30px;
+    }
+    .welcomeContainer > p {
+      text-align: center;
+      font-size: 20px;
+      margin-top: 30px;
+    }
+  }
+  
+    

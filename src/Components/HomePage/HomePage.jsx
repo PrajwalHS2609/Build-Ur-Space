@@ -6,15 +6,19 @@ import"./HomePage.css"
 import HomeOurApproach from "./HomeOurApproach/HomeOurApproach";
 import HomeOurPhilo from "./HomeOurPhilo/HomeOurPhilo";
 import HomeOurVision from "./HomeOurVision/HomeOurVision";
+import HomeOurMission from "./HomeOurMission/HomeOurMission";
+import HomeWelcome from "./HomeWelcome/HomeWelcome";
 const HomePage = () => {
   return (
     <div className="homePageContainer">
       <HomeHeader />
+      <HomeWelcome/>
       <HomeServices/>
       <HomeWhy />
       <HomeOurApproach/>
       <HomeOurPhilo/>
       <HomeOurVision/>
+      <HomeOurMission/>
     </div>
   );
 };

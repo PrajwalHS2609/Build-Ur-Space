@@ -1,0 +1,276 @@
+.ourMissionContainer {
+  /* border: solid; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ourMissionContent1 {
+  /* border: solid red; */
+  width: 40%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ourMissionContent2 {
+  /* border: solid blue; */
+  width: 30%;
+  height: 60vh;
+}
+.ourMissionImgContainer {
+  /* border: solid green; */
+  height: 100%;
+}
+.ourMissionImgContainer > img {
+  height: 100%;
+  width: 100%;
+}
+.ourMissionListContainer {
+  /* border: solid; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  height: 100%;
+  width: 90%;
+}
+.ourMissionListHead {
+  /* border: solid; */
+  width: 100%;
+}
+.ourMissionListHead > h1 > span {
+  color: var(--customColor);
+}
+.ourMissionListContent > ul > li {
+  margin: 20px;
+  font-size: 20px;
+}
+.ourMissionListContent > ul > li > span {
+  font-weight: bold;
+}
+@media screen and (min-width: 320px) {
+  .ourMissionContainer {
+    /* border: solid; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .ourMissionContent1 {
+    /* border: solid red; */
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ourMissionContent2 {
+    /* border: solid blue; */
+    width: 90%;
+    height: 40vh;
+  }
+  .ourMissionImgContainer {
+    /* border: solid green; */
+    height: 100%;
+  }
+  .ourMissionImgContainer > img {
+    height: 100%;
+    width: 100%;
+  }
+  .ourMissionListContainer {
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    height: 100%;
+    width: 90%;
+  }
+  .ourMissionListHead {
+    /* border: solid; */
+    width: 100%;
+  }
+  .ourMissionListHead > h1 > span {
+    color: var(--customColor);
+  }
+  .ourMissionListContent > ul > li {
+    margin: 10px;
+    font-size: 17px;
+  }
+  .ourMissionListContent > ul > li > span {
+    font-weight: bold;
+  }
+}
+@media screen and (min-width: 768px) {
+  .ourMissionContainer {
+    /* border: solid; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .ourMissionContent1 {
+    /* border: solid red; */
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ourMissionContent2 {
+    /* border: solid blue; */
+    width: 90%;
+    height: 40vh;
+  }
+  .ourMissionImgContainer {
+    /* border: solid green; */
+    height: 100%;
+  }
+  .ourMissionImgContainer > img {
+    height: 100%;
+    width: 100%;
+  }
+  .ourMissionListContainer {
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    height: 100%;
+    width: 90%;
+  }
+  .ourMissionListHead {
+    /* border: solid; */
+    width: 100%;
+  }
+  .ourMissionListHead > h1 > span {
+    color: var(--customColor);
+  }
+  .ourMissionListContent > ul > li {
+    margin: 10px;
+    font-size: 17px;
+  }
+  .ourMissionListContent > ul > li > span {
+    font-weight: bold;
+  }
+}
+@media screen and (min-width: 990px) {
+  .ourMissionContainer {
+    /* border: solid; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .ourMissionContent1 {
+    /* border: solid red; */
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ourMissionContent2 {
+    /* border: solid blue; */
+    width: 90%;
+    height: 40vh;
+  }
+  .ourMissionImgContainer {
+    /* border: solid green; */
+    height: 100%;
+  }
+  .ourMissionImgContainer > img {
+    height: 100%;
+    width: 100%;
+  }
+  .ourMissionListContainer {
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    height: 100%;
+    width: 90%;
+  }
+  .ourMissionListHead {
+    /* border: solid; */
+    width: 100%;
+  }
+  .ourMissionListHead > h1 > span {
+    color: var(--customColor);
+  }
+  .ourMissionListContent > ul > li {
+    margin: 10px;
+    font-size: 17px;
+  }
+  .ourMissionListContent > ul > li > span {
+    font-weight: bold;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .ourMissionContainer {
+    /* border: solid; */
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .ourMissionContent1 {
+    /* border: solid red; */
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ourMissionContent2 {
+    /* border: solid blue; */
+    width: 60%;
+    height: 60vh;
+  }
+  .ourMissionImgContainer {
+    /* border: solid green; */
+    height: 100%;
+  }
+  .ourMissionImgContainer > img {
+    height: 100%;
+    width: 100%;
+  }
+  .ourMissionListContainer {
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    height: 100%;
+    width: 90%;
+  }
+  .ourMissionListHead {
+    /* border: solid; */
+    width: 100%;
+  }
+  .ourMissionListHead > h1 {
+    font-size: 40px;
+  }
+
+  .ourMissionListHead > h1 > span {
+    color: var(--customColor);
+  }
+  .ourMissionListContent > ul > li {
+    margin: 10px;
+    font-size: 25px;
+  }
+  .ourMissionListContent > ul > li > span {
+    font-weight: bold;
+  }
+}
