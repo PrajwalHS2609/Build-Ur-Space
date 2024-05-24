@@ -121,16 +121,30 @@
     width: 100%;
   }
   .homeHeaderImgContainer {
+    /* border: solid; */
     width: 100%;
     height: 100%;
   }
   .homeHeaderImgContainer > img {
     width: 100%;
     height: 100%;
+    display: none;
   }
   .homeHeadContainer {
     /* border: solid; */
     width: 100%;
+  }
+  .respHomeHeaderImgContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .respHomeHeaderImgContainer > img {
+    width: 100%;
+    /* border: solid; */
+    height: 100%;
   }
   .homeHeadingContainer {
     /* border: solid; */
@@ -250,10 +264,19 @@
   }
   .homeHeaderImgContainer {
     width: 100%;
+    height: 100%;
   }
   .homeHeaderImgContainer > img {
     width: 100%;
-    height: 50vh;
+    height: 100%;
+    display: flex;
+  }
+  .respHomeHeaderImgContainer {
+    width: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
   .homeHeadContainer {
     /* border: solid; */
@@ -333,10 +356,11 @@
   }
   .homeHeaderImgContainer {
     width: 100%;
+    height: 100%;
   }
   .homeHeaderImgContainer > img {
     width: 100%;
-    height: 50vh;
+    height: 100%;
   }
   .homeHeadContainer {
     /* border: solid; */
@@ -456,13 +480,17 @@
 @media screen and (min-width: 1200px) {
   .homeHeaderContainer {
     width: 100%;
+    /* border: solid; */
   }
   .homeHeaderImgContainer {
+    /* border: solid; */
     width: 100%;
+    height: 100%;
   }
   .homeHeaderImgContainer > img {
+    height: 100%;
     width: 100%;
-    height: 70vh;
+    object-fit: cover;
   }
   .homeHeadingContainer {
     /* border: solid; */

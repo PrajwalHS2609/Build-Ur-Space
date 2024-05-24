@@ -263,15 +263,15 @@
     width: 100%;
   }
   .ourMissionListHead > h1 {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .ourMissionListHead > h1 > span {
     color: var(--customColor);
   }
   .ourMissionListContent > ul > li {
-    margin: 10px;
-    font-size: 25px;
+    margin: 20px;
+    font-size: 20px;
   }
   .ourMissionListContent > ul > li > span {
     font-weight: bold;

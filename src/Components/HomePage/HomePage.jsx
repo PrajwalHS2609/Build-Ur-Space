@@ -9,6 +9,7 @@ import HomeOurVision from "./HomeOurVision/HomeOurVision";
 import HomeOurMission from "./HomeOurMission/HomeOurMission";
 import HomeWelcome from "./HomeWelcome/HomeWelcome";
 import HomeWhat from "./HomeWhatWeDo/HomeWhat";
+import OurProcess from "./HomeOurProcess/OurProcess";
 const HomePage = () => {
   return (
     <div className="homePageContainer">
@@ -21,6 +22,7 @@ const HomePage = () => {
       <HomeOurVision/>
       <HomeOurMission/>
       <HomeWhat/>
+      <OurProcess/>
     </div>
   );
 };

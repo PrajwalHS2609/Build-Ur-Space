@@ -6,7 +6,7 @@ const HomeHeader = () => {
   return (
     <div className='homeHeaderContainer'>
       <HomeHeaderImg/>
-      <HomeHeaderHead/>
+      {/* <HomeHeaderHead/> */}
     </div>
   )
 }

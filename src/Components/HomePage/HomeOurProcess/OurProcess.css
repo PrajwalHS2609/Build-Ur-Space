@@ -1,0 +1,319 @@
+.ourProcessContainer {
+  /* border: solid; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.ourProcessHeadContainer {
+  /* border: solid; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ourProcessHeadContainer > h1 {
+  text-align: center;
+}
+.ourProcessHeadContainer > h1 > span {
+  color: var(--customColor);
+}
+.ourProcessMainContainer {
+  /* border: solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 35vh;
+}
+.ourProcessCardContainer {
+  /* border: solid blue; */
+  width: 10%;
+  height: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px;
+}
+.ourProcessImg {
+  /* border: solid yellowgreen; */
+  height: 70%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ourProcessImg > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.ourProcessTxt {
+  /* border: solid brown; */
+  width: 100%;
+  height: 30%;
+}
+.ourProcessTxt > h3 {
+  text-align: center;
+  font-size: 17px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
+  .ourProcessContainer {
+    /* border: solid; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .ourProcessHeadContainer {
+    /* border: solid; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ourProcessHeadContainer > h1 {
+    text-align: center;
+  }
+  .ourProcessHeadContainer > h1 > span {
+    color: var(--customColor);
+  }
+  .ourProcessMainContainer {
+    /* border: solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+  }
+  .ourProcessCardContainer {
+    /* border: solid blue; */
+    width: 50%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+  }
+  .ourProcessImg {
+    /* border: solid yellowgreen; */
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ourProcessImg > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .ourProcessTxt {
+    /* border: solid brown; */
+    width: 100%;
+    height: 30%;
+  }
+  .ourProcessTxt > h3 {
+    text-align: center;
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .ourProcessContainer {
+    /* border: solid; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .ourProcessHeadContainer {
+    /* border: solid; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ourProcessHeadContainer > h1 {
+    text-align: center;
+  }
+  .ourProcessHeadContainer > h1 > span {
+    color: var(--customColor);
+  }
+  .ourProcessMainContainer {
+    /* border: solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+  }
+  .ourProcessCardContainer {
+    /* border: solid blue; */
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+  }
+  .ourProcessImg {
+    /* border: solid yellowgreen; */
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ourProcessImg > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .ourProcessTxt {
+    /* border: solid brown; */
+    width: 100%;
+    height: 30%;
+  }
+  .ourProcessTxt > h3 {
+    text-align: center;
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 990px) {
+  .ourProcessContainer {
+    /* border: solid; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .ourProcessHeadContainer {
+    /* border: solid; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ourProcessHeadContainer > h1 {
+    text-align: center;
+  }
+  .ourProcessHeadContainer > h1 > span {
+    color: var(--customColor);
+  }
+  .ourProcessMainContainer {
+    /* border: solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+  }
+  .ourProcessCardContainer {
+    /* border: solid blue; */
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+  }
+  .ourProcessImg {
+    /* border: solid yellowgreen; */
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ourProcessImg > img {
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
+  }
+  .ourProcessTxt {
+    /* border: solid brown; */
+    width: 100%;
+    height: 30%;
+  }
+  .ourProcessTxt > h3 {
+    text-align: center;
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .ourProcessContainer {
+    /* border: solid; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .ourProcessHeadContainer {
+    /* border: solid; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ourProcessHeadContainer > h1 {
+    text-align: center;
+  }
+  .ourProcessHeadContainer > h1 > span {
+    color: var(--customColor);
+  }
+  .ourProcessMainContainer {
+    /* border: solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+  }
+  .ourProcessCardContainer {
+    /* border: solid blue; */
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+  }
+  .ourProcessImg {
+    /* border: solid yellowgreen; */
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ourProcessImg > img {
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+  }
+  .ourProcessTxt {
+    /* border: solid brown; */
+    width: 100%;
+    height: 30%;
+  }
+  .ourProcessTxt > h3 {
+    text-align: center;
+    font-size: 15px;
+  }
+}
