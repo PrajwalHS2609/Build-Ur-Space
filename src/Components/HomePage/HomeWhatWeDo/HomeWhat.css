@@ -1,0 +1,387 @@
+.whatContainer {
+  /* border: solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.whatHeadContainer {
+  /* border: solid; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.whatHeadContainer > h1 {
+  text-align: center;
+}
+.whatHeadContainer > h1 > span {
+  color: var(--customColor);
+}
+.whatMainContainer {
+  /* border: solid; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100%;
+}
+.whatCardContainer {
+  /* border: solid blue; */
+  width: 15%;
+  margin: 10px;
+  height: 40vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  padding: 5px;
+  margin: 50px;
+  background-image: linear-gradient(to right, #ec5754ea 0%, #e28658ea 100%);
+}
+.whatCardHeadContainer {
+  /* border: solid red; */
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.whatImgContainer {
+  /* border: solid green; */
+  width: 90%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.whatImgContainer > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.whatTxtContainer {
+  /* border: solid brown; */
+  height: 40%;
+  width: 90%;
+}
+.whatCardHeadContainer > h3 {
+  text-align: center;
+}
+.whatTxtContainer > p {
+  font-size: 15px;
+  text-align: justify;
+}
+@media screen and (min-width: 320px) {
+  .whatContainer {
+    /* border: solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .whatHeadContainer {
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .whatHeadContainer > h1 {
+    text-align: center;
+  }
+  .whatHeadContainer > h1 > span {
+    color: var(--customColor);
+  }
+  .whatMainContainer {
+    /* border: solid; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+  }
+  .whatCardContainer {
+    /* border: solid blue; */
+    width: 60%;
+    margin: 10px;
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px;
+    gap: 10px;
+    margin: 40px;
+    background-image: linear-gradient(to right, #ec5754ea 0%, #e28658ea 100%);
+  }
+  .whatCardHeadContainer {
+    /* border: solid red; */
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .whatImgContainer {
+    /* border: solid green; */
+    width: 90%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .whatImgContainer > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .whatTxtContainer {
+    /* border: solid brown; */
+    height: 40%;
+    width: 90%;
+  }
+  .whatCardHeadContainer > h3 {
+    text-align: center;
+    font-size: 15px;
+  }
+  .whatTxtContainer > p {
+    font-size: 15px;
+    text-align: justify;
+  }
+}
+@media screen and (min-width: 768px) {
+  .whatContainer {
+    /* border: solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .whatHeadContainer {
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .whatHeadContainer > h1 {
+    text-align: center;
+  }
+  .whatHeadContainer > h1 > span {
+    color: var(--customColor);
+  }
+  .whatMainContainer {
+    /* border: solid; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+  }
+  .whatCardContainer {
+    /* border: solid blue; */
+    width: 25%;
+    margin: 10px;
+    height: 47vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+    margin: 50px;
+    background-image: linear-gradient(to right, #ec5754ea 0%, #e28658ea 100%);
+  }
+  .whatCardHeadContainer {
+    /* border: solid red; */
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .whatImgContainer {
+    /* border: solid green; */
+    width: 90%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .whatImgContainer > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .whatTxtContainer {
+    /* border: solid brown; */
+    height: 40%;
+    width: 90%;
+  }
+  .whatCardHeadContainer > h3 {
+    text-align: center;
+  }
+  .whatTxtContainer > p {
+    font-size: 15px;
+    text-align: justify;
+  }
+}
+@media screen and (min-width: 990px) {
+  .whatContainer {
+    /* border: solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .whatHeadContainer {
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .whatHeadContainer > h1 {
+    text-align: center;
+  }
+  .whatHeadContainer > h1 > span {
+    color: var(--customColor);
+  }
+  .whatMainContainer {
+    /* border: solid; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+  }
+  .whatCardContainer {
+    /* border: solid blue; */
+    width: 20%;
+    margin: 10px;
+    height: 45vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+    margin: 50px;
+    background-image: linear-gradient(to right, #ec5754ea 0%, #e28658ea 100%);
+  }
+  .whatCardHeadContainer {
+    /* border: solid red; */
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .whatImgContainer {
+    /* border: solid green; */
+    width: 90%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .whatImgContainer > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .whatTxtContainer {
+    /* border: solid brown; */
+    height: 40%;
+    width: 90%;
+  }
+  .whatCardHeadContainer > h3 {
+    text-align: center;
+  }
+  .whatTxtContainer > p {
+    font-size: 15px;
+    text-align: justify;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .whatContainer {
+    /* border: solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .whatHeadContainer {
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .whatHeadContainer > h1 {
+    text-align: center;
+  }
+  .whatHeadContainer > h1 > span {
+    color: var(--customColor);
+  }
+  .whatMainContainer {
+    /* border: solid; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+  }
+  .whatCardContainer {
+    /* border: solid blue; */
+    width: 15%;
+    margin: 10px;
+    height: 40vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+    margin: 50px;
+    background-image: linear-gradient(to right, #ec5754ea 0%, #e28658ea 100%);
+  }
+  .whatCardHeadContainer {
+    /* border: solid red; */
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .whatImgContainer {
+    /* border: solid green; */
+    width: 90%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .whatImgContainer > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .whatTxtContainer {
+    /* border: solid brown; */
+    height: 40%;
+    width: 90%;
+  }
+  .whatCardHeadContainer > h3 {
+    text-align: center;
+  }
+  .whatTxtContainer > p {
+    font-size: 15px;
+    text-align: justify;
+  }
+}

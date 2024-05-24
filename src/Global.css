@@ -7,10 +7,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-h1 {
-  font-family: "Futura Std Condensed";
-  font-weight: bold;
-}
+
 @font-face {
   font-family: "medium";
   src: local("futura-medium"),

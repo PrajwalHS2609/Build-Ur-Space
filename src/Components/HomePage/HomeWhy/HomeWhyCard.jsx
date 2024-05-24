@@ -6,7 +6,7 @@ const HomeWhyCard = (props) => {
     <div className="homeWhyCardContainer">
       <div className="homeWhyCardImgContainer">
         <img
-          src={props.pic}
+          src={props.img}
           alt=""
         />
       </div>

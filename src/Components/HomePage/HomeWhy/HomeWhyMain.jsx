@@ -1,7 +1,14 @@
 import React from "react";
 import "./HomeWhy.css";
 import HomeWhyCard from "./HomeWhyCard";
-import icon1 from "./../../../Images/Icon1.png"
+import icon1 from "../../../Images/user.png";
+import icon2 from "../../../Images/puzzle.png";
+import icon3 from "../../../Images/calendar.png";
+import icon4 from "../../../Images/quality.png";
+import icon5 from "../../../Images/eye.png";
+import icon6 from "../../../Images/area.png";
+import icon7 from "../../../Images/medal-.png";
+import icon8 from "../../../Images/file.png"
 const HomeWhyMain = () => {
   return (
     <div className="homeWhyMainContainer">
@@ -11,32 +18,28 @@ const HomeWhyMain = () => {
         para="Human-centric design"
       />
       <HomeWhyCard
-        img="https://bricknbolt-gallery.s3.ap-south-1.amazonaws.com/lp-construction-request-page/brick-bolt-payment-i-ilustration-1.svg"
+        img={icon2}
         // head="Absolute Transparency"
         para=" End-to-end solution"
       />
       <HomeWhyCard
-        img="https://bricknbolt-gallery.s3.ap-south-1.amazonaws.com/lp-construction-request-page/brick-bolt-payment-i-ilustration-4.svg"
+        img={icon3}
         // head="Assured Quality Control"
         para=" Timely Delivery"
       />
+      <HomeWhyCard img={icon4} para=" Superior Quality check" />
+      <HomeWhyCard img={icon5} para="No hidden cost" />
       <HomeWhyCard
-        img="https://bricknbolt-gallery.s3.ap-south-1.amazonaws.com/lp-construction-request-page/brick-bolt-payment-i-ilustration-2.svg"
-        head="Zero Delays"
-        para=" Superior Quality check"
-      />
-      <HomeWhyCard img="" para="No hidden cost" />
-      <HomeWhyCard
-        img=""
+        img={icon6}
         para=" 72,000+ sq ft area constructed 
 & delivered "
       />
       <HomeWhyCard
-        img=""
+        img={icon7}
         para="10 years warranty*,
  1-year service warranty"
       />
-      <HomeWhyCard img="" para="No sub-contracting" />
+      <HomeWhyCard img={icon8} para="No sub-contracting" />
     </div>
   );
 };

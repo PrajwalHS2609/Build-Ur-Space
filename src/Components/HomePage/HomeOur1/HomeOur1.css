@@ -188,7 +188,7 @@
   .our1Item1 > p {
     /* border: solid black; */
     height: 100%;
-    font-size: 25px;
+    font-size: 20px;
     width: 90%;
     line-height: 30px;
     color: black;
@@ -260,7 +260,7 @@
   .our1Item1 > p {
     /* border: solid black; */
     height: 100%;
-    font-size: 17px;
+    font-size: 15px;
     width: 80%;
     line-height: 40px;
     color: black;
