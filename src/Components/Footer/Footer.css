@@ -1,0 +1,26 @@
+.footerContainer {
+  border: solid;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#BioFooter {
+  border: solid blue;
+  width: 30%;
+}
+.footerContent {
+  border: solid red;
+  height: 40vh;
+  width: 10%;
+}
+.bioFooterContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bioFooterContainer > img {
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
+}

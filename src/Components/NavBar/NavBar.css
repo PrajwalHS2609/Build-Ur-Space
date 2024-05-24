@@ -251,7 +251,7 @@
     /* border: solid yellow; */
     height: 100%;
     width: 30%;
-    background-color: var(--customColor);
+    /* background-color: var(--customColor); */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
