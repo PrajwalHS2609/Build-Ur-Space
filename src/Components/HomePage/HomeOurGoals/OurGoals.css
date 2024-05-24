@@ -57,12 +57,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
   .ourGoalContent1 {
     /* border: solid red; */
-    width: 100%;
-    height: 70vh;
+    width: 90%;
+    height: 40vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,7 +70,7 @@
   .ourGoalContent2 {
     /* border: solid blue; */
     width: 90%;
-    height: 40vh;
+    height: 50vh;
   }
   .ourGoalImgContainer {
     /* border: solid green; */
