@@ -1,0 +1,279 @@
+.ourGoalContainer {
+  /* border: solid; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ourGoalContent1 {
+  /* border: solid red; */
+  width: 40%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ourGoalContent2 {
+  /* border: solid blue; */
+  width: 30%;
+  height: 60vh;
+}
+.ourGoalImgContainer {
+  /* border: solid green; */
+  height: 100%;
+}
+.ourGoalImgContainer > img {
+  height: 100%;
+  width: 100%;
+}
+.ourGoalListContainer {
+  /* border: solid; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  height: 100%;
+  width: 90%;
+}
+.ourGoalListHead {
+  /* border: solid; */
+  width: 100%;
+}
+.ourGoalListHead > h1 > span {
+  color: var(--customColor);
+}
+.ourGoalListContent > ol > li {
+  margin: 20px;
+  font-size: 20px;
+}
+.ourGoalListContent > ol > li > span {
+  font-weight: bold;
+}
+@media screen and (min-width: 320px) {
+  .ourGoalContainer {
+    /* border: solid; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .ourGoalContent1 {
+    /* border: solid red; */
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ourGoalContent2 {
+    /* border: solid blue; */
+    width: 90%;
+    height: 40vh;
+  }
+  .ourGoalImgContainer {
+    /* border: solid green; */
+    height: 100%;
+  }
+  .ourGoalImgContainer > img {
+    height: 100%;
+    width: 100%;
+  }
+  .ourGoalListContainer {
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    height: 100%;
+    width: 90%;
+  }
+  .ourGoalListHead {
+    /* border: solid; */
+    width: 100%;
+  }
+  .ourGoalListHead > h1 > span {
+    color: var(--customColor);
+  }
+  .ourGoalListContent > ol > li {
+    margin: 10px;
+    font-size: 17px;
+  }
+  .ourGoalListContent > ol > li > span {
+    font-weight: bold;
+  }
+}
+@media screen and (min-width: 768px) {
+  .ourGoalContainer {
+    /* border: solid; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .ourGoalContent1 {
+    /* border: solid red; */
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ourGoalContent2 {
+    /* border: solid blue; */
+    width: 90%;
+    height: 40vh;
+  }
+  .ourGoalImgContainer {
+    /* border: solid green; */
+    height: 100%;
+  }
+  .ourMissionImgContainer > img {
+    height: 100%;
+    width: 100%;
+  }
+  .ourGoalListContainer {
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    height: 100%;
+    width: 90%;
+  }
+  .ourGoalListHead {
+    /* border: solid; */
+    width: 100%;
+  }
+  .ourGoalListHead > h1 > span {
+    color: var(--customColor);
+  }
+  .ourGoalListContent > ol > li {
+    margin: 10px;
+    font-size: 17px;
+  }
+  .ourGoalListContent > ol > li > span {
+    font-weight: bold;
+  }
+}
+@media screen and (min-width: 990px) {
+  .ourGoalContainer {
+    /* border: solid; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .ourGoalContent1 {
+    /* border: solid red; */
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ourGoalContent2 {
+    /* border: solid blue; */
+    width: 90%;
+    height: 40vh;
+  }
+  .ourGoalImgContainer {
+    /* border: solid green; */
+    height: 100%;
+  }
+  .ourGoalImgContainer > img {
+    height: 100%;
+    width: 90%;
+  }
+  .ourGoalListContainer {
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    height: 100%;
+    width: 90%;
+  }
+  .ourGoalListHead {
+    /* border: solid; */
+    width: 100%;
+  }
+  .ourGoalListHead > h1 > span {
+    color: var(--customColor);
+  }
+  .ourGoalListContent > ol > li {
+    margin: 10px;
+    font-size: 17px;
+  }
+  .ourGoalListContent > ol > li > span {
+    font-weight: bold;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .ourGoalContainer {
+    /* border: solid; */
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .ourGoalContent1 {
+    /* border: solid red; */
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ourGoalContent2 {
+    /* border: solid blue; */
+    width: 60%;
+    height: 60vh;
+  }
+  .ourGoalImgContainer {
+    /* border: solid green; */
+    height: 100%;width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ourGoalImgContainer > img {
+    height: 100%;
+    width: 100%;
+  }
+  .ourGoalListContainer {
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    height: 100%;
+    width: 90%;
+  }
+  .ourGoalListHead {
+    /* border: solid; */
+    width: 100%;
+  }
+  .ourGoalListHead > h1 {
+    font-size: 30px;
+  }
+
+  .ourGoalListHead > h1 > span {
+    color: var(--customColor);
+  }
+  .ourGoalListContent > ol > li {
+    margin: 20px;
+    font-size: 20px;
+  }
+  .ourGoalListContent > ol > li > span {
+    font-weight: bold;
+  }
+}
