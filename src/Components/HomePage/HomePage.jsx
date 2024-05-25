@@ -18,7 +18,6 @@ const HomePage = () => {
   return (
     <div className="homePageContainer">
       <HomeHeader />
-      {/* <HomeFrom/> */}
       <HomeWelcome/>
       <HomeAbout/>
       <HomeServices/>
@@ -30,7 +29,7 @@ const HomePage = () => {
       <OurGoals/>
       <HomeWhat/>
       <OurProcess/>
-      <Packages/>
+      {/* <Packages/> */}
     </div>
   );
 };

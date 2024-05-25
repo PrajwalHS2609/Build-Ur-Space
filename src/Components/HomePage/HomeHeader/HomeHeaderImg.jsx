@@ -1,6 +1,6 @@
 import React from "react";
 import "./HomeHeader.css";
-import banner from "./../../../Images/banner.png";
+import NewBanner from "./../../../Images/NewBanner.png"
 import splitImg from "./../../../Images/Split .png";
 import splitContent from "./../../../Images/Split Content.png";
 import HomeFrom from "../HomeForm/HomeFrom";
@@ -9,7 +9,7 @@ const HomeHeaderImg = () => {
   return (
     <>
       <div className="homeHeaderImgContainer">
-        <img src={banner} alt="" />
+        <img src={NewBanner} alt="" />
         <HomeFrom />
       </div>
       <div className="respHomeHeaderImgContainer">
