@@ -1,5 +1,9 @@
 :root {
-  --customColor: #f3431c;
+  --customColor: #ff2230;
+}
+
+:root {
+  --customGradient: linear-gradient(to right, #ff2231dd, #fbb13bdd);
 }
 
 * {
@@ -7,9 +11,24 @@
   padding: 0;
   box-sizing: border-box;
 }
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
 
-@font-face {
+/* @font-face {
   font-family: "medium";
   src: local("futura-medium"),
     url("./Fonts/futura/FUTURA55REGULAR.TTF") format("truetype");
+} */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+h1,
+h2,
+h3,
+h4,
+p {
+  font-family: "Quicksand", sans-serif;
+}
+li {
+  font-family: "Quicksand", sans-serif;
+}
+li > span {
+  font-family: "Quicksand", sans-serif;
 }

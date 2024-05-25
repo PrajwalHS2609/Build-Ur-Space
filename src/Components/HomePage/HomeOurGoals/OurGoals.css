@@ -239,7 +239,7 @@
   }
   .ourGoalImgContainer {
     /* border: solid green; */
-    height: 100%;width: 80%;
+    height: 80%;width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;

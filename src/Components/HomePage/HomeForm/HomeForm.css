@@ -245,6 +245,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Quicksand", sans-serif;
   }
   .homeFormContainer > form > fieldset > table {
     /* border: solid yellow; */
@@ -281,6 +282,8 @@
     height: 90%;
     border: none;
     outline: none;
+    font-family: "Quicksand", sans-serif;
+
   }
   .homeFormContainer > form > fieldset > table > button {
     border: none;
@@ -289,6 +292,7 @@
     background-color: white;
     color: var(--customColor);
     text-align: center;
+    font-family: "Quicksand", sans-serif;
   }
   .homeFormContainer > form > fieldset > table > button:hover {
     text-decoration: underline;
