@@ -163,7 +163,7 @@
 @media screen and (min-width: 990px) {
   .ourMissionContainer {
     /* border: solid; */
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
