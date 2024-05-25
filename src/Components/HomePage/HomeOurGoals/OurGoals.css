@@ -162,7 +162,7 @@
 }
 @media screen and (min-width: 990px) {
   .ourGoalContainer {
-    border: solid;
+    /* border: solid; */
     width: 90%;
     display: flex;
     justify-content: center;
