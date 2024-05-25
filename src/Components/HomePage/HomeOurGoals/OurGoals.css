@@ -70,7 +70,7 @@
   .ourGoalContent2 {
     /* border: solid blue; */
     width: 90%;
-    height: 50vh;
+    height: 100%;
   }
   .ourGoalImgContainer {
     /* border: solid green; */
@@ -86,16 +86,23 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 30px;
+    gap: 10px;
     height: 100%;
-    width: 90%;
+    width: 100%;
+    background: var(--customGradient);
   }
   .ourGoalListHead {
     /* border: solid; */
     width: 100%;
   }
+  .ourGoalListHead > h1 {
+    text-align: center;
+  }
   .ourGoalListHead > h1 > span {
     color: var(--customColor);
+  }
+  .ourGoalListContent > ol {
+    margin-left: 30px;
   }
   .ourGoalListContent > ol > li {
     margin: 10px;
@@ -117,7 +124,7 @@
   .ourGoalContent1 {
     /* border: solid red; */
     width: 100%;
-    height: 70vh;
+    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -125,13 +132,13 @@
   .ourGoalContent2 {
     /* border: solid blue; */
     width: 90%;
-    height: 40vh;
+    height: 100%;
   }
   .ourGoalImgContainer {
     /* border: solid green; */
     height: 100%;
   }
-  .ourMissionImgContainer > img {
+  .ourGoalImgContainer > img {
     height: 100%;
     width: 100%;
   }
@@ -141,16 +148,23 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 30px;
+    gap: 10px;
     height: 100%;
     width: 90%;
+    background: var(--customGradient);
   }
   .ourGoalListHead {
     /* border: solid; */
     width: 100%;
   }
+  .ourGoalListHead > h1 {
+    text-align: center;
+  }
   .ourGoalListHead > h1 > span {
     color: var(--customColor);
+  }
+  .ourGoalListContent > ol {
+    margin-left: 30px;
   }
   .ourGoalListContent > ol > li {
     margin: 10px;
@@ -168,19 +182,20 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    position: relative;
   }
   .ourGoalContent1 {
     /* border: solid red; */
     width: 100%;
-    height: 70vh;
+    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   .ourGoalContent2 {
     /* border: solid blue; */
-    width: 90%;
-    height: 40vh;
+    width: 100%;
+    height: 70vh;
   }
   .ourGoalImgContainer {
     /* border: solid green; */
@@ -196,9 +211,10 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 30px;
+    position: absolute;
+    gap: 10px;right: 80px;
     height: 100%;
-    width: 90%;
+    width: 50%;
   }
   .ourGoalListHead {
     /* border: solid; */
@@ -235,11 +251,12 @@
   .ourGoalContent2 {
     /* border: solid blue; */
     width: 60%;
-    height: 60vh;
+    height: 70vh;
   }
   .ourGoalImgContainer {
     /* border: solid green; */
-    height: 80%;width: 80%;
+    height: 80%;
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -254,9 +271,9 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 30px;
+    gap: 10px;
     height: 100%;
-    width: 90%;
+    width: 50%;
   }
   .ourGoalListHead {
     /* border: solid; */

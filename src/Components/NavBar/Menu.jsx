@@ -6,7 +6,7 @@ const Menu = () => {
   return (
     <>
       <div className="navBarItem1">
-        <div className="navInnerItem">
+        <div className="navInnerItem" id="navInnerItem1">
           <FontAwesomeIcon icon={faPhone} className="navIcon"></FontAwesomeIcon>
           <p>9999999999</p>
         </div>
@@ -18,9 +18,13 @@ const Menu = () => {
           <p className="navPara">Bangalore</p>
           <p className="navLine"></p>
           <p>Chitradurga</p>
+          <p className="navLine"></p>
+          <p>Bellary</p>
+
         </div>
       </div>
       <div className="navBarItem2">
+        <li>Home</li>
         <li>Construction</li>
         <li>Interior</li>
         <li>How it Works</li>

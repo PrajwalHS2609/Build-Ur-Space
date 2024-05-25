@@ -1,15 +1,15 @@
 import React from "react";
-import "./HomeWelcome.css"
+import "./HomeWelcome.css";
 const HomeWelcome = () => {
   return (
     <div className="welcomeContainer">
       <h1>
-        Welcome to BUILD UR SPACE, your trusted partner in construction
-        solutions.
+        Welcome to <span>BUILD UR SPACE</span>, your trusted partner in
+        construction solutions.
       </h1>
       <p>
-        At BUILD UR SPACE, we understand the importance of creating spaces that
-        meet your functional needs and reflect your unique style and
+        At <span>BUILD UR SPACE</span>, we understand the importance of creating
+        spaces that meet your functional needs and reflect your unique style and
         personality. Whether you want to build a new structure or transform an
         existing space, we're here to bring your vision to life.
       </p>

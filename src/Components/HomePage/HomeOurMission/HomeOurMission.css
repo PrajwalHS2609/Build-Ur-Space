@@ -62,7 +62,7 @@
   .ourMissionContent1 {
     /* border: solid red; */
     width: 100%;
-    height: 70vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,16 +86,23 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
     height: 100%;
     width: 90%;
+    background: var(--customGradient);
   }
   .ourMissionListHead {
     /* border: solid; */
     width: 100%;
   }
+  .ourMissionListHead > h1 {
+    text-align: center;
+  }
   .ourMissionListHead > h1 > span {
     color: var(--customColor);
+  }
+  .ourMissionListContent > ul {
+    margin-left: 30px;
   }
   .ourMissionListContent > ul > li {
     margin: 10px;
@@ -119,7 +126,7 @@
     width: 100%;
     height: 70vh;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
   }
   .ourMissionContent2 {
@@ -149,12 +156,15 @@
     /* border: solid; */
     width: 100%;
   }
+  .ourMissionListHead > h1 {
+    font-size: 30px;
+  }
   .ourMissionListHead > h1 > span {
     color: var(--customColor);
   }
   .ourMissionListContent > ul > li {
     margin: 10px;
-    font-size: 17px;
+    font-size: 20px;
   }
   .ourMissionListContent > ul > li > span {
     font-weight: bold;
@@ -168,6 +178,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    position: relative;
   }
   .ourMissionContent1 {
     /* border: solid red; */
@@ -179,8 +190,8 @@
   }
   .ourMissionContent2 {
     /* border: solid blue; */
-    width: 90%;
-    height: 40vh;
+    width: 100%;
+    height: 60vh;
   }
   .ourMissionImgContainer {
     /* border: solid green; */
@@ -196,9 +207,11 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 30px;
-    height: 100%;
-    width: 90%;
+    gap: 10px;
+    left: 80px;
+    position: absolute;
+    height: 70%;
+    width: 50%;
   }
   .ourMissionListHead {
     /* border: solid; */
@@ -207,8 +220,12 @@
   .ourMissionListHead > h1 > span {
     color: var(--customColor);
   }
+
+  .ourMissionListContent > ul {
+    margin-left: 30px;
+  }
   .ourMissionListContent > ul > li {
-    margin: 10px;
+    margin: 20px;
     font-size: 17px;
   }
   .ourMissionListContent > ul > li > span {
@@ -223,6 +240,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    position: relative;
   }
   .ourMissionContent1 {
     /* border: solid red; */
@@ -254,9 +272,11 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: absolute;
     gap: 30px;
-    height: 100%;
-    width: 80%;
+    height: 70%;
+    left: 200px;
+    width: 50%;
   }
   .ourMissionListHead {
     /* border: solid; */
@@ -268,6 +288,10 @@
 
   .ourMissionListHead > h1 > span {
     color: var(--customColor);
+  }
+
+  .ourMissionListContent > ul {
+    margin-left: 30px;
   }
   .ourMissionListContent > ul > li {
     margin: 20px;

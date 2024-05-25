@@ -31,7 +31,6 @@
   text-align: center;
   color: grey;
   /* border: solid black; */
-  font-family: "Times New Roman", Times, serif;
 }
 .homeFormContainer > form > fieldset > table {
   /* border: solid yellow; */
@@ -283,7 +282,6 @@
     border: none;
     outline: none;
     font-family: "Quicksand", sans-serif;
-
   }
   .homeFormContainer > form > fieldset > table > button {
     border: none;

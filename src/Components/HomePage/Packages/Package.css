@@ -1,20 +1,20 @@
 .packagesContainer {
-  border: solid;
+  /* border: solid; */
   width: 100%;
 }
 .packageMainContainer {
-  border: solid red;
+  /* border: solid red; */
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
 .packageCardContainer {
-  border: solid blue;
+  /* border: solid blue; */
   width: 25%;
 }
 .packageCardHead {
-  border: solid green;
+  /* border: solid green; */
   height: 5vh;
   display: flex;
   justify-content: center;
@@ -25,7 +25,7 @@
   font-size: 15px;
 }
 .packageDropContainer {
-  border: solid brown;
+  /* border: solid brown; */
   display: flex;
   height: 100%;
   justify-content: center;
@@ -33,9 +33,12 @@
   flex-direction: column;
 }
 .packageDropTxt {
+  /* border: solid red; */
   width: 90%;
 }
+
 .packageDropIcon {
+  /* border: solid blue; */
   width: 10%;
 }
 .packageContent {
@@ -51,7 +54,19 @@
   align-items: center;
   flex-direction: column;
 }
+.packageDropDown1{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 .packageDropDown > li {
+  margin: 10px;
+  text-align: start;
+  width: 100%;
+}
+.packageDropDown1 > li {
   margin: 10px;
   text-align: start;
   width: 100%;

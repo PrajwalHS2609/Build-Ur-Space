@@ -1,5 +1,6 @@
 import React from "react";
 import "./HomeOurVision.css";
+import house from "../../../Images/holding house.jpg"
 const HomeOurVision = () => {
   return (
     <div className="ourVisionContainer">
@@ -33,7 +34,7 @@ const HomeOurVision = () => {
       <div className="ourVisionContent2">
         <div className="ourVisionItem2">
           <img
-            src="https://img.freepik.com/free-photo/real-estate-agent-client-holding-toy-house_23-2148301688.jpg?t=st=1716402834~exp=1716406434~hmac=48ab6063d1d451bd793af52f4ee65ad3a45367a87a51e0fe4bc212a4aa0c31c1&w=996"
+            src={house}
             alt=""
           />
         </div>

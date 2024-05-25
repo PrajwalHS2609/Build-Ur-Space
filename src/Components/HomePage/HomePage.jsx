@@ -12,8 +12,8 @@ import HomeWhat from "./HomeWhatWeDo/HomeWhat";
 import OurProcess from "./HomeOurProcess/OurProcess";
 import OurGoals from "./HomeOurGoals/OurGoals";
 import HomeAbout from "./HomeAbout/HomeAbout";
-import HomeFrom from "./HomeForm/HomeFrom";
 import Packages from "./Packages/Package";
+import Footer from "../Footer/Footer";
 const HomePage = () => {
   return (
     <div className="homePageContainer">
@@ -30,6 +30,7 @@ const HomePage = () => {
       <HomeWhat/>
       <OurProcess/>
       {/* <Packages/> */}
+      {/* <Footer/> */}
     </div>
   );
 };
