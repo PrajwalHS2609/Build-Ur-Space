@@ -95,7 +95,7 @@
   }
   .aboutContent1 {
     /* border: solid red; */
-    height: 40vh;
+    height: 30vh;
     width: 100%;
   }
   .aboutImgContainer {
@@ -170,7 +170,7 @@
     height: 70%;
   }
   .aboutParaContainer > p {
-    font-size: 20px;
+    font-size: 15px;
     margin: 20px;
   }
 }
