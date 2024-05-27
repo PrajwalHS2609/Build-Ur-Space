@@ -8,7 +8,7 @@ const Package = () => {
     <div className='packageContainer'>
         <PackageHead/>
         <PackageMain/>
-      {/* <Footer/> */}
+      <Footer/>
     </div>
   )
 }
