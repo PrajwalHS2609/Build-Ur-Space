@@ -1,18 +1,17 @@
 import React from "react";
 import "./HomeOurMission.css";
-import OurMissionImg from "./OurMissionImg";
 import OurMissionList from "./OurMissionList";
+import HomeOur2 from "../HomeOur/HomeOur2";
+import img from "./../../../Images/focused-red-pawn-surrounded-by-white-ones.jpg"
 const HomeOurMission = () => {
-  return (
-    <div className="ourMissionContainer">
-      <div className="ourMissionContent1">
-        <OurMissionList/>
-      </div>
-      <div className="ourMissionContent2">
-        <OurMissionImg/>
-      </div>
-    </div>
-  );
+  return <>
+  <HomeOur2
+  h1="Our"
+  h2="Mission"
+  txt={<OurMissionList/>}
+  img={img}
+  />
+  </>;
 };
 
 export default HomeOurMission;

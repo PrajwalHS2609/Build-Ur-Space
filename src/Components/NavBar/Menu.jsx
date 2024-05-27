@@ -10,17 +10,14 @@ const Menu = () => {
           <FontAwesomeIcon icon={faPhone} className="navIcon"></FontAwesomeIcon>
           <p>9999999999</p>
         </div>
-        <div className="navInnerItem">
+        <div className="navInnerItem" id="navInnerItem2">
           <FontAwesomeIcon
             icon={faLocationDot}
             className="navIcon"
           ></FontAwesomeIcon>
           <p className="navPara">Bangalore</p>
-          <p className="navLine"></p>
           <p>Chitradurga</p>
-          <p className="navLine"></p>
           <p>Bellary</p>
-
         </div>
       </div>
       <div className="navBarItem2">

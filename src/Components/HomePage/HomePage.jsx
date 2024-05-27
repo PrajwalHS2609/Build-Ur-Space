@@ -12,8 +12,10 @@ import HomeWhat from "./HomeWhatWeDo/HomeWhat";
 import OurProcess from "./HomeOurProcess/OurProcess";
 import OurGoals from "./HomeOurGoals/OurGoals";
 import HomeAbout from "./HomeAbout/HomeAbout";
-import Packages from "./Packages/Package";
 import Footer from "../Footer/Footer";
+import Faq from "./Faq/Faq";
+import Partners from "./Partners/Partners";
+import Testimonial from "./Testimonial/Testimonial";
 const HomePage = () => {
   return (
     <div className="homePageContainer">
@@ -29,8 +31,10 @@ const HomePage = () => {
       <OurGoals/>
       <HomeWhat/>
       <OurProcess/>
-      {/* <Packages/> */}
-      {/* <Footer/> */}
+      <Faq/>
+      <Partners/>
+      <Testimonial/>
+      <Footer/>
     </div>
   );
 };

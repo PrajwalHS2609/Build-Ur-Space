@@ -1,6 +1,7 @@
 import React from "react";
 import "./NavBar.css";
 import logo from "./../../Images/mainLogo.png";
+
 const Logo = () => {
   return (
     <div className="navBarLogoContainer">

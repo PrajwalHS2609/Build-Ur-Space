@@ -1,11 +1,11 @@
 import React from "react";
-import HomeOur1 from "../HomeOur1/HomeOur1";
 import OurPhiloList from "./OurPhiloList";
+import HomeOur2 from "../HomeOur/HomeOur2";
 
 const HomeOurPhilo = () => {
   return (
     <>
-      <HomeOur1
+      <HomeOur2
         h1="Our"
         h2="Philosophy"
         txt={<OurPhiloList />}

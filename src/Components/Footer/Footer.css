@@ -64,3 +64,216 @@
   font-weight: bold;
   color: white;
 }
+@media screen and (min-width: 320px) {
+  .footerContainer {
+    /* border: solid; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: var(--customGradient); */
+    background-color: rgb(187, 187, 187);
+  }
+  .footer1 {
+    /* border: solid greenyellow; */
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+
+    margin-top: 20px;
+  }
+
+  #BioFooter {
+    /* border: solid blue; */
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footerContent {
+    /* border: solid red; */
+    height: 40vh;
+    width: 90%;
+    margin-top: 20px;
+  }
+  .bioFooterContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+  }
+  .bioFooterContainer > img {
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+  }
+  .bioFooterContainer > p {
+    /* border: solid; */
+    width: 90%;
+    font-weight: bold;
+  }
+
+  .footerContent > ul > li {
+    list-style: none;
+    margin: 10px;
+    font-weight: bold;
+  }
+  .footer2 {
+    /* border: solid brown; */
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+  }
+  .footer2 > li {
+    list-style: none;
+    font-weight: bold;
+    color: white;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footerContainer {
+    /* border: solid; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: var(--customGradient); */
+    background-color: rgb(187, 187, 187);
+  }
+  .footer1 {
+    /* border: solid greenyellow; */
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+
+    margin-top: 20px;
+  }
+
+  #BioFooter {
+    /* border: solid blue; */
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footerContent {
+    /* border: solid red; */
+    height: 40vh;
+    width: 90%;
+    margin-top: 20px;
+  }
+  .bioFooterContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+  }
+  .bioFooterContainer > img {
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+  }
+  .bioFooterContainer > p {
+    /* border: solid; */
+    width: 90%;
+    font-weight: bold;
+  }
+
+  .footerContent > ul > li {
+    list-style: none;
+    margin: 10px;
+    font-weight: bold;
+  }
+  .footer2 {
+    /* border: solid brown; */
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+  }
+  .footer2 > li {
+    list-style: none;
+    font-weight: bold;
+    color: white;
+  }
+}
+@media screen and (min-width:990px) {
+  .footerContainer {
+    /* border: solid; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: var(--customGradient); */
+    background-color: rgb(187, 187, 187);
+  }
+  .footer1 {
+    /* border: solid greenyellow; */
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+  
+  #BioFooter {
+    /* border: solid blue; */
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footerContent {
+    /* border: solid red; */
+    height: 40vh;
+    width: 15%;
+  }
+  .bioFooterContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+  }
+  .bioFooterContainer > img {
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+  }
+  .bioFooterContainer > p {
+    /* border: solid; */
+    width: 90%;
+    font-weight: bold;
+  }
+  
+  .footerContent > ul > li {
+    list-style: none;
+    margin: 10px;
+    font-weight: bold;
+  }
+  .footer2 {
+    /* border: solid brown; */
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+  }
+  .footer2 > li {
+    list-style: none;
+    font-weight: bold;
+    color: white;
+  }
+}

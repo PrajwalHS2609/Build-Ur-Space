@@ -3,13 +3,7 @@ import "./OurGoals.css";
 
 const OurGoalList = () => {
   return (
-    <div className="ourGoalListContainer">
-      <div className="ourGoalListHead">
-        <h1>
-          Our <span>Goals</span>
-        </h1>
-      </div>
-      <div className="ourGoalListContent">
+      <div className="ourGoalList">
         <ol>
           <li>
             <span>TO BE A MARKET LEADER</span>
@@ -36,7 +30,6 @@ const OurGoalList = () => {
           </li>
         </ol>
       </div>
-    </div>
   );
 };
 

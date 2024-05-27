@@ -3,11 +3,11 @@ import "./HomeWhy.css";
 import HomeWhyCard from "./HomeWhyCard";
 import icon1 from "../../../Images/user.png";
 import icon2 from "../../../Images/puzzle.png";
-import icon3 from "../../../Images/calendar.png";
+import icon3 from "../../../Images/Calendar.png";
 import icon4 from "../../../Images/quality.png";
-import icon5 from "../../../Images/eye.png";
-import icon6 from "../../../Images/area.png";
-import icon7 from "../../../Images/medal-.png";
+import icon5 from "../../../Images/No_hidden_cost.png";
+import icon6 from "../../../Images/Sqft.png";
+import icon7 from "../../../Images/10_years.png";
 import icon8 from "../../../Images/file.png"
 const HomeWhyMain = () => {
   return (

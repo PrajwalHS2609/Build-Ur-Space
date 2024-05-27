@@ -1,0 +1,35 @@
+.testiContainer {
+  /* border: solid; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.testiHeadContainer > h1 > span {
+  color: var(--customColor);
+}
+.testiMainContainer {
+  /* border: solid green; */
+  width: 80%;
+}
+.testimonialCardContainer {
+  /* border: solid greenyellow; */
+  width: 90%;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.testiMainContent {
+  /* border: solid; */
+  margin-right: 10px;
+  width: 40%;
+}
+.testimonialCardContainer > p > span {
+  font-weight: bold;
+  text-align: center;
+  color: var(--customColor);
+}

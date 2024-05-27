@@ -5,6 +5,7 @@ import img1 from "./../../../Images/Free Consulation.png";
 import img2 from "./../../../Images/Sign Off.png";
 import img3 from "./../../../Images/Icon1.png";
 import img4 from "./../../../Images/Construction.png";
+import img5 from "./../../../Images/Handover.png"
 const OurProcessMain = () => {
   return (
     <div className="ourProcessMainContainer">
@@ -12,6 +13,7 @@ const OurProcessMain = () => {
       <OurProcessCard img={img2} txt="SIGN OFF" />
       <OurProcessCard img={img3} txt="DESIGN  DEVELOPMENT" />
       <OurProcessCard img={img4} txt="CONSTRUCTION" />
+      <OurProcessCard img={img5} txt="HANDOVER" />
     </div>
   );
 };

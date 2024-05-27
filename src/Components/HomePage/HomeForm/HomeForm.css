@@ -25,6 +25,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 .homeFormContainer > form > fieldset > legend {
   font-size: 150%;
@@ -106,7 +107,7 @@
   border: none;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center;flex-direction: column;
 }
 .respHomeFormContainer > form > fieldset > legend {
   font-size: 150%;

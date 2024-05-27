@@ -1,5 +1,5 @@
 import React from "react";
-import HomeOur1 from "../HomeOur1/HomeOur1";
+import HomeOur1 from "../HomeOur/HomeOur1";
 
 const HomeOurApproach = () => {
   return (

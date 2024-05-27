@@ -1,18 +1,19 @@
 import React from 'react'
 import OurGoalList from './OurGoalList'
-import OurGoalImg from './OurGoalImg'
 import "./OurGoals.css"
+import HomeOur1 from '../HomeOur/HomeOur1'
+import goal from "./../../../Images/3d-rendering-arrow-hitting-target.jpg"
 
 const OurGoals = () => {
   return (
-    <div className="ourGoalContainer">
-    <div className="ourGoalContent1">
-      <OurGoalImg/>
-    </div>
-    <div className="ourGoalContent2">
-      <OurGoalList/>
-    </div>
-  </div>
+<>
+<HomeOur1
+  h1="Our"
+  h2="Goals"
+  txt={<OurGoalList/>}
+  img={goal}
+/>
+</>
   )
 }
 
