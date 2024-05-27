@@ -14,7 +14,7 @@ const PartnersMain = () => {
         behavior="scroll"
         direction="left"
         scrollamount="20"
-        scrolldelay="0"
+        scrolldelay="10"
         className="partnerMainContent"
       >
         <img src={partner1} alt="Natural1" />
