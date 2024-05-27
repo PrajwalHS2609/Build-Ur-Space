@@ -3,7 +3,7 @@ import "./HomeWhy.css";
 import HomeWhyCard from "./HomeWhyCard";
 import icon1 from "../../../Images/user.png";
 import icon2 from "../../../Images/puzzle.png";
-import icon3 from "../../../Images/Calendar.png"
+import icon3 from "../../../Images/calendar.png"
 import icon4 from "../../../Images/quality.png";
 import icon5 from "../../../Images/No_hidden_cost.png";
 import icon6 from "../../../Images/Sqft.png";
