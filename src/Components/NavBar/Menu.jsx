@@ -2,13 +2,14 @@ import React from "react";
 import "./NavBar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone, faLocationDot } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 const Menu = () => {
   return (
     <>
       <div className="navBarItem1">
         <div className="navInnerItem" id="navInnerItem1">
           <FontAwesomeIcon icon={faPhone} className="navIcon"></FontAwesomeIcon>
-          <p>9999999999</p>
+          <p>+91 9742255110</p>
         </div>
         <div className="navInnerItem" id="navInnerItem2">
           <FontAwesomeIcon
@@ -21,11 +22,11 @@ const Menu = () => {
         </div>
       </div>
       <div className="navBarItem2">
-        <li>Home</li>
+        <li><Link to={"/"}>Home</Link></li>
         <li>Construction</li>
         <li>Interior</li>
         <li>How it Works</li>
-        <li>Package</li>
+        <li><Link to={"/package"}>Package</Link></li>
       </div>
     </>
   );

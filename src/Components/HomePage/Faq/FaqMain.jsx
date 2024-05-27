@@ -1,6 +1,5 @@
 import React from "react";
 import "react-accessible-accordion/dist/fancy-example.css";
-
 import "./Faq.css";
 import {
   Accordion,
@@ -12,9 +11,9 @@ import {
 const FaqMain = () => {
   return (
     <div className="faqMainContainer">
-      <Accordion className="faqContent">
+      <Accordion className="faqContent" allowZeroExpanded>
         <AccordionItem className="faqItem">
-          <AccordionItemHeading className="faqHead" >
+          <AccordionItemHeading className="faqHead">
             <AccordionItemButton className="faqBut">
               <h1>What services does Build ur Space offer ?</h1>
             </AccordionItemButton>
@@ -107,7 +106,7 @@ const FaqMain = () => {
               <h1>Can you work within my budget ?</h1>
             </AccordionItemButton>
           </AccordionItemHeading>
-          <AccordionItemPanel className="faqPanel" >
+          <AccordionItemPanel className="faqPanel">
             <p>
               Yes, we are committed to delivering high-quality work within your
               budget. We will discuss your budget during the consultation and

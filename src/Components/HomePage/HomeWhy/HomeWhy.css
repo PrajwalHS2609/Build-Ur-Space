@@ -308,6 +308,7 @@
     align-items: center;
   }
   .homeWhyCardImgContainer > img {
+    /* border: solid; */
     width: 60%;
     height: 60%;
     object-fit: contain;
