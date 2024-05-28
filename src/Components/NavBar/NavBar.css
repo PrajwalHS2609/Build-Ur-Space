@@ -80,16 +80,17 @@
   /* border: solid blue; */
   position: fixed;
   z-index: 9999;
-  top: 0;right: 0px;
+  top: 0;
+  right: 0px;
   height: 100%;
   width: 80%;
   overflow-y: scroll;
-  display: flex;
+  display: none;
   transition: 1s ease-in-out;
 }
 .respMenuScroll {
   height: 100%;
-  width:100%;
+  width: 100%;
   /* border: solid red; */
 }
 .main {
@@ -102,8 +103,8 @@
 }
 
 .respMenuScroll > ul {
-  border-bottom: solid 1px #FFF6F4;
-  background-color:var(--customColor);
+  border-bottom: solid 1px #fff6f4;
+  background-color: var(--customColor);
   width: 100%;
   display: flex;
   justify-content: flex-start;
@@ -120,7 +121,7 @@
 }
 .respMenuScroll > ul > h2 {
   color: white;
-  height: 150px;
+  height: 230px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -176,13 +177,12 @@
   .navBarLogoContainer > img {
     height: 100%;
   }
-    .menuContent {
+  .menuContent {
     display: none;
   }
   .mainMenu {
     display: flex;
   }
-
 }
 @media screen and (min-width: 768px) {
   .navBarItem1,
@@ -229,11 +229,12 @@
     /* border: solid blue; */
     position: fixed;
     z-index: 9999;
-    top: 0;right: 0px;
+    top: 0;
+    right: 0px;
     height: 100%;
     width: 40%;
     overflow-y: scroll;
-    display: flex;
+    display: none;
     transition: 1s ease-in-out;
   }
 }
@@ -318,13 +319,12 @@
     width: 40px;
     list-style: none;
   }
-  .mainMenu{
+  .mainMenu {
     display: none;
-
   }
-.respMenu{
-  display: none;
-}
+  .respMenu {
+    display: none;
+  }
 }
 @media screen and (min-width: 1200px) {
   .navBarContainer {
@@ -400,11 +400,10 @@
     width: 50px;
     list-style: none;
   }
-  .mainMenu{
+  .mainMenu {
     display: none;
-
   }
-.respMenu{
-  display: none;
-}
+  .respMenu {
+    display: none;
+  }
 }
