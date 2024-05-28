@@ -23,7 +23,7 @@
   height: 60%;
   position: absolute;
   right: 50px;
-  background-image: var(--customGradient);
+  background-color:var(--customTransColor);
 }
 .our2head {
   display: flex;
@@ -87,7 +87,6 @@
     align-items: center;
     flex-direction: column;
     gap: 30px;
-    background-image: var(--customGradient);
   }
 
   .our2Item1 {
@@ -160,7 +159,6 @@
     align-items: center;
     flex-direction: column;
     gap: 30px;
-    background-image: none;
   }
 
   .our2Item1 {
@@ -169,7 +167,7 @@
     height: 60%;
     position: static;
     left: 0;
-    background-image: var(--customGradient);
+    background-color:var(--customTransColor);
   }
   .our2head {
     display: flex;
@@ -241,7 +239,7 @@
     height: 60%;
     position: absolute;
     right: 50px;
-    background-image: var(--customGradient);
+    background-color:var(--customTransColor);
   }
   .our2head {
     display: flex;
@@ -314,7 +312,7 @@
     height: 100%;
     position: absolute;
     right: 50px;
-    background-image: var(--customGradient);
+    background-color:var(--customTransColor);
   }
   .our2head {
     display: flex;

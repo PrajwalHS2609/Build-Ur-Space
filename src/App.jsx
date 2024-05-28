@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Package from "./Components/PackagePage/Package";
 import PackageList from "./Components/PackagePage/PackageList";
 import ScrollTo from "./Components/ScrollTo/ScrollTo";
+import AboutUs from "./Components/AboutUs/AboutUs";
 const App = () => {
   return (
     <div>
@@ -21,6 +22,7 @@ const App = () => {
             <Route path="/package/product-package2" element={<PackageList />} />
             <Route path="/package/product-package3" element={<PackageList />} />
           </Route>
+          <Route path="/about-us" element={<AboutUs />} />
         </Routes>
       </BrowserRouter>
     </div>

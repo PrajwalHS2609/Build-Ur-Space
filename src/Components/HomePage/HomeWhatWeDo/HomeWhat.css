@@ -5,6 +5,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color: #fff6f4;
 }
 .whatHeadContainer {
   /* border: solid; */
@@ -37,9 +38,9 @@
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
-  padding: 5px;
+  padding: 0px;
   margin: 50px;
-  background-image: var(--customGradient);
+  background-color: var(--customColor);
 }
 .whatCardHeadContainer {
   /* border: solid red; */
@@ -50,7 +51,7 @@
 }
 .whatImgContainer {
   /* border: solid green; */
-  width: 90%;
+  width: 100%;
   height: 40%;
   display: flex;
   justify-content: center;
@@ -68,10 +69,12 @@
 }
 .whatCardHeadContainer > h3 {
   text-align: center;
+  color: white;
 }
 .whatTxtContainer > p {
   font-size: 15px;
   text-align: justify;
+  color: white;
 }
 @media screen and (min-width: 320px) {
   .whatContainer {
@@ -111,12 +114,13 @@
     margin: 10px;
     height: 40vh;
     display: flex;
-    justify-content: space-evenly;
+    justify-content:center;
     align-items: center;
     flex-direction: column;
     padding: 0px;
+    gap: 10px;
     margin: 40px;
-    background-image: var(--customGradient);
+    background-color: var(--customColor);
   }
   .whatCardHeadContainer {
     /* border: solid red; */
@@ -127,15 +131,16 @@
   }
   .whatImgContainer {
     /* border: solid green; */
-    width: 90%;
+    width: 100%;
     height: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #fff6f4;
   }
   .whatImgContainer > img {
     width: 80%;
-    height: 70%;
+    height: 90%;
     object-fit: contain;
   }
   .whatTxtContainer {
@@ -190,12 +195,12 @@
     margin: 10px;
     height: 47vh;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    padding: 5px;
+    padding: 0px;
     margin: 50px;
-    background-image: var(--customGradient);
+    background-color: var(--customColor);
   }
   .whatCardHeadContainer {
     /* border: solid red; */
@@ -206,7 +211,7 @@
   }
   .whatImgContainer {
     /* border: solid green; */
-    width: 90%;
+    width: 100%;
     height: 30%;
     display: flex;
     justify-content: center;
@@ -265,14 +270,14 @@
     /* border: solid blue; */
     width: 20%;
     margin: 10px;
-    height: 50vh;
+    height: 40vh;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    padding: 5px;
+    padding: 0px;
     margin: 50px;
-    background-image: var(--customGradient);
+    background-color: var(--customColor);
   }
   .whatCardHeadContainer {
     /* border: solid red; */
@@ -283,11 +288,12 @@
   }
   .whatImgContainer {
     /* border: solid green; */
-    width: 90%;
-    height: 30%;
+    width: 100%;
+    height: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #fff6f4;
   }
   .whatImgContainer > img {
     width: 100%;
@@ -344,27 +350,27 @@
     margin: 10px;
     height: 45vh;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    padding: 5px;
+    padding: 0px;
     margin: 50px;
-    background-image: var(--customGradient);
   }
   .whatCardHeadContainer {
     /* border: solid red; */
-    width: 90%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   .whatImgContainer {
     /* border: solid green; */
-    width: 90%;
+    width: 100%;
     height: 35%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #fff6f4;
   }
   .whatImgContainer > img {
     width: 100%;
@@ -375,6 +381,7 @@
     /* border: solid brown; */
     height: 40%;
     width: 90%;
+    background-color: var(--customColor);
   }
   .whatCardHeadContainer > h3 {
     text-align: center;
@@ -382,5 +389,6 @@
   .whatTxtContainer > p {
     font-size: 15px;
     text-align: justify;
+    background-color: var(--customColor);
   }
 }

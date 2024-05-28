@@ -59,11 +59,12 @@
   align-items: center;
   flex-direction: row;
 }
-.navBarItem2 > li>a {
+.navBarItem2 > li > a {
   font-size: 20px;
   color: var(--customColor);
   list-style: none;
 }
+
 .respNavBarItem {
   display: none;
 }
@@ -105,35 +106,42 @@
     height: 100%;
   }
   .respNavbar {
-    /* border: solid; */
+    border: solid red;
     width: 100%;
     position: fixed;
     z-index: 4;
     top: 90%;
     height: 10vh;
     background-color: white;
+    display: none;
   }
-
-
+  .navBarContainer {
+    width: 100%;
+  }
+  .respNavBarItem {
+    border: solid green;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
   .respNavBarItem > li {
-    /* border: solid; */
-    font-size: 20px;
+    border: solid;
+    font-size: 12px;
     list-style: none;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .respNavBarItem {
-    /* border: solid green; */
-    height: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: row;
-  }
 
   .respNavBarItem > li > a {
     color: var(--customColor);
+  }
+  .respNavBarItem > li > a > img {
+    width: 50px;
+    list-style: none;
   }
 }
 @media screen and (min-width: 768px) {
@@ -251,6 +259,10 @@
     color: var(--customColor);
     list-style: none;
   }
+  .navBarItem2 > li > a > img {
+    width: 40px;
+    list-style: none;
+  }
   .respNavbar {
     display: none;
   }
@@ -320,11 +332,16 @@
     align-items: center;
     flex-direction: row;
   }
-  .navBarItem2 > li {
+  .navBarItem2 > li > a {
     font-size: 20px;
     color: var(--customColor);
     list-style: none;
   }
+  .navBarItem2 > li > a > img {
+    width: 50px;
+    list-style: none;
+  }
+
   .respNavbar {
     display: none;
   }

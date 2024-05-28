@@ -1,9 +1,9 @@
 import React from "react";
 import "./HomeWhat.css";
 import HomeWhatCard from "./HomeWhatCard";
-import img1 from "./../../../Images/house.png";
-import img2 from "./../../../Images/roofing.png";
-import img3 from "./../../../Images/skyline.png";
+import img1 from "./../../../Images/1.png";
+import img2 from "./../../../Images/2.png";
+import img3 from "./../../../Images/3.png";
 
 const HomeWhatMain = () => {
   return (

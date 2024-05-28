@@ -1,0 +1,3 @@
+remove gradients and color
+all homeOur should be in about page 
+in navbar content : aboutUs , contact us remove how it works

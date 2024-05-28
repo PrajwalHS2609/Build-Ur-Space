@@ -1,10 +1,11 @@
 :root {
   --customColor: #ff2230;
+  --customGradient: linear-gradient(to right, #ff2231dd, #fbb13bdd);
+  --customTransColor: #ff2231e0;
+
 }
 
-:root {
-  --customGradient: linear-gradient(to right, #ff2231dd, #fbb13bdd);
-}
+
 
 * {
   margin: 0;

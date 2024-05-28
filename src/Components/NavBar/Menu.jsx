@@ -3,6 +3,7 @@ import "./NavBar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
+import favicon from "./../../Images/favicon.png";
 const Menu = () => {
   return (
     <>
@@ -17,19 +18,29 @@ const Menu = () => {
             className="navIcon"
           ></FontAwesomeIcon>
           <p className="navPara">Bangalore</p>
+          <div className="navLine"></div>
           <p>Chitradurga</p>
+          <div className="navLine"></div>
           <p>Bellary</p>
         </div>
       </div>
       <div className="navBarItem2">
-        <li><Link to={"/"}>Home</Link></li>
+        <li>
+          <Link to={"/"}>
+            <img src={favicon} alt="favicon" />
+          </Link>
+        </li>
         <li>Construction</li>
         <li>Interior</li>
-        <li>How it Works</li>
-        <li><Link to={"/package"}>Package</Link></li>
+        <li>
+          <Link to={"/package"}>Package</Link>
+        </li>
+
+        <li>
+          <Link to={"/about-us"}>About Us</Link>
+        </li>
+        <li>Contact Us</li>
       </div>
-      
-     
     </>
   );
 };

@@ -232,6 +232,7 @@ a {
     border-bottom: 2px solid grey;
     height: 100%;
     margin: 10px;
+    cursor: pointer;
   }
   /* .packHead {
     border: solid green;

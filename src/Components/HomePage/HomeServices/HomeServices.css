@@ -82,6 +82,9 @@
   position: absolute;
   color: white;
 }
+.serviceHeadContainer > h1 > span {
+  color: var(--customColor);
+}
 .homeServiceCardContainer:hover .homeServiceCardCover {
   height: 100%;
 }
@@ -111,11 +114,11 @@
   }
   .serviceHeadContainer {
     /* border: solid red; */
-    width: 83%;
+    width: 84%;
   }
   .serviceHeadContainer > h1 {
     font-size: 20px;
-    width: 90%;
+    width: 100%;
   }
   .homeServiceHeadItem2 {
     /* border: solid; */
@@ -126,7 +129,7 @@
   }
   .homeServiceHeadItem2 > p {
     /* border: solid; */
-    width: 88%;
+    width: 92%;
     font-size: 20px;
   }
   .homeServiceMainContainer {
@@ -238,7 +241,7 @@
   }
   .homeServiceHeadItem2 > p {
     /* border: solid; */
-    width: 88%;
+    width: 92%;
     font-size: 20px;
   }
   .homeServiceMainContainer {
@@ -295,21 +298,6 @@
     align-items: center;
     position: absolute;
     color: white;
-  }
-  .serviceDotContainer {
-    /* border: solid teal; */
-    width: 5%;
-    height: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-  }
-  .serviceDotContainer > .dot {
-    /* border: solid; */
-    width: 20px;
-    height: 20px;
-    background-color: var(--customColor);
-    transform: skew(-40deg);
   }
 }
 @media screen and (min-width: 990px) {
@@ -408,21 +396,6 @@
     position: absolute;
     color: white;
   }
-  .serviceDotContainer {
-    /* border: solid teal; */
-    width: 5%;
-    height: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-  }
-  .serviceDotContainer > .dot {
-    /* border: solid; */
-    width: 20px;
-    height: 20px;
-    background-color: var(--customColor);
-    transform: skew(-40deg);
-  }
 }
 @media screen and (min-width: 1200px) {
   .homeServiceContainer {
@@ -447,12 +420,18 @@
   }
   .serviceHeadContainer {
     /* border: solid red; */
-    width: 83%;
+    width: 84%;
   }
   .serviceHeadContainer > h1 {
+    /* border: solid; */
     font-size: 30px;
-    width: 90%;
+    width: 100%;
   }
+
+  .serviceHeadContainer > h1 > span {
+    color: var(--customColor);
+  }
+
   .homeServiceHeadItem2 {
     /* border: solid; */
     width: 100%;
@@ -462,7 +441,7 @@
   }
   .homeServiceHeadItem2 > p {
     /* border: solid; */
-    width: 88%;
+    width: 92%;
     font-size: 20px;
   }
   .homeServiceMainContainer {
@@ -519,20 +498,5 @@
     align-items: center;
     position: absolute;
     color: white;
-  }
-  .serviceDotContainer {
-    /* border: solid teal; */
-    width: 5%;
-    height: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-  }
-  .serviceDotContainer > .dot {
-    /* border: solid; */
-    width: 20px;
-    height: 20px;
-    background-color: var(--customColor);
-    transform: skew(-40deg);
   }
 }
