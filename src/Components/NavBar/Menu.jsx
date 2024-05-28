@@ -1,10 +1,27 @@
 import React from "react";
 import "./NavBar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPhone, faLocationDot } from "@fortawesome/free-solid-svg-icons";
+import {
+  faPhone,
+  faLocationDot,
+  faBars,
+  faX,
+} from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 import favicon from "./../../Images/favicon.png";
 const Menu = () => {
+
+  let showSideBar = () => {
+    const sideBar = document.querySelector(".respMenu");
+    sideBar.style.display = "flex";
+    sideBar.style.transform = "translateX(0px)";
+  };
+  let hideSideBar = () => {
+    const sideBar = document.querySelector(".respMenu");
+    // sideBar.style.display = "none";
+    sideBar.style.transform = "translateX(340px)";
+  };
+  
   return (
     <>
       <div className="navBarItem1">
@@ -33,13 +50,72 @@ const Menu = () => {
         <li>Construction</li>
         <li>Interior</li>
         <li>
-          <Link to={"/package"}>Package</Link>
+          <Link to={"/packages"}>Packages</Link>
         </li>
 
         <li>
           <Link to={"/about-us"}>About Us</Link>
         </li>
         <li>Contact Us</li>
+      </div>
+      <ul onClick={showSideBar} className="mainMenu">
+        <FontAwesomeIcon icon={faBars} className="hamIcon"></FontAwesomeIcon>
+      </ul>
+      <div className="respMenu">
+        <div className="respMenuScroll">
+          <ul>
+            <h1>
+              <Link onClick={hideSideBar} to={"/"}>
+                Home
+              </Link>
+            </h1>
+            <h1 className="cross">
+              <FontAwesomeIcon
+                icon={faX}
+                onClick={hideSideBar}
+                className="respIcon"
+              ></FontAwesomeIcon>
+            </h1>
+          </ul>
+          <ul className="serviceDrop">
+            <h1>
+              <Link onClick={hideSideBar} to={"/"}>
+                Constructions
+              </Link>
+            </h1>
+          </ul>
+          <ul>
+            <h1>
+              <Link onClick={hideSideBar} to={"/"}>
+                Interiors
+              </Link>
+            </h1>
+          </ul>
+          <ul>
+            <h1>
+              <Link onClick={hideSideBar} to={"/about-us"}>
+                About Us
+              </Link>
+            </h1>
+          </ul>
+          <ul>
+            <h1>
+              <Link onClick={hideSideBar} to={"/packages"}>
+                Packages
+              </Link>
+            </h1>
+          </ul>
+          <ul>
+            <h1>
+              <Link onClick={hideSideBar} to={"/"}>
+                Contact Us
+              </Link>
+            </h1>
+          </ul>
+          <ul>
+            <h2></h2>
+          </ul>
+        </div>
       </div>
     </>
   );

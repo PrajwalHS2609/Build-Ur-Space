@@ -61,7 +61,7 @@ a {
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: fle;
+  align-items: flex-start;
   flex-wrap: wrap;
 }
 .packageListCardContainer {
@@ -106,13 +106,13 @@ a {
 } */
 .packPanel {
   border: solid transparent;
-  background-color: rgb(238, 238, 238);
+  background-color: var(--customWhite);
   height: 100%;
 }
 .packPanel > p {
   font-size: 20px;
   color: var(--customColor);
-  background-color: rgb(238, 238, 238);
+  background-color: var(--customWhite);
 }
 .packPanel > p > ul > li {
   margin: 20px;
@@ -242,13 +242,13 @@ a {
   } */
   .packPanel {
     border: solid transparent;
-    background-color: rgb(238, 238, 238);
+    background-color: var(--customWhite);
     height: 100%;
   }
   .packPanel > p {
     font-size: 20px;
     color: var(--customColor);
-    background-color: rgb(238, 238, 238);
+    background-color: var(--customWhite);
   }
   .packPanel > p > ul > li {
     margin: 20px;
@@ -374,13 +374,13 @@ a {
   } */
   .packPanel {
     border: solid transparent;
-    background-color: rgb(238, 238, 238);
+    background-color: var(--customWhite);
     height: 100%;
   }
   .packPanel > p {
     font-size: 20px;
     color: var(--customColor);
-    background-color: rgb(238, 238, 238);
+    background-color: var(--customWhite);
   }
   .packPanel > p > ul > li {
     margin: 20px;
@@ -509,13 +509,13 @@ a {
   } */
   .packPanel {
     border: solid transparent;
-    background-color: rgb(238, 238, 238);
+    background-color: var(--customWhite);
     height: 100%;
   }
   .packPanel > p {
     font-size: 20px;
     color: var(--customColor);
-    background-color: rgb(238, 238, 238);
+    background-color: var(--customWhite);
   }
   .packPanel > p > ul > li {
     margin: 20px;
@@ -642,13 +642,13 @@ a {
   } */
   .packPanel {
     border: solid transparent;
-    background-color: rgb(238, 238, 238);
+    background-color: var(--customWhite);
     height: 100%;
   }
   .packPanel > p {
     font-size: 20px;
     color: var(--customColor);
-    background-color: rgb(238, 238, 238);
+    background-color: var(--customWhite);
   }
   .packPanel > p > ul > li {
     margin: 20px;

@@ -2,7 +2,6 @@ import React from "react";
 import "./NavBar.css";
 import Logo from "./Logo";
 import Menu from "./Menu";
-import RespMenu from "./RespMenu";
 const NavBar = () => {
   return (
     <>
@@ -14,11 +13,7 @@ const NavBar = () => {
           <Menu />
         </div>
       </div>
-      <div className="respNavbar">
-        <div className="navBarContainer">
-         <RespMenu/>
-        </div>
-      </div>
+     
     </>
   );
 };

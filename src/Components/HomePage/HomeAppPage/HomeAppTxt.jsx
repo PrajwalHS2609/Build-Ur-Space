@@ -4,20 +4,21 @@ const HomeAppTxt = () => {
   return (
     <div className="homeAppTxtContainer">
       <div className="homeAppHead">
-        {/* <div className="appDot"></div> */}
         <div className="homeAppHeading">
-          <h1>We Construct Your Dream Home. You Track Progress On App.</h1>
+          <h1>Building Your Dream Home, with Real-Time App Tracking</h1>
         </div>
       </div>
       <div className="homeAppPara">
         <p>
-          Track house construction project progress, raise queries, view
-          inspection reports and more.
+          Monitor the progress of your house construction, raise queries, view
+          inspection reports, and more.
         </p>
         <div className="homeAppParaList">
-          <li>View packages, floor plans, design recommendations</li>
-          <li>Capture house construction progress in 3D</li>
-          <li>Tracking until project completion</li>
+          <ul>
+            <li>Explore packages, floor plans, and design recommendations</li>
+            <li>Capture construction progress in 3D</li>
+            <li>Track the project in real-time until completion</li>
+          </ul>
         </div>
       </div>
     </div>
