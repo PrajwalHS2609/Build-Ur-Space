@@ -6,10 +6,10 @@ const BioFooter = () => {
     <div className="bioFooterContainer">
       <img src={logo} alt="" />
       <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque,
-        expedita voluptatem. Voluptate earum inventore hic ipsa ipsam quae
-        facere quaerat sapiente ipsum, ratione sint excepturi provident magnam
-        ad, accusantium tempore?
+        At BUILD UR SPACE, we understand the importance of creating spaces that
+        meet your functional needs and reflect your unique style and
+        personality. Whether you want to build a new structure or transform an
+        existing space, we're here to bring your vision to life.
       </p>
     </div>
   );

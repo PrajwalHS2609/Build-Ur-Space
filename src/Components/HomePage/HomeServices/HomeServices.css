@@ -119,6 +119,7 @@
   .serviceHeadContainer > h1 {
     font-size: 20px;
     width: 100%;
+    text-align: center;
   }
   .homeServiceHeadItem2 {
     /* border: solid; */
@@ -129,8 +130,9 @@
   }
   .homeServiceHeadItem2 > p {
     /* border: solid; */
-    width: 92%;
+    width: 100%;
     font-size: 20px;
+    text-align: center;
   }
   .homeServiceMainContainer {
     /* border: solid green; */
@@ -231,6 +233,7 @@
   .serviceHeadContainer > h1 {
     font-size: 20px;
     width: 90%;
+    text-align: center;
   }
   .homeServiceHeadItem2 {
     /* border: solid; */
@@ -241,8 +244,9 @@
   }
   .homeServiceHeadItem2 > p {
     /* border: solid; */
-    width: 92%;
+    width: 100%;
     font-size: 20px;
+    text-align: center;
   }
   .homeServiceMainContainer {
     /* border: solid green; */
@@ -328,6 +332,7 @@
   .serviceHeadContainer > h1 {
     font-size: 30px;
     width: 90%;
+    text-align: center;
   }
   .homeServiceHeadItem2 {
     /* border: solid; */
@@ -338,8 +343,9 @@
   }
   .homeServiceHeadItem2 > p {
     /* border: solid; */
-    width: 88%;
+    width: 100%;
     font-size: 20px;
+    text-align: center;
   }
   .homeServiceMainContainer {
     /* border: solid green; */
@@ -425,6 +431,7 @@
   .serviceHeadContainer > h1 {
     /* border: solid; */
     font-size: 30px;
+    text-align: center;
     width: 100%;
   }
 
@@ -441,8 +448,9 @@
   }
   .homeServiceHeadItem2 > p {
     /* border: solid; */
-    width: 92%;
+    width: 100%;
     font-size: 20px;
+    text-align: center;
   }
   .homeServiceMainContainer {
     /* border: solid green; */
