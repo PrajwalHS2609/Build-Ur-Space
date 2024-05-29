@@ -7,11 +7,13 @@ import HomeHeader from "../HomePage/HomeHeader/HomeHeader";
 import Footer from "../Footer/Footer";
 
 import Package from "../PackagePage/Package";
+import Portfolio from "../Portfolio/Portfolio";
 
 const Construction = () => {
   return (
     <div>
       <HomeHeader />
+      <Portfolio/>
       <Package />
  
     </div>
