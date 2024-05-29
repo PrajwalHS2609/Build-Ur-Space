@@ -46,7 +46,9 @@ const Menu = () => {
             <img src={favicon} alt="favicon" />
           </Link>
         </li>
-        <li>Construction</li>
+        <li>
+          <Link to={"/house-construction"}>Construction</Link>
+        </li>
         <li>
           <Link to={"/house-interior"}>Interior</Link>
         </li>
@@ -80,7 +82,7 @@ const Menu = () => {
           </ul>
           <ul className="serviceDrop">
             <h1>
-              <Link onClick={hideSideBar} to={"/"}>
+              <Link onClick={hideSideBar} to={"/house-construction"}>
                 Constructions
               </Link>
             </h1>

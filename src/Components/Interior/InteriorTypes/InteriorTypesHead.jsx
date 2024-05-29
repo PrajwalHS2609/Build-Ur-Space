@@ -5,7 +5,7 @@ const InteriorTypesHead = () => {
   return (
     <div className="interiorTypeHeadContainer">
       <h1>
-        One-stop shop for all things <span>interiors</span>
+        From Design to Decor: Your Complete <span>Interiors</span> Solution
       </h1>
     </div>
   );

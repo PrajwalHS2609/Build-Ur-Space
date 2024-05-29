@@ -9,6 +9,7 @@ import PackageList from "./Components/PackagePage/PackageList";
 import ScrollTo from "./Components/ScrollTo/ScrollTo";
 import AboutUs from "./Components/AboutUs/AboutUs";
 import Interior from "./Components/Interior/Interior";
+import Construction from "./Components/Construction/Construction";
 const App = () => {
   return (
     <div>
@@ -25,6 +26,7 @@ const App = () => {
           </Route>
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/house-interior" element={<Interior/>} />
+          <Route path="/house-construction" element={<Construction />} />
         </Routes>
       </BrowserRouter>
     </div>

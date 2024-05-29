@@ -26,7 +26,7 @@ const InteriorTypesMain = () => {
           backgroundSize: "contain",
           height: "50px",
           width: "40px",
-          color: "red",
+          right: "-40px",
           position: "absolute",
           zIndex: "4",
           cursor: "pointer",
@@ -52,6 +52,8 @@ const InteriorTypesMain = () => {
           height: "50px",
           width: "40px",
           position: "absolute",
+          left: "-40px",
+
           zIndex: "4",
           cursor: "pointer",
           boxShadow: "inherit 0, 0, 10px, black",

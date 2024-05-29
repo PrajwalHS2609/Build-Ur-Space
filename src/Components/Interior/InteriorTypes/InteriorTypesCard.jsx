@@ -20,10 +20,10 @@ const InteriorTypesCard = (props) => {
         </div>
       </div>
       <div className="interiorTypeCardNavi">
-        <FontAwesomeIcon
+        {/* <FontAwesomeIcon
           icon={faAngleRight}
           className="inIcon"
-        ></FontAwesomeIcon>
+        ></FontAwesomeIcon> */}
       </div>
     </div>
   );
