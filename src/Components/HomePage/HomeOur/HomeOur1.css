@@ -45,7 +45,7 @@
   font-size: 25px;
   width: 80%;
   line-height: 50px;
-  color: black;
+  color: white;
   letter-spacing: 1px;
   /* margin-top: 40px; */
   display: flex;
@@ -117,7 +117,7 @@
     font-size: 20px;
     width: 95%;
     line-height: 30px;
-    color: black;
+    color: white;
     letter-spacing: 1px;
     display: flex;
     justify-content: center;
@@ -189,7 +189,7 @@
     font-size: 20px;
     width: 90%;
     line-height: 30px;
-    color: black;
+    color: white;
     letter-spacing: 1px;
     display: flex;
     justify-content: center;
@@ -261,7 +261,7 @@
     font-size: 15px;
     width: 80%;
     line-height: 40px;
-    color: black;
+    color: white;
     letter-spacing: 1px;
     /* margin-top: 40px; */
     display: flex;
@@ -334,7 +334,7 @@
     font-size: 20px;
     width: 80%;
     line-height: 50px;
-    color: black;
+    color: white;
     letter-spacing: 1px;
     /* margin-top: 40px; */
     display: flex;

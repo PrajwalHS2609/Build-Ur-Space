@@ -23,7 +23,7 @@
   height: 60%;
   position: absolute;
   right: 50px;
-  background-color:var(--customTransColor);
+  background-color: var(--customTransColor);
 }
 .our2head {
   display: flex;
@@ -45,7 +45,7 @@
   font-size: 25px;
   width: 100%;
   line-height: 50px;
-  color: black;
+  color: white;
   letter-spacing: 1px;
   margin-left: 40px;
   display: flex;
@@ -117,7 +117,7 @@
     font-size: 25px;
     width: 95%;
     line-height: 30px;
-    color: black;
+    color: white;
     letter-spacing: 1px;
     display: flex;
     justify-content: center;
@@ -167,7 +167,7 @@
     height: 60%;
     position: static;
     left: 0;
-    background-color:var(--customTransColor);
+    background-color: var(--customTransColor);
   }
   .our2head {
     display: flex;
@@ -189,7 +189,7 @@
     font-size: 20px;
     width: 90%;
     line-height: 30px;
-    color: black;
+    color: white;
     letter-spacing: 1px;
     display: flex;
     justify-content: center;
@@ -239,7 +239,7 @@
     height: 60%;
     position: absolute;
     right: 50px;
-    background-color:var(--customTransColor);
+    background-color: var(--customTransColor);
   }
   .our2head {
     display: flex;
@@ -261,7 +261,7 @@
     font-size: 25px;
     width: 100%;
     line-height: 50px;
-    color: black;
+    color: white;
     letter-spacing: 1px;
     margin-left: 40px;
     display: flex;
@@ -312,7 +312,7 @@
     height: 100%;
     position: absolute;
     right: 50px;
-    background-color:var(--customTransColor);
+    background-color: var(--customTransColor);
   }
   .our2head {
     display: flex;
@@ -334,7 +334,7 @@
     font-size: 25px;
     width: 100%;
     line-height: 50px;
-    color: black;
+    color: white;
     letter-spacing: 1px;
     margin-left: 40px;
     display: flex;
