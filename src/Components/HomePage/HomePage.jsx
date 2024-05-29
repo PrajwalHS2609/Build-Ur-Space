@@ -12,7 +12,6 @@ import Partners from "./Partners/Partners";
 import Testimonial from "./Testimonial/Testimonial";
 import HomeAppPage from "./HomeAppPage/HomeAppPage";
 import HomeAbout from "./HomeAbout/HomeAbout";
-import Portfolio from "../Portfolio/Portfolio";
 const HomePage = () => {
   return (
     <div className="homePageContainer">
@@ -27,7 +26,6 @@ const HomePage = () => {
       <Testimonial />
       <Partners />
       <Faq />
-      <Portfolio/>
       <Footer />
     </div>
   );

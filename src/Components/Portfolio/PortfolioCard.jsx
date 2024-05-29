@@ -6,10 +6,15 @@ import {
   faStairs,
   faArrowsUpDownLeftRight,
   faTags,
+  faArrowLeft,
 } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 const PortfolioCard = (props) => {
   return (
     <div className="portfolioCardContainer">
+      <div className="portfolioLink">
+        <Link to={"/"}></Link>
+      </div>
       <div className="portfolioCardImg">
         <img className="portfolioImg" src={props.img} alt="" />
       </div>

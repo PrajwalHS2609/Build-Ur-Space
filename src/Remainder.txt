@@ -1,7 +1,1 @@
 nav scroll in responsive should be fixed
-
-common:
-app
-why
-test
-part

@@ -75,6 +75,7 @@
   color: var(--customColor);
   margin-right: 0;
   font-size: 25px;
+  margin-right: -100px;
 }
 .respMenu {
   /* border: solid blue; */

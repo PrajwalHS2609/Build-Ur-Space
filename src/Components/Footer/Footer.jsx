@@ -14,7 +14,7 @@ import {
   faFacebook,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
-
+import seo from "./../../Images/TSS.png";
 const Footer = () => {
   return (
     <div className="footWrapper">
@@ -113,6 +113,9 @@ const Footer = () => {
       </div>
       <div className="footer2">
         <li>Privacy Policy</li>
+        <li>
+          <img src={seo} alt="" />
+        </li>
         <li>Terms & Conditions</li>
       </div>
     </div>
