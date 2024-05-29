@@ -1,0 +1,497 @@
+.interiorTypeContainer {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.interiorTypeHeadContainer {
+  /* border: solid blue; */
+  width: 90%;
+}
+.interiorTypeParaContainer {
+  /* border: solid blue; */
+  width: 90%;
+}
+.interiorTypeParaContainer > p {
+  /* border: solid green; */
+  width: 70%;
+  font-size: 20px;
+}
+.interiorTypeMainContainer {
+  /* border: solid brown; */
+  width: 90%;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; */
+}
+.interiorTypeMainContent {
+  /* border: solid red; */
+  width: 70%;
+}
+.interiorTypeCardContainer {
+  /* border: solid yellowgreen; */
+  width: 90%;
+  height: 55vh;
+  border-radius: 10px;
+  margin: 15px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 10px black;
+  transition: 300ms ease-in-out;
+}
+.interiorTypeCardImg {
+  width: 100%;
+}
+.interiorTypeCardImg > img {
+  width: 100%;
+}
+.interiorTypeCardTxt {
+  /* border: solid; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.interiorTypeCardHead > h2 {
+  /* border: solid; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.interiorTypeHeadContainer > h1 > span {
+  color: var(--customColor);
+}
+.interiorTypeCardPara {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.interiorTypeCardPara > p {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: var(--customColor);
+}
+.interiorTypeCardNavi {
+  /* border: solid rebeccapurple; */
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.interiorTypeCardContainer:hover {
+  box-shadow: 0 0 20px black;
+}
+.interiorTypeCardContainer:hover .interiorTypeCardNavi {
+  background-color: var(--customWhite);
+}
+.interiorTypeCardContainer:hover .inIcon {
+  color: var(--customColor);
+}
+@media screen and (min-width: 320px) {
+  .interiorTypeContainer {
+    /* border: solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .interiorTypeHeadContainer {
+    /* border: solid blue; */
+    width: 90%;
+  }
+  .interiorTypeParaContainer {
+    /* border: solid blue; */
+    width: 90%;
+  }
+  .interiorTypeParaContainer > p {
+    /* border: solid green; */
+    width: 100%;
+    font-size: 20px;
+  }
+  .interiorTypeMainContainer {
+    /* border: solid brown; */
+    width: 80%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; */
+  }
+  .interiorTypeMainContent {
+    /* border: solid red; */
+    width: 100%;
+  }
+  .interiorTypeCardContainer {
+    /* border: solid yellowgreen; */
+    width: 90%;
+    height: 100%;
+    border-radius: 10px;
+    margin: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px black;
+    transition: 300ms ease-in-out;
+  }
+  .interiorTypeCardImg {
+    width: 100%;
+  }
+  .interiorTypeCardImg > img {
+    width: 100%;
+  }
+  .interiorTypeCardTxt {
+    /* border: solid; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .interiorTypeCardHead > h2 {
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .interiorTypeHeadContainer > h1 > span {
+    color: var(--customColor);
+  }
+  .interiorTypeCardPara {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .interiorTypeCardPara > p {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: var(--customColor);
+  }
+  .interiorTypeCardNavi {
+    /* border: solid rebeccapurple; */
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .interiorTypeContainer {
+    /* border: solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .interiorTypeHeadContainer {
+    /* border: solid blue; */
+    width: 90%;
+  }
+  .interiorTypeParaContainer {
+    /* border: solid blue; */
+    width: 90%;
+  }
+  .interiorTypeParaContainer > p {
+    /* border: solid green; */
+    width: 100%;
+    font-size: 20px;
+  }
+  .interiorTypeMainContainer {
+    /* border: solid brown; */
+    width: 90%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; */
+  }
+  .interiorTypeMainContent {
+    /* border: solid red; */
+    width: 100%;
+  }
+  .interiorTypeCardContainer {
+    /* border: solid yellowgreen; */
+    width: 90%;
+    height: 50vh;
+    border-radius: 10px;
+    margin: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px black;
+    transition: 300ms ease-in-out;
+  }
+  .interiorTypeCardImg {
+    width: 100%;
+  }
+  .interiorTypeCardImg > img {
+    width: 100%;
+  }
+  .interiorTypeCardTxt {
+    /* border: solid; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .interiorTypeCardHead > h2 {
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .interiorTypeHeadContainer > h1 > span {
+    color: var(--customColor);
+  }
+  .interiorTypeCardPara {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .interiorTypeCardPara > p {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: var(--customColor);
+  }
+  .interiorTypeCardNavi {
+    /* border: solid rebeccapurple; */
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+}
+@media screen and (min-width: 990px) {
+  .interiorTypeContainer {
+    /* border: solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .interiorTypeHeadContainer {
+    /* border: solid blue; */
+    width: 90%;
+  }
+  .interiorTypeParaContainer {
+    /* border: solid blue; */
+    width: 90%;
+  }
+  .interiorTypeParaContainer > p {
+    /* border: solid green; */
+    width: 70%;
+    font-size: 20px;
+  }
+  .interiorTypeMainContainer {
+    /* border: solid brown; */
+    width: 90%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; */
+  }
+  .interiorTypeMainContent {
+    /* border: solid red; */
+    width: 70%;
+  }
+  .interiorTypeCardContainer {
+    /* border: solid yellowgreen; */
+    width: 90%;
+    height: 50vh;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 3%;
+    overflow: hidden;
+    box-shadow: 0 0 10px black;
+    transition: 300ms ease-in-out;
+  }
+  .interiorTypeCardImg {
+    width: 100%;
+  }
+  .interiorTypeCardImg > img {
+    width: 100%;
+  }
+  .interiorTypeCardTxt {
+    /* border: solid; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .interiorTypeCardHead > h2 {
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .interiorTypeHeadContainer > h1 > span {
+    color: var(--customColor);
+  }
+  .interiorTypeCardPara {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .interiorTypeCardPara > p {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: var(--customColor);
+  }
+  .interiorTypeCardNavi {
+    /* border: solid rebeccapurple; */
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .interiorTypeContainer {
+    /* border: solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .interiorTypeHeadContainer {
+    /* border: solid blue; */
+    width: 90%;
+  }
+  .interiorTypeParaContainer {
+    /* border: solid blue; */
+    width: 90%;
+  }
+  .interiorTypeParaContainer > p {
+    /* border: solid green; */
+    width: 70%;
+    font-size: 20px;
+  }
+  .interiorTypeMainContainer {
+    /* border: solid brown; */
+    width: 90%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; */
+  }
+  .interiorTypeMainContent {
+    /* border: solid red; */
+    width: 70%;
+  }
+  .interiorTypeCardContainer {
+    /* border: solid yellowgreen; */
+    width: 90%;
+    height: 55vh;
+    border-radius: 10px;
+    margin: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 3%;
+    overflow: hidden;
+    box-shadow: 0 0 10px black;
+    transition: 300ms ease-in-out;
+  }
+  .interiorTypeCardImg {
+    width: 100%;
+  }
+  .interiorTypeCardImg > img {
+    width: 100%;
+  }
+  .interiorTypeCardTxt {
+    /* border: solid; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .interiorTypeCardHead > h2 {
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .interiorTypeHeadContainer > h1 > span {
+    color: var(--customColor);
+  }
+  .interiorTypeCardPara {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .interiorTypeCardPara > p {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: var(--customColor);
+  }
+  .interiorTypeCardNavi {
+    /* border: solid rebeccapurple; */
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+}

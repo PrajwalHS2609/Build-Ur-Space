@@ -10,7 +10,6 @@ import {
 import { Link } from "react-router-dom";
 import favicon from "./../../Images/favicon.png";
 const Menu = () => {
-
   let showSideBar = () => {
     const sideBar = document.querySelector(".respMenu");
     sideBar.style.display = "flex";
@@ -21,7 +20,7 @@ const Menu = () => {
     // sideBar.style.display = "none";
     sideBar.style.transform = "translateX(340px)";
   };
-  
+
   return (
     <>
       <div className="navBarItem1">
@@ -48,7 +47,9 @@ const Menu = () => {
           </Link>
         </li>
         <li>Construction</li>
-        <li>Interior</li>
+        <li>
+          <Link to={"/house-interior"}>Interior</Link>
+        </li>
         <li>
           <Link to={"/packages"}>Packages</Link>
         </li>
@@ -86,7 +87,7 @@ const Menu = () => {
           </ul>
           <ul>
             <h1>
-              <Link onClick={hideSideBar} to={"/"}>
+              <Link onClick={hideSideBar} to={"/house-interior"}>
                 Interiors
               </Link>
             </h1>

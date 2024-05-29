@@ -6,11 +6,9 @@
   align-items: center;
   flex-direction: column;
   gap: 30px;
+  background-color: var(--customWhite);
 }
-.homeAppUnderline {
-  border: 2px dashed grey;
-  width: 90%;
-}
+
 .homeAppWrapper {
   /* border: solid blue; */
   width: 100%;
@@ -88,10 +86,7 @@
     flex-direction: column;
     gap: 30px;
   }
-  .homeAppUnderline {
-    border: 2px dashed grey;
-    width: 90%;
-  }
+
   .homeAppWrapper {
     /* border: solid blue; */
     width: 100%;
@@ -159,7 +154,7 @@
     font-size: 20px;
   }
   .homeAppPara > p {
-    font-size: 15px;
+    font-size: 20px;
   }
   .homeAppParaList {
     /* border: solid; */
@@ -183,10 +178,7 @@
     flex-direction: column;
     gap: 30px;
   }
-  .homeAppUnderline {
-    border: 2px dashed grey;
-    width: 90%;
-  }
+ 
   .homeAppWrapper {
     /* border: solid blue; */
     width: 100%;
@@ -279,10 +271,7 @@
     flex-direction: column;
     gap: 30px;
   }
-  .homeAppUnderline {
-    border: 2px dashed grey;
-    width: 90%;
-  }
+
   .homeAppWrapper {
     /* border: solid blue; */
     width: 100%;
@@ -375,10 +364,7 @@
     flex-direction: column;
     gap: 30px;
   }
-  .homeAppUnderline {
-    border: 2px dashed grey;
-    width: 90%;
-  }
+
   .homeAppWrapper {
     /* border: solid blue; */
     width: 100%;

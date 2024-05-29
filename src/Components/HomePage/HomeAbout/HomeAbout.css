@@ -67,9 +67,13 @@
   justify-content: center;
   align-items: center;
 }
+.aboutTxtItem>h2{
+  color: white;
+}
 .aboutTxtItem > p {
   font-size: 20px;
   font-weight: bold;
+  color: white;
 }
 .aboutTxtContent {
   /* border: solid; */
