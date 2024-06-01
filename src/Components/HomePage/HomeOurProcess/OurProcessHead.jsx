@@ -5,7 +5,7 @@ const OurProcessHead = () => {
   return (
     <div className="ourProcessHeadContainer">
       <h1>
-        Our <span>Process</span>
+        OUR <span>PROCESS</span>
       </h1>
     </div>
   );

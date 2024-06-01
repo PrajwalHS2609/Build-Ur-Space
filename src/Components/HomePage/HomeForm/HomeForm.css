@@ -30,7 +30,7 @@
 .homeFormContainer > form > fieldset > legend {
   font-size: 150%;
   text-align: center;
-  color: grey;
+  color: black;
   /* border: solid black; */
 }
 .homeFormContainer > form > fieldset > table {
@@ -70,15 +70,19 @@
   outline: none;
 }
 .homeFormContainer > form > fieldset > table > button {
-  border: none;
+  border: solid var(--customColor);
   width: 80%;
+  border-radius: 10px;
   font-size: 20px;
   background-color: white;
-  color: var(--customColor);
+  color: white;
+  background-color: var(--customColor);
   text-align: center;
+  transition: 200ms ease-in-out;
 }
 .homeFormContainer > form > fieldset > table > button:hover {
-  text-decoration: underline;
+  color: var(--customColor);
+  background-color: white;
   cursor: pointer;
 }
 .formIcon {
@@ -107,12 +111,13 @@
   border: none;
   display: flex;
   justify-content: center;
-  align-items: center;flex-direction: column;
+  align-items: center;
+  flex-direction: column;
 }
 .respHomeFormContainer > form > fieldset > legend {
   font-size: 150%;
   text-align: center;
-  color: grey;
+  color: black;
   /* border: solid black; */
   height: 10%;
   display: flex;
@@ -139,7 +144,7 @@
 }
 
 .respHomeFormContainer > form > fieldset > table > tr > td {
-  border-bottom: solid grey;
+  border-bottom: solid black;
   width: 100%;
   height: 30px;
   background-color: white;
@@ -158,18 +163,16 @@
   background-color: rgb(223, 223, 223);
 }
 .respHomeFormContainer > form > fieldset > table > button {
-  border: none;
+  border: solid var(--customColor);
   width: 80%;
+  border-radius: 10px;
   font-size: 20px;
   background-color: white;
-  color: var(--customColor);
+  color: white;
+  background-color: var(--customColor);
   text-align: center;
-  background-color: rgb(223, 223, 223);
 }
-.respHomeFormContainer > form > fieldset > table > button:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
+
 .formIcon {
   font-size: 20px;
 }
@@ -285,18 +288,16 @@
     font-family: "Quicksand", sans-serif;
   }
   .homeFormContainer > form > fieldset > table > button {
-    border: none;
+    border: solid var(--customColor);
     width: 80%;
+    border-radius: 10px;
     font-size: 20px;
     background-color: white;
-    color: var(--customColor);
+    color: white;
+    background-color: var(--customColor);
     text-align: center;
-    font-family: "Quicksand", sans-serif;
   }
-  .homeFormContainer > form > fieldset > table > button:hover {
-    text-decoration: underline;
-    cursor: pointer;
-  }
+
   .formIcon {
     font-size: 20px;
   }
@@ -336,7 +337,7 @@
   .homeFormContainer > form > fieldset > legend {
     font-size: 150%;
     text-align: center;
-    color: grey;
+    color: black;
     /* border: solid black; */
     height: 10%;
     display: flex;
@@ -363,7 +364,7 @@
   }
 
   .homeFormContainer > form > fieldset > table > tr > td {
-    border-bottom: solid grey;
+    border-bottom: solid black;
     width: 100%;
     height: 30px;
     background-color: white;
@@ -380,17 +381,16 @@
     outline: none;
   }
   .homeFormContainer > form > fieldset > table > button {
-    border: none;
+    border: solid var(--customColor);
     width: 80%;
+    border-radius: 10px;
     font-size: 20px;
     background-color: white;
-    color: var(--customColor);
+    color: white;
+    background-color: var(--customColor);
     text-align: center;
   }
-  .homeFormContainer > form > fieldset > table > button:hover {
-    text-decoration: underline;
-    cursor: pointer;
-  }
+
   .formIcon {
     font-size: 20px;
   }

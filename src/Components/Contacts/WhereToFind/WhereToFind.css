@@ -1,0 +1,105 @@
+.whereContainer {
+  /* border: solid; */
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.whereHead {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.whereHead > h1 > {
+  text-align: center;
+}
+.whereHead > h1 > span {
+  color: var(--customColor);
+}
+.map {
+  width: 100%;
+  border: none;
+}
+.whereMapContainer {
+  /* border: solid; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 100%;
+}
+.whereContainerCard {
+  /* border: solid; */
+}
+.whereContainerCard {
+  /* border: solid blue; */
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.whereContentCard1 {
+  /* border: solid green; */
+  width: 100%;
+}
+.whereContentCard2 {
+  /* border: solid brown; */
+  width: 100%;
+}
+@media screen and (min-width: 320px) and (max-width: 600px) {
+  .whereContainer {
+    /* border: solid; */
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .whereHead > h1 > {
+    text-align: center;
+  }
+  .whereHead > h1 > span {
+    color: var(--customColor);
+  }
+  .whereMapContainer {
+    /* border: solid; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: 100%;
+  }
+  .whereContainerCard {
+    /* border: solid; */
+  }
+  .whereContainerCard {
+    /* border: solid blue; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .whereContentCard1 {
+    /* border: solid green; */
+    width: 100%;
+  }
+  .whereContentCard2 {
+    /* border: solid brown; */
+    width: 90%;
+  }
+}

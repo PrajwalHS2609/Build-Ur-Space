@@ -8,8 +8,8 @@ const OurGoals = () => {
   return (
 <>
 <HomeOur1
-  h1="Our"
-  h2="Goals"
+  h1="OUR"
+  h2="GOALS"
   txt={<OurGoalList/>}
   img={goal}
 />

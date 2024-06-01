@@ -10,6 +10,7 @@ import ScrollTo from "./Components/ScrollTo/ScrollTo";
 import AboutUs from "./Components/AboutUs/AboutUs";
 import Interior from "./Components/Interior/Interior";
 import Construction from "./Components/Construction/Construction";
+import Contacts from "./Components/Contacts/Contacts";
 const App = () => {
   return (
     <div>
@@ -27,6 +28,7 @@ const App = () => {
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/house-interior" element={<Interior/>} />
           <Route path="/house-construction" element={<Construction />} />
+          <Route path="/contact-us" element={<Contacts/>} />
         </Routes>
       </BrowserRouter>
     </div>

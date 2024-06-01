@@ -64,6 +64,9 @@
   color: var(--customColor);
   list-style: none;
 }
+.navBarItem2 > li > a:hover{
+  text-decoration: underline;
+}
 .mainMenu {
   /* border: solid; */
   height: 100%;

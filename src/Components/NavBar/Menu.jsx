@@ -59,7 +59,9 @@ const Menu = () => {
         <li>
           <Link to={"/about-us"}>About Us</Link>
         </li>
-        <li>Contact Us</li>
+        <li>
+          <Link to={"/contact-us"}>Contact Us</Link>
+        </li>
       </div>
       <ul onClick={showSideBar} className="mainMenu">
         <FontAwesomeIcon icon={faBars} className="hamIcon"></FontAwesomeIcon>
@@ -110,7 +112,7 @@ const Menu = () => {
           </ul>
           <ul>
             <h1>
-              <Link onClick={hideSideBar} to={"/"}>
+              <Link onClick={hideSideBar} to={"/contact-us"}>
                 Contact Us
               </Link>
             </h1>
@@ -118,7 +120,6 @@ const Menu = () => {
           <ul>
             <h2></h2>
           </ul>
-          
         </div>
       </div>
     </>

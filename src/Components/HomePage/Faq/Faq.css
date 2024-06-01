@@ -6,7 +6,7 @@
   align-items: center;
   flex-direction: column;
   gap: 30px;
-  background-color: #FFF6F4;
+  background-color: #fff6f4;
 }
 .faqHeaderContainer > h1 {
   text-align: center;
@@ -29,17 +29,38 @@
   /* border: solid green; */
 }
 .faqItem {
-  border-bottom: solid grey;
+  /* border-bottom: solid grey; */
+}
+.active > {
+  /* border: solid; */
+  width: 100%;
+  position: absolute;
+  background-color: var(--customColor);
 }
 .faqHead {
   /* border: solid green; */
-  height: 10vh;
+  height: 8vh;
+  width: 100%;
   margin-top: 40px;
   cursor: pointer;
+  border-radius: 50px;
+  box-shadow: 0px 3px 10px 1px rgb(206, 204, 204);
+  color: var(--customColor);
+}
+.faqHead:hover {
+  background-color: var(--customColor);
+  color: white;
+}
+.faqPanel {
+  box-shadow: 0px 3px 10px 1px rgb(206, 204, 204);
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: white;
 }
 .faqPanel > p {
-  font-size: 25px;
-  color: var(--customColor);
+  font-size: 20px;
+  margin-left: 20px;
+  margin: 10px;
 }
 .faqBut {
   /* border: solid purple; */
@@ -48,6 +69,9 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+}
+.faqBut > h1 {
+  margin-left: 20px;
 }
 @media screen and (min-width: 320px) and (max-width: 600px) {
   .faqContainer {
@@ -80,7 +104,7 @@
     /* border: solid green; */
   }
   .faqItem {
-    border-bottom: solid grey;
+    /* border-bottom: solid grey; */
   }
   .faqHead {
     /* border: solid green; */
@@ -90,7 +114,6 @@
   }
   .faqPanel > p {
     font-size: 17px;
-    color: var(--customColor);
   }
   .faqBut {
     /* border: solid purple; */
@@ -136,7 +159,7 @@
     /* border: solid green; */
   }
   .faqItem {
-    border-bottom: solid grey;
+    /* border-bottom: solid grey; */
   }
   .faqHead {
     /* border: solid green; */
@@ -146,7 +169,6 @@
   }
   .faqPanel > p {
     font-size: 17px;
-    color: var(--customColor);
   }
   .faqBut {
     /* border: solid purple; */
@@ -193,7 +215,7 @@
     /* border: solid green; */
   }
   .faqItem {
-    border-bottom: solid grey;
+    /* border-bottom: solid grey; */
   }
   .faqHead {
     /* border: solid green; */
@@ -203,7 +225,6 @@
   }
   .faqPanel > p {
     font-size: 25px;
-    color: var(--customColor);
   }
   .faqBut {
     /* border: solid purple; */
@@ -245,17 +266,16 @@
     /* border: solid green; */
   }
   .faqItem {
-    border-bottom: solid grey;
+    /* border-bottom: solid grey; */
   }
   .faqHead {
     /* border: solid green; */
-    height: 10vh;
+    height: 8vh;
     margin-top: 40px;
     cursor: pointer;
   }
   .faqPanel > p {
-    font-size: 25px;
-    color: var(--customColor);
+    font-size: 20px;
   }
   .faqBut {
     /* border: solid purple; */

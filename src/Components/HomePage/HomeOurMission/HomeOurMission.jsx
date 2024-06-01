@@ -6,8 +6,8 @@ import img from "./../../../Images/focused-red-pawn-surrounded-by-white-ones.jpg
 const HomeOurMission = () => {
   return <>
   <HomeOur2
-  h1="Our"
-  h2="Mission"
+  h1="OUR"
+  h2="MISSION"
   txt={<OurMissionList/>}
   img={img}
   />

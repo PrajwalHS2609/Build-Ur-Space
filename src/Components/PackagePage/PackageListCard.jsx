@@ -8,9 +8,7 @@ const PackageListCard = (props) => {
         <h3>{props.head1}</h3>
         <h2>{props.head2}</h2>
       </div>
-      <div className="packageListCardMain">
-        {props.accordion}
-      </div>
+      <div className="packageListCardMain">{props.accordion}</div>
     </div>
   );
 };

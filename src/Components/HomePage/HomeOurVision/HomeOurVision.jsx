@@ -6,8 +6,8 @@ const HomeOurVision = () => {
   return (
    <>
    <HomeOur1
-   h1="Our"
-   h2="Vision"
+   h1="OUR"
+   h2="VISION"
    txt={<OurVisionList/>}
    img={house}
    />

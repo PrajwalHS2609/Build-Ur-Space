@@ -8,16 +8,18 @@ import {
   AccordionItemButton,
   AccordionItemPanel,
 } from "react-accessible-accordion";
+import { NavLink } from "react-router-dom";
 const FaqMain = () => {
   return (
     <div className="faqMainContainer">
       <Accordion className="faqContent" allowZeroExpanded>
         <AccordionItem className="faqItem">
-          <AccordionItemHeading className="faqHead">
-            <AccordionItemButton className="faqBut">
+          <AccordionItemHeading className="faqHead" >
+            <AccordionItemButton className="faqBut" >
               <h1>What services does Build ur Space offer ?</h1>
             </AccordionItemButton>
           </AccordionItemHeading>
+
           <AccordionItemPanel className="faqPanel">
             <p>
               Build ur Space provides a wide range of services including

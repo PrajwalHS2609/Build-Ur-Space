@@ -13,6 +13,9 @@ import {
   faXTwitter,
   faFacebook,
   faInstagram,
+  faYoutube,
+  faLinkedin,
+
 } from "@fortawesome/free-brands-svg-icons";
 import seo from "./../../Images/TSS.png";
 const Footer = () => {
@@ -107,6 +110,22 @@ const Footer = () => {
                   ></FontAwesomeIcon>
                 </a>
               </li>
+              <li>
+                <a href="">
+                  <FontAwesomeIcon
+                    icon={faYoutube}
+                    className="socialIcon"
+                  ></FontAwesomeIcon>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <FontAwesomeIcon
+                    icon={faLinkedin}
+                    className="socialIcon"
+                  ></FontAwesomeIcon>
+                </a>
+              </li>
             </ul>
           </div>
         </div>
@@ -114,7 +133,9 @@ const Footer = () => {
       <div className="footer2">
         <li>Privacy Policy</li>
         <li>
-          <img src={seo} alt="" />
+          <a href="https://tryseoservices.com/">
+            <img src={seo} alt="" />
+          </a>
         </li>
         <li>Terms & Conditions</li>
       </div>

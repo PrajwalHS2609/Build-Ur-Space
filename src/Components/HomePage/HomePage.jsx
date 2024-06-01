@@ -24,8 +24,8 @@ const HomePage = () => {
       <HomeAbout />
       <HomeWhy />
       <Testimonial />
-      <Partners />
       <Faq />
+      <Partners />
       <Footer />
     </div>
   );

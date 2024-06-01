@@ -1,0 +1,779 @@
+.contactContainer {
+  /* border: solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 30px;
+}
+.contactHead > h1 > span {
+  color: var(--customColor);
+}
+.contactMainContainer {
+  /* border: solid blue; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactMainContent1 {
+  /* border: solid red; */
+  width: 50%;
+  height: 60vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.contactMainContent2 {
+  /* border: solid green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 60vh;
+}
+.contactMainItem1 {
+  /* border: solid; */
+  width: 80%;
+  background-color: var(--customWhite);
+}
+.contactMainItem1 > h1 > span {
+  color: var(--customColor);
+}
+.contactMainItem1 > ul > li {
+  font-size: 20px;
+  color: var(--customColor);
+}
+.contactMainItem1 > ul > li > p {
+  font-size: 20px;
+  color: black;
+}
+.contactMainItem2 {
+  /* border: solid yellowgreen; */
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  width: 80%;
+}
+.contactMainItem2 > h1 > span {
+  color: var(--customColor);
+}
+.contactType {
+  /* border: solid fuchsia; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.contactMailing {
+  /* border: solid; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.contactPhone {
+  /* border: solid; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.contactIcon {
+  font-size: 30px;
+}
+.contactFormContainer {
+  /* border: solid red; */
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactFormContainer > form {
+  border: none;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contactFormContainer > form > legend {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: start;
+  width: 85%;
+}
+
+.contactFormContainer > form > legend > h1 > span {
+  color: var(--customColor);
+}
+.contactFormContainer > form > fieldset {
+  border: none;
+  width: 90%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+.contactFormContainer > form > fieldset > table {
+  width: 100%;
+  height: 100%;
+}
+.contactFormContainer > form > fieldset > table > tr {
+  width: 100%;
+}
+.contactFormContainer > form > fieldset > table > tr > td {
+  border: solid grey;
+  display: flex;
+  width: 50%;
+  border-radius: 10px;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+}
+.contactFormContainer > form > fieldset > table > tr > td > input {
+  border: none;
+  height: 90%;
+  width: 100%;
+  font-size: 20px;
+  margin-left: 10px;
+  outline: none;
+  margin-left: 10px;
+}
+
+.contactFormContainer > form > fieldset > table > tr > td > textarea {
+  height: 70%;
+  border: none;
+  width: 100%;
+  font-size: 20px;
+  outline: none;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+.contactFormButton {
+  /* border: solid; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+.contactFormButton > button {
+  /* border: solid red; */
+  height: 90%;
+  width: 30%;
+  font-size: 20px;
+  background-color: var(--customColor);
+  color: white;
+  border-radius: 10px;
+}
+.contactFormButton > button:hover {
+  border: solid red;
+  background-color: white;
+  color: var(--customColor);
+}
+
+@media screen and (min-width: 320px) {
+  .contactContainer {
+    /* border: solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  .contactHead {
+    width: 80%;
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .contactMainContainer {
+    /* border: solid blue; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .contactMainContent1 {
+    /* border: solid red; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+  }
+  .contactMainItem2 {
+    /* border: solid yellowgreen; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .contactType {
+    /* border: solid fuchsia; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .contactMainContent2 {
+    /* border: solid green; */
+    width: 100%;
+    height: 60vh;
+    margin-top: 30px;
+  }
+  .contactFormContainer {
+    /* border: solid red; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contactFormContainer > form > legend {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    width: 85%;
+  }
+  .contactFormContainer > form > fieldset {
+    border: none;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 30px;
+  }
+  .contactFormContainer > form > fieldset > table > tr > td {
+    border: solid grey;
+    display: flex;
+    width: 100%;
+    border-radius: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+  }
+  .contactFormContainer > form > fieldset > table > tr > td > input {
+    /* border: solid grey; */
+    height: 90%;
+    width: 90%;
+    font-size: 20px;
+    margin-left: 10px;
+    outline: none;
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+  .contactFormContainer > form > fieldset > table > tr > td > textarea {
+    height: 70%;
+    /* border: solid grey; */
+    width: 90%;
+    font-size: 20px;
+    outline: none;
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+  .contactFormButton {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .contactMainItem2 {
+    /* border: solid yellowgreen; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .contactType {
+    /* border: solid fuchsia; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+  }
+  .contactMainContent2 {
+    /* border: solid green; */
+    width: 50%;
+    height: 60vh;
+    margin-top: 50px;
+  }
+  .contactFormContainer > form > legend {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    width: 85%;
+  }
+  .contactFormContainer > form > fieldset {
+    border: none;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 30px;
+  }
+  .contactFormContainer > form > fieldset > table > tr > td {
+    border: solid grey;
+    display: flex;
+    width: 100%;
+    border-radius: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    height: 90%;
+  }
+  .contactFormContainer > form > fieldset > table > tr > td > input {
+    height: 90%;
+    width: 90%;
+    font-size: 20px;
+    margin-left: 10px;
+    outline: none;
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+  .contactFormContainer > form > fieldset > table > tr > td > textarea {
+    height: 70%;
+    width: 90%;
+    font-size: 20px;
+    outline: none;
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+  .contactFormButton {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+  }
+}
+@media screen and (min-width: 990px) {
+  .contactContainer {
+    /* border: solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  .contactHead {
+    width: 80%;
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .contactHead > h1 > span {
+    color: var(--customColor);
+  }
+  .contactMainContainer {
+    /* border: solid blue; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .contactMainContent1 {
+    /* border: solid red; */
+    width: 50%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+  }
+  .contactMainContent2 {
+    /* border: solid green; */
+    width: 50%;
+    height: 60vh;
+  }
+
+  .contactMainItem1 {
+    /* border: solid; */
+    width: 80%;
+    background-color: var(--customWhite);
+  }
+  .contactMainItem1 > h1 > span {
+    color: var(--customColor);
+  }
+  .contactMainItem1 > ul > li {
+    font-size: 20px;
+    color: var(--customColor);
+  }
+  .contactMainItem1 > ul > li > p {
+    font-size: 20px;
+    color: black;
+  }
+  .contactMainItem2 {
+    /* border: solid yellowgreen; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+  }
+  .contactMainItem2 > h1 > span {
+    color: var(--customColor);
+  }
+  .contactType {
+    /* border: solid fuchsia; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+  .contactMailing {
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .contactPhone {
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .contactIcon {
+    font-size: 30px;
+  }
+  .contactFormContainer {
+    /* border: solid red; */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contactFormContainer > form {
+    border: none;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .contactFormContainer > form > legend {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: start;
+    width: 85%;
+  }
+
+  .contactFormContainer > form > legend > h1 > span {
+    color: var(--customColor);
+  }
+  .contactFormContainer > form > fieldset {
+    border: none;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .contactFormContainer > form > fieldset > table {
+    width: 100%;
+    height: 100%;
+  }
+  .contactFormContainer > form > fieldset > table > tr {
+    width: 100%;
+  }
+  .contactFormContainer > form > fieldset > table > tr > td {
+    /* border: solid; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 90%;
+  }
+  .contactFormContainer > form > fieldset > table > tr > td > input {
+    /* border: solid grey; */
+    height: 90%;
+    width: 60%;
+    font-size: 20px;
+    margin-left: 10px;
+    outline: none;
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+
+  .contactFormContainer > form > fieldset > table > tr > td > textarea {
+    height: 70%;
+    /* border: solid grey; */
+    width: 60%;
+    font-size: 20px;
+    outline: none;
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+
+  .contactFormButton {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 10px;
+  }
+  .contactFormButton > button {
+    border: solid red;
+    height: 90%;
+    width: 30%;
+    font-size: 20px;
+    background-color: var(--customColor);
+    color: white;
+    border-radius: 10px;
+  }
+  .contactFormButton > button:hover {
+    border: solid red;
+    background-color: white;
+    color: var(--customColor);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .contactContainer {
+    /* border: solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  .contactHead {
+    width: 80%;
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .contactHead > h1 > span {
+    color: var(--customColor);
+  }
+  .contactMainContainer {
+    /* border: solid blue; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .contactMainContent1 {
+    /* border: solid red; */
+    width: 50%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+  }
+  .contactMainContent2 {
+    /* border: solid green; */
+    width: 50%;
+    height: 60vh;
+  }
+
+  .contactMainItem1 {
+    /* border: solid; */
+    width: 80%;
+    background-color: var(--customWhite);
+  }
+  .contactMainItem1 > h1 > span {
+    color: var(--customColor);
+  }
+  .contactMainItem1 > ul > li {
+    font-size: 20px;
+    color: var(--customColor);
+  }
+  .contactMainItem1 > ul > li > p {
+    font-size: 20px;
+    color: black;
+  }
+  .contactMainItem2 {
+    /* border: solid yellowgreen; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+  }
+  .contactMainItem2 > h1 > span {
+    color: var(--customColor);
+  }
+  .contactType {
+    /* border: solid fuchsia; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+  }
+  .contactMailing {
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .contactPhone {
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .contactIcon {
+    font-size: 30px;
+  }
+  .contactFormContainer {
+    /* border: solid red; */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contactFormContainer > form {
+    border: none;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .contactFormContainer > form > legend {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: start;
+    width: 85%;
+  }
+
+  .contactFormContainer > form > legend > h1 > span {
+    color: var(--customColor);
+  }
+  .contactFormContainer > form > fieldset {
+    border: none;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .contactFormContainer > form > fieldset > table {
+    width: 100%;
+    height: 100%;
+  }
+  .contactFormContainer > form > fieldset > table > tr {
+    width: 100%;
+  }
+  .contactFormContainer > form > fieldset > table > tr > td {
+    /* border: solid; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 90%;
+    width: 90%;
+  }
+  .contactFormContainer > form > fielet > table > tr > td > input {
+    /* border: solid grey; */
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    margin-left: 10px;
+    outline: none;
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+
+  .contactFormContainer > form > fieldset > table > tr > td > textarea {
+    height: 70%;
+    /* border: solid grey; */
+    width: 100%;
+    font-size: 20px;
+    outline: none;
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+
+  .contactFormButton {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+  }
+  .contactFormButton > button {
+    border: solid red;
+    height: 90%;
+    width: 30%;
+    font-size: 20px;
+    background-color: var(--customColor);
+    color: white;
+    border-radius: 10px;
+  }
+  .contactFormButton > button:hover {
+    border: solid red;
+    background-color: white;
+    color: var(--customColor);
+  }
+}

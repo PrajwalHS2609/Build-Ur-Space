@@ -5,8 +5,8 @@ const AboutHead = () => {
   return (
     <div className="aboutHeadContainer">
       <h1>
-        About <pre> </pre>
-        <span>Us</span>
+        ABOUT <pre> </pre>
+        <span>US</span>
       </h1>
     </div>
   );
