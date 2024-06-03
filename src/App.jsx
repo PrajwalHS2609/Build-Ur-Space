@@ -11,6 +11,7 @@ import AboutUs from "./Components/AboutUs/AboutUs";
 import Interior from "./Components/Interior/Interior";
 import Construction from "./Components/Construction/Construction";
 import Contacts from "./Components/Contacts/Contacts";
+import CommercialInterior from "./Components/CommercialInterior/CommercialInterior";
 const App = () => {
   return (
     <div>
@@ -21,14 +22,32 @@ const App = () => {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/packages" element={<Package />}>
-            <Route path="/packages/product-package1" element={<PackageList />} />
-            <Route path="/packages/product-package2" element={<PackageList />} />
-            <Route path="/packages/product-package3" element={<PackageList />} />
+            <Route
+              path="/packages/product-package1"
+              element={<PackageList />}
+            />
+            <Route
+              path="/packages/product-package2"
+              element={<PackageList />}
+            />
+            <Route
+              path="/packages/product-package3"
+              element={<PackageList />}
+            />
+            <Route
+              path="/packages/product-package4"
+              element={<PackageList />}
+            />
+            <Route
+              path="/packages/product-package5"
+              element={<PackageList />}
+            />
           </Route>
           <Route path="/about-us" element={<AboutUs />} />
-          <Route path="/house-interior" element={<Interior/>} />
+          <Route path="/house-interior" element={<Interior />} />
           <Route path="/house-construction" element={<Construction />} />
-          <Route path="/contact-us" element={<Contacts/>} />
+          <Route path="/contact-us" element={<Contacts />} />
+          <Route path="/commercial-interior" element={<CommercialInterior />} />
         </Routes>
       </BrowserRouter>
     </div>

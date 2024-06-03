@@ -1,0 +1,79 @@
+.CommercialInteriorContainer {
+  /* border: solid; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.commercialMainContainer {
+  /* border: solid red; */
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  margin-top: 30px;
+}
+.commercialHeadContainer {
+  /* border: solid green; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.commercialParaContent > p {
+  font-size: 20px;
+}
+.commercialMainContent {
+  /* border: solid; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.commercialCardContainer {
+  /* border: solid red; */
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.commercialCardImg {
+  /* border: solid blue; */
+  height: 85%;
+  /* display: inline-block; */
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+}
+.commercialCardImg > img {
+  width: 100%;
+  display: block;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 10px;
+}
+.commercialCardHead {
+  /* border: solid; */
+  width: 100%;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  display: flex;
+  justify-content: flex-start;padding: 2px;
+  border-top-left-radius:10px ;
+  border-bottom-left-radius:10px ;
+
+  align-items: center;
+  background-color: var(--customColor);
+}
+.commercialCardHead>h2{
+    margin-left: 10px;
+}

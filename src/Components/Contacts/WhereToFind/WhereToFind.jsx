@@ -11,7 +11,6 @@ const WhereToFind = () => {
       </div>
       <div className="whereMapContainer">
         <WhereToFindCard />
-        <WhereToFindCard />
       </div>
     </div>
   );

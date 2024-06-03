@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./Package.css";
 import "react-accessible-accordion/dist/fancy-example.css";
 import {
   Accordion,
@@ -8,8 +7,7 @@ import {
   AccordionItemButton,
   AccordionItemPanel,
 } from "react-accessible-accordion";
-
-const PremiumPackage = () => {
+const ExclusivePackage = () => {
   let [toggle, setToggle] = useState(false);
   let handleExpand = (e) => {
     e.stopPropagation();
@@ -52,12 +50,15 @@ const data = [
   {
     title: "DESIGN & DRAWING",
     content: [
-      "2D – Floor Plans",
-      "3D Elevation Designs",
-      "Design Development – A maximum of 3 drawing revisions",
-      "Internal Isometric views all rooms, open areas etc.",
+      "Premium 2D & 3D – Floor Plans",
+      "Luxury 3D Elevation Designs of all views.",
+      "Design Development – No maximum of  drawing revisions",
+      "Internal Isometric views all rooms, open areas  & detailed renders for each segment of the home.",
       " 3D Walkthrough of the home along with internal & external walkthrough.",
-      "Landscaping design.",
+      "Detailed Landscaping design.",
+      " Isometric 3D model of home with each floor",
+      "Site survey by surveyor with instruments & drawing on the basis of survey",
+      "VR for the 3D walkthrough of the home",
     ],
   },
   {
@@ -75,6 +76,8 @@ const data = [
       "Structural Design as per IS Code.",
       "Good for construction drawings",
       "Soil Test report",
+      "Overlapped Structural, Architectural & MEP Drawings",
+      " 3D structural drawings & analysis report",
     ],
   },
   {
@@ -83,6 +86,7 @@ const data = [
       "Electrical Layout",
       "Plumbing Water Line Layout",
       "Plumbing Drainage Line Layout",
+      " HVAC Design",
     ],
   },
   {
@@ -105,15 +109,16 @@ const data = [
   {
     title: "CIVIL CONSTRUCTION",
     content: [
-      "Floor to floor height – 10'6",
-      "Steel (550 TMT Bars) –  prime gold, Jindal Equivalents",
-      "Cement (Grade 43 or 53 as needed) – UltraTech/Dalmia",
-      " UG Sump built with solid blocks of 8” thickness & waterproof plastered 10,000 lts",
+      "Floor to floor height – 12'0",
+      "Steel (550 TMT Bars) –   JSW, SAIL, TATA Equivalents ",
+      "Cement (Grade 43 or 53 as needed) – UltraTech/ Birla super / ACC equivalent",
+      " UG Sump built with RCC & waterproof plastered 18,000 lts",
       "Concrete – M25 grade RMC",
-      "Hydraulic pressed solid Block walls – 6” & 4” thickness",
+      "Machine-cut solid Block walls – 6” & 4” thickness of APCO equivalent  or country brick wall construction",
+      " Internal courtyards, skylights other designer architectural elements are included.",
       " Internal, external and toilet wall – column joints plastering  with chicken mesh",
-      "Waterproofing compound – Dr.Fixit/FOSROC for external walls",
-      "Cement based waterproofing",
+      "Waterproofing compound – Dr.Fixit/FOSROC for external walls, waterproofing, Cinder filling in sunken toilets, Heat &  Waterproofing in Terrace ",
+      " A ledge wall for incorporating concealed sanitary parts is included",
       "Steel/concrete lofts –  included",
       "Anti termite treatment",
     ],
@@ -122,41 +127,45 @@ const data = [
   {
     title: "FLOORING & WALL TILING",
     content: [
-      "Living, Foyer: Marble finished Vitrified tiles – Rs.95/-per Sqft",
-      "Kitchen, Dining & Bedrooms : Vitrified tiles – Rs.80/-per Sqft",
-      "Balcony, Sit-out, Passage Areas : Anti-skid tiles – Rs.60/-per Sqft",
-      "Toilet Flooring : Anti-skid tiles – Rs.60/- per Sqft",
-      "Toilet Wall Dado (7ft height) : Highlighting Tiles – Rs.65/- per Sqft",
-      "Kitchen counter top : Granite – Rs.160/- per Sqft",
-      "Kitchen Wall Dado (Up to 2’ above counter) : Backsplash tiles – Rs.75/- per Sqft",
-      " Staircase: Granite – Rs.110/- per Sqft",
-      " Parking Area: Parking tiles – Rs.75/- per Sqft",
-      "Puja Room -  Wall tiling – Rs.60/- per Sqft",
-      "Puja Room -  Granite slab- Rs-125/- per Sqft",
-      "No setback tiles",
-      // "2 X 2  tile size maximum ",
+      "Living, Foyer: Italian Marble / premium Vitrified tiles(4x8) – Rs.450/-per Sqft",
+      "Kitchen, Dining & Bedrooms : Vitrified tiles – Rs.110/-per Sqft",
+      "Balcony, Sit-out, Passage Areas : Anti-skid tiles – Rs.85/-per Sqft",
+      "Toilet Flooring : Anti-skid tiles – Rs.85/- per Sqft",
+      "Toilet Wall Dado (7ft height) : Highlighting Tiles – Rs.85/- per Sqft",
+      "Kitchen counter top : Quartz counter top – Rs.500/- per Sqft",
+      "Kitchen Wall Dado (Up to 2’ above counter) : Backsplash tiles – Rs.110/- per Sqft",
+      " Staircase: Granite – Rs.150/- per Sqft",
+      " Parking Area: Parking tiles – Rs.70/- per Sqft",
+      "Puja Room -  Wall tiling – Rs.85/- per Sqft(full height",
+      "Puja Room -  Quartz slab- Rs-450/- per Sqft",
+      "Set back area tiles of 40 per sqft will be provided",
+      " No tile size limit",
+      "Epoxy grouting in bathrooms",
     ],
   },
   {
     title: "PAINTING",
     content: [
-      "Internal wall & ceiling : 2 coat wall putty + 1 coat primer coat + 2 coat latest Tractor emulsion paint  or equivalent",
-      "External walls : 1 coat primer + 2 coat Apex weather proof paint",
+      "Internal wall & ceiling : 2 coat wall putty + 1 coat primer coat + 2 coat royale luxury emulsion paint   or equivalent",
+      "External walls : 1 coat primer + 2 coat  ultima weather proof paint",
       "Brand : Asian/Berger/Dulux",
     ],
   },
   {
     title: "ELECTRICAL",
     content: [
-      "Light & power points – as per electrical design",
+      "Light & power points –  unlimited in a good design sense",
       "Geyser points – All bathrooms",
       "AC provision – All room for the house",
       "Conduits – Good quality, hidden in slabs and walls",
-      "Copper wire - Finolex",
+      "Copper wire - Havells – Fire retardant & smokeproof copper wire",
       "External electrification is included",
-      "Switches & Plates – Anchor – Roma make",
-      "A main DB & MCB – IndoAsian / siemens make or equivalent",
+      "Switches & Plates –  LeGrand lyncus/myrius or equivalent (touch screen switch provision only)",
+      "A main DB & MCB –  ABB/Schneider/ Legrand make or equivalent",
+      "One UPS point for the house",
       "Two Electric car charging point - Parking area",
+      "Full-house CCTV provision only",
+      "Provision for home automation is included",
     ],
   },
   {
@@ -169,25 +178,27 @@ const data = [
       "Solar & Geyser Provision",
       "Rain water harvesting facility – Ground water recharge",
       "PVC Overhead Tank – Ganga or Equivalent make of basic price Rs 7.5 per litre",
+      " FRP chamber covers for chambers",
+      " Separate hot & cold water line for sink",
     ],
   },
   {
     title: "FIXTURES",
     content: [
-      "Kitchen sink with accessories : SS – Rs.9000/- per kitchen  (inc sink, Tap, etc)",
-      " CP & Sanitary fixtures such as Wash Basin, WC, Taps and other accessories like bottle trap, gratings etc. : Hindware/Cera/Jaquar – Rs.30,000/- per bathroom attached toilet",
-      "12,000/- for powder room",
+      "Kitchen sink with accessories : SS – Rs.24,000/- per kitchen  (inc sink, Tap, etc)",
+      " CP & Sanitary fixtures such as Wash Basin, WC, Taps and other accessories like bottle trap, gratings etc. : KOHLER/Jaquar – Rs.45,000/- per bathroom attached toilet",
+      "20,000/- for powder room",
       "Electrical fixtures – Not Included",
     ],
   },
   {
     title: "DOORS",
     content: [
-      " Doors – Main Door : Teak Wood frame(6” X 3”)  & shutter including hardware – Rs.32,000/- per door",
-      "Internal Doors : Any wood frame(5” X 3”)  & shutter including cost of hardware – Rs.14,000/- per door",
-      " Internal Door frames & shutters – Painted (only)",
+      " Doors – Main Door,puja door : Teak Wood frame  & shutter including hardware – Rs.70,000/- per door",
+      "Internal Doors : sal wood frame  & shutter including cost of hardware – Rs.22,000/- per door",
+      " Internal Door frames & shutters – Painted/polished",
       " Main, puja Door – Polished with melamine spray finish",
-      " Bathroom, Terrace & Utility Door – Frame & shutter including hardware – Rs.12,000/- per door",
+      " Bathroom, Terrace & Utility Door – Frame & shutter including hardware – Rs.14,000/- per door",
       "Door hardware – Ozone/Europa/Dorma make",
       "Door hinges – SS hinges",
       "Door & Door Frame cost – Inclusive  planing, rebate, transportation etc.",
@@ -196,21 +207,25 @@ const data = [
   {
     title: "WINDOWS",
     content: [
-      " UPVC windows – 5mm clear glass with MS Grills",
-      " Basic price: UPVC window including MS grills – Rs 670/- per Sqft or sal wood frame (5” X 3”) & Honne shutter of 1.2” thickness with clear glass & grill rod",
+      " UPVC windows – 5mm clear toughened glass with MS Grills",
+      " Basic price: UPVC window including MS grills – Rs 900/- per Sqft or sal wood frame (5” X 3”) & Honne shutter of 1.2” thickness with clear glass & grill rod",
     ],
   },
   {
     title: "COMPOUND WALL",
-    content: [" Compound wall is not included in the package"],
+    content: [
+      "  Compound wall – Solid block walls of 4” thickness to suit the elevation (If charged)",
+      " Excavation, Foundation, PCC, Size Stone Masonry with DPC course above SSM, Height of Compound wall – 5’6” Feet",
+      " Compound wall – Plastered & Painted",
+    ],
   },
   {
     title: "FABRICATION",
     content: [
-      "Main Gate: MS Gate – Rs.450/- per Sqft",
-      "External staircase & balcony railing : MS Railing – Rs. 700/ per Rft",
-      " Internal staircase  railing : SS Railing – Rs. 1000/- per Rft",
-      "Utility grill is not included in the package",
+      "Main Gate: MS Gate – Rs.550/- per Sqft",
+      "External staircase & balcony railing : MS Railing – Rs. 800/ per Rft",
+      " Internal staircase  railing : SS Railing – Rs. 1200/- per Rft",
+      "Utility grill is  included in the package",
       " Waterproofing is included for utility & balcony portions",
     ],
   },
@@ -218,7 +233,7 @@ const data = [
   {
     title: "ELEVATION",
     content: [
-      " This proposal includes aesthetically pleasing elevation",
+      " This proposal includes a luxurious elevation",
       " A 3D elevation is presented for client to choose from & design further",
       "Special elevation materials are not included in the package",
     ],
@@ -261,4 +276,4 @@ const data = [
   },
 ];
 
-export default PremiumPackage;
+export default ExclusivePackage;

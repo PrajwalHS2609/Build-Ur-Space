@@ -8,8 +8,7 @@ import {
   AccordionItemButton,
   AccordionItemPanel,
 } from "react-accessible-accordion";
-
-const PremiumPackage = () => {
+const ClassicPackage = () => {
   let [toggle, setToggle] = useState(false);
   let handleExpand = (e) => {
     e.stopPropagation();
@@ -66,7 +65,6 @@ const data = [
       "Working drawing for all works",
       "Schedule of Openings",
       "Section and Elevation",
-      " A detailed portfolio of the home post-handover.",
     ],
   },
   {
@@ -106,11 +104,11 @@ const data = [
     title: "CIVIL CONSTRUCTION",
     content: [
       "Floor to floor height – 10'6",
-      "Steel (550 TMT Bars) –  prime gold, Jindal Equivalents",
+      "Steel (500 TMT Bars) – Kamadhenu, prime gold, Jindal Equivalents",
       "Cement (Grade 43 or 53 as needed) – UltraTech/Dalmia",
-      " UG Sump built with solid blocks of 8” thickness & waterproof plastered 10,000 lts",
+      " UG Sump built with solid blocks of 8” thickness & waterproof plastered 8000 lts",
       "Concrete – M25 grade RMC",
-      "Hydraulic pressed solid Block walls – 6” & 4” thickness",
+      "Standard solid Block walls – 6” & 4” thickness",
       " Internal, external and toilet wall – column joints plastering  with chicken mesh",
       "Waterproofing compound – Dr.Fixit/FOSROC for external walls",
       "Cement based waterproofing",
@@ -122,17 +120,17 @@ const data = [
   {
     title: "FLOORING & WALL TILING",
     content: [
-      "Living, Foyer: Marble finished Vitrified tiles – Rs.95/-per Sqft",
-      "Kitchen, Dining & Bedrooms : Vitrified tiles – Rs.80/-per Sqft",
-      "Balcony, Sit-out, Passage Areas : Anti-skid tiles – Rs.60/-per Sqft",
-      "Toilet Flooring : Anti-skid tiles – Rs.60/- per Sqft",
-      "Toilet Wall Dado (7ft height) : Highlighting Tiles – Rs.65/- per Sqft",
-      "Kitchen counter top : Granite – Rs.160/- per Sqft",
-      "Kitchen Wall Dado (Up to 2’ above counter) : Backsplash tiles – Rs.75/- per Sqft",
-      " Staircase: Granite – Rs.110/- per Sqft",
-      " Parking Area: Parking tiles – Rs.75/- per Sqft",
-      "Puja Room -  Wall tiling – Rs.60/- per Sqft",
-      "Puja Room -  Granite slab- Rs-125/- per Sqft",
+      "Living, Foyer: Marble finished Vitrified tiles – Rs.80/-per Sqft",
+      "Kitchen, Dining & Bedrooms : Vitrified tiles – Rs.70/-per Sqft",
+      "Balcony, Sit-out, Passage Areas : Anti-skid tiles – Rs.50/-per Sqft",
+      "Toilet Flooring : Anti-skid tiles – Rs.50/- per Sqft",
+      "Toilet Wall Dado (7ft height) : Highlighting Tiles – Rs.55/- per Sqft",
+      "Kitchen counter top : Granite – Rs.130/- per Sqft",
+      "Kitchen Wall Dado (Up to 2’ above counter) : Backsplash tiles – Rs.65/- per Sqft",
+      " Staircase: Granite – Rs.95/- per Sqft",
+      " Parking Area: Parking tiles – Rs.45/- per Sqft",
+      "Puja Room -  Wall tiling – Rs.45/- per Sqft",
+      "Puja Room -  Granite slab- Rs-115/- per Sqft",
       "No setback tiles",
       // "2 X 2  tile size maximum ",
     ],
@@ -141,7 +139,7 @@ const data = [
     title: "PAINTING",
     content: [
       "Internal wall & ceiling : 2 coat wall putty + 1 coat primer coat + 2 coat latest Tractor emulsion paint  or equivalent",
-      "External walls : 1 coat primer + 2 coat Apex weather proof paint",
+      "External walls : 1 coat primer + 2 coat ace weather proof paint",
       "Brand : Asian/Berger/Dulux",
     ],
   },
@@ -150,13 +148,13 @@ const data = [
     content: [
       "Light & power points – as per electrical design",
       "Geyser points – All bathrooms",
-      "AC provision – All room for the house",
+      "AC provision – Any 2 room for the house",
       "Conduits – Good quality, hidden in slabs and walls",
-      "Copper wire - Finolex",
+      "Copper wire –Anchor",
       "External electrification is included",
       "Switches & Plates – Anchor – Roma make",
-      "A main DB & MCB – IndoAsian / siemens make or equivalent",
-      "Two Electric car charging point - Parking area",
+      "A main DB & MCB – IndoAsian make",
+      "One Electric car charging point - Parking area",
     ],
   },
   {
@@ -168,36 +166,36 @@ const data = [
       "Class B CPVC pipes – Astral/Supreme make",
       "Solar & Geyser Provision",
       "Rain water harvesting facility – Ground water recharge",
-      "PVC Overhead Tank – Ganga or Equivalent make of basic price Rs 7.5 per litre",
+      "PVC Overhead Tank – Ganga or Equivalent make of basic price Rs 7 per litre",
     ],
   },
   {
     title: "FIXTURES",
     content: [
-      "Kitchen sink with accessories : SS – Rs.9000/- per kitchen  (inc sink, Tap, etc)",
-      " CP & Sanitary fixtures such as Wash Basin, WC, Taps and other accessories like bottle trap, gratings etc. : Hindware/Cera/Jaquar – Rs.30,000/- per bathroom attached toilet",
-      "12,000/- for powder room",
+      "Kitchen sink with accessories : SS – Rs.5500/- per kitchen  (inc sink, Tap, etc)",
+      " CP & Sanitary fixtures such as Wash Basin, WC, Taps and other accessories like bottle trap, gratings etc. : Hindware/Cera – Rs.25,000/- per bathroom attached toilet",
+      "10,000/- for powder room",
       "Electrical fixtures – Not Included",
     ],
   },
   {
     title: "DOORS",
     content: [
-      " Doors – Main Door : Teak Wood frame(6” X 3”)  & shutter including hardware – Rs.32,000/- per door",
-      "Internal Doors : Any wood frame(5” X 3”)  & shutter including cost of hardware – Rs.14,000/- per door",
+      " Doors – Main Door : Teak Wood frame(5” X 3”)  & shutter including hardware – Rs.25,000/- per door",
+      "Internal Doors : Any wood frame(4” X 2.5”)  & shutter including cost of hardware – Rs.11,000/- per door",
       " Internal Door frames & shutters – Painted (only)",
-      " Main, puja Door – Polished with melamine spray finish",
-      " Bathroom, Terrace & Utility Door – Frame & shutter including hardware – Rs.12,000/- per door",
+      " Main Door – Polished",
+      " Bathroom, Terrace & Utility Door – Frame & shutter including hardware – Rs.9,000/- per door",
       "Door hardware – Ozone/Europa/Dorma make",
       "Door hinges – SS hinges",
-      "Door & Door Frame cost – Inclusive  planing, rebate, transportation etc.",
+      "Door & Door Frame cost – Inclusive of planing, rebate, transportation etc.",
     ],
   },
   {
     title: "WINDOWS",
     content: [
       " UPVC windows – 5mm clear glass with MS Grills",
-      " Basic price: UPVC window including MS grills – Rs 670/- per Sqft or sal wood frame (5” X 3”) & Honne shutter of 1.2” thickness with clear glass & grill rod",
+      " Basic price : UPVC window including MS grills – Rs 550/- per Sqft",
     ],
   },
   {
@@ -207,19 +205,18 @@ const data = [
   {
     title: "FABRICATION",
     content: [
-      "Main Gate: MS Gate – Rs.450/- per Sqft",
-      "External staircase & balcony railing : MS Railing – Rs. 700/ per Rft",
-      " Internal staircase  railing : SS Railing – Rs. 1000/- per Rft",
+      "Main Gate: MS Gate – Rs.400/- per Sqft",
+      "External staircase & balcony railing : MS Railing – Rs. 600/ per Rft",
+      " Internal staircase  railing : SS Railing – Rs. 900/- per Rft",
       "Utility grill is not included in the package",
-      " Waterproofing is included for utility & balcony portions",
     ],
   },
 
   {
     title: "ELEVATION",
     content: [
-      " This proposal includes aesthetically pleasing elevation",
-      " A 3D elevation is presented for client to choose from & design further",
+      "This proposal includes a basic elevation design for your home",
+      " Only Plastering based elevation is included",
       "Special elevation materials are not included in the package",
     ],
   },
@@ -261,4 +258,4 @@ const data = [
   },
 ];
 
-export default PremiumPackage;
+export default ClassicPackage;

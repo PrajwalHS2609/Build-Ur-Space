@@ -8,20 +8,19 @@ import Footer from "../Footer/Footer";
 import Package from "../PackagePage/Package";
 import Portfolio from "../Portfolio/Portfolio";
 import ConstructionHead from "./ConstructionHead";
+import PackageMain from "../PackagePage/PackageMain";
 
 const Construction = () => {
   return (
     <div>
       <ConstructionHead />
       <Portfolio/>
-      <Package />
+<PackageMain/>
       <HomeAppPage/>
       <HomeWhy/>
       <Testimonial/>
       <Partners/>
-      <HomeHeader/>
       <Footer/>
- 
     </div>
   );
 };

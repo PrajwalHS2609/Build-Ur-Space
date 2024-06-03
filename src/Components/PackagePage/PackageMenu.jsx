@@ -5,19 +5,29 @@ const PackageMenu = () => {
   return (
     <div className="packageMenuContainer">
       <PackageMenuCard
-        head2="Essentials"
-        head1="Rs 1620/*- Sq Ft"
+        head2="STANDARD"
+        head1="Rs 1850/*- Sq Ft"
         link="/packages/product-package1"
       />
       <PackageMenuCard
-        head2="Premium"
-        head1="Rs 1770/*- Sq Ft"
+        head2="CLASSIC"
+        head1="Rs 1999/*- Sq Ft"
         link="/packages/product-package2"
       />
-          <PackageMenuCard
-        head2="Luxury"
-        head1="Rs 2235/*- Sq Ft"
+      <PackageMenuCard
+        head2="PREMIUM"
+        head1="Rs 2099/*- Sq Ft"
         link="/packages/product-package3"
+      />
+      <PackageMenuCard
+        head2="ELITE"
+        head1="Rs 2249/*- Sq Ft"
+        link="/packages/product-package4"
+      />
+      <PackageMenuCard
+        head2="EXCLUSIVE"
+        head1="Rs 2499/*- Sq Ft"
+        link="/packages/product-package5"
       />
     </div>
   );
