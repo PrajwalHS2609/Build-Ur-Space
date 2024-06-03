@@ -107,13 +107,13 @@ const InteriorTypesMain = () => {
             para="TurnKey interior solutions for you home"
           />
         </div>
-        <div className="interiorTypeMainContent">
+        {/* <div className="interiorTypeMainContent">
           <InteriorTypesCard
             img="https://images.livspace-cdn.com/w:320/h:234/dpr:1/plain/https://d3gq2merok8n5r.cloudfront.net/bumblebee/in/unification-home-1663681501-pVo75/desktop-1663681517-hulYi/offerings-interiors-1682066909-GMFDK/vinviago-desk-1692618545-ToZjR.jpg"
             head="Luxury Interiors"
             para="Tailored interiors that redefined elegance"
           />
-        </div>
+        </div> */}
         <div className="interiorTypeMainContent">
           <InteriorTypesCard
             img="https://images.livspace-cdn.com/w:320/h:234/dpr:1/plain/https://d3gq2merok8n5r.cloudfront.net/bumblebee/in/unification-home-1663681501-pVo75/desktop-1663681517-hulYi/offerings-interiors-1682066909-GMFDK/reno-1682066988-lqJkS.jpg"
