@@ -80,7 +80,7 @@
 @media screen and (min-width: 320px) {
   .whatContainer {
     /* border: solid red; */
-    width: 100%;
+    width: 100%;height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -131,7 +131,7 @@
     align-items: center;
   }
   .whatImgContainer {
-    /* border: solid green; */
+    border: solid var(--customWhite);
     width: 100%;
     height: 40%;
     display: flex;
@@ -140,7 +140,7 @@
     background-color: #fff6f4;
   }
   .whatImgContainer > img {
-    width: 80%;
+    width: 100%;
     height: 90%;
     object-fit: contain;
   }

@@ -5,16 +5,22 @@ import Testimonial from "../HomePage/Testimonial/Testimonial";
 import Partners from "../HomePage/Partners/Partners";
 import HomeHeader from "../HomePage/HomeHeader/HomeHeader";
 import Footer from "../Footer/Footer";
-
 import Package from "../PackagePage/Package";
 import Portfolio from "../Portfolio/Portfolio";
+import ConstructionHead from "./ConstructionHead";
 
 const Construction = () => {
   return (
     <div>
-      <HomeHeader />
+      <ConstructionHead />
       <Portfolio/>
       <Package />
+      <HomeAppPage/>
+      <HomeWhy/>
+      <Testimonial/>
+      <Partners/>
+      <HomeHeader/>
+      <Footer/>
  
     </div>
   );

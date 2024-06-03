@@ -3,12 +3,12 @@ import "./HomeWhy.css";
 import HomeWhyCard from "./HomeWhyCard";
 import icon1 from "../../../Images/Customer_Centric.png";
 import icon2 from "../../../Images/puzzle.png";
-import icon3 from "../../../Images/calendar.png"
+import icon3 from "../../../Images/calendar.png";
 import icon4 from "../../../Images/Superior_Quality_Check.png";
 import icon5 from "../../../Images/No_hidden_cost.png";
 import icon6 from "../../../Images/Sqft.png";
 import icon7 from "../../../Images/10_years.png";
-import icon8 from "../../../Images/No_Sub_Contract.png"
+import icon8 from "../../../Images/No_Sub_Contract.png";
 const HomeWhyMain = () => {
   return (
     <div className="homeWhyMainContainer">
@@ -36,7 +36,7 @@ const HomeWhyMain = () => {
       />
       <HomeWhyCard
         img={icon7}
-        para="10 years warranty*,
+        para="10 years warranty* ,
  1-year service warranty"
       />
       <HomeWhyCard img={icon8} para="No sub-contracting" />
