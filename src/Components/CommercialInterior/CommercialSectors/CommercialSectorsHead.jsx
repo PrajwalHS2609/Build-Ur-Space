@@ -5,9 +5,16 @@ const CommercialSectorsHead = () => {
   return (
     <div className="commercialHeadContainer">
       <div className="commercialHeadContent">
-        <h1>Redefining commercial interiors across sectors</h1>
+        <h1>
+          Redefining <span>Commercial Interiors</span> across sectors
+        </h1>
       </div>
-      <div className="commercialParaContent"><p>We bring a fresh perspective to commercial interiors with a clear focus on creating aesthetic, functional and future-ready spaces.</p></div>
+      <div className="commercialParaContent">
+        <p>
+          We bring a fresh perspective to commercial interiors with a clear
+          focus on creating aesthetic, functional and future-ready spaces.
+        </p>
+      </div>
     </div>
   );
 };

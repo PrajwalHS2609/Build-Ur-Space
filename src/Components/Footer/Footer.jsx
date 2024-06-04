@@ -15,7 +15,6 @@ import {
   faInstagram,
   faYoutube,
   faLinkedin,
-
 } from "@fortawesome/free-brands-svg-icons";
 import seo from "./../../Images/TSS.png";
 const Footer = () => {
@@ -36,7 +35,7 @@ const Footer = () => {
                 <Link to={"/home-interior"}>Home Interior</Link>
               </li>
               <li>
-                <Link to={"/"}>Commercial Interior</Link>
+                <Link to={"/commercial-interior"}>Commercial Interior</Link>
               </li>
               <li>
                 <Link to={"/about-us"}>About Us</Link>
@@ -55,7 +54,10 @@ const Footer = () => {
                   icon={faPhone}
                   className="footIcon"
                 ></FontAwesomeIcon>
-                <p> <a href="tel:9742255110">+91 9742255110</a></p>
+                <p>
+                  {" "}
+                  <a href="tel:9742255110">+91 9742255110</a>
+                </p>
               </li>
               <li>
                 <FontAwesomeIcon

@@ -4,8 +4,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import InteriorTypesCard from "./InteriorTypesCard";
-import right from "./../../../Images/right.png";
-import left from "./../../../Images/left.png";
+// import right from "./../../../Images/right.png";
+// import left from "./../../../Images/left.png";
 const InteriorTypesMain = () => {
   function SampleNextArrow(props) {
     const { className, style, onClick } = props;
@@ -20,7 +20,7 @@ const InteriorTypesMain = () => {
           textAlign: "center",
           background: "transparent",
           borderRadius: "100%",
-          backgroundImage: `url(${right})`,
+          // backgroundImage: `url(${right})`,
           backgroundRepeat: "no-repeat",
           backgroundPositionY: "10px",
           backgroundSize: "contain",
@@ -45,7 +45,7 @@ const InteriorTypesMain = () => {
           display: "block",
           textAlign: "center",
           background: "transparent",
-          backgroundImage: `url(${left})`,
+          // backgroundImage: `url(${left})`,
           backgroundRepeat: "no-repeat",
           backgroundSize: "contain",
           backgroundPositionY: "10px",

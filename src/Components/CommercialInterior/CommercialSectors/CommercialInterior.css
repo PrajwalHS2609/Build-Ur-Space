@@ -12,7 +12,6 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
   margin-top: 30px;
 }
 .commercialHeadContainer {
@@ -22,6 +21,9 @@
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
+}
+.commercialHeadContent>h1>span{
+  color: var(--customColor);
 }
 .commercialParaContent > p {
   font-size: 20px;
@@ -67,13 +69,228 @@
   bottom: 10px;
   left: 10px;
   display: flex;
-  justify-content: flex-start;padding: 2px;
-  border-top-left-radius:10px ;
-  border-bottom-left-radius:10px ;
-
+  justify-content: flex-start;
+  padding: 2px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
   align-items: center;
   background-color: var(--customColor);
 }
-.commercialCardHead>h2{
-    margin-left: 10px;
+.commercialCardHead > h2 {
+  margin-left: 10px;
+  font-size: 20px;
+}
+@media screen and (min-width: 320px) {
+  .commercialMainContainer {
+    /* border: solid red; */
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .commercialHeadContainer {
+    /* border: solid green; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .commercialMainContent {
+    /* border: solid; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  .commercialCardContainer {
+    /* border: solid red; */
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    margin-top: 20px;
+  }
+  .commercialCardImg {
+    /* border: solid blue; */
+    height: 100%;
+    width: 120%;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+  }
+  .commercialCardImg > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .commercialMainContainer {
+    /* border: solid red; */
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .commercialHeadContainer {
+    /* border: solid green; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .commercialMainContent {
+    /* border: solid; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  .commercialCardContainer {
+    /* border: solid red; */
+    height: 40vh;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    margin-top: 10px;
+  }
+  .commercialCardImg {
+    /* border: solid blue; */
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+  }
+  .commercialCardImg > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (min-width:990px){
+  .commercialMainContainer {
+    /* border: solid red; */
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .commercialHeadContainer {
+    /* border: solid green; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .commercialMainContent {
+    /* border: solid; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  .commercialCardContainer {
+    /* border: solid red; */
+    height: 40vh;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    margin-top: 10px;
+  }
+  .commercialCardImg {
+    /* border: solid blue; */
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+  }
+  .commercialCardImg > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+}
+@media screen and (min-width:1200px){
+  .commercialMainContainer {
+    /* border: solid red; */
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .commercialHeadContainer {
+    /* border: solid green; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .commercialMainContent {
+    /* border: solid; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  .commercialCardContainer {
+    /* border: solid red; */
+    height: 40vh;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    margin-top: 10px;
+  }
+  .commercialCardImg {
+    /* border: solid blue; */
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+  }
+  .commercialCardImg > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
 }
