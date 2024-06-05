@@ -14,19 +14,19 @@ const ContactsMain = () => {
           <br />
           <ul>
             <li>
-              <p>Do You have any general question for construction?</p>
+              <p>Do you have any general questions about construction?</p>
             </li>
             <li>
-              <p>Do you have any upcoming project I’d like to discuss?</p>
+              <p>Do you have an upcoming project you'd like to discuss?</p>
             </li>
             <li>
               <p>
-                Are you a Subcontractor and I’d love to partner with <span>Build Ur Space</span>?
+                Are you a subcontractor interested in partnering with <span>Build Ur Space</span>?
               </p>
             </li>
             <li>
               <p>
-                Are you enquiring about careers at <span>Build Ur Space</span>?
+                Are you inquiring about career opportunities at <span>Build Ur Space</span>?
               </p>
             </li>
           </ul>
@@ -69,6 +69,5 @@ const ContactsMain = () => {
     </div>
   );
 };
-
 
 export default ContactsMain;
