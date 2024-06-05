@@ -7,7 +7,14 @@ const PackageMenuCard = (props) => {
   const { packageRef1 } = useSectionRefs();
 
   const scrollToSection = (sectionRef) => {
-    sectionRef.current.scrollIntoView({ behavior: "smooth" });
+    if (sectionRef.current) {
+      window.scrollTo({
+        top: sectionRef.current.offsetTop,
+        behavior: "smooth",
+      });
+    } else {
+      console.log("Section Ref is null:", sectionRef);
+    }
   };
   return (
     <div

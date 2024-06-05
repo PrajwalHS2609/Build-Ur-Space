@@ -12,22 +12,22 @@ const PackageMenu = () => {
       <PackageMenuCard
         head2="CLASSIC"
         head1="Rs 1999/*- Sq Ft"
-        link="/packages/product-package2"
+        link="/packages/product-package1"
       />
       <PackageMenuCard
         head2="PREMIUM"
         head1="Rs 2099/*- Sq Ft"
-        link="/packages/product-package3"
+        link="/packages/product-package1"
       />
       <PackageMenuCard
         head2="ELITE"
         head1="Rs 2249/*- Sq Ft"
-        link="/packages/product-package4"
+        link="/packages/product-package1"
       />
       <PackageMenuCard
         head2="EXCLUSIVE"
         head1="Rs 2499/*- Sq Ft"
-        link="/packages/product-package5"
+        link="/packages/product-package1"
       />
     </div>
   );
