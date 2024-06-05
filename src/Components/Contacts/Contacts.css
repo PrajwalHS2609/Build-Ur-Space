@@ -39,6 +39,7 @@
   /* border: solid; */
   width: 80%;
   background-color: var(--customWhite);
+  padding: 10px;
 }
 .contactMainItem1 > h1 > span {
   color: var(--customColor);
@@ -51,7 +52,7 @@
   font-size: 20px;
   color: black;
 }
-.contactMainItem1 > ul > li > p >span{
+.contactMainItem1 > ul > li > p > span {
   color: var(--customColor);
 }
 .contactMainItem2 {
@@ -200,14 +201,14 @@
     margin-top: 30px;
   }
   .contactHead {
-    width:90%;
+    width: 90%;
     /* border: solid; */
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
   }
-  .contactHead>h1{
+  .contactHead > h1 {
     font-size: 25px;
   }
   .contactMainItem1 {
@@ -215,12 +216,13 @@
     width: 100%;
     background-color: var(--customWhite);
   }
-  .contactMainItem1>h1{
+  .contactMainItem1 > h1 {
     text-align: center;
   }
   .contactMainItem1 > ul > li {
     font-size: 15px;
-    color: var(--customColor);margin-left: 20px;
+    color: var(--customColor);
+    margin-left: 20px;
   }
   .contactMainContainer {
     /* border: solid blue; */
