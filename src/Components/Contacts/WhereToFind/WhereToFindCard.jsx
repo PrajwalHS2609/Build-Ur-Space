@@ -9,10 +9,10 @@ const WhereToFindCard = (props) => {
       </div>
       <div className="whereContentCard2">
         <h2>
-          Sri Harsha <span> Build Ur Space</span> {props.head}:
+         <span> Build Ur Space</span> {props.head}:
         </h2>
         <p>
-          Sri Harsha <span>Build Ur Space</span>: {props.para}
+         <span>Build Ur Space</span>: {props.para}
         </p>
       </div>
     </div>

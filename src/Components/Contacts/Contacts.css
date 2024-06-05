@@ -51,6 +51,9 @@
   font-size: 20px;
   color: black;
 }
+.contactMainItem1 > ul > li > p >span{
+  color: var(--customColor);
+}
 .contactMainItem2 {
   /* border: solid yellowgreen; */
   display: flex;

@@ -21,12 +21,12 @@ const ContactsMain = () => {
             </li>
             <li>
               <p>
-                Are you a Subcontractor and I’d love to partner with buildAhome?
+                Are you a Subcontractor and I’d love to partner with <span>Build Ur Space</span>?
               </p>
             </li>
             <li>
               <p>
-                Are you enquiring about <span>careers</span> at buildAhome?
+                Are you enquiring about careers at <span>Build Ur Space</span>?
               </p>
             </li>
           </ul>
