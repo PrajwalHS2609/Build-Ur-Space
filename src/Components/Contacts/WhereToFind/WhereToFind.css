@@ -33,17 +33,16 @@
   gap: 30px;
   width: 100%;
 }
-.whereContainerCard {
-  /* border: solid; */
-}
+
 .whereContainerCard {
   /* border: solid blue; */
-  width: 70%;
+  width: 40%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
+  margin: 20px;
 }
 .whereContentCard1 {
   /* border: solid green; */
@@ -53,7 +52,7 @@
   /* border: solid brown; */
   width: 100%;
 }
-.whereContentCard2 > h1 > span {
+.whereContentCard2 > h2 > span {
   color: var(--customColor);
 }
 .whereContentCard2 > p {
