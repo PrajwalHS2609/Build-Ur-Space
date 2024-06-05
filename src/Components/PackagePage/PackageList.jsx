@@ -5,10 +5,13 @@ import StandardPackage from "./StandardPackage";
 import ClassicPackage from "./ClassicPackage";
 import ElitePackage from "./ElitePackage";
 import ExclusivePackage from "./ExclusivePackage";
+import { useSectionRefs } from "./PackageContext";
 
 const PackageList = () => {
+  let { packageRef1 } = useSectionRefs();
+
   return (
-    <div className="packageListContainer">
+    <div className="packageListContainer" ref={packageRef1}>
       <PackageListCard
         head1="STANDARD"
         head2="Rs. 1850/*-Sq Ft"
