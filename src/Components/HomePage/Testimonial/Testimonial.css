@@ -1,6 +1,7 @@
 .testiContainer {
   /* border: solid; */
-  width: 100%;height: 60vh;
+  width: 100%;
+  height: 60vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,4 +34,12 @@
   font-weight: bold;
   text-align: center;
   color: var(--customColor);
+}
+@media screen and (min-width: 320px) and (max-width: 600px) {
+
+  .testiHeadContainer > h1 {
+    /* border: solid; */
+    width: 100%;
+    font-size: 25px;
+  }
 }

@@ -70,7 +70,7 @@
 
 @media screen and (min-width: 320px) and (max-width: 600px) {
   .whereContainer {
-    /* border: solid; */
+      /* border: solid; */
     width: 100%;
     margin-top: 30px;
     display: flex;
@@ -89,16 +89,14 @@
   .whereMapContainer {
     /* border: solid; */
     display: flex;
-    justify-content: space-evenly;
+    justify-content:center;
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
     gap: 40px;
     width: 100%;
   }
-  .whereContainerCard {
-    /* border: solid; */
-  }
+
   .whereContainerCard {
     /* border: solid blue; */
     width: 100%;
@@ -106,7 +104,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: wrap;margin: 0;
   }
 
   .whereContentCard1 {
@@ -116,5 +114,8 @@
   .whereContentCard2 {
     /* border: solid brown; */
     width: 90%;
+  }
+  .whereMap {
+    width: 100%;
   }
 }

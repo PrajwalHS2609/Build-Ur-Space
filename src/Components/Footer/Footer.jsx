@@ -25,7 +25,7 @@ const Footer = () => {
           <div className="footerContent" id="BioFooter">
             <BioFooter />
           </div>
-          <div className="footerContent">
+          <div className="footerContent" id="footerContent1">
             <ul>
               <h2>Our Services</h2>
               <li>
@@ -55,7 +55,6 @@ const Footer = () => {
                   className="footIcon"
                 ></FontAwesomeIcon>
                 <p>
-                  {" "}
                   <a href="tel:9742255110">+91 9742255110</a>
                 </p>
               </li>

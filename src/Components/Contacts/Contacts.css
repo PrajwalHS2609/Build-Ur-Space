@@ -200,12 +200,27 @@
     margin-top: 30px;
   }
   .contactHead {
-    width: 80%;
+    width:90%;
     /* border: solid; */
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
+  }
+  .contactHead>h1{
+    font-size: 25px;
+  }
+  .contactMainItem1 {
+    /* border: solid; */
+    width: 100%;
+    background-color: var(--customWhite);
+  }
+  .contactMainItem1>h1{
+    text-align: center;
+  }
+  .contactMainItem1 > ul > li {
+    font-size: 15px;
+    color: var(--customColor);margin-left: 20px;
   }
   .contactMainContainer {
     /* border: solid blue; */
