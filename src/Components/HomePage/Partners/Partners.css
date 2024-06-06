@@ -24,15 +24,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
-.partnerMainContent {
-  /* border: solid blue; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
+
+.brandIcons {
+  /* border: solid; */
+  margin: 20px;
 }
-.partnerMainContent > img {
-  margin: 50px;
-  object-fit: contain;
+
+@media screen and (min-width:320px) {
+  .partnerMainContainer {
+    /* border: solid green; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
 }

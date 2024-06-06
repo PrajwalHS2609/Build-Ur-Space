@@ -59,12 +59,19 @@
   align-items: center;
   flex-direction: row;
 }
+.navBarItem2 > li {
+  /* border: solid red; */
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .navBarItem2 > li > a {
   font-size: 20px;
   color: var(--customColor);
   list-style: none;
 }
-.navBarItem2 > li > a:hover{
+.navBarItem2 > li > a:hover {
   text-decoration: underline;
 }
 .mainMenu {
