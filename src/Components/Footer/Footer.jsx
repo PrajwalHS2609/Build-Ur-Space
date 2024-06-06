@@ -85,49 +85,49 @@ const Footer = () => {
             </ul>
           </div>
           <div className="footerContent" id="socialFooter">
-            <ul>
-              <h2>Social Media</h2>
-              <li>
+            <h2>Social Media</h2>
+            <div className="socialListContainer">
+              <div className="socialList">
                 <a href="">
                   <FontAwesomeIcon
                     icon={faXTwitter}
                     className="socialIcon"
                   ></FontAwesomeIcon>
                 </a>
-              </li>
-              <li>
+              </div>
+              <div className="socialList">
                 <a href="">
                   <FontAwesomeIcon
                     icon={faInstagram}
                     className="socialIcon"
                   ></FontAwesomeIcon>
                 </a>
-              </li>
-              <li>
+              </div>
+              <div className="socialList">
                 <a href="">
                   <FontAwesomeIcon
                     icon={faFacebook}
                     className="socialIcon"
                   ></FontAwesomeIcon>
                 </a>
-              </li>
-              <li>
+              </div>
+              <div className="socialList">
                 <a href="">
                   <FontAwesomeIcon
                     icon={faYoutube}
                     className="socialIcon"
                   ></FontAwesomeIcon>
                 </a>
-              </li>
-              <li>
+              </div>
+              <div className="socialList">
                 <a href="">
                   <FontAwesomeIcon
                     icon={faLinkedin}
                     className="socialIcon"
                   ></FontAwesomeIcon>
                 </a>
-              </li>
-            </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
