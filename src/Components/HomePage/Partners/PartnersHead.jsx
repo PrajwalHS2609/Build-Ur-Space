@@ -4,7 +4,7 @@ const PartnersHead = () => {
   return (
     <div className="partnerHeadContainer">
       <h1>
-        OUR <span>PARTNERS</span>
+        <span> BRAND</span> WE USE
       </h1>
     </div>
   );

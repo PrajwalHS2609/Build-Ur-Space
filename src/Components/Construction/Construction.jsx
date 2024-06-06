@@ -9,18 +9,20 @@ import Package from "../PackagePage/Package";
 import Portfolio from "../Portfolio/Portfolio";
 import ConstructionHead from "./ConstructionHead";
 import PackageMain from "../PackagePage/PackageMain";
+import BrandWeUse from "../HomePage/BrandWeUse/BrandWeUse";
 
 const Construction = () => {
   return (
     <div>
       <ConstructionHead />
-      <Portfolio/>
-<PackageMain/>
-      <HomeAppPage/>
-      <HomeWhy/>
-      <Testimonial/>
-      <Partners/>
-      <Footer/>
+      <Portfolio />
+      <PackageMain />
+      <BrandWeUse/>
+      <HomeAppPage />
+      <HomeWhy />
+      <Testimonial />
+      <Partners />
+      <Footer />
     </div>
   );
 };
