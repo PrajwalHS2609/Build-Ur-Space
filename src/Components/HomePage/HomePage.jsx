@@ -19,8 +19,8 @@ const HomePage = () => {
       <HomeHeader />
       <HomeWelcome />
       <HomeServices />
-      <HomeWhat />
       <BrandWeUse/>
+      <HomeWhat />
       <OurProcess />
       <HomeAppPage />
       <HomeAbout />

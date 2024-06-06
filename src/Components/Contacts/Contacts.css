@@ -81,6 +81,12 @@
   align-items: center;
   gap: 20px;
 }
+.contactMail > p > a {
+  margin: 0;
+}
+.contactMail > p > a:hover {
+  color: var(--customColor);
+}
 .contactPhone {
   /* border: solid; */
   display: flex;
@@ -90,6 +96,13 @@
 }
 .contactIcon {
   font-size: 30px;
+}
+.contactPhoneNo > p > a {
+  /* border: solid teal; */
+  margin: 0;
+}
+.contactPhoneNo > p > a:hover {
+  color: var(--customColor);
 }
 .contactFormContainer {
   /* border: solid red; */
@@ -698,9 +711,11 @@
     align-items: center;
     gap: 20px;
   }
+
   .contactIcon {
     font-size: 30px;
   }
+
   .contactFormContainer {
     /* border: solid red; */
     height: 100%;

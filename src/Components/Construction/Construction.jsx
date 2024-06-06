@@ -3,21 +3,19 @@ import HomeAppPage from "../HomePage/HomeAppPage/HomeAppPage";
 import HomeWhy from "../HomePage/HomeWhy/HomeWhy";
 import Testimonial from "../HomePage/Testimonial/Testimonial";
 import Partners from "../HomePage/Partners/Partners";
-import HomeHeader from "../HomePage/HomeHeader/HomeHeader";
 import Footer from "../Footer/Footer";
-import Package from "../PackagePage/Package";
 import Portfolio from "../Portfolio/Portfolio";
 import ConstructionHead from "./ConstructionHead";
-import PackageMain from "../PackagePage/PackageMain";
 import BrandWeUse from "../HomePage/BrandWeUse/BrandWeUse";
+import PackageConstruction from "./PackageConstruction";
 
 const Construction = () => {
   return (
     <div>
       <ConstructionHead />
       <Portfolio />
-      <PackageMain />
-      <BrandWeUse/>
+      <PackageConstruction />
+      <BrandWeUse />
       <HomeAppPage />
       <HomeWhy />
       <Testimonial />

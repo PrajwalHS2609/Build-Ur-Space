@@ -21,12 +21,14 @@ const ContactsMain = () => {
             </li>
             <li>
               <p>
-                Are you a subcontractor interested in partnering with <span>Build Ur Space</span>?
+                Are you a subcontractor interested in partnering with{" "}
+                <span>Build Ur Space</span>?
               </p>
             </li>
             <li>
               <p>
-                Are you inquiring about career opportunities at <span>Build Ur Space</span>?
+                Are you inquiring about career opportunities at{" "}
+                <span>Build Ur Space</span>?
               </p>
             </li>
           </ul>
@@ -45,7 +47,11 @@ const ContactsMain = () => {
               </div>
               <div className="contactMail">
                 <h3>Mail us at</h3>
-                <p>hello@buildurspace.com</p>
+                <p>
+                  <a href="mailto:hello@buildurspace.com">
+                    hello@buildurspace.com
+                  </a>
+                </p>
               </div>
             </div>
             <div className="contactPhone">
@@ -57,7 +63,9 @@ const ContactsMain = () => {
               </div>
               <div className="contactPhoneNo">
                 <h3>Call Us</h3>
-                <p>+91 9742255110</p>
+                <p>
+                  <a href="tel:9742255110">+91 9742255110</a>
+                </p>
               </div>
             </div>
           </div>

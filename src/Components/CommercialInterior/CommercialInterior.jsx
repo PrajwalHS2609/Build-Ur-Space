@@ -6,9 +6,11 @@ import Testimonial from "../HomePage/Testimonial/Testimonial";
 import Partners from "../HomePage/Partners/Partners";
 import Footer from "../Footer/Footer";
 import InteriorWhy from './../Interior/InteriorWhy/InteriorWhy';
+import InteriorHead from './../Interior/InteriorHead/InteriorHead';
 const CommercialInterior = () => {
   return (
     <div className="CommercialInteriorContainer">
+      <InteriorHead/>
       <CommercialSectorsMain />
       <HomeAppPage />
       <InteriorWhy />
