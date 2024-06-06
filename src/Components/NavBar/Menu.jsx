@@ -26,18 +26,26 @@ const Menu = () => {
       <div className="navBarItem1">
         <div className="navInnerItem" id="navInnerItem1">
           <FontAwesomeIcon icon={faPhone} className="navIcon"></FontAwesomeIcon>
-          <p>+91 9742255110</p>
+          <p>
+            <a href="tel:9742255110">+91 9742255110</a>
+          </p>
         </div>
         <div className="navInnerItem" id="navInnerItem2">
           <FontAwesomeIcon
             icon={faLocationDot}
             className="navIcon"
           ></FontAwesomeIcon>
-          <p className="navPara">Bangalore</p>
+          <p className="navPara">
+            <Link to={"/contact-us"}>Bangalore</Link>
+          </p>
           <div className="navLine"></div>
-          <p>Chitradurga</p>
+          <p>
+            <Link to={"/contact-us"}>Chitradurga</Link>
+          </p>
           <div className="navLine"></div>
-          <p>Bellary</p>
+          <p>
+            <Link to={"/contact-us"}>Bellary</Link>
+          </p>
         </div>
       </div>
       <div className="navBarItem2">

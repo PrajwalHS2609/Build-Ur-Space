@@ -50,7 +50,10 @@
   border: 1px solid white;
   height: 80%;
 }
-
+.navInnerItem > p>a {
+  margin: 0;
+  color: white;
+}
 .navBarItem2 {
   /* border: solid green; */
   height: 60%;
