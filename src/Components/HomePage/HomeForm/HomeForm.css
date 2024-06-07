@@ -193,6 +193,7 @@
     background-color: rgb(223, 223, 223);
   }
 }
+
 @media screen and (min-width: 768px) {
   .homeFormContainer {
     /* border: solid green; */
@@ -308,17 +309,19 @@
 @media screen and (min-width: 1200px) {
   .homeFormContainer {
     /* border: solid green; */
-    width: 400px;
-    height: 80%;
+    width: 30%;
+    height: 100%;
     backdrop-filter: blur(10px);
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     flex-direction: column;
     margin-top: 0px;
     position: absolute;
     right: 10px;
+    padding: 40px;
   }
 
   .homeFormContainer > form {
@@ -352,7 +355,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 50px;
+    gap: 40px;
   }
   .homeFormContainer > form > fieldset > table > tr {
     /* border: solid purple; */

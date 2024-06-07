@@ -6,7 +6,6 @@ import {
   faStairs,
   faArrowsUpDownLeftRight,
   faTags,
-  faArrowLeft,
 } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 const PortfolioCard = (props) => {
