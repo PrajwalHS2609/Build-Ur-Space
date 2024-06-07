@@ -42,49 +42,52 @@ import green from "./../../../Images/Greenlam - 1.png";
 import merino from "./../../../Images/Merino - 1.png";
 import "./Partners.css";
 import BrandLogo from "./BrandLogo";
+import Marquee from "react-fast-marquee";
 
 const PartnersMain = () => {
   return (
     <div className="partnerMainContainer">
-      <BrandLogo logo={tataSteel} />
-      <BrandLogo logo={jindal} />
-      <BrandLogo logo={sail} />
-      <BrandLogo logo={primeGold} />
-      <BrandLogo logo={kamadhenu} />
-      <BrandLogo logo={dalmia} />
-      <BrandLogo logo={birla} />
-      <BrandLogo logo={acc} />
-      <BrandLogo logo={ultratec} />
-      <BrandLogo logo={johnson} />
-      <BrandLogo logo={somany} />
-      <BrandLogo logo={dulux} />
-      <BrandLogo logo={berger} />
-      <BrandLogo logo={asian} />
-      <BrandLogo logo={jaguar} />
-      <BrandLogo logo={ashirvad} />
-      <BrandLogo logo={supreme} />
-      <BrandLogo logo={astral} />
-      <BrandLogo logo={anchor} />
-      <BrandLogo logo={hindware} />
-      <BrandLogo logo={parryware} />
-      <BrandLogo logo={cera} />
-      <BrandLogo logo={kohler} />
-      <BrandLogo logo={finolex} />
-      <BrandLogo logo={polycab} />
-      <BrandLogo logo={kei} />
-      <BrandLogo logo={roma} />
-      <BrandLogo logo={legrand} />
-      <BrandLogo logo={havells} />
-      <BrandLogo logo={century} />
-      <BrandLogo logo={godrej} />
-      <BrandLogo logo={hettich} />
-      <BrandLogo logo={ebco} />
-      <BrandLogo logo={saint} />
-      <BrandLogo logo={plyneer} />
-      <BrandLogo logo={neemply} />
-      <BrandLogo logo={Royale} />
-      <BrandLogo logo={green} />
-      <BrandLogo logo={merino} />
+      <Marquee>
+        <BrandLogo logo={tataSteel} />
+        <BrandLogo logo={jindal} />
+        <BrandLogo logo={sail} />
+        <BrandLogo logo={primeGold} />
+        <BrandLogo logo={kamadhenu} />
+        <BrandLogo logo={dalmia} />
+        <BrandLogo logo={birla} />
+        <BrandLogo logo={acc} />
+        <BrandLogo logo={ultratec} />
+        <BrandLogo logo={johnson} />
+        <BrandLogo logo={somany} />
+        <BrandLogo logo={dulux} />
+        <BrandLogo logo={berger} />
+        <BrandLogo logo={asian} />
+        <BrandLogo logo={jaguar} />
+        <BrandLogo logo={ashirvad} />
+        <BrandLogo logo={supreme} />
+        <BrandLogo logo={astral} />
+        <BrandLogo logo={anchor} />
+        <BrandLogo logo={hindware} />
+        <BrandLogo logo={parryware} />
+        <BrandLogo logo={cera} />
+        <BrandLogo logo={kohler} />
+        <BrandLogo logo={finolex} />
+        <BrandLogo logo={polycab} />
+        <BrandLogo logo={kei} />
+        <BrandLogo logo={roma} />
+        <BrandLogo logo={legrand} />
+        <BrandLogo logo={havells} />
+        <BrandLogo logo={century} />
+        <BrandLogo logo={godrej} />
+        <BrandLogo logo={hettich} />
+        <BrandLogo logo={ebco} />
+        <BrandLogo logo={saint} />
+        <BrandLogo logo={plyneer} />
+        <BrandLogo logo={neemply} />
+        <BrandLogo logo={Royale} />
+        <BrandLogo logo={green} />
+        <BrandLogo logo={merino} />
+      </Marquee>
     </div>
   );
 };

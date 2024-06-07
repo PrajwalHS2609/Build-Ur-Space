@@ -19,7 +19,6 @@ const HomePage = () => {
       <HomeHeader />
       <HomeWelcome />
       <HomeServices />
-      <BrandWeUse/>
       <HomeWhat />
       <OurProcess />
       <HomeAppPage />
@@ -28,6 +27,7 @@ const HomePage = () => {
       <Testimonial />
       <Faq />
       <Partners />
+      <BrandWeUse />
       <Footer />
     </div>
   );

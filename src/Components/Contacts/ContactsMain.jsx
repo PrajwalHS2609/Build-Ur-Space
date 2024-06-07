@@ -7,7 +7,7 @@ const ContactsMain = () => {
   return (
     <div className="contactMainContainer">
       <div className="contactMainContent1">
-        <div className="contactMainItem1">
+        {/* <div className="contactMainItem1">
           <h1>
             HOW CAN WE <span>HELP</span>
           </h1>
@@ -32,11 +32,11 @@ const ContactsMain = () => {
               </p>
             </li>
           </ul>
-        </div>
+        </div> */}
         <div className="contactMainItem2">
-          <h1>
+          <h2>
             STAY <span>CONNECTED</span>
-          </h1>
+          </h2>
           <div className="contactType">
             <div className="contactMailing">
               <div className="contactMailIcon">

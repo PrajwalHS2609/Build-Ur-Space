@@ -3,8 +3,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  gap: 30px;
   width: 80%;
   margin-top: 20px;
+}
+.aboutWrapper {
+  /* border: solid; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .aboutContent1 {
   /* border: solid red; */
@@ -24,10 +33,10 @@
   height: 60vh;
   width: 50%;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: column;
-  position: relative;
+  gap: 10px;
 }
 .aboutHeadContainer {
   /* border: solid brown; */
@@ -39,7 +48,7 @@
 }
 .aboutHeadContainer > h1 {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   width: 90%;
 }
@@ -49,15 +58,15 @@
 .aboutTxtContainer {
   /* border: solid teal; */
   height: 20%;
-  position: absolute;
-  width: 100%;
-  right: 100px;
-  top: 80px;
-  left: -40px;
+  width: 95%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--customTransColor);
+  background-color: var(--customColor);
+}
+.aboutTxtContent {
+  /* border: solid; */
+  width: 100%;
 }
 .aboutTxtItem {
   /* border: solid greenyellow; */
@@ -67,7 +76,7 @@
   justify-content: center;
   align-items: center;
 }
-.aboutTxtItem>h2{
+.aboutTxtItem > h2 {
   color: white;
 }
 .aboutTxtItem > p {
@@ -89,369 +98,78 @@
   font-size: 20px;
   margin: 20px;
 }
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 990px) {
   .aboutContainer {
     /* border: solid; */
+    gap: 20px;
+    min-width: 300px;
+    margin-top: 20px;
+  }
+  .aboutWrapper {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 90%;
-    margin-top: 20px;
   }
   .aboutContent1 {
     /* border: solid red; */
-    height: 30vh;
-    width: 100%;
-  }
-  .aboutImgContainer {
-    /* border: solid; */
-    height: 100%;
-  }
-  .aboutImgContainer > img {
     height: 100%;
     width: 100%;
   }
+
   .aboutContent2 {
     /* border: solid blue; */
-    height: 100%;
+    height: 60vh;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    position: relative;
-  }
-  .aboutHeadContainer {
-    /* border: solid brown; */
-    height: 15%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .aboutHeadContainer > h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 90%;
-  }
-  .aboutHeadContainer > h1 > span {
-    color: var(--customColor);
+    gap: 10px;
   }
   .aboutTxtContainer {
     /* border: solid teal; */
     height: 20%;
-    position: static;
     width: 100%;
-    right: 100px;
-    top: 80px;
-    left: 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--customTransColor);
+  }
+  .aboutTxtContent {
+    /* border: solid; */
+    width: 100%;
   }
   .aboutTxtItem {
     /* border: solid greenyellow; */
     height: 50%;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
   .aboutTxtItem > p {
-    font-size: 20px;
-    font-weight: lighter;
+    font-size: 17px;
     text-align: center;
   }
-  .aboutTxtContent {
-    /* border: solid; */
-    width: 30%;
-    height: 90%;
-  }
-
-  .aboutParaContainer {
-    /* border: solid green; */
-    height: 70%;
-  }
-  .aboutParaContainer > p {
-    font-size: 15px;
-    margin: 20px;
-  }
 }
-@media screen and (min-width: 768px) {
-  .aboutContainer {
-    /* border: solid; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    width: 100%;
-    margin-top: 20px;
-  }
-  .aboutContent1 {
-    /* border: solid red; */
-    height: 60vh;
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .aboutImgContainer {
-    /* border: solid; */
-    height: 90%;
-  }
-  .aboutImgContainer > img {
-    height: 100%;
-    width: 100%;
-  }
-  .aboutContent2 {
-    /* border: solid blue; */
-    height: 60vh;
-    width: 50%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: column;
-    position: relative;
-  }
-  .aboutHeadContainer {
-    /* border: solid brown; */
-    height: 15%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .aboutHeadContainer > h1 {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: 90%;
-  }
-  .aboutHeadContainer > h1 > span {
-    color: var(--customColor);
-  }
-  .aboutTxtContainer {
-    /* border: solid teal; */
-    height: 20%;
-    position: static;
-    width: 100%;
-    right: 100px;
-    top: 80px;
-    left: 00px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--customTransColor);
-  }
-  .aboutTxtItem {
-    /* border: solid greenyellow; */
-    height: 50%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .aboutTxtItem > p {
-    font-size: 20px;
-    font-weight: lighter;
-  }
-  .aboutTxtContent {
-    /* border: solid; */
-    width: 30%;
-    height: 90%;
-  }
 
-  .aboutParaContainer {
-    /* border: solid green; */
-    height: 60%;
-  }
-  .aboutParaContainer > p {
-    font-size: 17px;
-    margin: 20px;
-  }
-}
 @media screen and (min-width: 990px) {
   .aboutContainer {
     /* border: solid; */
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
+    gap: 20px;
     width: 100%;
     margin-top: 20px;
-  }
-  .aboutContent1 {
-    /* border: solid red; */
-    height: 60vh;
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .aboutImgContainer {
-    /* border: solid; */
-    height: 90%;
-  }
-  .aboutImgContainer > img {
-    height: 100%;
-    width: 100%;
-  }
-  .aboutContent2 {
-    /* border: solid blue; */
-    height: 60vh;
-    width: 50%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-    position: relative;
-  }
-  .aboutHeadContainer {
-    /* border: solid brown; */
-    height: 15%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .aboutHeadContainer > h1 {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: 90%;
-  }
-  .aboutHeadContainer > h1 > span {
-    color: var(--customColor);
-  }
-  .aboutTxtContainer {
-    /* border: solid teal; */
-    height: 20%;
-    position: absolute;
-    width: 100%;
-    right: 100px;
-    top: 80px;
-    left: -40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--customTransColor);
-  }
-  .aboutTxtItem {
-    /* border: solid greenyellow; */
-    height: 50%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .aboutTxtItem > p {
-    font-size: 17px;
-    font-weight: bold;
-  }
-  .aboutTxtContent {
-    /* border: solid; */
-    width: 30%;
-    height: 90%;
-  }
-
-  .aboutParaContainer {
-    /* border: solid green; */
-    height: 60%;
-  }
-  .aboutParaContainer > p {
-    font-size: 17px;
-    margin: 20px;
+    padding: 10px;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width:1200px) {
   .aboutContainer {
     /* border: solid; */
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     width: 80%;
     margin-top: 20px;
-  }
-  .aboutContent1 {
-    /* border: solid red; */
-    height: 60vh;
-    width: 50%;
-  }
-  .aboutImgContainer {
-    /* border: solid; */
-    height: 100%;
-  }
-  .aboutImgContainer > img {
-    height: 100%;
-    width: 100%;
-  }
-  .aboutContent2 {
-    /* border: solid blue; */
-    height: 60vh;
-    width: 50%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-    position: relative;
-  }
-  .aboutHeadContainer {
-    /* border: solid brown; */
-    height: 15%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .aboutHeadContainer > h1 {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: 90%;
-  }
-  .aboutHeadContainer > h1 > span {
-    color: var(--customColor);
-  }
-  .aboutTxtContainer {
-    /* border: solid teal; */
-    height: 20%;
-    position: absolute;
-    width: 100%;
-    right: 100px;
-    top: 80px;
-    left: -40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--customTransColor);
-  }
-  .aboutTxtItem {
-    /* border: solid greenyellow; */
-    height: 50%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .aboutTxtItem > p {
-    font-size: 20px;
-    font-weight: bold;
-  }
-  .aboutTxtContent {
-    /* border: solid; */
-    width: 30%;
-    height: 90%;
-  }
-
-  .aboutParaContainer {
-    /* border: solid green; */
-    height: 60%;
-  }
-  .aboutParaContainer > p {
-    font-size: 20px;
-    margin: 20px;
+    padding: 0px;
   }
 }

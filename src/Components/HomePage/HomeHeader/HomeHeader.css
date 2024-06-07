@@ -485,7 +485,7 @@
   .homeHeaderImgContainer {
     /* border: solid; */
     width: 100%;
-    height: 70vh;
+    height: 100%;
   }
   .homeHeaderImgContainer > img {
     height: 100%;
@@ -528,18 +528,7 @@
     text-align: start;
     font-size: 30px;
   }
-  .homeHeadingInnerItem1 {
-    /* border: solid teal; */
-    width: 5%;
-    height: 100%;
-  }
-  .dot {
-    /* border: solid; */
-    width: 20px;
-    height: 20px;
-    background-color: var(--customColor);
-    transform: skew(-40deg);
-  }
+
   .homeHeaderImgTxt {
     /* border: solid red; */
     position: absolute;
@@ -550,7 +539,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    backdrop-filter: blur(10px);
     top: 50px;
     gap: 20px;
   }
@@ -559,7 +547,6 @@
     background-color: white;
   }
   .homeHeaderImgTxtHead > h1 {
-    font-family: cursive;
     color: var(--customColor);
     font-weight: lighter;
   }

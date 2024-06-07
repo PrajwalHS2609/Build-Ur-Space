@@ -15,6 +15,7 @@ import {
   faInstagram,
   faYoutube,
   faLinkedin,
+  faPinterest,
 } from "@fortawesome/free-brands-svg-icons";
 import seo from "./../../Images/TSS.png";
 const Footer = () => {
@@ -96,7 +97,7 @@ const Footer = () => {
                 </a>
               </div>
               <div className="socialList">
-                <a href="">
+                <a href="https://www.facebook.com/buildurspace">
                   <FontAwesomeIcon
                     icon={faInstagram}
                     className="socialIcon"
@@ -104,7 +105,7 @@ const Footer = () => {
                 </a>
               </div>
               <div className="socialList">
-                <a href="">
+                <a href="https://www.instagram.com/buildurspace/">
                   <FontAwesomeIcon
                     icon={faFacebook}
                     className="socialIcon"
@@ -112,7 +113,7 @@ const Footer = () => {
                 </a>
               </div>
               <div className="socialList">
-                <a href="">
+                <a href="https://www.youtube.com/@build_ur_space">
                   <FontAwesomeIcon
                     icon={faYoutube}
                     className="socialIcon"
@@ -120,9 +121,17 @@ const Footer = () => {
                 </a>
               </div>
               <div className="socialList">
-                <a href="">
+                <a href="https://www.linkedin.com/company/buildurspace">
                   <FontAwesomeIcon
                     icon={faLinkedin}
+                    className="socialIcon"
+                  ></FontAwesomeIcon>
+                </a>
+              </div>
+              <div className="socialList">
+                <a href="https://in.pinterest.com/build_ur_space/">
+                  <FontAwesomeIcon
+                    icon={faPinterest}
                     className="socialIcon"
                   ></FontAwesomeIcon>
                 </a>

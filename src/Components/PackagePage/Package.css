@@ -2,9 +2,7 @@
   /* border: solid red; */
   margin-top: 50px;
 }
-.packageHeadContainer {
-  /* border: solid green; */
-}
+
 
 .packageHeadContainer > h1 > span {
   color: var(--customColor);
@@ -54,9 +52,7 @@ a {
 .menuCardContainer:hover .head1 {
   color: white;
 }
-.packageDisplayContainer {
-  /* border: solid blue; */
-}
+
 .packageListContainer {
   /* border: solid red; */
   width: 100%;

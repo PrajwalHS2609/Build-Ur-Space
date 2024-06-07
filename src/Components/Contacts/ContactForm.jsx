@@ -26,7 +26,7 @@ const ContactForm = () => {
       <form action="" onSubmit={handleSubmit}>
         <legend>
           <h1>
-            Lets <span>Talk</span>
+            Lets <span>Build</span>
           </h1>
         </legend>
         <fieldset>

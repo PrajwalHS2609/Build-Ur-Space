@@ -15,11 +15,11 @@ const Construction = () => {
       <ConstructionHead />
       <Portfolio />
       <PackageConstruction />
-      <BrandWeUse />
       <HomeAppPage />
       <HomeWhy />
       <Testimonial />
       <Partners />
+      <BrandWeUse />
       <Footer />
     </div>
   );

@@ -4,13 +4,8 @@ const HomeWhyHeader = () => {
   return (
     <div className="homeWhyHeadContainer">
       <h1>
-        Why Choose <span>Build ur Space</span> as the Best Construction and
-        Interior Company?
+        WHY CHOOSE <span>BUILD UR SPACE</span> ?
       </h1>
-      <p>
-        We ensure peace of mind, trust, and transparent house construction
-        services.
-      </p>
     </div>
   );
 };

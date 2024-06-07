@@ -652,7 +652,7 @@
     width: 50%;
     height: 60vh;
     display: flex;
-    justify-content: space-evenly;
+    justify-content:flex-start;
     align-items: center;
     flex-direction: column;
   }
@@ -662,11 +662,11 @@
     height: 60vh;
   }
 
-  .contactMainItem1 {
-    /* border: solid; */
+  /* .contactMainItem1 {
+    border: solid;
     width: 80%;
     background-color: var(--customWhite);
-  }
+  } */
   .contactMainItem1 > h1 > span {
     color: var(--customColor);
   }
@@ -681,13 +681,13 @@
   .contactMainItem2 {
     /* border: solid yellowgreen; */
     display: flex;
-    justify-content: space-between;
+    justify-content:flex-start;
     align-items: flex-start;
     flex-direction: column;
     gap: 20px;
     width: 80%;
   }
-  .contactMainItem2 > h1 > span {
+  .contactMainItem2 > h2 > span {
     color: var(--customColor);
   }
   .contactType {
