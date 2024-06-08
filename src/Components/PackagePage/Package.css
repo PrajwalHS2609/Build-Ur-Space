@@ -3,7 +3,6 @@
   margin-top: 50px;
 }
 
-
 .packageHeadContainer > h1 > span {
   color: var(--customColor);
 }
@@ -118,10 +117,10 @@ a {
   width: 100%;
   height: 100%;
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: center;
 }
-.packBut>h3{
+.packBut > h3 {
   color: var(--customColor);
 }
 @media screen and (min-width: 320px) {
@@ -255,7 +254,7 @@ a {
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
   }
 }
@@ -649,8 +648,7 @@ a {
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
   }
-
 }
