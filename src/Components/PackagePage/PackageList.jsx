@@ -34,7 +34,7 @@ const PackageList = () => {
         accordion={<ElitePackage />}
       />
       <PackageListCard
-        id="packageList5 "
+        id="packageList5"
         head1="EXCLUSIVE"
         head2="Rs.2499/*-Sq Ft"
         accordion={<ExclusivePackage />}

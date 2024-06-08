@@ -5,7 +5,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;padding: 20px;
-  background-color: #fff6f4;
+  background-color: var(--customWhite);
 }
 .homeServiceHeaderContainer {
   /* border: solid brown; */
@@ -99,7 +99,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #fff6f4;
   }
   .homeServiceHeaderContainer {
     /* border: solid brown; */
@@ -213,7 +212,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #fff6f4;
   }
   .homeServiceHeaderContainer {
     /* border: solid brown; */
@@ -312,7 +310,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #fff6f4;
   }
   .homeServiceHeaderContainer {
     /* border: solid brown; */
@@ -411,7 +408,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #fff6f4;
   }
   .homeServiceHeaderContainer {
     /* border: solid brown; */

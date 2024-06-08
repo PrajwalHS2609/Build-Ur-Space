@@ -1,15 +1,15 @@
-import React from 'react'
-import "../PackagePage/Package.css"
-import PackageDisplay from '../PackagePage/PackageDisplay'
-import PackageConstructionMenu from './PackageConstructionMenu'
+import React from "react";
+import "../PackagePage/Package.css";
+import PackageMenu from "../PackagePage/PackageMenu";
+import PackageList from "../PackagePage/PackageList";
 
 const PackageConstruction = () => {
   return (
     <div className="packageMainContainer">
-        <PackageConstructionMenu/>
-      <PackageDisplay/>
+      <PackageMenu />
+      <PackageList />
     </div>
-  )
-}
+  );
+};
 
-export default PackageConstruction
+export default PackageConstruction;
