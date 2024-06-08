@@ -1,13 +1,13 @@
 import React from "react";
 import "./Package.css";
 import PackageMenu from "./PackageMenu";
-import PackageDisplay from "./PackageDisplay";
+import PackageList from "./PackageList";
 
 const PackageMain = () => {
   return (
     <div className="packageMainContainer">
       <PackageMenu />
-      <PackageDisplay />
+      <PackageList />
     </div>
   );
 };

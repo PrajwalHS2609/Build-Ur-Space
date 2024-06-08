@@ -13,9 +13,19 @@ import Testimonial from "./Testimonial/Testimonial";
 import HomeAppPage from "./HomeAppPage/HomeAppPage";
 import HomeAbout from "./HomeAbout/HomeAbout";
 import BrandWeUse from "./BrandWeUse/BrandWeUse";
+import { Helmet } from "react-helmet";
 const HomePage = () => {
   return (
     <div className="homePageContainer">
+      <Helmet>
+        <title>
+          Construction & Interior Designer in Bangalore, Chitradurga & Bellery
+        </title>
+        <meta
+          name="description"
+          content="Construction & Interior Designer in Bangalore, Chitradurga & Bellery. We understand the importance of creating spaces that meet your functional needs and reflect your unique style and personality."
+        />
+      </Helmet>
       <HomeHeader />
       <HomeWelcome />
       <HomeServices />

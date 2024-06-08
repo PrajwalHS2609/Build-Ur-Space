@@ -23,37 +23,17 @@ const App = () => {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/about-us" element={<AboutUs />} />
-            <Route path="/house-interior" element={<Interior />} />
-            <Route path="/house-construction" element={<Construction />}/>
-            {/* <Route
-                path="/house-construction/product-package1"
-                element={<PackageList />}
-              />
-              <Route
-                path="/house-construction/product-package1"
-                element={<PackageList />}
-              />
-              <Route
-                path="/house-construction/product-package1"
-                element={<PackageList />}
-              />
-              <Route
-                path="/house-construction/product-package1"
-                element={<PackageList />}
-              />
-              <Route
-                path="/house-construction/product-package1"
-                element={<PackageList />}
-              />
-            </Route> */}
+            <Route path="/home-and-commercial-interior-design" element={<Interior />} />
+            <Route path="/home-and-commercial-construction" element={<Construction />}/>
+
             <Route path="/contact-us" element={<Contacts />} />
             <Route
-              path="/commercial-interior"
+              path="/commercial-interior-design"
               element={<CommercialInterior />}
             />
 
-            <Route path="/packages" element={<Package />}>
-              <Route
+            <Route path="/home-construction-packages" element={<Package />}/>
+              {/* <Route
                 path="/packages/product-package1"
                 element={<PackageList />}
               />
@@ -72,8 +52,7 @@ const App = () => {
               <Route
                 path="/packages/product-package1"
                 element={<PackageList />}
-              />
-            </Route>
+              /> */}
           </Routes>
         </PackageContext>
       </BrowserRouter>

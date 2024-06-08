@@ -5,12 +5,22 @@ import HomeAppPage from "../HomePage/HomeAppPage/HomeAppPage";
 import Testimonial from "../HomePage/Testimonial/Testimonial";
 import Partners from "../HomePage/Partners/Partners";
 import Footer from "../Footer/Footer";
-import InteriorWhy from './../Interior/InteriorWhy/InteriorWhy';
-import InteriorHead from './../Interior/InteriorHead/InteriorHead';
+import InteriorWhy from "./../Interior/InteriorWhy/InteriorWhy";
+import InteriorHead from "./../Interior/InteriorHead/InteriorHead";
+import { Helmet } from "react-helmet";
 const CommercialInterior = () => {
   return (
     <div className="CommercialInteriorContainer">
-      <InteriorHead/>
+      <Helmet>
+        <title>
+          Commercial Interior Design in Bangalore, Chitradurga & Bellery
+        </title>
+        <meta
+          name="description"
+          content="Commercial Interior Design in Bangalore, Chitradurga & Bellery. We bring a fresh perspective to commercial interiors with a clear focus on creating aesthetic, functional and future-ready spaces."
+        />
+      </Helmet>
+      <InteriorHead />
       <CommercialSectorsMain />
       <HomeAppPage />
       <InteriorWhy />

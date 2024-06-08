@@ -23,7 +23,7 @@ const InteriorTypesMain = () => {
         para="Expert Solutions to upgrade your home"
       />
       <InteriorTypesCard
-        link="/commercial-interior"
+        link="/commercial-interior-design"
         img="https://images.livspace-cdn.com/w:320/h:234/dpr:1/plain/https://d3gq2merok8n5r.cloudfront.net/bumblebee/in/unification-home-1663681501-pVo75/desktop-1663681517-hulYi/offerings-interiors-1682066909-GMFDK/commercial-1682066986-5w6x0.jpg"
         head="Commercial Interiors"
         para=" Hassle-free solutions fro your workspace"

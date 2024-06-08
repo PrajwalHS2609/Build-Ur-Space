@@ -55,13 +55,13 @@ const Menu = () => {
           </Link>
         </li>
         <li>
-          <Link to={"/house-construction"}>Construction</Link>
+          <Link to={"/home-and-commercial-construction"}>Construction</Link>
         </li>
         <li>
-          <Link to={"/house-interior"}>Interior</Link>
+          <Link to={"/home-and-commercial-interior-design"}>Interior</Link>
         </li>
         <li>
-          <Link to={"/packages"}>Packages</Link>
+          <Link to={"/home-construction-packages"}>Packages</Link>
         </li>
 
         <li>
@@ -92,14 +92,20 @@ const Menu = () => {
           </ul>
           <ul className="serviceDrop">
             <h1>
-              <Link onClick={hideSideBar} to={"/house-construction"}>
+              <Link
+                onClick={hideSideBar}
+                to={"/home-and-commercial-construction"}
+              >
                 Constructions
               </Link>
             </h1>
           </ul>
           <ul>
             <h1>
-              <Link onClick={hideSideBar} to={"/house-interior"}>
+              <Link
+                onClick={hideSideBar}
+                to={"/home-and-commercial-interior-design"}
+              >
                 Interiors
               </Link>
             </h1>
@@ -113,7 +119,7 @@ const Menu = () => {
           </ul>
           <ul>
             <h1>
-              <Link onClick={hideSideBar} to={"/packages"}>
+              <Link onClick={hideSideBar} to={"/home-construction-packages"}>
                 Packages
               </Link>
             </h1>
