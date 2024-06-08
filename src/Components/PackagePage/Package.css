@@ -571,24 +571,13 @@ a {
   .head2 {
     letter-spacing: 2px;
   }
-  .menuCardContainer:hover {
-    background-color: var(--customColor);
-  }
-  .menuCardContainer:hover .head2 {
-    color: white;
-  }
-  .menuCardContainer:hover .head1 {
-    color: white;
-  }
-  .packageDisplayContainer {
-    /* border: solid blue; */
-  }
+
   .packageListContainer {
     /* border: solid red; */
     width: 100%;
-    display: flex;
+    display: none ;
     justify-content: center;
-    align-items: fle;
+    align-items: center;
     flex-wrap: wrap;
   }
   .packageListCardContainer {
