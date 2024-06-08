@@ -15,7 +15,7 @@ const ConstructionTypes = () => {
       />
       <InteriorTypesCard
         img={construction2}
-        head="LIGHT ROOF STRUCTURE (PEB)"
+        head="LIGHT ROOF STRUCTURE "
         // para="TurnKey interior solutions for you home"
       />
 
