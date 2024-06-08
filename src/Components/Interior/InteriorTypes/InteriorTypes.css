@@ -79,6 +79,12 @@
 .interiorTypeCardContainer:hover {
   transform: scale(1.1);
 }
+.interiorTypeCardContainer:hover .interiorTypeCardHead > h2 {
+  color: var(--customColor);
+}
+.interiorTypeCardContainer:hover .interiorTypeCardPara > p {
+  color: black;
+}
 @media screen and (min-width: 320px) and (max-width: 500px) {
   .interiorTypeCardContainer {
     /* border: solid red; */

@@ -7,32 +7,17 @@ const ContactsMain = () => {
   return (
     <div className="contactMainContainer">
       <div className="contactMainContent1">
-        {/* <div className="contactMainItem1">
+        <div className="contactMainItem1">
           <h1>
-            HOW CAN WE <span>HELP</span>
+            <span>Build Ur Space</span> Bengaluru Location
           </h1>
-          <br />
-          <ul>
-            <li>
-              <p>Do you have any general questions about construction?</p>
-            </li>
-            <li>
-              <p>Do you have an upcoming project you'd like to discuss?</p>
-            </li>
-            <li>
-              <p>
-                Are you a subcontractor interested in partnering with{" "}
-                <span>Build Ur Space</span>?
-              </p>
-            </li>
-            <li>
-              <p>
-                Are you inquiring about career opportunities at{" "}
-                <span>Build Ur Space</span>?
-              </p>
-            </li>
-          </ul>
-        </div> */}
+
+          <p>
+            <span> Build Ur Space:</span> #25, 1st floor, 4th cross, Trupthi
+            complex, above Poorvika mobiles, Sanjay Nagar main road, Bengaluru -
+            94
+          </p>
+        </div>
         <div className="contactMainItem2">
           <h2>
             STAY <span>CONNECTED</span>

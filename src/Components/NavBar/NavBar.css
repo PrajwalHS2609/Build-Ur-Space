@@ -47,10 +47,10 @@
   color: white;
 }
 .navLine {
-  border: 1px solid white;
+  border-right: 1px solid white;
   height: 80%;
 }
-.navInnerItem > p>a {
+.navInnerItem > p > a {
   margin: 0;
   color: white;
 }
@@ -311,10 +311,7 @@
   .navInnerItem > p {
     color: white;
   }
-  .navLine {
-    border: 1px solid white;
-    height: 80%;
-  }
+ 
 
   .navBarItem2 {
     /* border: solid green; */
@@ -391,10 +388,6 @@
   }
   .navInnerItem > p {
     color: white;
-  }
-  .navLine {
-    border: 1px solid white;
-    height: 80%;
   }
 
   .navBarItem2 {

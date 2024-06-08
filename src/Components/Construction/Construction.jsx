@@ -9,6 +9,7 @@ import ConstructionHead from "./ConstructionHead";
 import BrandWeUse from "../HomePage/BrandWeUse/BrandWeUse";
 import PackageConstruction from "./PackageConstruction";
 import { Helmet } from "react-helmet";
+import ConstructionTypeMain from "./ConstructionType/ConstructionTypeMain";
 
 const Construction = () => {
   return (
@@ -18,6 +19,7 @@ const Construction = () => {
         <meta name="description" content="Commercial & Home Construction in Bangalore, Chitradurga & Bellery. Delivering the highest quality in Turnkey Home & Commerical Construction services." />
       </Helmet>
       <ConstructionHead />
+      <ConstructionTypeMain/>
       <Portfolio />
       <PackageConstruction />
       <HomeAppPage />

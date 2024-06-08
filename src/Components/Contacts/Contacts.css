@@ -44,17 +44,15 @@
 .contactMainItem1 > h1 > span {
   color: var(--customColor);
 }
-.contactMainItem1 > ul > li {
+.contactMainItem1 > p {
+  font-size: 20px;
+  margin-top: 20px;
+}
+.contactMainItem1 > p>span {
   font-size: 20px;
   color: var(--customColor);
 }
-.contactMainItem1 > ul > li > p {
-  font-size: 20px;
-  color: black;
-}
-.contactMainItem1 > ul > li > p > span {
-  color: var(--customColor);
-}
+
 .contactMainItem2 {
   /* border: solid yellowgreen; */
   display: flex;
@@ -234,7 +232,6 @@
   }
   .contactMainItem1 > ul > li {
     font-size: 15px;
-    color: var(--customColor);
     margin-left: 20px;
   }
   .contactMainContainer {
@@ -474,17 +471,7 @@
     width: 80%;
     background-color: var(--customWhite);
   }
-  .contactMainItem1 > h1 > span {
-    color: var(--customColor);
-  }
-  .contactMainItem1 > ul > li {
-    font-size: 20px;
-    color: var(--customColor);
-  }
-  .contactMainItem1 > ul > li > p {
-    font-size: 20px;
-    color: black;
-  }
+
   .contactMainItem2 {
     /* border: solid yellowgreen; */
     display: flex;
@@ -652,7 +639,7 @@
     width: 50%;
     height: 60vh;
     display: flex;
-    justify-content:flex-start;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
   }
@@ -667,21 +654,12 @@
     width: 80%;
     background-color: var(--customWhite);
   } */
-  .contactMainItem1 > h1 > span {
-    color: var(--customColor);
-  }
-  .contactMainItem1 > ul > li {
-    font-size: 20px;
-    color: var(--customColor);
-  }
-  .contactMainItem1 > ul > li > p {
-    font-size: 20px;
-    color: black;
-  }
+
+
   .contactMainItem2 {
     /* border: solid yellowgreen; */
     display: flex;
-    justify-content:flex-start;
+    justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
     gap: 20px;
@@ -768,7 +746,7 @@
     height: 90%;
     width: 90%;
   }
-  .contactFormContainer > form > fielet > table > tr > td > input {
+  .contactFormContainer > form > fieldset > table > tr > td > input {
     /* border: solid grey; */
     height: 100%;
     width: 100%;
