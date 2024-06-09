@@ -5,7 +5,7 @@ const PackageHead = () => {
   return (
     <div className="packageHeadContainer">
       <h1>
-        Our Home <span>Package</span>
+        Our <span>Package</span>
       </h1>
     </div>
   );
