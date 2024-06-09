@@ -68,7 +68,8 @@
 }
 .ourGoalCardList > ul > li {
   font-size: 17px;
-  text-align:start;
+  text-align: start;
+  list-style: none;
 }
 .ourGoalCardContent:hover .ourGoalCardList > ul > li {
   color: white;
@@ -94,11 +95,13 @@
     flex-direction: column;
     flex-wrap: wrap;
     gap: 10px;
+    padding: 25px;
+
   }
   .ourGoalCardContent {
     border: solid var(--customColor);
-    height: 40vh;
-    width: 90%;
+    height: 35vh;
+    width: 100%;
     padding: 20px;
   }
 }
@@ -124,7 +127,7 @@
   .ourGoalCardContent {
     border: solid var(--customColor);
     height: 45vh;
-    width: 90%;
+    width: 100%;
     padding: 20px;
   }
 }
@@ -150,7 +153,7 @@
   .ourGoalCardContent {
     border: solid var(--customColor);
     height: 36vh;
-    width: 85%;
+    width: 100%;
     padding: 20px;
   }
 }
@@ -176,7 +179,7 @@
   .ourGoalCardContent {
     border: solid var(--customColor);
     height: 40vh;
-    width: 80%;
+    width: 100%;
     padding: 20px;
   }
   .ourGoalCardList > ul > li {

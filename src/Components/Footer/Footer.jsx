@@ -30,19 +30,25 @@ const Footer = () => {
             <ul>
               <h2>Our Services</h2>
               <li>
-                <Link to={"/home-construction"}>Home Constructions</Link>
+                <Link to={"/home-and-commercial-construction"}>
+                  Home Constructions
+                </Link>
               </li>
               <li>
-                <Link to={"/home-interior"}>Home Interior</Link>
+                <Link to={"/home-and-commercial-interior-design"}>
+                  Home Interior
+                </Link>
               </li>
               <li>
-                <Link to={"/commercial-interior"}>Commercial Interior</Link>
+                <Link to={"/commercial-interior-design"}>
+                  Commercial Interior
+                </Link>
               </li>
               <li>
                 <Link to={"/about-us"}>About Us</Link>
               </li>
               <li>
-                <Link to={"/packages"}>Packages</Link>
+                <Link to={"/home-construction-packages"}>Packages</Link>
               </li>
               <li></li>
             </ul>
