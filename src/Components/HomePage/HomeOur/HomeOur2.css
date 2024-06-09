@@ -4,12 +4,22 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   margin-top: 50px;
+  gap: 30px;
+}
+.our2Wrapper {
+  /* border: solid; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
 }
 .our2Content1 {
   /* border: solid blue; */
   height: 60vh;
-  width: 40%;
+  width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,10 +29,8 @@
 
 .our2Item1 {
   /* border: solid brown; */
-  width: 120%;
-  height: 60%;
-  position: absolute;
-  right: 50px;
+  width: 100%;
+  height: 90%;
   background-color: var(--customTransColor);
 }
 .our2head {
@@ -30,24 +38,24 @@
   justify-content: center;
   align-items: center;
 }
-.our2head > h1 > span {
+.our1head > h1 > span {
   color: var(--customColor);
 }
 .our2Item1 {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   position: relative;
 }
 .our2Item1 > p {
   /* border: solid black; */
   height: 100%;
-  font-size: 25px;
-  width: 100%;
-  line-height: 50px;
+  font-size: 20px;
+  width: 70%;
+  line-height: 30px;
   color: white;
   letter-spacing: 1px;
-  margin-left: 40px;
+  padding: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,9 +63,9 @@
 .our2Content2 {
   /* border: solid green; */
   height: 60vh;
-  width: 60%;
+  width: 50%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   align-items: center;
 }
 .our2Item2 {
@@ -69,59 +77,36 @@
   height: 100%;
   width: 100%;
 }
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 600px) {
   .our2Container {
     /* border: solid red; */
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    min-width: 300px;
+    height: 100%;
+  }
+  .our2Wrapper {
+    /* border: solid; */
+    flex-direction: column-reverse;
   }
   .our2Content1 {
     /* border: solid blue; */
     height: 100%;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 30px;
   }
 
   .our2Item1 {
     /* border: solid brown; */
     width: 100%;
     height: 60%;
-    position: static;
-    left: 0px;
-    background-image: none;
   }
-  .our2head {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .our2head > h1 > span {
-    color: var(--customColor);
-  }
-  .our2Item1 {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    position: relative;
-  }
+
   .our2Item1 > p {
     /* border: solid black; */
     height: 100%;
-    font-size: 25px;
-    width: 95%;
+    font-size: 20px;
+    width: 100%;
     line-height: 30px;
     color: white;
-    letter-spacing: 1px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 20px;
   }
   .our2Content2 {
     /* border: solid green; */
@@ -144,16 +129,25 @@
 @media screen and (min-width: 768px) {
   .our2Container {
     /* border: solid red; */
-    width: 90%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 30px;
+  }
+  .our2Wrapper {
+    /* border: solid; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .our2Content1 {
     /* border: solid blue; */
-    height: 100%;
-    width: 100%;
+    height: 60vh;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -164,9 +158,7 @@
   .our2Item1 {
     /* border: solid brown; */
     width: 100%;
-    height: 60%;
-    position: static;
-    left: 0;
+    height: 90%;
     background-color: var(--customTransColor);
   }
   .our2head {
@@ -179,7 +171,7 @@
   }
   .our2Item1 {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     position: relative;
   }
@@ -187,25 +179,26 @@
     /* border: solid black; */
     height: 100%;
     font-size: 20px;
-    width: 90%;
+    width: 70%;
     line-height: 30px;
     color: white;
     letter-spacing: 1px;
+    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   .our2Content2 {
     /* border: solid green; */
-    height: 50vh;
-    width: 100%;
+    height: 60vh;
+    width: 50%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
   }
   .our2Item2 {
     /* border: solid brown; */
-    height: 100%;
+    height: 90%;
     width: 100%;
   }
   .our2Item2 > img {
@@ -216,146 +209,42 @@
 @media screen and (min-width: 990px) {
   .our2Container {
     /* border: solid red; */
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-  }
-  .our2Content1 {
-    /* border: solid blue; */
-    height: 100%;
-    width: 40%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 30px;
+    width: 90%;
   }
 
   .our2Item1 {
-    /* border: solid brown; */
-    width: 120%;
-    height: 60%;
-    position: absolute;
-    right: 50px;
-    background-color: var(--customTransColor);
-  }
-  .our2head {
     display: flex;
     justify-content: center;
-    align-items: center;
-  }
-  .our2head > h1 > span {
-    color: var(--customColor);
-  }
-  .our2Item1 {
-    display: flex;
-    justify-content: flex-start;
     align-items: center;
     position: relative;
   }
   .our2Item1 > p {
     /* border: solid black; */
     height: 100%;
-    font-size: 25px;
-    width: 100%;
-    line-height: 50px;
-    color: white;
-    letter-spacing: 1px;
-    margin-left: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-size: 30px;
+    width: 70%;
+    line-height: 40px;
   }
-  .our2Content2 {
-    /* border: solid green; */
-    height: 60vh;
-    width: 60%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-  }
-  .our2Item2 {
-    /* border: solid brown; */
-    height: 90%;
-    width: 80%;
-  }
-  .our2Item2 > img {
-    height: 100%;
-    width: 100%;
-  }
+
 }
-@media screen and (min-width: 1200px) {
-  .our2Container {
+@media screen and (min-width: 990px) {
+  .our2 Container {
     /* border: solid red; */
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-  }
-  .our2Content1 {
-    /* border: solid blue; */
-    height: 100%;
-    width: 40%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 30px;
+    width: 90%;
   }
 
-  .our2Item1 {
-    /* border: solid brown; */
-    width: 120%;
-    height: 100%;
-    position: absolute;
-    right: 50px;
-    background-color: var(--customTransColor);
-  }
-  .our2head {
+  .our2 Item1 {
     display: flex;
     justify-content: center;
-    align-items: center;
-  }
-  .our2head > h1 > span {
-    color: var(--customColor);
-  }
-  .our2Item1 {
-    display: flex;
-    justify-content: flex-start;
     align-items: center;
     position: relative;
   }
-  .our2Item1 > p {
+  .our2 Item1 > p {
     /* border: solid black; */
     height: 100%;
-    font-size: 25px;
-    width: 100%;
-    line-height: 50px;
-    color: white;
-    letter-spacing: 1px;
-    margin-left: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-size: 30px;
+    width: 70%;
+    line-height: 30px;
   }
-  .our2Content2 {
-    /* border: solid green; */
-    height: 60vh;
-    width: 60%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-  }
-  .our2Item2 {
-    /* border: solid brown; */
-    height: 90%;
-    width: 80%;
-  }
-  .our2Item2 > img {
-    height: 100%;
-    width: 100%;
-  }
+
 }

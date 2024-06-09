@@ -12,7 +12,7 @@
 }
 @media screen and (min-width: 768px) {
   .ourMissionList > ul > li {
-    font-size: 15px;
+    font-size: 10px;
   }
 }
 @media screen and (min-width: 990px) {
