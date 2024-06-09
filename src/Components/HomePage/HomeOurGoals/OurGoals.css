@@ -91,6 +91,7 @@
   .ourGoalCardContainer {
     /* border: solid teal; */
     min-width: 320px;
+    height: 100%;
     margin: 0;
     flex-direction: column;
     flex-wrap: wrap;
@@ -100,7 +101,7 @@
   }
   .ourGoalCardContent {
     border: solid var(--customColor);
-    height: 35vh;
+    height: 270px;
     width: 100%;
     padding: 20px;
   }
@@ -178,7 +179,7 @@
   }
   .ourGoalCardContent {
     border: solid var(--customColor);
-    height: 40vh;
+    height: 300px;
     width: 100%;
     padding: 20px;
   }
