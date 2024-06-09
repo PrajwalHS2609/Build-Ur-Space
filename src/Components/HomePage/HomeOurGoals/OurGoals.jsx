@@ -3,17 +3,15 @@ import OurGoalList from './OurGoalList'
 import "./OurGoals.css"
 import HomeOur1 from '../HomeOur/HomeOur1'
 import goal from "./../../../Images/3d-rendering-arrow-hitting-target.jpg"
+import OurGoalHead from './OurGoalHead'
+import OurGoalsMain from './OurGoalsMain'
 
 const OurGoals = () => {
   return (
-<>
-<HomeOur1
-  h1="OUR"
-  h2="GOALS"
-  txt={<OurGoalList/>}
-  img={goal}
-/>
-</>
+<div className='ourGoalContainer'>
+  <OurGoalHead/>
+  <OurGoalsMain/>
+</div>
   )
 }
 

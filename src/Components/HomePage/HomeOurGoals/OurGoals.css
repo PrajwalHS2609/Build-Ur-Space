@@ -1,29 +1,185 @@
-.ourGoalList {
+.ourGoalContainer {
+  /* border: solid red; */
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
 }
-.ourGoalList > ol > li > span {
-  font-weight: bold;
+.ourGoalHead {
+  /* border: solid blue; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.ourGoalHead > h1 > span {
+  color: var(--customColor);
+}
+.ourGoalMainContainer {
+  /* border: solid green; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.ourGoalCardContainer {
+  /* border: solid teal; */
+  width: 20%;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.ourGoalCardHead {
+  /* border: solid red; */
+  text-align: center;
+}
+.ourGoalCardContent {
+  border: solid var(--customColor);
+  height: 39vh;
+  width: 90%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ourGoalCardList {
+  /* border: solid blue; */
+  /* border-radius: 50%; */
+  height: 100%;
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.ourGoalCardList > ul {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ourGoalCardList > ul > li {
+  font-size: 17px;
+  text-align:start;
+}
+.ourGoalCardContent:hover .ourGoalCardList > ul > li {
+  color: white;
+}
+.ourGoalCardContent:hover {
+  background-color: var(--customColor);
 }
 @media screen and (min-width: 320px) {
-  .ourGoalList > ol > li {
-    font-size: 20px;
-    margin: 10px;
+  .ourGoalMainContainer {
+    /* border: solid green; */
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .ourGoalCardContainer {
+    /* border: solid teal; */
+    min-width: 320px;
+    margin: 0;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .ourGoalCardContent {
+    border: solid var(--customColor);
+    height: 45vh;
+    width: 90%;
+    padding: 20px;
   }
 }
 @media screen and (min-width: 768px) {
-  .ourGoalList > ol > li {
-    font-size: 15px;
+  .ourGoalMainContainer {
+    /* border: solid green; */
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .ourGoalCardContainer {
+    /* border: solid teal; */
+    min-width: 320px;
+    margin: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .ourGoalCardContent {
+    border: solid var(--customColor);
+    height: 45vh;
+    width: 90%;
+    padding: 20px;
   }
 }
 @media screen and (min-width: 990px) {
-  .ourGoalList > ol > li {
-    font-size: 15px;
-    margin: -6px;
+  .ourGoalMainContainer {
+    /* border: solid green; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 30px;
+  }
+  .ourGoalCardContainer {
+    /* border: solid teal; */
+    min-width: 350px;
+    margin: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .ourGoalCardContent {
+    border: solid var(--customColor);
+    height: 36vh;
+    width: 85%;
+    padding: 20px;
   }
 }
 @media screen and (min-width: 1200px) {
-  .ourGoalList > ol > li {
-    font-size: 20px;
+  .ourGoalMainContainer {
+    /* border: solid green; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 30px;
+  }
+  .ourGoalCardContainer {
+    /* border: solid teal; */
+    min-width: 350px;
     margin: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .ourGoalCardContent {
+    border: solid var(--customColor);
+    height: 40vh;
+    width: 80%;
+    padding: 20px;
+  }
+  .ourGoalCardList > ul > li {
+    font-size: 18px;
   }
 }
