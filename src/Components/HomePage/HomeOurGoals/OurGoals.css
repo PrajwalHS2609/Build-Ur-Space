@@ -79,7 +79,7 @@
 @media screen and (min-width: 320px) {
   .ourGoalMainContainer {
     /* border: solid green; */
-    min-width: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,7 +97,7 @@
   }
   .ourGoalCardContent {
     border: solid var(--customColor);
-    height: 45vh;
+    height: 40vh;
     width: 90%;
     padding: 20px;
   }
