@@ -13,12 +13,12 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 .aboutContent1 {
   /* border: solid red; */
-  height: 60vh;
   width: 50%;
+  height: 100%;
 }
 .aboutImgContainer {
   /* border: solid; */
@@ -30,8 +30,8 @@
 }
 .aboutContent2 {
   /* border: solid blue; */
-  height: 60vh;
   width: 50%;
+  height: 100%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -161,14 +161,14 @@
     padding: 10px;
   }
 }
-@media screen and (min-width:1200px) {
+@media screen and (min-width: 1200px) {
   .aboutContainer {
     /* border: solid; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 80%;
+    width: 90%;
     margin-top: 20px;
     padding: 0px;
   }
