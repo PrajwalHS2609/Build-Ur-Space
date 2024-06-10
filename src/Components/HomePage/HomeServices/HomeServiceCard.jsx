@@ -1,5 +1,6 @@
 import React from "react";
 import "./HomeServices.css";
+import { Link } from "react-router-dom";
 const HomeServiceCard = (props) => {
   return (
     <div className="homeServiceCardContainer">
@@ -11,7 +12,7 @@ const HomeServiceCard = (props) => {
       </div>
       <div className="homeServiceCardTxt">
         <div className="homeServiceCardCover"></div>
-        <h2>{props.txt}</h2>
+        <h2><Link to={props.link}>{props.txt}</Link></h2>
       </div>
     </div>
   );

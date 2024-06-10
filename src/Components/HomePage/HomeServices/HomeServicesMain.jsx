@@ -6,8 +6,16 @@ import construction from "./../../../Images/constructionService.jpg";
 const HomeServicesMain = () => {
   return (
     <div className="homeServiceMainContainer">
-      <HomeServiceCard img={construction} txt="CONSTRUCTION" />
-      <HomeServiceCard img={interior} txt=" INTERIOR" />
+      <HomeServiceCard
+        img={construction}
+        txt="CONSTRUCTION"
+        link="/home-and-commercial-construction"
+      />
+      <HomeServiceCard
+        img={interior}
+        txt=" INTERIOR"
+        link="/home-and-commercial-interior-design"
+      />
     </div>
   );
 };
