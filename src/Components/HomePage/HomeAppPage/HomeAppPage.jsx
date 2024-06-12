@@ -1,7 +1,7 @@
 import React from "react";
 import "./HomeAppPage.css";
 import HomeAppTxt from "./HomeAppTxt";
-import houseApp from "./../../../Images/house-app.png";
+import houseApp from "./../../../Images/App Image.png";
 const HomeAppPage = () => {
   return (
     <div className="homeAppContainer">

@@ -31,7 +31,7 @@
   height: 50vh;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: flex-start;
 }
 .homeAppContent2 > img {
   width: 70%;
@@ -179,7 +179,7 @@
     flex-direction: column;
     gap: 30px;
   }
- 
+
   .homeAppWrapper {
     /* border: solid blue; */
     width: 100%;
@@ -297,7 +297,7 @@
     height: 50vh;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: flex-start;
   }
   .homeAppContent2 > img {
     width: 80%;
@@ -390,7 +390,7 @@
     height: 50vh;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: flex-start;
   }
   .homeAppContent2 > img {
     width: 80%;
