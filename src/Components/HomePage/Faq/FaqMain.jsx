@@ -14,9 +14,9 @@ const FaqMain = () => {
     <div className="faqMainContainer">
       <Accordion className="faqContent" allowZeroExpanded>
         <AccordionItem className="faqItem">
-          <AccordionItemHeading className="faqHead" >
-            <AccordionItemButton className="faqBut" >
-              <h1>What services does Build ur Space offer ?</h1>
+          <AccordionItemHeading className="faqHead">
+            <AccordionItemButton className="faqBut">
+              <h3>What services does Build ur Space offer ?</h3>
             </AccordionItemButton>
           </AccordionItemHeading>
 
@@ -33,10 +33,10 @@ const FaqMain = () => {
         <AccordionItem className="faqItem">
           <AccordionItemHeading className="faqHead">
             <AccordionItemButton className="faqBut">
-              <h1>
+              <h3>
                 How do I get started with a construction or interior design
                 project ?
-              </h1>
+              </h3>
             </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel className="faqPanel">
@@ -51,7 +51,7 @@ const FaqMain = () => {
         <AccordionItem className="faqItem">
           <AccordionItemHeading className="faqHead">
             <AccordionItemButton className="faqBut">
-              <h1>Do you offer free consultations ?</h1>
+              <h3>Do you offer free consultations ?</h3>
             </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel className="faqPanel">
@@ -64,7 +64,7 @@ const FaqMain = () => {
         <AccordionItem className="faqItem">
           <AccordionItemHeading className="faqHead">
             <AccordionItemButton className="faqBut">
-              <h1>Can you help with both small and large projects ?</h1>
+              <h3>Can you help with both small and large projects ?</h3>
             </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel className="faqPanel">
@@ -78,7 +78,7 @@ const FaqMain = () => {
         <AccordionItem className="faqItem">
           <AccordionItemHeading className="faqHead">
             <AccordionItemButton className="faqBut">
-              <h1>What areas do you serve ?</h1>
+              <h3>What areas do you serve ?</h3>
             </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel className="faqPanel">
@@ -91,7 +91,7 @@ const FaqMain = () => {
         <AccordionItem className="faqItem">
           <AccordionItemHeading className="faqHead">
             <AccordionItemButton className="faqBut">
-              <h1>How long will my project take to complete ?</h1>
+              <h3>How long will my project take to complete ?</h3>
             </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel className="faqPanel">
@@ -105,7 +105,7 @@ const FaqMain = () => {
         <AccordionItem className="faqItem">
           <AccordionItemHeading className="faqHead">
             <AccordionItemButton className="faqBut">
-              <h1>Can you work within my budget ?</h1>
+              <h3>Can you work within my budget ?</h3>
             </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel className="faqPanel">
@@ -120,7 +120,7 @@ const FaqMain = () => {
         <AccordionItem className="faqItem">
           <AccordionItemHeading className="faqHead">
             <AccordionItemButton className="faqBut">
-              <h1>Do you offer custom design solutions ?</h1>
+              <h3>Do you offer custom design solutions ?</h3>
             </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel className="faqPanel">
@@ -134,7 +134,7 @@ const FaqMain = () => {
         <AccordionItem className="faqItem">
           <AccordionItemHeading className="faqHead">
             <AccordionItemButton className="faqBut">
-              <h1>What materials do you use in your projects ?</h1>
+              <h3>What materials do you use in your projects ?</h3>
             </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel className="faqPanel">
@@ -149,10 +149,10 @@ const FaqMain = () => {
         <AccordionItem className="faqItem">
           <AccordionItemHeading className="faqHead">
             <AccordionItemButton className="faqBut">
-              <h1>
+              <h3>
                 Do you handle all aspects of the project, including permits and
                 approvals ?
-              </h1>
+              </h3>
             </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel className="faqPanel">

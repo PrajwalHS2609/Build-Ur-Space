@@ -19,7 +19,7 @@ const PortfolioCard = (props) => {
       </div>
       <div className="portfolioCardLoc">
         <div className="portfolioLocName">
-          <h1>{props.name}</h1>
+          <h3>{props.name}</h3>
         </div>
         <div className="portfolioLocPara">
           <div className="portfolioLocAdd">
@@ -30,7 +30,7 @@ const PortfolioCard = (props) => {
               ></FontAwesomeIcon>
             </div>
             <div className="portfolioLocAddItem2">
-              <h2>Locations</h2>
+              <h3>Locations</h3>
               <p>{props.loc}</p>
             </div>
           </div>
@@ -42,7 +42,7 @@ const PortfolioCard = (props) => {
               ></FontAwesomeIcon>
             </div>
             <div className="portfolioLocAddItem2">
-              <h2>Floors</h2>
+              <h3>Floors</h3>
               <p>{props.floor}</p>
             </div>
           </div>
@@ -54,7 +54,7 @@ const PortfolioCard = (props) => {
               ></FontAwesomeIcon>
             </div>
             <div className="portfolioLocAddItem2">
-              <h2>Total Area</h2>
+              <h3>Total Area</h3>
               <p>{props.area}</p>
             </div>
           </div>
@@ -66,7 +66,7 @@ const PortfolioCard = (props) => {
               ></FontAwesomeIcon>
             </div>
             <div className="portfolioLocAddItem2">
-              <h2>Cost</h2>
+              <h3>Cost</h3>
               <p>{props.cost}</p>
             </div>
           </div>

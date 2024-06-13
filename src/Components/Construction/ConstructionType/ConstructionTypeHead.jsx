@@ -5,7 +5,7 @@ const ConstructionTypeHead = () => {
   return (
     <div className="constructionTypeHead">
       <h1>
-        Our <span>Construction</span> Services
+        OUR <span>CONSTRUCTION</span> SERVICES
       </h1>
       <p>
         Build ur Space specializes in Residential, Commercial, and Light Roof

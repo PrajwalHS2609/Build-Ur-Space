@@ -25,9 +25,9 @@ const ContactForm = () => {
     <div className="contactFormContainer">
       <form action="" onSubmit={handleSubmit}>
         <legend>
-          <h1>
+          <h2>
             Lets <span>Build</span>
-          </h1>
+          </h2>
         </legend>
         <fieldset>
           <table>

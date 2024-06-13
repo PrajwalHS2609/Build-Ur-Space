@@ -22,7 +22,10 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.commercialHeadContent>h1>span{
+.commercialHeadContent>h2{
+  font-size: 30px;
+}
+.commercialHeadContent>h2>span{
   color: var(--customColor);
 }
 .commercialParaContent > p {
@@ -76,7 +79,7 @@
   align-items: center;
   background-color: var(--customColor);
 }
-.commercialCardHead > h2 {
+.commercialCardHead > h3 {
   margin-left: 10px;
   font-size: 20px;
 }

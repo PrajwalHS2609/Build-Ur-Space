@@ -3,9 +3,9 @@ import React from "react";
 const PartnersHead = () => {
   return (
     <div className="partnerHeadContainer">
-      <h1>
+      <h2>
         <span> BRANDS</span> WE USE
-      </h1>
+      </h2>
     </div>
   );
 };

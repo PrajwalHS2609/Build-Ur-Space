@@ -37,7 +37,10 @@
   justify-content: center;
   align-items: center;
 }
-.our1head > h1 > span {
+.our1head > h2 {
+  font-size: 30px;
+}
+.our1head > h2 > span {
   color: var(--customColor);
 }
 .our1Item1 {
@@ -165,9 +168,7 @@
     justify-content: center;
     align-items: center;
   }
-  .our1head > h1 > span {
-    color: var(--customColor);
-  }
+
   .our1Item1 {
     display: flex;
     justify-content: center;
@@ -224,7 +225,6 @@
     width: 70%;
     line-height: 40px;
   }
-
 }
 @media screen and (min-width: 990px) {
   .our1Container {
@@ -245,5 +245,4 @@
     width: 70%;
     line-height: 30px;
   }
-
 }

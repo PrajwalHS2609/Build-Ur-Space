@@ -4,9 +4,9 @@ import "./Package.css";
 const PackageHead = () => {
   return (
     <div className="packageHeadContainer">
-      <h1>
-        Our <span>Package</span>
-      </h1>
+      <h2>
+        OUR <span>PACKAGES</span>
+      </h2>
     </div>
   );
 };

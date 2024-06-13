@@ -8,8 +8,11 @@
   gap: 30px;
   margin-top: 50px;
 }
+.brandWeUseHeadContainer > h2 {
+  font-size: 30px;
+}
 
-.brandWeUseHeadContainer > h1 > span {
+.brandWeUseHeadContainer > h2 > span {
   color: var(--customColor);
 }
 .brandMainContainer {
@@ -86,9 +89,6 @@
     margin-top: 50px;
   }
 
-  .brandWeUseHeadContainer > h1 > span {
-    color: var(--customColor);
-  }
   .brandMainContainer {
     /* border: solid blue; */
     width: 60%;
@@ -129,9 +129,6 @@
     margin-top: 50px;
   }
 
-  .brandWeUseHeadContainer > h1 > span {
-    color: var(--customColor);
-  }
   .brandMainContainer {
     /* border: solid blue; */
     width: 60%;

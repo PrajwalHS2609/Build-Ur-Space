@@ -46,13 +46,14 @@
   justify-content: center;
   align-items: center;
 }
-.aboutHeadContainer > h1 {
+.aboutHeadContainer > h2 {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 90%;
+  font-size: 30px;
 }
-.aboutHeadContainer > h1 > span {
+.aboutHeadContainer > h2> span {
   color: var(--customColor);
 }
 .aboutTxtContainer {

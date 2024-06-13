@@ -7,7 +7,7 @@ const CommercialSectorsCard = (props) => {
         <div className="commercialCardImg">
           <img src={props.img} alt="" />
           <div className="commercialCardHead">
-            <h2>{props.head}</h2>
+            <h3>{props.head}</h3>
           </div>
         </div>
     </div>

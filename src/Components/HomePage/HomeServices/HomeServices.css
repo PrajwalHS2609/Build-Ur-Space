@@ -18,6 +18,17 @@
   align-items: center;
   gap: 20px;
 }
+.serviceHeadContainer > h2 {
+  /* border: solid; */
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+}
+
+.serviceHeadContainer > h2 > span {
+  color: var(--customColor);
+}
+
 .homeServiceHeadItem2 {
   /* border: solid; */
   width: 100%;
@@ -431,14 +442,14 @@
     /* border: solid red; */
     width: 84%;
   }
-  .serviceHeadContainer > h1 {
+  .serviceHeadContainer > h2 {
     /* border: solid; */
     font-size: 30px;
     text-align: center;
     width: 100%;
   }
 
-  .serviceHeadContainer > h1 > span {
+  .serviceHeadContainer > h2 > span {
     color: var(--customColor);
   }
 

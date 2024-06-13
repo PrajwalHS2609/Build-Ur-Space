@@ -4,9 +4,9 @@ const HomeOur2 = (props) => {
   return (
       <div className="our2Container">
         <div className="our2head">
-          <h1>
+          <h2>
             {props.h1} <span>{props.h2}</span>
-          </h1>
+          </h2>
         </div>
         <div className="our2Wrapper">
           <div className="our2Content1">

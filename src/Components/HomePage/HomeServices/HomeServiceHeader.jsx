@@ -5,9 +5,9 @@ const HomeServiceHeader = () => {
     <div className="homeServiceHeaderContainer">
       <div className="homeServiceHeaderContent">
         <div className="serviceHeadContainer">
-          <h1>
+          <h2>
             HOME <span>SERVICE</span>
-          </h1>
+          </h2>
         </div>
       </div>
       <div className="homeServiceHeadItem2">

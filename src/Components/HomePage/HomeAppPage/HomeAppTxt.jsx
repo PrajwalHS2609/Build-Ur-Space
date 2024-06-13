@@ -5,7 +5,7 @@ const HomeAppTxt = () => {
     <div className="homeAppTxtContainer">
       <div className="homeAppHead">
         <div className="homeAppHeading">
-          <h1>Building Your Dream Home, with Real-Time App Tracking</h1>
+          <h2>Building Your Dream Home, with Real-Time App Tracking</h2>
         </div>
       </div>
       <div className="homeAppPara">

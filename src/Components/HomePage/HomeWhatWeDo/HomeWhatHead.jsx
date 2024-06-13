@@ -4,9 +4,9 @@ import "./HomeWhat.css";
 const HomeWhatHead = () => {
   return (
     <div className="whatHeadContainer">
-      <h1>
+      <h2>
         WHAT <span>WE DO</span>
-      </h1>
+      </h2>
     </div>
   );
 };

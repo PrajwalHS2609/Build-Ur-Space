@@ -4,9 +4,9 @@ import "./OurProcess.css";
 const OurProcessHead = () => {
   return (
     <div className="ourProcessHeadContainer">
-      <h1>
+      <h2>
         OUR <span>PROCESS</span>
-      </h1>
+      </h2>
     </div>
   );
 };

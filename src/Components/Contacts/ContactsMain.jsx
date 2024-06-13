@@ -7,17 +7,6 @@ const ContactsMain = () => {
   return (
     <div className="contactMainContainer">
       <div className="contactMainContent1">
-        <div className="contactMainItem1">
-          <h1>
-            <span>Build Ur Space</span> Bengaluru Location
-          </h1>
-
-          <p>
-            <span> Build Ur Space:</span> #25, 1st floor, 4th cross, Trupthi
-            complex, above Poorvika mobiles, Sanjay Nagar main road, Bengaluru -
-            94
-          </p>
-        </div>
         <div className="contactMainItem2">
           <h2>
             STAY <span>CONNECTED</span>
@@ -54,6 +43,13 @@ const ContactsMain = () => {
               </div>
             </div>
           </div>
+        </div>
+        <div className="contactMainItem1">
+          <p>
+            <span> Build Ur Space:</span> #25, 1st floor, 4th cross, Trupthi
+            complex, above Poorvika mobiles, Sanjay Nagar main road, Bengaluru -
+            94
+          </p>
         </div>
       </div>
       <div className="contactMainContent2">

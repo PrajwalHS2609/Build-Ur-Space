@@ -5,9 +5,9 @@ const CommercialSectorsHead = () => {
   return (
     <div className="commercialHeadContainer">
       <div className="commercialHeadContent">
-        <h1>
-          Redefining <span>Commercial Interiors</span> across sectors
-        </h1>
+        <h2>
+          Redefining <span>COMMERCIAL INTERIORS</span> across sectors
+        </h2>
       </div>
       <div className="commercialParaContent">
         <p>

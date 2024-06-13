@@ -38,7 +38,7 @@
 .contactMainItem1 {
   /* border: solid; */
   width: 80%;
-  background-color: var(--customWhite);
+  background-color: white;
   padding: 10px;
 }
 .contactMainItem1 > h1 > span {
@@ -48,7 +48,7 @@
   font-size: 20px;
   margin-top: 20px;
 }
-.contactMainItem1 > p>span {
+.contactMainItem1 > p > span {
   font-size: 20px;
   color: var(--customColor);
 }
@@ -126,8 +126,10 @@
   text-align: start;
   width: 85%;
 }
-
-.contactFormContainer > form > legend > h1 > span {
+.contactFormContainer > form > legend > h2 {
+  font-size: 30px;
+}
+.contactFormContainer > form > legend > h2 > span {
   color: var(--customColor);
 }
 .contactFormContainer > form > fieldset {
@@ -225,7 +227,6 @@
   .contactMainItem1 {
     /* border: solid; */
     width: 100%;
-    background-color: var(--customWhite);
   }
   .contactMainItem1 > h1 {
     text-align: center;
@@ -469,7 +470,6 @@
   .contactMainItem1 {
     /* border: solid; */
     width: 80%;
-    background-color: var(--customWhite);
   }
 
   .contactMainItem2 {
@@ -648,13 +648,6 @@
     width: 50%;
     height: 60vh;
   }
-
-  /* .contactMainItem1 {
-    border: solid;
-    width: 80%;
-    background-color: var(--customWhite);
-  } */
-
 
   .contactMainItem2 {
     /* border: solid yellowgreen; */

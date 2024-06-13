@@ -11,10 +11,11 @@
   /* border: solid blue; */
   width: 100%;
 }
-.portfolioHeadContainer > h1 {
+.portfolioHeadContainer > h2 {
   text-align: center;
+  font-size: 30px;
 }
-.portfolioHeadContainer > h1 > span {
+.portfolioHeadContainer > h2 > span {
   color: var(--customColor);
 }
 .portfolioMainContainer {
@@ -68,7 +69,7 @@
   /* border: solid blue; */
   width: 90%;
 }
-.portfolioLocName > h1 {
+.portfolioLocName > h3 {
   font-size: 20px;
 }
 .portfolioLocPara {
@@ -117,7 +118,7 @@
   font-size: 17px;
   width: 100%;
 }
-.portfolioCardContainer:hover .portfolioLocName > h1 {
+.portfolioCardContainer:hover .portfolioLocName > h3 {
   color: var(--customWhite);
 }
 .portfolioCardContainer:hover .portoIcon {
@@ -130,7 +131,7 @@
 .portfolioCardContainer:hover .portfolioCardLoc {
   background-color: var(--customColor);
 }
-.portfolioCardContainer:hover .portfolioLocAddItem2 > h2 {
+.portfolioCardContainer:hover .portfolioLocAddItem2 > h3 {
   color: var(--customWhite);
 }
 .portfolioLink {
@@ -154,12 +155,7 @@
     /* border: solid blue; */
     width: 100%;
   }
-  .portfolioHeadContainer > h1 {
-    text-align: center;
-  }
-  .portfolioHeadContainer > h1 > span {
-    color: var(--customColor);
-  }
+
   .portfolioMainContainer {
     /* border: solid green; */
     width: 100%;
@@ -212,10 +208,7 @@
     /* border: solid blue; */
     width: 100%;
   }
-  .portfolioLocName > h1 {
-    font-size: 20px;
-    text-align: center;
-  }
+
   .portfolioLocPara {
     /* border: solid green; */
     width: 100%;
@@ -269,12 +262,7 @@
     /* border: solid blue; */
     width: 100%;
   }
-  .portfolioHeadContainer > h1 {
-    text-align: center;
-  }
-  .portfolioHeadContainer > h1 > span {
-    color: var(--customColor);
-  }
+
   .portfolioMainContainer {
     /* border: solid green; */
     width: 100%;
@@ -325,10 +313,7 @@
     /* border: solid blue; */
     width: 100%;
   }
-  .portfolioLocName > h1 {
-    font-size: 20px;
-    text-align: center;
-  }
+
   .portfolioLocPara {
     /* border: solid green; */
     width: 100%;
@@ -383,12 +368,7 @@
     /* border: solid blue; */
     width: 100%;
   }
-  .portfolioHeadContainer > h1 {
-    text-align: center;
-  }
-  .portfolioHeadContainer > h1 > span {
-    color: var(--customColor);
-  }
+
   .portfolioMainContainer {
     /* border: solid green; */
     width: 100%;
@@ -439,10 +419,7 @@
     /* border: solid blue; */
     width: 100%;
   }
-  .portfolioLocName > h1 {
-    font-size: 20px;
-    text-align: center;
-  }
+
   .portfolioLocPara {
     /* border: solid green; */
     width: 90%;
@@ -480,7 +457,7 @@
     align-items: flex-start;
     flex-direction: column;
   }
-  .portfolioLocAddItem2 > h2 {
+  .portfolioLocAddItem2 > h3 {
     font-size: 17px;
   }
 }
@@ -498,12 +475,7 @@
     /* border: solid blue; */
     width: 100%;
   }
-  .portfolioHeadContainer > h1 {
-    text-align: center;
-  }
-  .portfolioHeadContainer > h1 > span {
-    color: var(--customColor);
-  }
+ 
   .portfolioMainContainer {
     /* border: solid green; */
     width: 100%;
@@ -555,9 +527,7 @@
     /* border: solid blue; */
     width: 90%;
   }
-  .portfolioLocName > h1 {
-    font-size: 20px;
-  }
+
   .portfolioLocPara {
     /* border: solid green; */
     width: 90%;

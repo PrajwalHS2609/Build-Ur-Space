@@ -4,10 +4,10 @@ import "./HomeAbout.css";
 const AboutHead = () => {
   return (
     <div className="aboutHeadContainer">
-      <h1>
+      <h2>
         ABOUT <pre> </pre>
         <span>US</span>
-      </h1>
+      </h2>
     </div>
   );
 };

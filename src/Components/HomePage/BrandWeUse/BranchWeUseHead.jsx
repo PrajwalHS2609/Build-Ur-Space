@@ -4,9 +4,9 @@ import "./BrandWeUse.css";
 const BrandWeUseHead = () => {
   return (
     <div className="brandWeUseHeadContainer">
-      <h1>
+      <h2>
         OUR <span>PARTNER</span>
-      </h1>
+      </h2>
     </div>
   );
 };

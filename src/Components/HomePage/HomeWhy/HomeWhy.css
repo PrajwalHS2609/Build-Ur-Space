@@ -20,12 +20,13 @@ background-color: white;
   width: fit-content;
   margin-top: 20px;
 }
-.homeWhyHeadContainer > h1 {
+.homeWhyHeadContainer > h2 {
   width: 100%;
   letter-spacing: 1px;
   text-align: center;
+  font-size: 30px;
 }
-.homeWhyHeadContainer > h1 > span {
+.homeWhyHeadContainer > h2 > span {
   color: var(--customColor);
 }
 
@@ -104,7 +105,7 @@ background-color: white;
     /* border: solid; */
     width: 100%;
   }
-  .homeWhyHeadContainer > h1 {
+  .homeWhyHeadContainer > h2 {
     width: 100%;
     letter-spacing: 1px;
     font-size: 20px;
@@ -193,7 +194,7 @@ background-color: white;
     /* border: solid; */
     width: fit-content;
   }
-  .homeWhyHeadContainer > h1 {
+  .homeWhyHeadContainer > h2 {
     width: 100%;
     font-size: 25px;
     letter-spacing: 1px;
@@ -280,7 +281,7 @@ background-color: white;
     /* border: solid; */
     width: 100%;
   }
-  .homeWhyHeadContainer > h1 {
+  .homeWhyHeadContainer > h2 {
     width: 100%;
     letter-spacing: 1px;
   }
@@ -370,7 +371,7 @@ background-color: white;
     width: fit-content;
     width: 100%;
   }
-  .homeWhyHeadContainer > h1 {
+  .homeWhyHeadContainer > h2 {
     width: 100%;
     letter-spacing: 1px;
   }

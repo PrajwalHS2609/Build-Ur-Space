@@ -16,10 +16,11 @@
   width: 100%;
   margin-top: 20px;
 }
-.whatHeadContainer > h1 {
+.whatHeadContainer > h2 {
+  font-size: 30px;
   text-align: center;
 }
-.whatHeadContainer > h1 > span {
+.whatHeadContainer > h2 > span {
   color: var(--customColor);
 }
 .whatMainContainer {
@@ -93,12 +94,7 @@
     align-items: center;
     width: 100%;
   }
-  .whatHeadContainer > h1 {
-    text-align: center;
-  }
-  .whatHeadContainer > h1 > span {
-    color: var(--customColor);
-  }
+
   .whatMainContainer {
     /* border: solid; */
     width: 100%;
@@ -174,12 +170,7 @@
     align-items: center;
     width: 100%;
   }
-  .whatHeadContainer > h1 {
-    text-align: center;
-  }
-  .whatHeadContainer > h1 > span {
-    color: var(--customColor);
-  }
+
   .whatMainContainer {
     /* border: solid; */
     width: 100%;
@@ -252,12 +243,7 @@
     align-items: center;
     width: 100%;
   }
-  .whatHeadContainer > h1 {
-    text-align: center;
-  }
-  .whatHeadContainer > h1 > span {
-    color: var(--customColor);
-  }
+ 
   .whatMainContainer {
     /* border: solid; */
     width: 100%;
@@ -330,12 +316,7 @@
     align-items: center;
     width: 100%;
   }
-  .whatHeadContainer > h1 {
-    text-align: center;
-  }
-  .whatHeadContainer > h1 > span {
-    color: var(--customColor);
-  }
+
   .whatMainContainer {
     /* border: solid; */
     width: 100%;

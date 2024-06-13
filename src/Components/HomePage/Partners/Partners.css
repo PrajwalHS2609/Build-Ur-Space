@@ -12,10 +12,10 @@
   /* border: solid yellowgreen; */
   width: 90%;
 }
-.partnerHeadContainer > h1 {
+.partnerHeadContainer > h2 {
   text-align: center;
 }
-.partnerHeadContainer > h1 > span {
+.partnerHeadContainer > h2 > span {
   color: var(--customColor);
 }
 .partnerMainContainer {

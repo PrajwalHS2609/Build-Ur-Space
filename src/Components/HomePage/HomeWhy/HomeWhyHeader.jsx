@@ -3,9 +3,9 @@ import "./HomeWhy.css";
 const HomeWhyHeader = () => {
   return (
     <div className="homeWhyHeadContainer">
-      <h1>
+      <h2>
         WHY CHOOSE <span>BUILD UR SPACE</span> ?
-      </h1>
+      </h2>
     </div>
   );
 };

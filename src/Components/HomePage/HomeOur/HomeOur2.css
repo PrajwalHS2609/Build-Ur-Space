@@ -38,7 +38,10 @@
   justify-content: center;
   align-items: center;
 }
-.our1head > h1 > span {
+.our2head > h2 {
+  font-size: 30px;
+}
+.our2head > h2 > span {
   color: var(--customColor);
 }
 .our2Item1 {
@@ -166,9 +169,7 @@
     justify-content: center;
     align-items: center;
   }
-  .our2head > h1 > span {
-    color: var(--customColor);
-  }
+
   .our2Item1 {
     display: flex;
     justify-content: center;
@@ -225,26 +226,24 @@
     width: 70%;
     line-height: 40px;
   }
-
 }
 @media screen and (min-width: 990px) {
-  .our2 Container {
+  .our2Container {
     /* border: solid red; */
     width: 90%;
   }
 
-  .our2 Item1 {
+  .our2Item1 {
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
   }
-  .our2 Item1 > p {
+  .our2Item1 > p {
     /* border: solid black; */
     height: 100%;
     font-size: 30px;
     width: 70%;
     line-height: 30px;
   }
-
 }

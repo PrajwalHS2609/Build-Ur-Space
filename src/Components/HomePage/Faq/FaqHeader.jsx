@@ -4,7 +4,7 @@ import "./Faq.css";
 const FaqHeader = () => {
   return (
     <div className="faqHeaderContainer">
-      <h1>F<span>A</span>Q</h1>
+      <h2>F<span>A</span>Q</h2>
     </div>
   );
 };
