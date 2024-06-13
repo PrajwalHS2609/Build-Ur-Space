@@ -6,7 +6,6 @@
   align-items: center;
   flex-direction: column;
   gap: 30px;
-  background-color: #fff6f4;
   padding: 30px;
 }
 .faqHeaderContainer > h2 {
@@ -76,7 +75,6 @@
 .faqBut > h3 {
   margin-left: 20px;
   font-size: 20px;
-
 }
 @media screen and (min-width: 320px) and (max-width: 600px) {
   .faqContainer {
@@ -121,7 +119,6 @@
     justify-content: flex-start;
     align-items: center;
   }
-
 }
 @media screen and (min-width: 768px) {
   .faqContainer {
@@ -166,7 +163,6 @@
     justify-content: flex-start;
     align-items: center;
   }
-
 }
 
 @media screen and (min-width: 990px) {
@@ -251,5 +247,4 @@
     justify-content: flex-start;
     align-items: center;
   }
-
 }

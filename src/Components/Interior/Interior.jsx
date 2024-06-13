@@ -8,6 +8,7 @@ import "./Interior.css";
 import InteriorHead from "./InteriorHead/InteriorHead";
 import InteriorWhy1 from "./InteriorWhy/InteriorWhy1";
 import { Helmet } from "react-helmet";
+import HomeInteriorImg from "../HomePage/HomeImg/HomeInteriorImg";
 const Interior = () => {
   return (
     <div className="InteriorContainer">
@@ -26,6 +27,7 @@ const Interior = () => {
       <InteriorWhy1 />
       <Testimonial />
       <Partners />
+      <HomeInteriorImg/>
       <Footer />
     </div>
   );

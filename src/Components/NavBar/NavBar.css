@@ -124,7 +124,7 @@
   justify-content: flex-start;
   align-items: center;
 }
-.respMenuScroll > ul > h1 {
+.respMenuScroll > ul > h2 {
   color: white;
   height: 80px;
   display: flex;
@@ -142,7 +142,7 @@
   font-size: 150%;
   font-weight: lighter;
 }
-.respMenuScroll > ul > h1 > a {
+.respMenuScroll > ul > h2 > a {
   color: white;
   text-decoration: none;
 }
@@ -311,7 +311,6 @@
   .navInnerItem > p {
     color: white;
   }
- 
 
   .navBarItem2 {
     /* border: solid green; */

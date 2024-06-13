@@ -10,23 +10,30 @@ import BrandWeUse from "../HomePage/BrandWeUse/BrandWeUse";
 import PackageConstruction from "./PackageConstruction";
 import { Helmet } from "react-helmet";
 import ConstructionTypeMain from "./ConstructionType/ConstructionTypeMain";
+import HomeConstructionImg from "../HomePage/HomeImg/HomeConstructionImg";
 
 const Construction = () => {
   return (
     <div>
       <Helmet>
-        <title>Commercial & Home Construction in Bangalore, Chitradurga & Bellery</title>
-        <meta name="description" content="Commercial & Home Construction in Bangalore, Chitradurga & Bellery. Delivering the highest quality in Turnkey Home & Commerical Construction services." />
+        <title>
+          Commercial & Home Construction in Bangalore, Chitradurga & Bellery
+        </title>
+        <meta
+          name="description"
+          content="Commercial & Home Construction in Bangalore, Chitradurga & Bellery. Delivering the highest quality in Turnkey Home & Commerical Construction services."
+        />
       </Helmet>
       <ConstructionHead />
-      <ConstructionTypeMain/>
+      <ConstructionTypeMain />
       <Portfolio />
       <PackageConstruction />
       <HomeAppPage />
       <HomeWhy />
       <Testimonial />
-      <Partners />
       <BrandWeUse />
+      <Partners />
+      <HomeConstructionImg/>
       <Footer />
     </div>
   );

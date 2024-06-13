@@ -8,6 +8,8 @@
   flex-direction: column;
   gap: 50px;
   margin-top: 50px;
+  background-color: var(--customWhite);
+
 }
 
 .testiHeadContainer > h1 > span {

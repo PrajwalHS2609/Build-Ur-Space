@@ -77,62 +77,62 @@ const Menu = () => {
       <div className="respMenu">
         <div className="respMenuScroll">
           <ul>
-            <h1>
+            <h2>
               <Link onClick={hideSideBar} to={"/"}>
                 Home
               </Link>
-            </h1>
-            <h1 className="cross">
+            </h2>
+            <h2 className="cross">
               <FontAwesomeIcon
                 icon={faX}
                 onClick={hideSideBar}
                 className="respIcon"
               ></FontAwesomeIcon>
-            </h1>
+            </h2>
           </ul>
           <ul className="serviceDrop">
-            <h1>
+            <h2>
               <Link
                 onClick={hideSideBar}
                 to={"/home-and-commercial-construction"}
               >
                 Constructions
               </Link>
-            </h1>
+            </h2>
           </ul>
           <ul>
-            <h1>
+            <h2>
               <Link
                 onClick={hideSideBar}
                 to={"/home-and-commercial-interior-design"}
               >
                 Interiors
               </Link>
-            </h1>
+            </h2>
           </ul>
           <ul>
-            <h1>
+            <h2>
               <Link onClick={hideSideBar} to={"/about-us"}>
                 About Us
               </Link>
-            </h1>
+            </h2>
           </ul>
           <ul>
-            <h1>
+            <h2>
               <Link onClick={hideSideBar} to={"/home-construction-packages"}>
                 Packages
               </Link>
-            </h1>
+            </h2>
           </ul>
           <ul>
-            <h1>
+            <h2>
               <Link onClick={hideSideBar} to={"/contact-us"}>
                 Contact Us
               </Link>
-            </h1>
+            </h2>
           </ul>
           <ul>
-            <h2></h2>
+            <h3></h3>
           </ul>
         </div>
       </div>

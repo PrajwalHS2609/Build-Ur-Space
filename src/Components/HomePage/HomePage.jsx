@@ -14,6 +14,7 @@ import HomeAppPage from "./HomeAppPage/HomeAppPage";
 import HomeAbout from "./HomeAbout/HomeAbout";
 import BrandWeUse from "./BrandWeUse/BrandWeUse";
 import { Helmet } from "react-helmet";
+import HomeConstructionImg from "./HomeImg/HomeConstructionImg";
 const HomePage = () => {
   return (
     <div className="homePageContainer">
@@ -29,15 +30,16 @@ const HomePage = () => {
       <HomeHeader />
       <HomeWelcome />
       <HomeServices />
+      <HomeAbout />
       <HomeWhat />
       <OurProcess />
       <HomeAppPage />
-      <HomeAbout />
       <HomeWhy />
       <Testimonial />
-      <Faq />
-      <Partners />
       <BrandWeUse />
+      <Partners />
+      <Faq />
+      <HomeConstructionImg/>
       <Footer />
     </div>
   );
