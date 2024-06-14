@@ -3,7 +3,7 @@ import "./OurGoals.css"
 const OurGoalHead = () => {
   return (
     <div className='ourGoalHead'>
-      <h1>OUR <span>MISSION</span></h1>
+      <h1>OUR <span>GOALS</span></h1>
     </div>
   )
 }

@@ -5,9 +5,7 @@ const PortfolioHead = () => {
   return (
     <div className="portfolioHeadContainer">
       <h2>
-        Delivering the highest quality in Turnkey
-        <span> Home Construction </span>
-        services.
+        Providing Top-Quality Turnkey <span> Home Construction </span> Services
       </h2>
     </div>
   );
