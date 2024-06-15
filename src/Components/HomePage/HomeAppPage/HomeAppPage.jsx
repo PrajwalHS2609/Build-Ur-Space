@@ -1,4 +1,4 @@
-import React from "react";
+  import React from "react";
 import "./HomeAppPage.css";
 import HomeAppTxt from "./HomeAppTxt";
 import houseApp from "./../../../Images/Mobile App.png";
