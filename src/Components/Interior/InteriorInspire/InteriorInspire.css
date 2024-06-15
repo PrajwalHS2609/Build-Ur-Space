@@ -1,0 +1,187 @@
+.inspireContainer {
+  /* border: solid red; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.inspireHeadContainer > h2 {
+  font-size: 30px;
+  height: 30%;
+  text-align: center;
+}
+.inspireHeadContainer > h2 > span {
+  color: var(--customColor);
+}
+.inspireHeadContainer > p {
+  font-size: 20px;
+}
+.inspireMainContainer {
+  /* border: solid blue; */
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.inspireSliderContainer {
+  /* border: solid red; */
+  width: 90%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.inspireSliderContent {
+  /* border: solid rebeccapurple; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inspireCardContainer {
+  /* border: solid brown; */
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 30px;
+}
+.inspireImgContent1 {
+  /* border: solid red; */
+  width: 50%;
+  height: 350px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.inspireImgContent2 {
+  /* border: solid blue; */
+  width: 20%;
+  height: 350px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.inspireImgContent3 {
+  /* border: solid green; */
+  width: 20%;
+  height: 350px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+#inspireImgConten > a > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#inspireImgContent > a {
+  position: relative;
+}
+#inspireImgContent > a > h3 {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.46);
+  padding: 5px;
+  position: absolute;
+  border-radius: 10px;
+  bottom: 30px;
+  left: 0;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.inspirePopUp {
+  /* border: solid green; */
+  height: 87vh;
+  width: 100%;
+  position: fixed;
+  top: 17vh;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.523);
+  backdrop-filter: blur(10px);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.inspirePopUpExit {
+  /* border: solid red; */
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+.popXIcon {
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
+}
+.interiorPopSlider {
+  /* border: solid red; */
+  width: 90%;
+  height: 80%;
+}
+.inspireSliderPopContainer {
+  /* border: solid green; */
+  height: 100%;
+  width: 100%;
+  gap: 10px;
+  padding: 30px;
+}
+.inspireSliderPopContent {
+  border: 20px solid transparent;
+  height: 100%;
+  width: 20%;
+  margin-top: 70px;
+}
+.inspireSliderPopContent > img {
+  height: 100%;
+  width: 100%;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .inspireHeadContainer > p {
+    font-size: 20px;
+    text-align: center;
+  }
+  .inspireSliderContainer {
+    /* border: solid red; */
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 20px;
+  }
+  .inspireSliderContent {
+    /* border: solid rebeccapurple; */
+
+    overflow-x: scroll;
+  }
+  .inspireCardContainer {
+    /* border: solid brown; */
+    width: 300%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0px;
+  }
+  #inspireImgContent > a > h3 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.46);
+    padding:5px;
+    position: absolute;
+    border-radius: 10px;
+    bottom: 30px;
+    left: 10px;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+}

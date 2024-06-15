@@ -125,8 +125,9 @@
   align-items: center;
 }
 .respMenuScroll > ul > h2 {
+  /* border: solid green; */
   color: white;
-  height: 80px;
+  height: 10px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -135,7 +136,7 @@
 }
 .respMenuScroll > ul > h2 {
   color: white;
-  height: 290px;
+  height: 70px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -153,6 +154,9 @@
   justify-content: flex-start;
   align-items: center;
   width: 100%;
+}
+.respMenuSpace{
+  height: 300px;
 }
 @media screen and (min-width: 320px) {
   .navBarItem1,
