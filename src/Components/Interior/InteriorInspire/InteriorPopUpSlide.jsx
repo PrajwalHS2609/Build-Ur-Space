@@ -21,7 +21,6 @@ const InteriorPopUpSlide = () => {
           height: "60px",
           width: "60px",
           cursor: "pointer",
-          marginTop: "10px",
           position: "absolute",
           transform: "scale(1.5)",
           right: "-100px",
@@ -57,7 +56,56 @@ const InteriorPopUpSlide = () => {
       />
     );
   }
+  function RespSampleNextArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{
+          ...style,
+          //   borderRadius: "50%",
+          //   backgroundColor: "white",
+          //   backgroundImage: `url(${rightArrow})`,
+        //   backgroundSize: "contain",
+        //   backgroundRepeat: "no-repeat",
+          height: "60px",
+          width: "60px",
+          cursor: "pointer",
+          position: "absolute",
+          transform: "scale(1.5)",
+          right: "-90px",
 
+          // boxShadow: "0 0 10px black",
+        }}
+        onClick={onClick}
+      />
+    );
+  }
+  function RespSamplePrevArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{
+          ...style,
+          //   background: "#ff2230",
+          //   borderRadius: "50%",
+          //   backgroundImage: `url(${leftArrow})`,
+          //   backgroundColor: "white",
+        //   backgroundSize: "contain",
+        //   backgroundRepeat: "no-repeat",
+          height: "60px",
+          width: "60px",
+          cursor: "pointer",
+          position: "absolute",
+          left: "-30px",
+          transform: "scale(1.5)",
+          // boxShadow: "0 0 10px black",
+        }}
+        onClick={onClick}
+      />
+    );
+  }
   const settings = {
     dots: false,
     infinite: true,
@@ -73,6 +121,8 @@ const InteriorPopUpSlide = () => {
           slidesToShow: 1,
           slidesToScroll: 1,
           initialSlide: 2,
+          nextArrow: <RespSampleNextArrow />,
+          prevArrow: <RespSamplePrevArrow />,
         },
       },
       {
