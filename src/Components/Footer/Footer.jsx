@@ -62,7 +62,7 @@ const Footer = () => {
                   className="footIcon"
                 ></FontAwesomeIcon>
                 <p>
-                  <a href="tel:9742255110">+91 9742255110</a>
+                  <a href="tel:9741111036">+91 9741111036</a>
                 </p>
               </li>
               <li>

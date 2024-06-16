@@ -21,90 +21,88 @@ const HomeFrom = () => {
 
   let handleSubmit = (e) => {
     e.preventDefault();
-    let payload = {
-      name,
-      email,
-      phone,
-      location,
-    };
-    console.log(payload);
+    let { name, phone, email, requirement } = data;
+    const mailtoLink = `mailto:hello@buildurspace.com?subject=Message from ${name}&body=${encodeURIComponent(
+      `Name: ${name}\nPhone: ${phone}\nEmail: ${email}\n\n${requirement}`
+    )}`;
+    window.location.href = mailtoLink;
   };
   return (
-      <div className="homeFormContainer">
-        <form action="" onSubmit={handleSubmit}>
-          <fieldset>
-            <legend>Talk to our Expert</legend>
-            <table>
-              <tr>
-                <td>
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    value={name}
-                    placeholder="Name"
-                    onChange={handleData}
-                    autoComplete="no"
-                    required
-                  />
-                </td>
-              </tr>
-              <tr>
-                {/* <label htmlFor="email">Email :</label> */}
-                <td>
-                  <input
-                    type="text"
-                    id="email"
-                    name="email"
-                    value={email}
-                    placeholder="Email"
-                    onChange={handleData}
-                    autoComplete="no"
-                    required
-                  />
-                </td>
-              </tr>
-              <tr>
-                {/* <label htmlFor="phone">Phone :</label> */}
-                <td>
-                  <input
-                    type="text"
-                    id="phone"
-                    name="phone"
-                    value={phone}
-                    placeholder="Phone"
-                    onChange={handleData}
-                    autoComplete="no"
-                    required
-                  />
-                </td>
-              </tr>
-              <tr>
-                {/* <label htmlFor="detail">Details :</label> */}
-                <td>
-                  <input
-                    type="text"
-                    id="location"
-                    name="location"
-                    value={location}
-                    placeholder="Location of Your Plot"
-                    onChange={handleData}
-                    autoComplete="no"
-                    required
-                  />
-                </td>
-              </tr>
-              <button className="sub" type="handlesubmit">
-                Book Free Consultancy{" "}
-                <FontAwesomeIcon
-                  icon={faArrowRight}
-                  className="formIcon"
-                ></FontAwesomeIcon>
-              </button>
-            </table>
-          </fieldset>
-        </form>
-      </div>     
+    <div className="homeFormContainer">
+      <form action="" onSubmit={handleSubmit}>
+        <fieldset>
+          <legend>Talk to our Expert</legend>
+          <table>
+            <tr>
+              <td>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  value={name}
+                  placeholder="Name"
+                  onChange={handleData}
+                  autoComplete="no"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              {/* <label htmlFor="email">Email :</label> */}
+              <td>
+                <input
+                  type="text"
+                  id="email"
+                  name="email"
+                  value={email}
+                  placeholder="Email"
+                  onChange={handleData}
+                  autoComplete="no"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              {/* <label htmlFor="phone">Phone :</label> */}
+              <td>
+                <input
+                  type="text"
+                  id="phone"
+                  name="phone"
+                  value={phone}
+                  placeholder="Phone"
+                  onChange={handleData}
+                  autoComplete="no"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              {/* <label htmlFor="detail">Details :</label> */}
+              <td>
+                <input
+                  type="text"
+                  id="location"
+                  name="location"
+                  value={location}
+                  placeholder="Location of Your Plot"
+                  onChange={handleData}
+                  autoComplete="no"
+                  required
+                />
+              </td>
+            </tr>
+            <button className="sub" type="handlesubmit">
+              Book Free Consultancy{" "}
+              <FontAwesomeIcon
+                icon={faArrowRight}
+                className="formIcon"
+              ></FontAwesomeIcon>
+            </button>
+          </table>
+        </fieldset>
+      </form>
+    </div>
   );
 };
 
