@@ -4,9 +4,9 @@ import "../Construction.css";
 const ConstructionTypeHead = () => {
   return (
     <div className="constructionTypeHead">
-      <h1>
+      <h2>
         OUR <span>CONSTRUCTION</span> SERVICES
-      </h1>
+      </h2>
       <p>
         Build ur Space specializes in Residential, Commercial, and Light Roof
         Structure Construction. We deliver high-quality, reliable construction

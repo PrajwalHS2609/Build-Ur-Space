@@ -3,7 +3,7 @@ import"./Testimonial.css"
 const TestimonialHead = () => {
   return (
     <div className='testiHeadContainer'>
-      <h1>CUSTOMER <span>TESTIMONIAL</span></h1>
+      <h2>CUSTOMER <span>TESTIMONIAL</span></h2>
     </div>
   )
 }

@@ -8,7 +8,10 @@
   gap: 30px;
   margin-top: 30px;
 }
-.contactHead > h1 > span {
+.contactHead > h2{
+  font-size: 30px;
+}
+.contactHead > h2 > span {
   color: var(--customColor);
 }
 .contactMainContainer {
@@ -41,7 +44,10 @@
   background-color: white;
   padding: 10px;
 }
-.contactMainItem1 > h1 > span {
+.contactMainItem1 > h2{
+  font-size: 30px;
+}
+.contactMainItem1 > h2 > span {
   color: var(--customColor);
 }
 .contactMainItem1 > p {
@@ -62,7 +68,10 @@
   gap: 20px;
   width: 80%;
 }
-.contactMainItem2 > h1 > span {
+.contactMainItem2 > h2 {
+  font-size: 30px;
+}
+.contactMainItem2 > h2 > span {
   color: var(--customColor);
 }
 .contactType {
@@ -221,14 +230,14 @@
     align-items: flex-start;
     flex-direction: column;
   }
-  .contactHead > h1 {
+  .contactHead > h2 {
     font-size: 25px;
   }
   .contactMainItem1 {
     /* border: solid; */
     width: 100%;
   }
-  .contactMainItem1 > h1 {
+  .contactMainItem1 > h2 {
     text-align: center;
   }
   .contactMainItem1 > ul > li {
@@ -441,7 +450,10 @@
     align-items: center;
     flex-direction: column;
   }
-  .contactHead > h1 > span {
+  .contactHead >  h2{
+    font-size: 30px;
+  }
+  .contactHead >  h2> span {
     color: var(--customColor);
   }
   .contactMainContainer {
@@ -481,7 +493,10 @@
     gap: 20px;
     width: 80%;
   }
-  .contactMainItem2 > h1 > span {
+  .contactMainItem2 > h2 {
+    font-size: 30px;
+  }
+  .contactMainItem2 > h2 > span {
     color: var(--customColor);
   }
   .contactType {
@@ -532,7 +547,7 @@
     width: 85%;
   }
 
-  .contactFormContainer > form > legend > h1 > span {
+  .contactFormContainer > form > legend > h2 > span {
     color: var(--customColor);
   }
   .contactFormContainer > form > fieldset {
@@ -623,7 +638,10 @@
     align-items: center;
     flex-direction: column;
   }
-  .contactHead > h1 > span {
+  .contactHead > h2 {
+    font-size: 30px;
+  }
+  .contactHead > h2 > span {
     color: var(--customColor);
   }
   .contactMainContainer {
@@ -711,7 +729,7 @@
     width: 85%;
   }
 
-  .contactFormContainer > form > legend > h1 > span {
+  .contactFormContainer > form > legend > h2 > span {
     color: var(--customColor);
   }
   .contactFormContainer > form > fieldset {

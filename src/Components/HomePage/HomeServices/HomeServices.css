@@ -100,7 +100,10 @@
   text-align: start;
   letter-spacing: 1px;
 }
-.serviceHeadContainer > h1 > span {
+.serviceHeadContainer > h2{
+  font-size: 30px;
+}
+.serviceHeadContainer > h2 > span {
   color: var(--customColor);
 }
 .homeServiceCardContainer:hover .homeServiceCardCover {
@@ -133,7 +136,7 @@
     /* border: solid red; */
     width: 84%;
   }
-  .serviceHeadContainer > h1 {
+  .serviceHeadContainer > h2 {
     font-size: 20px;
     width: 100%;
     text-align: center;
@@ -246,7 +249,7 @@
     /* border: solid red; */
     width: 83%;
   }
-  .serviceHeadContainer > h1 {
+  .serviceHeadContainer > h2 {
     font-size: 20px;
     width: 90%;
     text-align: center;
@@ -344,7 +347,7 @@
     /* border: solid red; */
     width: 83%;
   }
-  .serviceHeadContainer > h1 {
+  .serviceHeadContainer > h2 {
     font-size: 30px;
     width: 90%;
     text-align: center;

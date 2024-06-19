@@ -44,6 +44,12 @@ a {
 .head2 {
   letter-spacing: 2px;
 }
+.menuCardContainer>a>h3{
+  font-size: 25px;
+}
+.menuCardContainer>a>h2{
+  font-size: 30px;
+}
 .menuCardContainer:hover {
   background-color: var(--customColor);
 }

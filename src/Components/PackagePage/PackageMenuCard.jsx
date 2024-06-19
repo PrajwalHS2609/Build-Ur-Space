@@ -12,8 +12,8 @@ const PackageMenuCard = (props) => {
   return (
     <div className="menuCardContainer" onClick={handleClick}>
       <NavHashLink to={props.link} scroll={smoothScroll}>
-        <h2 className="head2">{props.head2}</h2>
-        <h1 className="head1">{props.head1}</h1>
+        <h3 className="head2">{props.head2}</h3>
+        <h2 className="head1">{props.head1}</h2>
       </NavHashLink>
     </div>
   );

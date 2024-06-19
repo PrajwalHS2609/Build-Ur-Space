@@ -5,9 +5,9 @@ const WhereToFind = () => {
   return (
     <div className="whereContainer">
       <div className="whereHead">
-        <h1>
+        <h2>
           WHERE TO <span>FIND US</span>
-        </h1>
+        </h2>
       </div>
       <div className="whereMapContainer">
         <WhereToFindCard

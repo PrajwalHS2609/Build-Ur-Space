@@ -15,7 +15,10 @@
   align-items: center;
   flex-wrap: wrap;
 }
-.ourGoalHead > h1 > span {
+.ourGoalHead > h2{
+  font-size: 30px;
+}
+.ourGoalHead > h2 > span {
   color: var(--customColor);
 }
 .ourGoalMainContainer {

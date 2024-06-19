@@ -11,8 +11,10 @@
   background-color: var(--customWhite);
 
 }
-
-.testiHeadContainer > h1 > span {
+.testiHeadContainer > h2{
+  font-size: 30px;
+}
+.testiHeadContainer > h2 > span {
   color: var(--customColor);
 }
 .testiMainContainer {
@@ -39,7 +41,7 @@
 }
 @media screen and (min-width: 320px) and (max-width: 600px) {
 
-  .testiHeadContainer > h1 {
+  .testiHeadContainer > h2 {
     /* border: solid; */
     width: 100%;
     font-size: 25px;

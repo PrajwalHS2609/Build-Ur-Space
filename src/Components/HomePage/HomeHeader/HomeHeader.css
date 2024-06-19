@@ -45,16 +45,7 @@
   align-items: center;
   gap: 20px;
 }
-.homeHeadingInnerItem2 > h1 {
-  text-align: center;
-}
-.dot {
-  /* border: solid; */
-  width: 20px;
-  height: 20px;
-  background-color: var(--customColor);
-  transform: skew(-30deg);
-}
+
 
 .homeHeaderImgTxt {
   /* border: solid red; */
@@ -73,11 +64,7 @@
   /* border: solid blue; */
   background-color: white;
 }
-.homeHeaderImgTxtHead > h1 {
-  font-family: cursive;
-  color: var(--customColor);
-  font-weight: lighter;
-}
+
 .homeHeaderImgTxtPara {
   /* border: solid; */
   width: 90%;
@@ -182,11 +169,7 @@
     /* border: solid; */
     width: 90%;
   }
-  .homeHeadingInnerItem2 > h1 {
-    text-align: start;
-    font-size: 20px;
-    width: 100%;
-  }
+
   .homeHeadingInnerItem1 {
     /* border: solid teal; */
     width: 10%;
@@ -217,11 +200,7 @@
     /* border: solid blue; */
     background-color: white;
   }
-  .homeHeaderImgTxtHead > h1 {
-    font-family: cursive;
-    color: var(--customColor);
-    font-weight: lighter;
-  }
+
   .homeHeaderImgTxtPara {
     /* border: solid; */
     width: 90%;
@@ -318,11 +297,7 @@
     /* border: solid; */
     width: 90%;
   }
-  .homeHeadingInnerItem2 > h1 {
-    text-align: start;
-    font-size: 20px;
-    width: 100%;
-  }
+
   .homeHeadingInnerItem1 {
     /* border: solid teal; */
     width: 10%;
@@ -399,10 +374,7 @@
     align-items: center;
     gap: 10px;
   }
-  .homeHeadingInnerItem2 > h1 {
-    text-align: start;
-    font-size: 30px;
-  }
+
   .homeHeadingInnerItem1 {
     /* border: solid teal; */
     width: 5%;
@@ -436,12 +408,7 @@
   .homeHeaderImgTxtContainer > img {
     height: 90px;
   }
-  .homeHeaderImgTxtHead > h1 {
-    font-family: cursive;
-    color: var(--customColor);
-    font-weight: lighter;
-    font-size: 25px;
-  }
+
   .homeHeaderImgTxtPara {
     /* border: solid; */
     width: 90%;
@@ -524,10 +491,6 @@
     align-items: center;
     gap: 10px;
   }
-  .homeHeadingInnerItem2 > h1 {
-    text-align: start;
-    font-size: 30px;
-  }
 
   .homeHeaderImgTxt {
     /* border: solid red; */
@@ -546,10 +509,7 @@
     /* border: solid blue; */
     background-color: white;
   }
-  .homeHeaderImgTxtHead > h1 {
-    color: var(--customColor);
-    font-weight: lighter;
-  }
+
   .homeHeaderImgTxtPara {
     /* border: solid; */
     width: 90%;

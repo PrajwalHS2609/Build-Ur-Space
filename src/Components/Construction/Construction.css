@@ -24,10 +24,11 @@
   flex-direction: column;
   gap: 10px;
 }
-.constructionTypeHead > h1 {
+.constructionTypeHead > h2 {
+  font-size: 30px;
   text-align: center;
 }
-.constructionTypeHead > h1 > span {
+.constructionTypeHead > h2 > span {
   color: var(--customColor);
 }
 .constructionTypeHead > p {

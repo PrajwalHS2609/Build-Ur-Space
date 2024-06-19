@@ -7,10 +7,11 @@
   flex-direction: column;
   margin: 10px;
 }
-.welcomeContainer > h1 {
+.welcomeContainer > h2 {
+  font-size: 30px;
   text-align: center;
 }
-.welcomeContainer > h1>span {
+.welcomeContainer > h2>span {
   color:var(--customColor)
 }
 .welcomeContainer > p {
@@ -32,7 +33,7 @@
     flex-direction: column;
     margin: 10px;
   }
-  .welcomeContainer > h1 {
+  .welcomeContainer > h2 {
     text-align: center;
     font-size: 20px;
   }
@@ -52,7 +53,7 @@
     flex-direction: column;
     margin: 10px;
   }
-  .welcomeContainer > h1 {
+  .welcomeContainer > h2 {
     text-align: center;
     font-size: 30px;
   }
@@ -72,7 +73,7 @@
     flex-direction: column;
     margin: 10px;
   }
-  .welcomeContainer > h1 {
+  .welcomeContainer > h2 {
     text-align: center;
     font-size: 30px;
   }
@@ -92,7 +93,7 @@
     flex-direction: column;
     margin: 10px;
   }
-  .welcomeContainer > h1 {
+  .welcomeContainer > h2 {
     text-align: center;
     font-size: 30px;
   }
@@ -112,7 +113,7 @@
     flex-direction: column;
     margin: 10px;
   }
-  .welcomeContainer > h1 {
+  .welcomeContainer > h2 {
     text-align: center;
     font-size: 30px;
   }
@@ -132,7 +133,7 @@
     flex-direction: column;
     margin: 10px;
   }
-  .welcomeContainer > h1 {
+  .welcomeContainer > h2 {
     text-align: center;
     font-size: 30px;
   }
