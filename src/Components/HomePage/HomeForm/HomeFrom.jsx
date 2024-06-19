@@ -21,9 +21,9 @@ const HomeFrom = () => {
 
   let handleSubmit = (e) => {
     e.preventDefault();
-    let { name, phone, email, requirement } = data;
+    let { name, phone, email, location } = data;
     const mailtoLink = `mailto:hello@buildurspace.com?subject=Message from ${name}&body=${encodeURIComponent(
-      `Name: ${name}\nPhone: ${phone}\nEmail: ${email}\n\n${requirement}`
+      `Name: ${name}\nPhone: ${phone}\nEmail: ${email}\n\n${location}`
     )}`;
     window.location.href = mailtoLink;
   };
