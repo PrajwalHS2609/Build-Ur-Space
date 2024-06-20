@@ -3,10 +3,10 @@ import "./HomeWelcome.css";
 const HomeWelcome = () => {
   return (
     <div className="welcomeContainer">
-      <h2>
+      <h1>
         Welcome to <span>BUILD UR SPACE</span>, your trusted partner in
         construction solutions.
-      </h2>
+      </h1>
       <p>
         At <span>BUILD UR SPACE</span>, we understand the importance of creating
         spaces that meet your functional needs and reflect your unique style and
