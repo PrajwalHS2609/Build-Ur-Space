@@ -7,7 +7,14 @@ import "slick-carousel/slick/slick-theme.css";
 import rightArrow from "./../../../Images/right.png";
 import leftArrow from "./../../../Images/left.png";
 import InteriorInspirePopUp from "./InteriorInspirePopUp";
-
+import kiranLivingroom from "./../../../Images/KiranlivingRoom.jpg";
+import raja1 from "./../../../Images/rajaLivingroom.jpg";
+import chetan1 from "./../../../Images/chetanLivingroom.jpg";
+import gym from "./../../../Images/gym.jpg";
+import clinic from "./../../../Images/clinic.jpg";
+import office from "./../../../Images/office.jpg";
+import showroom from "./../../../Images/showroom.jpg";
+import office2 from "./../../../Images/office2.jpg"
 const InteriorInspireMain = () => {
   function SampleNextArrow(props) {
     const { className, style, onClick } = props;
@@ -68,8 +75,8 @@ const InteriorInspireMain = () => {
           backgroundImage: `url(${rightArrow})`,
           backgroundSize: "contain",
           backgroundRepeat: "no-repeat",
-          height: "20px",
-          width: "20px",
+          height: "30px",
+          width: "30px",
           cursor: "pointer",
           marginTop: "10px",
           position: "absolute",
@@ -93,13 +100,13 @@ const InteriorInspireMain = () => {
           backgroundImage: `url(${leftArrow})`,
           backgroundSize: "contain",
           backgroundRepeat: "no-repeat",
-          height: "20px",
-          width: "20px",
+          height: "30px",
+          width: "30px",
           cursor: "pointer",
           marginTop: "10px",
           position: "absolute",
           left: "0px",
-          zIndex:"2"
+          zIndex: "2",
           // boxShadow: "0 0 10px black",
         }}
         onClick={onClick}
@@ -129,7 +136,7 @@ const InteriorInspireMain = () => {
       {
         breakpoint: 990,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 4,
           slidesToScroll: 1,
           initialSlide: 2,
           nextArrow: <SampleNextArrow />,
@@ -143,36 +150,31 @@ const InteriorInspireMain = () => {
       <Slider {...settings} className="inspireSliderContainer">
         <div className="inspireSliderContent">
           <InteriorInspireCard
-            img1="https://images.livspace-cdn.com/w:700/h:394/dpr:1/plain/https://d3gq2merok8n5r.cloudfront.net/bumblebee/in/interior-designer-near-me-1668702759-oSI2D/design-stories-1668705027-Hz88h/desktop-1668705032-723a7/new-folder-1689150183-B8fsX/living-room-d-1689150613-oIGOU.jpg"
-            img2="https://images.livspace-cdn.com/w:282/h:394/dpr:1/plain/https://d3gq2merok8n5r.cloudfront.net/bumblebee/in/interior-designer-near-me-1668702759-oSI2D/design-stories-1668705027-Hz88h/desktop-1668705032-723a7/new-folder-1689150183-B8fsX/master-bedroom-d-1689150615-GAvUx.jpg"
-            img3="https://images.livspace-cdn.com/w:282/h:394/dpr:1/plain/https://d3gq2merok8n5r.cloudfront.net/bumblebee/in/interior-designer-near-me-1668702759-oSI2D/design-stories-1668705027-Hz88h/desktop-1668705032-723a7/new-folder-1689150183-B8fsX/false-ceiling-designs-web-1694434017-5JzRp.jpg"
-            img4="https://images.livspace-cdn.com/w:282/h:394/dpr:1/plain/https://d3gq2merok8n5r.cloudfront.net/bumblebee/in/interior-designer-near-me-1668702759-oSI2D/design-stories-1668705027-Hz88h/desktop-1668705032-723a7/new-folder-1689150183-B8fsX/homes-by-livspace-web-1694434020-x7mxm.jpg"
-            img5="https://images.livspace-cdn.com/w:700/h:394/dpr:1/plain/https://d3gq2merok8n5r.cloudfront.net/bumblebee/in/interior-designer-near-me-1668702759-oSI2D/design-stories-1668705027-Hz88h/desktop-1668705032-723a7/new-folder-1689150183-B8fsX/kitchen-d-1689150612-ouirR.jpg"
-            img6="https://images.livspace-cdn.com/w:282/h:394/dpr:1/plain/https://d3gq2merok8n5r.cloudfront.net/bumblebee/in/interior-designer-near-me-1668702759-oSI2D/design-stories-1668705027-Hz88h/desktop-1668705032-723a7/new-folder-1689150183-B8fsX/wardrobe-d-1689150619-VfOcJ.jpg"
-            h1="Living Room"
-            h2="Master Bedroom"
-            h3="False Ceiling"
-            h4="Homes by BuildUrSpace"
-            h5="Kitchen"
-            h6="Wardrobe"
+            img1={kiranLivingroom}
+            img2={raja1}
+            img3={chetan1}
+            img4={gym}
+            img5={clinic}
+            img6={office}
+            h1="Kiran"
+            h2="Rajashekhar"
+            h3="Chetan"
+            h4="Gym"
           />
         </div>
         <div className="inspireSliderContent">
           <InteriorInspireCard
-            img1="https://images.livspace-cdn.com/w:700/h:394/dpr:1/plain/https://d3gq2merok8n5r.cloudfront.net/bumblebee/in/interior-designer-near-me-1668702759-oSI2D/design-stories-1668705027-Hz88h/desktop-1668705032-723a7/new-folder-1689150183-B8fsX/kids-bedroom-d-1689150610-UnlVi.jpg"
-            img2="https://images.livspace-cdn.com/w:282/h:394/dpr:1/plain/https://d3gq2merok8n5r.cloudfront.net/bumblebee/in/interior-designer-near-me-1668702759-oSI2D/design-stories-1668705027-Hz88h/desktop-1668705032-723a7/new-folder-1689150183-B8fsX/home-office-d-1689150608-RHLV9.jpg"
-            img3="https://images.livspace-cdn.com/w:282/h:394/dpr:1/plain/https://d3gq2merok8n5r.cloudfront.net/bumblebee/in/interior-designer-near-me-1668702759-oSI2D/design-stories-1668705027-Hz88h/desktop-1668705032-723a7/new-folder-1689150183-B8fsX/guest-bedroom-d-1689150606-C0wy5.jpg"
-            img4="https://images.livspace-cdn.com/w:282/h:394/dpr:1/plain/https://d3gq2merok8n5r.cloudfront.net/bumblebee/in/interior-designer-near-me-1668702759-oSI2D/design-stories-1668705027-Hz88h/desktop-1668705032-723a7/new-folder-1689150183-B8fsX/foyer-d-1689150511-1Prr3.jpg"
-            img5="https://images.livspace-cdn.com/w:700/h:394/dpr:1/plain/https://d3gq2merok8n5r.cloudfront.net/bumblebee/in/interior-designer-near-me-1668702759-oSI2D/design-stories-1668705027-Hz88h/desktop-1668705032-723a7/new-folder-1689150183-B8fsX/dining-room-d-1689150498-HC3VH.jpg"
-            img6="https://images.livspace-cdn.com/w:282/h:394/dpr:1/plain/https://d3gq2merok8n5r.cloudfront.net/bumblebee/in/interior-designer-near-me-1668702759-oSI2D/design-stories-1668705027-Hz88h/desktop-1668705032-723a7/bathroom-d-1669044076-ZlOfj.jpg"
-            h1="Kids Room"
-            h2="Home Office"
-            h3="Guest Bedroom"
-            h4="Foyer"
-            h5="Dinning Room"
-            h6="Bathroom"
+            img1={clinic}
+            img2={office}
+            img3={showroom}
+            img4={office2}
+            h1="Clinic"
+            h2="Brigade IVR"
+            h3="Showroom"
+            h4="MBanq"
           />
         </div>
+       
       </Slider>
       <InteriorInspirePopUp />
     </div>

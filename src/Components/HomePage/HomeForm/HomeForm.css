@@ -141,7 +141,7 @@
   justify-content: flex-end;
   align-items: flex-start;
   gap: 30px;
-  background-color: white;
+  background-color: rgb(223, 223, 223);
 
 }
 
@@ -153,7 +153,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  background-color: rgb(223, 223, 223);
 }
 
 .respHomeFormContainer > form > fieldset > table > tr > td > input {
@@ -163,7 +163,8 @@
   height: 90%;
   border: none;
   outline: none;
-  background-color: white;
+  background-color: rgb(223, 223, 223);
+
 }
 .respHomeFormContainer > form > fieldset > table > button {
   border: solid var(--customColor);

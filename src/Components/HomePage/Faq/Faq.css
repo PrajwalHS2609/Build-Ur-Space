@@ -119,6 +119,10 @@
     justify-content: flex-start;
     align-items: center;
   }
+  .faqBut > h3 {
+    margin-left: 20px;
+    font-size: 17px;
+  }
 }
 @media screen and (min-width: 768px) {
   .faqContainer {

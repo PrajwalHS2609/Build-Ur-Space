@@ -54,33 +54,44 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 10px;
-  padding: 30px;
+  padding: 0px;
 }
 .inspireImgContent1 {
   /* border: solid red; */
-  width: 50%;
+  width: 40%;
   height: 350px;
+  margin: 20px;
   overflow: hidden;
-  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-radius: 20px; */
 }
 .inspireImgContent2 {
-  /* border: solid blue; */
+  border: solid blue;
   width: 20%;
   height: 350px;
   overflow: hidden;
-  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-radius: 20px; */
 }
 .inspireImgContent3 {
   /* border: solid green; */
   width: 20%;
   height: 350px;
   overflow: hidden;
-  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-radius: 20px; */
 }
-#inspireImgConten > a > img {
+#inspireImgContent > a > img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 20px;
 }
 #inspireImgContent > a {
   position: relative;
@@ -92,7 +103,7 @@
   position: absolute;
   border-radius: 10px;
   bottom: 30px;
-  left: 0;
+  left: 20px;
   text-align: center;
   letter-spacing: 1px;
 }
@@ -157,13 +168,10 @@
     height: 100%;
     margin-top: 20px;
   }
-  .inspireSliderContent {
-    /* border: solid rebeccapurple; */
-    overflow-x: scroll;
-  }
+
   .inspireCardContainer {
     /* border: solid brown; */
-    width: 300%;
+    width: 100%;
     height: 90%;
     display: flex;
     justify-content: center;
@@ -171,6 +179,10 @@
     flex-wrap: wrap;
     gap: 10px;
     padding: 0px;
+  }
+  .inspireImgContent1 {
+    /* border: solid red; */
+    width: 90%;
   }
   #inspireImgContent > a > h3 {
     color: white;
@@ -235,7 +247,7 @@
     padding: 10px;
   }
   .inspireSliderPopContent {
-    border:solid transparent;
+    border: solid transparent;
     height: 100%;
     width: 100%;
     margin-top: 60px;
@@ -246,15 +258,15 @@
     width: 100%;
   }
 }
-@media screen and (min-width:1200px) {
+@media screen and (min-width: 1200px) {
   .inspirePopUpExit {
     /* border: solid red; */
     position: absolute;
-    right:30px;
+    right: 30px;
     top: 50px;
   }
   .inspirePopUp {
-      /* border: solid green; */
+    /* border: solid green; */
     height: 100vh;
     width: 100%;
     position: fixed;
@@ -274,7 +286,7 @@
     margin-top: -50px;
   }
   .inspireSliderPopContent {
-    border:solid transparent;
+    border: solid transparent;
     height: 100%;
     width: 100%;
     margin-top: 0px;
@@ -284,5 +296,4 @@
     object-fit: cover;
     width: 100%;
   }
-  
 }

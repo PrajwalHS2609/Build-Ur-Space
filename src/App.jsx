@@ -25,34 +25,12 @@ const App = () => {
             <Route path="/about-us" element={<AboutUs />} />
             <Route path="/home-and-commercial-interior-design" element={<Interior />} />
             <Route path="/home-and-commercial-construction" element={<Construction />}/>
-
             <Route path="/contact-us" element={<Contacts />} />
             <Route
               path="/commercial-interior-design"
               element={<CommercialInterior />}
             />
-
             <Route path="/home-construction-packages" element={<Package />}/>
-              {/* <Route
-                path="/packages/product-package1"
-                element={<PackageList />}
-              />
-              <Route
-                path="/packages/product-package1"
-                element={<PackageList />}
-              />
-              <Route
-                path="/packages/product-package1"
-                element={<PackageList />}
-              />
-              <Route
-                path="/packages/product-package1"
-                element={<PackageList />}
-              />
-              <Route
-                path="/packages/product-package1"
-                element={<PackageList />}
-              /> */}
           </Routes>
         </PackageContext>
       </BrowserRouter>

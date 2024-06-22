@@ -1,8 +1,8 @@
 import React from "react";
 import "./Testimonial.css";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+  import Slider from "react-slick";
+  import "slick-carousel/slick/slick.css";
+  import "slick-carousel/slick/slick-theme.css";
 import TestimonialCard from "./TestimonialCard";
 const TestimonialMain = () => {
   function SampleNextArrow(props) {

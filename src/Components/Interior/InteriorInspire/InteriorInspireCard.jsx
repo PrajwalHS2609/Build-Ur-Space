@@ -6,7 +6,6 @@ const InteriorInspireCard = (props) => {
   const handlePopup = () => {
     let popUp = document.querySelector(".inspirePopUp");
     popUp.style.display = "flex";
-    
   };
 
   return (
@@ -22,7 +21,7 @@ const InteriorInspireCard = (props) => {
         </Link>
       </div>
       <div
-        className="inspireImgContent2"
+        className="inspireImgContent1"
         id="inspireImgContent"
         onClick={handlePopup}
       >
@@ -32,7 +31,7 @@ const InteriorInspireCard = (props) => {
         </Link>
       </div>
       <div
-        className="inspireImgContent3"
+        className="inspireImgContent1"
         id="inspireImgContent"
         onClick={handlePopup}
       >
@@ -42,33 +41,13 @@ const InteriorInspireCard = (props) => {
         </Link>
       </div>
       <div
-        className="inspireImgContent2"
+        className="inspireImgContent1"
         id="inspireImgContent"
         onClick={handlePopup}
       >
         <Link to={""}>
           <img src={props.img4} alt="" />
           <h3>{props.h4}</h3>
-        </Link>
-      </div>
-      <div
-        className="inspireImgContent1"
-        id="inspireImgContent"
-        onClick={handlePopup}
-      >
-        <Link to={""}>
-          <img src={props.img5} alt="" />
-          <h3>{props.h5}</h3>
-        </Link>
-      </div>
-      <div
-        className="inspireImgContent3"
-        id="inspireImgContent"
-        onClick={handlePopup}
-      >
-        <Link to={""}>
-          <img src={props.img6} alt="" />
-          <h3>{props.h6}</h3>
         </Link>
       </div>
     </div>

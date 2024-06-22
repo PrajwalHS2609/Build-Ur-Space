@@ -1,9 +1,9 @@
 import React from "react";
 import "./HomeWhat.css";
 import HomeWhatCard from "./HomeWhatCard";
-import img1 from "./../../../Images/1.png";
-import img2 from "./../../../Images/2.png";
-import img3 from "./../../../Images/3.png";
+import img1 from "./../../../Images/residentTurnkey.png";
+import img2 from "./../../../Images/PEB.png";
+import img3 from "./../../../Images/commercialSpace.png";
 
 const HomeWhatMain = () => {
   return (
@@ -12,32 +12,12 @@ const HomeWhatMain = () => {
         img={img1}
         head=" RESIDENTIAL
       TURNKEY"
-        para=" Delivering 
-      seamless 
-      and
-       comprehensive residential turnkey
-       solutions, 
-      from 
-      concept 
-      to
-       completion, for a hassle-free and
-       stylish living experience."
+        para=" Delivering seamless and comprehensive residential turnkey solutions, from concept to completion, for a hassle-free and stylish living experience."
       />
       <HomeWhatCard
         img={img2}
-        head=" LIGHT ROOF
- STRUCTURE (PEB)"
-        para="PEB 
-        structures 
-        are 
-        highly
-         adaptable, suitable for a wide
-         range 
-        of 
-        industrial 
-        applications 
-        warehouses 
-        commercial spaces"
+        head=" LIGHT ROOF STRUCTURE (PEB)"
+        para="PEB structures are highly adaptable, suitable for a wide range of industrial applications warehouses  commercial spaces"
       />
       <HomeWhatCard
         img={img3}

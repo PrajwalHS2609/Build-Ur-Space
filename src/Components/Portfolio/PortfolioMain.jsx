@@ -1,42 +1,44 @@
 import React from "react";
 import "./Portfolio.css";
 import PortfolioCard from "./PortfolioCard";
-
+import kiran from "./../../Images/kiran.png";
+import raja from "./../../Images/raja.png";
+import chetan from "./../../Images/chetan.png";
 const PortfolioMain = () => {
   return (
     <div className="portfolioMainContainer">
       <PortfolioCard
-        img="https://www.buildahome.in/_next/image?url=https%3A%2F%2Fwww.buildahome.in%2Fwp%2Fwp-content%2Fuploads%2F2024%2F04%2F10-2-scaled.jpg&w=1920&q=75"
-        name="Mr. Vishwanath’s Dream Home"
-        loc="Chandrapura, Bangalore"
-        floor="G+2"
-        area="3,450 sq.ft."
+        img={kiran}
+        name="Kiran's Home"
+        loc="Hegde Nagar, Bangalore"
+        floor="G+3.5"
+        area="4,650 sq.ft."
         cost="72 Lakhs"
       />
       <PortfolioCard
-        img="https://www.buildahome.in/_next/image?url=https%3A%2F%2Fwww.buildahome.in%2Fwp%2Fwp-content%2Fuploads%2F2024%2F04%2F02-2.jpg&w=1920&q=75"
-        name="Mr. Ajay Kulkarni’s Dream Home"
-        loc="Kodigehalli, Bangalore"
-        floor="G+2"
-        area="3,599 sq.ft."
+        img={raja}
+        name="Rajashekhar's Home"
+        loc="Bellary"
+        floor="G"
+        area="2,150 sq.ft."
         cost="69.2 Lakhs"
       />
       <PortfolioCard
-        img="https://www.buildahome.in/_next/image?url=https%3A%2F%2Fwww.buildahome.in%2Fwp%2Fwp-content%2Fuploads%2F2024%2F04%2F01-4.jpg&w=1920&q=75"
-        name="Mr. Sudarshan’s Dream Home"
-        loc="Kanakapura, Bangalore"
-        floor="G+1"
-        area="2,302 sq.ft."
+        img={chetan}
+        name="Chetan's  Home"
+        loc="chitradurga"
+        floor="G"
+        area="1650 sq.ft."
         cost="53 Lakhs"
       />
-          <PortfolioCard
+      {/* <PortfolioCard
         img="https://www.buildahome.in/_next/image?url=https%3A%2F%2Fwww.buildahome.in%2Fwp%2Fwp-content%2Fuploads%2F2024%2F04%2FNew-scaled.jpg&w=1920&q=75"
         name="Mr. Badri & Mr. Dheeraj’s Dream Home"
         loc="Amruthhalli, Bangalore"
         floor="G+4"
         area="5,359 sq.ft."
         cost="1.18 Crore"
-      />
+      /> */}
     </div>
   );
 };
