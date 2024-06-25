@@ -18,6 +18,7 @@
 }
 .inspireHeadContainer > p {
   font-size: 20px;
+  text-align: center;
 }
 .inspireMainContainer {
   /* border: solid blue; */
@@ -26,36 +27,35 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   flex-wrap: wrap;
 }
 .inspireSliderContainer {
   /* border: solid red; */
   width: 90%;
   height: 90%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 100%;
 }
 .inspireSliderContent {
   /* border: solid rebeccapurple; */
   width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
-.inspireCardContainer {
-  /* border: solid brown; */
-  width: 100%;
-  height: 90%;
+/* .inspireCardContainer {
+  border: solid brown;
+  width: 40%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: 10px;
   padding: 0px;
-}
+} */
 .inspireImgContent1 {
   /* border: solid red; */
   width: 40%;
@@ -68,7 +68,7 @@
   /* border-radius: 20px; */
 }
 .inspireImgContent2 {
-  border: solid blue;
+  /* border: solid blue; */
   width: 20%;
   height: 350px;
   overflow: hidden;
@@ -120,12 +120,7 @@
   justify-content: center;
   align-items: center;
 }
-.inspirePopUpExit {
-  /* border: solid red; */
-  position: absolute;
-  right: 20px;
-  top: 20px;
-}
+
 .popXIcon {
   font-size: 30px;
   cursor: pointer;
@@ -133,8 +128,11 @@
 }
 .interiorPopSlider {
   /* border: solid red; */
-  width: 90%;
-  height: 80%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .inspireSliderPopContainer {
   /* border: solid green; */
@@ -144,68 +142,43 @@
   padding: 30px;
 }
 .inspireSliderPopContent {
-  border: 20px solid transparent;
+  /* border: solid red; */
   height: 100%;
-  width: 20%;
+  width: 100%;
   margin-top: 70px;
 }
 .inspireSliderPopContent > img {
   height: 100%;
   width: 100%;
+  object-fit: cover;
 }
-@media screen and (min-width: 320px) and (max-width: 768px) {
-  .inspireHeadContainer > p {
-    font-size: 20px;
-    text-align: center;
-  }
-  .inspireSliderContainer {
-    /* border: solid red; */
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    margin-top: 20px;
-  }
 
-  .inspireCardContainer {
-    /* border: solid brown; */
-    width: 100%;
-    height: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 10px;
-    padding: 0px;
-  }
+.inspirePopUpExit {
+  /* border: solid red; */
+  position: absolute;
+  right: 50px;
+  top: 50px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .inspireImgContent1 {
     /* border: solid red; */
-    width: 90%;
-  }
-  #inspireImgContent > a > h3 {
-    color: white;
-    background-color: rgba(0, 0, 0, 0.46);
-    padding: 5px;
-    position: absolute;
-    border-radius: 10px;
-    bottom: 30px;
-    left: 10px;
-    text-align: center;
-    letter-spacing: 1px;
+    min-width: 300px;
+    height: 350px;
   }
   .inspirePopUp {
     /* border: solid green; */
     height: 90vh;
     width: 100%;
-    position: fixed;
-    top: 70px;
+    top: 60px;
   }
   .interiorPopSlider {
     /* border: solid red; */
     width: 70%;
-    height: 30%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .inspireSliderPopContainer {
     /* border: solid green; */
@@ -215,15 +188,60 @@
     padding: 0px;
   }
   .inspireSliderPopContent {
-    border: solid transparent;
+    /* border: solid red; */
     height: 100%;
     width: 100%;
     margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .inspireSliderPopContent > img {
-    height: 100%;
-    object-fit: cover;
+    height: 60%;
     width: 100%;
+    object-fit: contain;
+  }
+}
+@media screen and (min-width: 768px) {
+  .inspireImgContent1 {
+    /* border: solid red; */
+    min-width: 300px;
+    height: 350px;
+  }
+  .inspirePopUp {
+    /* border: solid green; */
+    height: 90vh;
+    width: 100%;
+    top: 60px;
+  }
+  .interiorPopSlider {
+    /* border: solid red; */
+    width: 70%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .inspireSliderPopContainer {
+    /* border: solid green; */
+    height: 100%;
+    width: 100%;
+    gap: 0px;
+    padding: 0px;
+  }
+  .inspireSliderPopContent {
+    /* border: solid red; */
+    height: 100%;
+    width: 100%;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .inspireSliderPopContent > img {
+    height: 60%;
+    width: 100%;
+    object-fit: contain;
   }
 }
 @media screen and (min-width: 990px) {
@@ -244,13 +262,13 @@
     height: 100%;
     width: 100%;
     gap: 10px;
-    padding: 10px;
+    padding: 0px;
   }
   .inspireSliderPopContent {
-    border: solid transparent;
+    /* border: solid ; */
     height: 100%;
     width: 100%;
-    margin-top: 60px;
+    margin-top: 0px;
   }
   .inspireSliderPopContent > img {
     height: 100%;
@@ -262,38 +280,43 @@
   .inspirePopUpExit {
     /* border: solid red; */
     position: absolute;
-    right: 30px;
-    top: 50px;
+    right: 200px;
+    top: 200px;
   }
   .inspirePopUp {
     /* border: solid green; */
-    height: 100vh;
+    height: 100%;
     width: 100%;
     position: fixed;
-    top: 110px;
+    top: 0px;
   }
   .interiorPopSlider {
     /* border: solid red; */
     width: 85%;
     height: 50%;
+   
   }
   .inspireSliderPopContainer {
     /* border: solid green; */
     height: fit-content;
-    width: 100%;
+    width: 60%;
+    height: 100%;
     gap: 0px;
     padding: 0px;
-    margin-top: -50px;
+    margin-top: 0px;
   }
   .inspireSliderPopContent {
-    border: solid transparent;
-    height: 100%;
+    /* border: solid ; */
+    height: 470px;
     width: 100%;
     margin-top: 0px;
   }
   .inspireSliderPopContent > img {
+    /* border: solid blue; */
     height: 100%;
-    object-fit: cover;
     width: 100%;
+    object-fit: cover;
+    margin-left: 0px;
+    object-position: 0, -2  0px;
   }
 }

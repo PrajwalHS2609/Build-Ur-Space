@@ -6,7 +6,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import rightArrow from "./../../../Images/right.png";
 import leftArrow from "./../../../Images/left.png";
-import InteriorInspirePopUp from "./InteriorInspirePopUp";
 import kiranLivingroom from "./../../../Images/KiranlivingRoom.jpg";
 import raja1 from "./../../../Images/rajaLivingroom.jpg";
 import chetan1 from "./../../../Images/chetanLivingroom.jpg";
@@ -14,8 +13,49 @@ import gym from "./../../../Images/gym.jpg";
 import clinic from "./../../../Images/clinic.jpg";
 import office from "./../../../Images/office.jpg";
 import showroom from "./../../../Images/showroom.jpg";
-import office2 from "./../../../Images/office2.jpg"
+import office2 from "./../../../Images/office2.jpg";
+import InteriorKiran from "./Clients/InteriorKiran";
+import InteriorRajaShekar from "./Clients/InteriorRajaShekar";
+import InteriorGym from "./Clients/InteriorGym";
+import InteriorChetan from "./Clients/InteriorChetan";
+import InteriorBanq from "./Clients/InteriorBanq";
+import InteriorShowroom from "./Clients/InteriorShowroom";
+import InteriorClinic from "./Clients/InteriorClinic";
+import InteriorIVR from "./Clients/InteriorIVR";
 const InteriorInspireMain = () => {
+  const handleKiran = () => {
+    let popUp = document.querySelector("#kiranPopUp");
+    popUp.style.display = "flex";
+  };
+  const handleRajaShekar = () => {
+    let popUp = document.querySelector("#rajaPopUp");
+    popUp.style.display = "flex";
+  };
+  const handleChetan = () => {
+    let popUp = document.querySelector("#chetanPopUp");
+    popUp.style.display = "flex";
+  };
+
+  const handleGym = () => {
+    let popUp = document.querySelector("#gymPopUp");
+    popUp.style.display = "flex";
+  };
+  const handleClinic = () => {
+    let popUp = document.querySelector("#clinicPopUp");
+    popUp.style.display = "flex";
+  };
+  const handleIVR = () => {
+    let popUp = document.querySelector("#ivrPopUp");
+    popUp.style.display = "flex";
+  };
+  const handleShowroom = () => {
+    let popUp = document.querySelector("#showRoomPopUp");
+    popUp.style.display = "flex";
+  };
+  const handleMBanq = () => {
+    let popUp = document.querySelector("#banqPopUp");
+    popUp.style.display = "flex";
+  };
   function SampleNextArrow(props) {
     const { className, style, onClick } = props;
     return (
@@ -136,7 +176,7 @@ const InteriorInspireMain = () => {
       {
         breakpoint: 990,
         settings: {
-          slidesToShow: 4,
+          slidesToShow: 1,
           slidesToScroll: 1,
           initialSlide: 2,
           nextArrow: <SampleNextArrow />,
@@ -148,35 +188,47 @@ const InteriorInspireMain = () => {
   return (
     <div className="inspireMainContainer">
       <Slider {...settings} className="inspireSliderContainer">
-        <div className="inspireSliderContent">
-          <InteriorInspireCard
-            img1={kiranLivingroom}
-            img2={raja1}
-            img3={chetan1}
-            img4={gym}
-            img5={clinic}
-            img6={office}
-            h1="Kiran"
-            h2="Rajashekhar"
-            h3="Chetan"
-            h4="Gym"
-          />
+        <div>
+          <div className="inspireSliderContent">
+            <InteriorInspireCard
+              img1={kiranLivingroom}
+              h1="Mr.Kiran's Home"
+              onClick={handleKiran}
+            />
+            <InteriorInspireCard
+              img1={raja1}
+              h1="Mr.Rajashekhar's Home"
+              onClick={handleRajaShekar}
+            />
+            <InteriorInspireCard
+              img1={chetan1}
+              h1="Mr.Chetan's Home"
+              onClick={handleChetan}
+            />
+            <InteriorInspireCard img1={gym} h1="Gym" onClick={handleGym} />
+          </div>
         </div>
-        <div className="inspireSliderContent">
-          <InteriorInspireCard
-            img1={clinic}
-            img2={office}
-            img3={showroom}
-            img4={office2}
-            h1="Clinic"
-            h2="Brigade IVR"
-            h3="Showroom"
-            h4="MBanq"
-          />
+        <div>
+          <div className="inspireSliderContent">
+            <InteriorInspireCard
+              img1={clinic}
+              h1="Clinic"
+              onClick={handleClinic}
+            />
+            <InteriorInspireCard img1={office} h1="Brigade IVR" onClick={handleIVR}/>
+            <InteriorInspireCard img1={showroom} h1="showroom" onClick={handleShowroom}/>
+            <InteriorInspireCard img1={office2} h1="MBanQ" onClick={handleMBanq}/>
+          </div>
         </div>
-       
       </Slider>
-      <InteriorInspirePopUp />
+      <InteriorKiran />
+      <InteriorRajaShekar />
+      <InteriorChetan />
+      <InteriorGym />
+      <InteriorClinic />
+      <InteriorShowroom />
+      <InteriorIVR/>
+      <InteriorBanq />
     </div>
   );
 };
