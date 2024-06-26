@@ -3,11 +3,17 @@ import "../InteriorInspire.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import chetansLivingroom from "./../../../../Images/chetanLivingroom.jpg";
 import chetansBedroom from "./../../../../Images/Chetan'sBeadroom.jpg";
 import chetansFalseCeling from "./../../../../Images/Chetan'sFalseCeling.jpg";
 import chetansKitchen from "./../../../../Images/Chetan'sKitchen.jpg";
 import chetansGod from "./../../../../Images/Chetan'sGod.jpg";
 import chetansWardrobe from "./../../../../Images/Chetan'sWardrobe.jpg";
+import chetansEntrance from "./../../../../Images/chetan'sEntrance.jpg";
+import chetansWardrobe2 from "./../../../../Images/chetan'sWardrobe2.jpg";
+import chetansFalseceling2 from "./../../../../Images/chetan'sfalseCeling2.jpg";
+import chetansWardrobe3 from "./../../../../Images/chetan'sWardrobe3.jpg";
+
 const ChetanPopUpSlide = () => {
   function SampleNextArrow(props) {
     const { className, style, onClick } = props;
@@ -142,6 +148,9 @@ const ChetanPopUpSlide = () => {
     <div className="interiorPopSlider">
       <Slider {...settings} className="inspireSliderPopContainer">
         <div className="inspireSliderPopContent">
+          <img src={chetansLivingroom} alt="chetansLivingroom" />
+        </div>
+        <div className="inspireSliderPopContent">
           <img src={chetansBedroom} alt="chetansBedroom" />
         </div>
         <div className="inspireSliderPopContent">
@@ -155,6 +164,18 @@ const ChetanPopUpSlide = () => {
         </div>
         <div className="inspireSliderPopContent">
           <img src={chetansWardrobe} alt="chetansWardrobe" />
+        </div>
+        <div className="inspireSliderPopContent">
+          <img src={chetansEntrance} alt="chetansEntrance" />
+        </div>
+        <div className="inspireSliderPopContent">
+          <img src={chetansWardrobe2} alt="chetansWardrobe2" />
+        </div>
+        <div className="inspireSliderPopContent">
+          <img src={chetansFalseceling2} alt="chetansFalseceling2" />
+        </div>
+        <div className="inspireSliderPopContent">
+          <img src={chetansWardrobe3} alt="chetansWardrobe3" />
         </div>
       </Slider>
     </div>

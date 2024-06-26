@@ -3,11 +3,16 @@ import "../InteriorInspire.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import kiransLivingroom from "./../../../../Images/KiranlivingRoom.jpg";
 import kiransKitchen from "./../../../../Images/Kiran'skitchen.jpg";
 import kiransBedroom from "./../../../../Images/Kiran'sbedroom.jpg";
 import kiransBathroom from "./../../../../Images/Kiran'sbathroom.jpg";
 import kiransWardrobe from "./../../../../Images/Kiran'swardrobe.jpg";
 import kiransFalseCeling from "./../../../../Images/Kiran'sfalseCeling.jpg";
+import kiransSink from "./../../../../Images/kiran'sSink.jpg";
+import kiransSeat from "./../../../../Images/kiran'stSeat.jpg";
+import kiransCorridor from "./../../../../Images/kiran'sCorridor.jpg";
+import kiransStairs from "./../../../../Images/kiran'sStairs.jpg";
 
 const KiranPopUpSlide = () => {
   function SampleNextArrow(props) {
@@ -76,6 +81,7 @@ const KiranPopUpSlide = () => {
           width: "60px",
           cursor: "pointer",
           position: "absolute",
+          zIndex: "3",
           transform: "scale(1.5)",
           right: "-90px",
 
@@ -102,8 +108,10 @@ const KiranPopUpSlide = () => {
           width: "60px",
           cursor: "pointer",
           position: "absolute",
+          zIndex: "3",
           left: "-30px",
           transform: "scale(1.5)",
+
           // boxShadow: "0 0 10px black",
         }}
         onClick={onClick}
@@ -143,6 +151,9 @@ const KiranPopUpSlide = () => {
     <div className="interiorPopSlider">
       <Slider {...settings} className="inspireSliderPopContainer">
         <div className="inspireSliderPopContent">
+          <img src={kiransLivingroom} alt="kiransLivingroom" />
+        </div>
+        <div className="inspireSliderPopContent">
           <img src={kiransKitchen} alt="kiransKitchen" />
         </div>
         <div className="inspireSliderPopContent">
@@ -156,6 +167,18 @@ const KiranPopUpSlide = () => {
         </div>
         <div className="inspireSliderPopContent">
           <img src={kiransFalseCeling} alt="kiransFalseCeling" />
+        </div>
+        <div className="inspireSliderPopContent">
+          <img src={kiransSink} alt="kiransSink" />
+        </div>
+        <div className="inspireSliderPopContent">
+          <img src={kiransSeat} alt="kiransSeat" />
+        </div>
+        <div className="inspireSliderPopContent">
+          <img src={kiransCorridor} alt="kiransCorridor" />
+        </div>
+        <div className="inspireSliderPopContent">
+          <img src={kiransStairs} alt="kiransStairs" />
         </div>
       </Slider>
     </div>

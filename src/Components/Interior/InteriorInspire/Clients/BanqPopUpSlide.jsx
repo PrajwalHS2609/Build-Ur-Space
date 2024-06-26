@@ -8,6 +8,11 @@ import mBanqInterior2 from "./../../../../Images/mBanq2.jpg";
 import mBanqInterior3 from "./../../../../Images/mBanq3.jpg";
 import mBanqInterior4 from "./../../../../Images/mBanq4.jpg";
 import mBanqInterior5 from "./../../../../Images/mBanq5.jpg";
+import mBanqInterior6 from "./../../../../Images/office2.jpg";
+import mBanqInterior7 from "./../../../../Images/mBanqInterior7.jpg";
+import mBanqInterior8 from "./../../../../Images/mBanqInterior8.jpg";
+import mBanqInterior9 from "./../../../../Images/mBanqInterior9.jpg";
+import mBanqInterior10 from "./../../../../Images/mBanqInterior10.jpg";
 
 const BanqPopUpSlide = () => {
   function SampleNextArrow(props) {
@@ -156,6 +161,21 @@ const BanqPopUpSlide = () => {
         </div>
         <div className="inspireSliderPopContent">
           <img src={mBanqInterior5} alt="mBanqInterior5" />
+        </div>
+        <div className="inspireSliderPopContent">
+          <img src={mBanqInterior6} alt="mBanqInterior6" />
+        </div>
+        <div className="inspireSliderPopContent">
+          <img src={mBanqInterior7} alt="mBanqInterior7" />
+        </div>
+        <div className="inspireSliderPopContent">
+          <img src={mBanqInterior8} alt="mBanqInterior8" />
+        </div>
+        <div className="inspireSliderPopContent">
+          <img src={mBanqInterior9} alt="mBanqInterior9" />
+        </div>
+        <div className="inspireSliderPopContent">
+          <img src={mBanqInterior10} alt="mBanqInterior10" />
         </div>
       </Slider>
     </div>

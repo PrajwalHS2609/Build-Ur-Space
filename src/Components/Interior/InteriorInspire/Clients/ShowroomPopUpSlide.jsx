@@ -8,6 +8,12 @@ import showroomInterior2 from "./../../../../Images/showRoom2.jpg"
 import showroomInterior3 from "./../../../../Images/showRoom3.jpg"
 import showroomInterior4 from "./../../../../Images/showRoom4.jpg"
 import showroomInterior5 from "./../../../../Images/showRoom5.jpg"
+import showroomInterior6 from "./../../../../Images/showroom.jpg"
+import showroomInterior7 from "./../../../../Images/showroom7.jpg"
+import showroomInterior8 from "./../../../../Images/showroom8.jpg"
+import showroomInterior9 from "./../../../../Images/showroom9.jpg"
+import showroomInterior10 from "./../../../../Images/showroom10.jpg"
+
 
 const ShowroomPopUpSlide = () => {
     function SampleNextArrow(props) {
@@ -156,6 +162,21 @@ const ShowroomPopUpSlide = () => {
       </div>
       <div className="inspireSliderPopContent">
         <img src={showroomInterior5} alt="showroomInterior5" />
+      </div>
+      <div className="inspireSliderPopContent">
+        <img src={showroomInterior6} alt="showroomInterior6" />
+      </div>
+      <div className="inspireSliderPopContent">
+        <img src={showroomInterior7} alt="showroomInterior7" />
+      </div>
+      <div className="inspireSliderPopContent">
+        <img src={showroomInterior8} alt="showroomInterior8" />
+      </div>
+      <div className="inspireSliderPopContent">
+        <img src={showroomInterior9} alt="showroomInterior9" />
+      </div>
+      <div className="inspireSliderPopContent">
+        <img src={showroomInterior10} alt="showroomInterior10" />
       </div>
     </Slider>
   </div>

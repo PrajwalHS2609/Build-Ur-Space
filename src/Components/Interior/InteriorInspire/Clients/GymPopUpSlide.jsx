@@ -3,12 +3,15 @@ import "../InteriorInspire.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import gymInterior6 from "./../../../../Images/gym.jpg";
 import gymInterior1 from "./../../../../Images/gymInterior1.jpg";
 import gymInterior2 from "./../../../../Images/gymInterior2.jpg";
 import gymInterior3 from "./../../../../Images/gymInterior3.jpg";
 import gymInterior4 from "./../../../../Images/gymInterior4.jpg";
 import gymInterior5 from "./../../../../Images/gymInterior5.jpg";
-
+import gymInterior7 from "./../../../../Images/gymInterior7.jpg";
+import gymInterior8 from "./../../../../Images/gymInterior8.jpg";
+import gymInterior9 from "./../../../../Images/gymInterior9.jpg";
 const GymPopUpSlide = () => {
   function SampleNextArrow(props) {
     const { className, style, onClick } = props;
@@ -143,6 +146,9 @@ const GymPopUpSlide = () => {
     <div className="interiorPopSlider">
       <Slider {...settings} className="inspireSliderPopContainer">
         <div className="inspireSliderPopContent">
+          <img src={gymInterior6} alt="gymInterior6" />
+        </div>
+        <div className="inspireSliderPopContent">
           <img src={gymInterior1} alt="gymInterior1" />
         </div>
         <div className="inspireSliderPopContent">
@@ -156,6 +162,15 @@ const GymPopUpSlide = () => {
         </div>
         <div className="inspireSliderPopContent">
           <img src={gymInterior5} alt="gymInterior5" />
+        </div>
+        <div className="inspireSliderPopContent">
+          <img src={gymInterior7} alt="gymInterior7" />
+        </div>
+        <div className="inspireSliderPopContent">
+          <img src={gymInterior8} alt="gymInterior8" />
+        </div>
+        <div className="inspireSliderPopContent">
+          <img src={gymInterior9} alt="gymInterior9" />
         </div>
       </Slider>
     </div>

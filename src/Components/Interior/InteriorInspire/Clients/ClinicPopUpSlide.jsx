@@ -8,6 +8,12 @@ import clinicInterior2 from "./../../../../Images/clinic2.jpg"
 import clinicInterior3 from "./../../../../Images/clinic3.jpg"
 import clinicInterior4 from "./../../../../Images/clinic4.jpg"
 import clinicInterior5 from "./../../../../Images/clinic5.jpg"
+import clinicInterior6 from "./../../../../Images/clinic.jpg"
+import clinicInterior7 from "./../../../../Images/clinicInterior7.jpg"
+import clinicInterior8 from "./../../../../Images/clinicInterior8.jpg"
+import clinicInterior9 from "./../../../../Images/clinicInterior9.jpg"
+import clinicInterior10 from "./../../../../Images/clinicInterior10.jpg"
+
 
 const ClinicPopUpSlide = () => {
   function SampleNextArrow(props) {
@@ -156,6 +162,21 @@ const ClinicPopUpSlide = () => {
         </div>
         <div className="inspireSliderPopContent">
           <img src={clinicInterior5} alt="clinicInterior5" />
+        </div>
+        <div className="inspireSliderPopContent">
+          <img src={clinicInterior6} alt="clinicInterior6" />
+        </div>
+        <div className="inspireSliderPopContent">
+          <img src={clinicInterior7} alt="clinicInterior7" />
+        </div>
+        <div className="inspireSliderPopContent">
+          <img src={clinicInterior8} alt="clinicInterior8" />
+        </div>
+        <div className="inspireSliderPopContent">
+          <img src={clinicInterior9} alt="clinicInterior9" />
+        </div>
+        <div className="inspireSliderPopContent">
+          <img src={clinicInterior10} alt="clinicInterior10" />
         </div>
       </Slider>
     </div>

@@ -1,144 +1,149 @@
-import React from 'react'
+import React from "react";
 import "../InteriorInspire.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import IVRInterior1 from "./../../../../Images/IRV1.jpg"
-import IVRInterior2 from "./../../../../Images/IRV2.jpg"
-import IVRInterior3 from "./../../../../Images/IRV3.jpg"
-import IVRInterior4 from "./../../../../Images/IRV4.jpg"
-import IVRInterior5 from "./../../../../Images/IRV5.jpg"
+import IVRInterior1 from "./../../../../Images/IRV1.jpg";
+import IVRInterior2 from "./../../../../Images/IRV2.jpg";
+import IVRInterior3 from "./../../../../Images/IRV3.jpg";
+import IVRInterior4 from "./../../../../Images/IRV4.jpg";
+import IVRInterior5 from "./../../../../Images/IRV5.jpg";
+import IVRInterior6 from "./../../../../Images/office.jpg";
+import IVRInterior7 from "./../../../../Images/IVRInterior7.jpg";
+import IVRInterior8 from "./../../../../Images/IVRInterior8.jpg";
+import IVRInterior9 from "./../../../../Images/IVRInterior9.jpg";
+import IVRInterior10 from "./../../../../Images/IVRInterior10.jpg";
 
 const IVRPopUpSlide = () => {
-    function SampleNextArrow(props) {
-        const { className, style, onClick } = props;
-        return (
-          <div
-            className={className}
-            style={{
-              ...style,
-              //   borderRadius: "50%",
-              //   backgroundColor: "white",
-              //   backgroundImage: `url(${rightArrow})`,
-              //   backgroundSize: "contain",
-              //   backgroundRepeat: "no-repeat",
-              height: "60px",
-              width: "60px",
-              cursor: "pointer",
-              position: "absolute",
-              transform: "scale(1.5)",
-              right: "-100px",
-    
-              // boxShadow: "0 0 10px black",
-            }}
-            onClick={onClick}
-          />
-        );
-      }
-      function SamplePrevArrow(props) {
-        const { className, style, onClick } = props;
-        return (
-          <div
-            className={className}
-            style={{
-              ...style,
-              //   background: "#ff2230",
-              //   borderRadius: "50%",
-              //   backgroundImage: `url(${leftArrow})`,
-              //   backgroundColor: "white",
-              //   backgroundSize: "contain",
-              //   backgroundRepeat: "no-repeat",
-              height: "60px",
-              width: "60px",
-              cursor: "pointer",
-              position: "absolute",
-              left: "-50px",
-              transform: "scale(1.5)",
-              // boxShadow: "0 0 10px black",
-            }}
-            onClick={onClick}
-          />
-        );
-      }
-      function RespSampleNextArrow(props) {
-        const { className, style, onClick } = props;
-        return (
-          <div
-            className={className}
-            style={{
-              ...style,
-              //   borderRadius: "50%",
-              //   backgroundColor: "white",
-              //   backgroundImage: `url(${rightArrow})`,
-              //   backgroundSize: "contain",
-              //   backgroundRepeat: "no-repeat",
-              height: "60px",
-              width: "60px",
-              cursor: "pointer",
-              position: "absolute",
-              transform: "scale(1.5)",
-              right: "-90px",
-    
-              // boxShadow: "0 0 10px black",
-            }}
-            onClick={onClick}
-          />
-        );
-      }
-      function RespSamplePrevArrow(props) {
-        const { className, style, onClick } = props;
-        return (
-          <div
-            className={className}
-            style={{
-              ...style,
-              //   background: "#ff2230",
-              //   borderRadius: "50%",
-              //   backgroundImage: `url(${leftArrow})`,
-              //   backgroundColor: "white",
-              //   backgroundSize: "contain",
-              //   backgroundRepeat: "no-repeat",
-              height: "60px",
-              width: "60px",
-              cursor: "pointer",
-              position: "absolute",
-              left: "-30px",
-              transform: "scale(1.5)",
-              // boxShadow: "0 0 10px black",
-            }}
-            onClick={onClick}
-          />
-        );
-      }
-      const settings = {
-        dots: false,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        nextArrow: <SampleNextArrow />,
-        prevArrow: <SamplePrevArrow />,
-        responsive: [
-          {
-            breakpoint: 600,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              initialSlide: 2,
-              nextArrow: <RespSampleNextArrow />,
-              prevArrow: <RespSamplePrevArrow />,
-            },
-          },
-          {
-            breakpoint: 990,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              initialSlide: 2,
-            },
-          },
-        ],
-      };
+  function SampleNextArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{
+          ...style,
+          //   borderRadius: "50%",
+          //   backgroundColor: "white",
+          //   backgroundImage: `url(${rightArrow})`,
+          //   backgroundSize: "contain",
+          //   backgroundRepeat: "no-repeat",
+          height: "60px",
+          width: "60px",
+          cursor: "pointer",
+          position: "absolute",
+          transform: "scale(1.5)",
+          right: "-100px",
+
+          // boxShadow: "0 0 10px black",
+        }}
+        onClick={onClick}
+      />
+    );
+  }
+  function SamplePrevArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{
+          ...style,
+          //   background: "#ff2230",
+          //   borderRadius: "50%",
+          //   backgroundImage: `url(${leftArrow})`,
+          //   backgroundColor: "white",
+          //   backgroundSize: "contain",
+          //   backgroundRepeat: "no-repeat",
+          height: "60px",
+          width: "60px",
+          cursor: "pointer",
+          position: "absolute",
+          left: "-50px",
+          transform: "scale(1.5)",
+          // boxShadow: "0 0 10px black",
+        }}
+        onClick={onClick}
+      />
+    );
+  }
+  function RespSampleNextArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{
+          ...style,
+          //   borderRadius: "50%",
+          //   backgroundColor: "white",
+          //   backgroundImage: `url(${rightArrow})`,
+          //   backgroundSize: "contain",
+          //   backgroundRepeat: "no-repeat",
+          height: "60px",
+          width: "60px",
+          cursor: "pointer",
+          position: "absolute",
+          transform: "scale(1.5)",
+          right: "-90px",
+
+          // boxShadow: "0 0 10px black",
+        }}
+        onClick={onClick}
+      />
+    );
+  }
+  function RespSamplePrevArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{
+          ...style,
+          //   background: "#ff2230",
+          //   borderRadius: "50%",
+          //   backgroundImage: `url(${leftArrow})`,
+          //   backgroundColor: "white",
+          //   backgroundSize: "contain",
+          //   backgroundRepeat: "no-repeat",
+          height: "60px",
+          width: "60px",
+          cursor: "pointer",
+          position: "absolute",
+          left: "-30px",
+          transform: "scale(1.5)",
+          // boxShadow: "0 0 10px black",
+        }}
+        onClick={onClick}
+      />
+    );
+  }
+  const settings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
+    responsive: [
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 2,
+          nextArrow: <RespSampleNextArrow />,
+          prevArrow: <RespSamplePrevArrow />,
+        },
+      },
+      {
+        breakpoint: 990,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 2,
+        },
+      },
+    ],
+  };
   return (
     <div className="interiorPopSlider">
       <Slider {...settings} className="inspireSliderPopContainer">
@@ -157,9 +162,20 @@ const IVRPopUpSlide = () => {
         <div className="inspireSliderPopContent">
           <img src={IVRInterior5} alt="IVRInterior5" />
         </div>
+        <div className="inspireSliderPopContent">
+          <img src={IVRInterior6} alt="IVRInterior6" />
+        </div>  <div className="inspireSliderPopContent">
+          <img src={IVRInterior7} alt="IVRInterior7" />
+        </div>  <div className="inspireSliderPopContent">
+          <img src={IVRInterior8} alt="IVRInterior8" />
+        </div>  <div className="inspireSliderPopContent">
+          <img src={IVRInterior9} alt="IVRInterior9" />
+        </div>  <div className="inspireSliderPopContent">
+          <img src={IVRInterior10} alt="IVRInterior10" />
+        </div>
       </Slider>
     </div>
-  )
-}
+  );
+};
 
-export default IVRPopUpSlide
+export default IVRPopUpSlide;

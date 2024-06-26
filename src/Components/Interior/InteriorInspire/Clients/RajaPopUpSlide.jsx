@@ -3,11 +3,16 @@ import "../InteriorInspire.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import rajasLivingroom from "./../../../../Images/rajaLivingroom.jpg";
 import rajaShekarsEntrance from "./../../../../Images/RajaShekhar'sEnterance.jpg";
 import rajaShekarsBedroom from "./../../../../Images/RajaShekhar'sBeadroom.jpg";
 import rajaShekarsWall from "./../../../../Images/RajaShekhar'sWall.jpg";
 import rajaShekarsFalseCeling from "./../../../../Images/RajaShekhar'sfalseCeling.jpg";
 import rajaShekarsGod from "./../../../../Images/RajaShekhar'sGod.jpg";
+import rajasLivingroom2 from "./../../../../Images/raja'slLivingRoom2.jpg";
+import rajasLivingRoom3 from "./../../../../Images/raja'slLivingRoom3.jpg";
+import rajasLivingRoom4 from "./../../../../Images/raja'slLivingRoom4.jpg";
+import rajasBedRoom2 from "./../../../../Images/raja'sBedroom2.jpg";
 
 const RajaPopUpSlide = () => {
   function SampleNextArrow(props) {
@@ -78,6 +83,7 @@ const RajaPopUpSlide = () => {
           position: "absolute",
           transform: "scale(1.5)",
           right: "-90px",
+          zIndex: "3",
 
           // boxShadow: "0 0 10px black",
         }}
@@ -102,6 +108,7 @@ const RajaPopUpSlide = () => {
           width: "60px",
           cursor: "pointer",
           position: "absolute",
+          zIndex: "3",
           left: "-30px",
           transform: "scale(1.5)",
           // boxShadow: "0 0 10px black",
@@ -143,19 +150,34 @@ const RajaPopUpSlide = () => {
     <div className="interiorPopSlider">
       <Slider {...settings} className="inspireSliderPopContainer">
         <div className="inspireSliderPopContent">
+          <img src={rajasLivingroom} alt="rajasLivingroom" />
+        </div>
+        <div className="inspireSliderPopContent">
           <img src={rajaShekarsEntrance} alt="rajaShekarsEntrance" />
         </div>
         <div className="inspireSliderPopContent">
           <img src={rajaShekarsBedroom} alt="rajaShekarsBedroom" />
         </div>
         <div className="inspireSliderPopContent">
+          <img src={rajasLivingroom2} alt="rajasLivingroom2" />
+        </div>
+        <div className="inspireSliderPopContent">
           <img src={rajaShekarsWall} alt="rajaShekarsWall" />
+        </div>
+        <div className="inspireSliderPopContent">
+          <img src={rajasLivingRoom3} alt="rajasLivingRoom3" />
         </div>
         <div className="inspireSliderPopContent">
           <img src={rajaShekarsFalseCeling} alt="rajaShekarsFalseCeling" />
         </div>
         <div className="inspireSliderPopContent">
           <img src={rajaShekarsGod} alt="rajaShekarsGod" />
+        </div>
+        <div className="inspireSliderPopContent">
+          <img src={rajasLivingRoom4} alt="rajasLivingRoom4" />
+        </div>
+        <div className="inspireSliderPopContent">
+          <img src={rajasBedRoom2} alt="rajasBedRoom2" />
         </div>
       </Slider>
     </div>
