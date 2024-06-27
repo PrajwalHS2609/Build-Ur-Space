@@ -109,7 +109,7 @@
 }
 .inspirePopUp {
   /* border: solid green; */
-  height: 87vh;
+  height: 80vh;
   width: 100%;
   position: fixed;
   top: 17vh;
@@ -202,8 +202,6 @@
     width: 100%;
     object-fit: contain;
   }
-
-
 }
 @media screen and (min-width: 768px) {
   .inspireImgContent1 {
@@ -282,21 +280,24 @@
 @media screen and (min-width: 1200px) {
   .inspirePopUpExit {
     /* border: solid red; */
-    position: absolute;
-    right: 200px;
-    top: 200px;
+    position: fixed;
+    right: 80px;
+    top: 100px;
   }
   .inspirePopUp {
     /* border: solid green; */
-    height: 100%;
+    height: 90%;
     width: 100%;
     position: fixed;
-    top: 0px;
+    top: 100px;
   }
   .interiorPopSlider {
     /* border: solid red; */
-    width: 85%;
-    height: 50%;
+    width: 100%;
+    height: fit-content;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;align-items: center;
   }
   .inspireSliderPopContainer {
     /* border: solid green; */
@@ -311,7 +312,7 @@
     /* border: solid ; */
     height: 470px;
     width: 100%;
-    margin-top: 0px;
+    margin-bottom:50px;
   }
   .inspireSliderPopContent > img {
     /* border: solid blue; */

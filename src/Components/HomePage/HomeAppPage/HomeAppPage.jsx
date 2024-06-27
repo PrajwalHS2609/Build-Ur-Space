@@ -11,7 +11,7 @@ const HomeAppPage = () => {
           <HomeAppTxt />
         </div>
         <div className="homeAppContent2">
-          <img src={houseApp} alt="" />
+          <img src={houseApp} alt="houseApp" />
         </div>
       </div>
     </div>

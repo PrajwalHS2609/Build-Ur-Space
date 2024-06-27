@@ -302,7 +302,7 @@
     align-items: flex-start;
   }
   .homeAppContent2 > img {
-   min-width: 600px;
+   max-width: 600px;
     height: 80%;
   }
   .homeAppTxtContainer {
@@ -393,11 +393,11 @@
     height: 50vh;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items:center;
   }
   .homeAppContent2 > img {
-    min-width: 600px;
-    height: 80%;
+    width: 100%;
+    height: 90%;
   }
   .homeAppTxtContainer {
     /* border: solid violet; */
