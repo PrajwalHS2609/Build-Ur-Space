@@ -397,7 +397,7 @@
   }
   .homeAppContent2 > img {
     width: 100%;
-    height: 90%;
+    height: 85%;
   }
   .homeAppTxtContainer {
     /* border: solid violet; */
@@ -423,11 +423,7 @@
     text-align: start;
     font-size: 30px;
   }
-  .appDot {
-    /* border: solid green; */
-    height: 100%;
-    width: 10%;
-  }
+
   .homeAppPara {
     /* border: solid green; */
     width: 100%;
