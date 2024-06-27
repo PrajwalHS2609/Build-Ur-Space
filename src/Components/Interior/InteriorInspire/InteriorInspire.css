@@ -202,9 +202,7 @@
     width: 100%;
     object-fit: contain;
   }
-  .inspireSliderPopContainer:hover {
-    transform: scale(2);
-  }
+
 
 }
 @media screen and (min-width: 768px) {
