@@ -15,6 +15,7 @@ import HomeAbout from "./HomeAbout/HomeAbout";
 import BrandWeUse from "./BrandWeUse/BrandWeUse";
 import { Helmet } from "react-helmet";
 import HomeConstructionImg from "./HomeImg/HomeConstructionImg";
+import InteriorWhatWeDo from "./InteriorWhatWeDo/InteriorWhatWeDo";
 const HomePage = () => {
   return (
     <div className="homePageContainer">
@@ -33,13 +34,14 @@ const HomePage = () => {
       <HomeAbout />
       <HomeWhat />
       <OurProcess />
+      <InteriorWhatWeDo />
       <HomeAppPage />
       <HomeWhy />
       <Testimonial />
       <BrandWeUse />
       <Partners />
       <Faq />
-      <HomeConstructionImg/>
+      <HomeConstructionImg />
       <Footer />
     </div>
   );

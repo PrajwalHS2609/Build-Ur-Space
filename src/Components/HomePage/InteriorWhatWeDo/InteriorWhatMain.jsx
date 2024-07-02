@@ -1,26 +1,26 @@
 import React from "react";
-import "./HomeWhat.css";
-import HomeWhatCard from "./HomeWhatCard";
-import img1 from "./../../../Images/residentTurnkey.png";
-import img2 from "./../../../Images/PEB.png";
-import img3 from "./../../../Images/commercialSpace.png";
+import HomeWhatCard from "../HomeWhatWeDo/HomeWhatCard";
+import "./../../HomePage/HomeWhatWeDo/HomeWhat.css";
+import turnkey from "./../../../Images/Interior Logo for Home/trunkey.png";
+import kitchen from "./../../../Images/Interior Logo for Home/kitchen.png";
+import commercial from "./../../../Images/Interior Logo for Home/commercial.png";
 
-const HomeWhatMain = () => {
+const InteriorWhatMain = () => {
   return (
     <div className="whatMainContainer">
       <HomeWhatCard
-        img={img1}
+        img={turnkey}
         head=" RESIDENTIAL
       TURNKEY"
         para=" Delivering seamless and comprehensive residential turnkey solutions, from concept to completion, for a hassle-free and stylish living experience."
       />
       <HomeWhatCard
-        img={img2}
+        img={kitchen}
         head=" LIGHT ROOF STRUCTURE (PEB)"
         para="PEB structures are highly adaptable, suitable for a wide range of industrial applications warehouses  commercial spaces"
       />
       <HomeWhatCard
-        img={img3}
+        img={commercial}
         head=" COMMERCIAL SPACES"
         para=" Purpose-built structures designed for conducting business activities and providing services, ranging from offices and retail spaces to hospitality establishments."
       />
@@ -28,4 +28,4 @@ const HomeWhatMain = () => {
   );
 };
 
-export default HomeWhatMain;
+export default InteriorWhatMain;
