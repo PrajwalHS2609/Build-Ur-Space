@@ -33,8 +33,8 @@ const HomePage = () => {
       <HomeServices />
       <HomeAbout />
       <HomeWhat />
-      <OurProcess />
       <InteriorWhatWeDo />
+      <OurProcess />
       <HomeAppPage />
       <HomeWhy />
       <Testimonial />
