@@ -2,13 +2,14 @@ import React, { useState } from "react";
 import "./HomeForm.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-
+import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 const RespHomeForm = () => {
   let [data, setData] = useState({
-    userName: "",
+    name: "",
     email: "",
     phone: "",
-    detail: "",
     location: "",
   });
 
@@ -20,18 +21,39 @@ const RespHomeForm = () => {
     setData({ ...data, [name]: value });
   };
 
-  let handleSubmit = (e) => {
+  // let handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   let payload = {
+  //     name,
+  //     email,
+  //     phone,
+  //     location,
+  //   };
+  //   console.log(payload);
+  // };
+  const handleSubmit = (e) => {
     e.preventDefault();
-    let payload = {
-      name,
-      email,
-      phone,
-      location,
-    };
-    console.log(payload);
+    emailjs.sendForm(
+        "service_n5j9zu1",
+        "template_yy6q8s9",
+        e.target,
+        "kcJN8Dq5IrzOZobBz"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          toast.success("Email sent successfully");
+          window.location.assign("/contact-us");
+        },
+        (error) => {
+          console.error(error.text);
+          toast.error("Failed to send mail");
+        }
+      );
   };
   return (
     <div className="respHomeFormContainer">
+      <ToastContainer/>
       <form action="" onSubmit={handleSubmit}>
         <fieldset>
           <legend>Talk to our Expert</legend>

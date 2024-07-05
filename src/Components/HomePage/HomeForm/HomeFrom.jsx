@@ -2,12 +2,14 @@ import React, { useState } from "react";
 import "./HomeForm.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 const HomeFrom = () => {
   let [data, setData] = useState({
-    userName: "",
+    name: "",
     email: "",
     phone: "",
-    detail: "",
     location: "",
   });
 
@@ -19,16 +21,39 @@ const HomeFrom = () => {
     setData({ ...data, [name]: value });
   };
 
-  let handleSubmit = (e) => {
+  // let handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   let { name, phone, email, location } = data;
+  //   const mailtoLink = `mailto:hello@buildurspace.com?subject=Message from ${name}&body=${encodeURIComponent(
+  //     `Name: ${name}\nPhone: ${phone}\nEmail: ${email}\n\n${location}`
+  //   )}`;
+  //   window.location.href = mailtoLink;
+  // };
+
+  const handleSubmit = (e) => {
     e.preventDefault();
-    let { name, phone, email, location } = data;
-    const mailtoLink = `mailto:hello@buildurspace.com?subject=Message from ${name}&body=${encodeURIComponent(
-      `Name: ${name}\nPhone: ${phone}\nEmail: ${email}\n\n${location}`
-    )}`;
-    window.location.href = mailtoLink;
+    emailjs.sendForm(
+        "service_n5j9zu1",
+        "template_yy6q8s9",
+        e.target,
+        "kcJN8Dq5IrzOZobBz"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          toast.success("Email sent successfully");
+          window.location.assign("/contact-us");
+        },
+        (error) => {
+          console.error(error.text);
+          toast.error("Failed to send mail");
+        }
+      );
   };
+
   return (
     <div className="homeFormContainer">
+      <ToastContainer />
       <form action="" onSubmit={handleSubmit}>
         <fieldset>
           <legend>Talk to our Expert</legend>
