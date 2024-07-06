@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./HomeForm.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-import emailjs from "@emailjs/browser";
+import emailjs from 'emailjs-com';
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 const HomeFrom = () => {
