@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import "./Contacts.css";
+import emailjs from 'emailjs-com';
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 const ContactForm = () => {
   const [data, setData] = useState({
     name: "",
@@ -13,16 +16,31 @@ const ContactForm = () => {
     let value = e.target.value;
     setData({ ...data, [name]: value });
   };
-  let handleSubmit = (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
-    let { name, phone, email, requirement } = data;
-    const mailtoLink = `mailto:hello@buildurspace.com?subject=Message from ${name}&body=${encodeURIComponent(
-      `Name: ${name}\nPhone: ${phone}\nEmail: ${email}\n\n${requirement}`
-    )}`;
-    window.location.href = mailtoLink;
+    emailjs
+      .sendForm(
+        "service_n5j9zu1",
+        "template_yy6q8s9",
+        e.target,
+        "kcJN8Dq5IrzOZobBz"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          toast.success("Email sent successfully");
+          window.location.assign("/contact-us");
+        },
+        (error) => {
+          console.error(error.text);
+          toast.error("Failed to send mail");
+        }
+      );
   };
+
   return (
     <div className="contactFormContainer">
+            <ToastContainer />
       <form action="" onSubmit={handleSubmit}>
         <legend>
           <h2>
