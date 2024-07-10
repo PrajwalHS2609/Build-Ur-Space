@@ -117,7 +117,7 @@ const HomeFrom = () => {
                 />
               </td>
             </tr>
-            <button className="sub" type="handlesubmit">
+            <button className="sub" type="handleSubmit">
               Book Free Consultancy{" "}
               <FontAwesomeIcon
                 icon={faArrowRight}
