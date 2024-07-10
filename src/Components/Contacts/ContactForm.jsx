@@ -23,7 +23,7 @@ const ContactForm = () => {
         "service_h1ai4rh",
         "template_l5b0jxr",
         e.target,
-        "YMANvl26uUKa6DQU3"
+        "kcJN8Dq5IrzOZobBz"
       )
       .then(
         (result) => {

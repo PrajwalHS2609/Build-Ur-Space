@@ -33,8 +33,8 @@ const HomeFrom = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     emailjs.sendForm(
-        "service_n5j9zu1",
-        "template_yy6q8s9",
+        "service_wwo15yl",
+        "template_dq6vg9f",
         e.target,
         "YMANvl26uUKa6DQU3"
       )

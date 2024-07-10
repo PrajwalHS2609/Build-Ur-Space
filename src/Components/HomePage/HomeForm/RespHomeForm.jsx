@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import "./HomeForm.css"
+import "./HomeForm.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-import emailjs from 'emailjs-com';
+import emailjs from "emailjs-com";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 const RespHomeForm = () => {
@@ -33,9 +33,10 @@ const RespHomeForm = () => {
   // };
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm(
-        "service_n5j9zu1",
-        "template_yy6q8s9",
+    emailjs
+      .sendForm(
+        "service_wwo15yl",
+        "template_dq6vg9f",
         e.target,
         "YMANvl26uUKa6DQU3"
       )
@@ -53,7 +54,7 @@ const RespHomeForm = () => {
   };
   return (
     <div className="respHomeFormContainer">
-      <ToastContainer/>
+      <ToastContainer />
       <form action="" onSubmit={handleSubmit}>
         <fieldset>
           <legend>Talk to our Expert</legend>
@@ -117,7 +118,7 @@ const RespHomeForm = () => {
                 />
               </td>
             </tr>
-            <button className="sub" type="handlesubmit">
+            <button className="sub" type="handleSubmit">
               Book free Consultancy{" "}
               <FontAwesomeIcon
                 icon={faArrowRight}
