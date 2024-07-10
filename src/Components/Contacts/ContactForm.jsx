@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Contacts.css";
-import emailjs from 'emailjs-com';
+import emailjs from "emailjs-com";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 const ContactForm = () => {
@@ -20,10 +20,10 @@ const ContactForm = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_n5j9zu1",
-        "template_yy6q8s9",
+        "service_h1ai4rh",
+        "template_l5b0jxr",
         e.target,
-        "kcJN8Dq5IrzOZobBz"
+        "YMANvl26uUKa6DQU3"
       )
       .then(
         (result) => {
@@ -40,7 +40,7 @@ const ContactForm = () => {
 
   return (
     <div className="contactFormContainer">
-            <ToastContainer />
+      <ToastContainer />
       <form action="" onSubmit={handleSubmit}>
         <legend>
           <h2>

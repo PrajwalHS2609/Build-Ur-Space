@@ -36,7 +36,7 @@ const HomeFrom = () => {
         "service_n5j9zu1",
         "template_yy6q8s9",
         e.target,
-        "kcJN8Dq5IrzOZobBz"
+        "YMANvl26uUKa6DQU3"
       )
       .then(
         (result) => {
