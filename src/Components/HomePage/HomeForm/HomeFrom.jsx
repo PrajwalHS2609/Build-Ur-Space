@@ -42,7 +42,7 @@ const HomeFrom = () => {
         (result) => {
           console.log(result.text);
           toast.success("Email sent successfully");
-          window.location.assign("/contact-us");
+          window.location.assign("/");
         },
         (error) => {
           console.error(error.text);

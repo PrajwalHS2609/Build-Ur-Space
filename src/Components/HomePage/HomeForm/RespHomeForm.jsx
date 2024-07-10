@@ -37,13 +37,13 @@ const RespHomeForm = () => {
         "service_n5j9zu1",
         "template_yy6q8s9",
         e.target,
-        "kcJN8Dq5IrzOZobBz"
+        "YMANvl26uUKa6DQU3"
       )
       .then(
         (result) => {
           console.log(result.text);
           toast.success("Email sent successfully");
-          window.location.assign("/contact-us");
+          window.location.assign("/");
         },
         (error) => {
           console.error(error.text);
