@@ -10,13 +10,12 @@ const InteriorWhatMain = () => {
     <div className="whatMainContainer">
       <HomeWhatCard
         img={turnkey}
-        head=" RESIDENTIAL
-      TURNKEY"
+        head=" RESIDENTIAL TURNKEY"
         para=" Delivering seamless and comprehensive residential interior turnkey solutions, from concept to completion, for a hassle-free and stylish living experience."
       />
       <HomeWhatCard
         img={kitchen}
-        head="Modular Kitchen"
+        head="MODULAR KITCHEN"
         para="Transforming culinary spaces with versatile and customizable modular kitchens for efficient  organization and style"
       />
       <HomeWhatCard
