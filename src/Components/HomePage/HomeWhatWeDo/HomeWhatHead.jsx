@@ -1,11 +1,11 @@
 import React from "react";
 import "./HomeWhat.css";
 
-const HomeWhatHead = () => {
+const HomeWhatHead = (props) => {
   return (
     <div className="whatHeadContainer">
       <h2>
-        WHAT <span>WE DO</span>
+        WHAT WE DO - <span>{props.head}</span>
       </h2>
     </div>
   );

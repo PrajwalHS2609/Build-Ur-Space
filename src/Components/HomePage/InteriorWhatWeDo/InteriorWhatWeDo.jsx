@@ -6,7 +6,7 @@ import InteriorWhatMain from "./InteriorWhatMain";
 const InteriorWhatWeDo = () => {
   return (
     <div className="whatContainer">
-      <HomeWhatHead />
+      <HomeWhatHead head="INTERIOR"/>
       <InteriorWhatMain />
     </div>
   );

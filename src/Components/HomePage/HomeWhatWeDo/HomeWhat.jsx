@@ -6,7 +6,7 @@ import HomeWhatMain from './HomeWhatMain'
 const HomeWhat = () => {
   return (
     <div className='whatContainer'>
-      <HomeWhatHead/>
+      <HomeWhatHead head="CONSTRUCTION"/>
       <HomeWhatMain/>
     </div>
   )
