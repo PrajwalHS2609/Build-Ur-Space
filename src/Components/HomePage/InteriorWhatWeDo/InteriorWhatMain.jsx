@@ -12,17 +12,17 @@ const InteriorWhatMain = () => {
         img={turnkey}
         head=" RESIDENTIAL
       TURNKEY"
-        para=" Delivering seamless and comprehensive residential turnkey solutions, from concept to completion, for a hassle-free and stylish living experience."
+        para=" Delivering seamless and comprehensive residential interior turnkey solutions, from concept to completion, for a hassle-free and stylish living experience."
       />
       <HomeWhatCard
         img={kitchen}
-        head=" LIGHT ROOF STRUCTURE (PEB)"
-        para="PEB structures are highly adaptable, suitable for a wide range of industrial applications warehouses  commercial spaces"
+        head="Modular Kitchen"
+        para="Transforming culinary spaces with versatile and customizable modular kitchens for efficient  organization and style"
       />
       <HomeWhatCard
         img={commercial}
         head=" COMMERCIAL SPACES"
-        para=" Purpose-built structures designed for conducting business activities and providing services, ranging from offices and retail spaces to hospitality establishments."
+        para="Designing functional and aesthetical pleasing commercial interiors like Offices,retail spaces,restaurants etc to optimize workspace efficiency and enhance the overall user experience."
       />
     </div>
   );
