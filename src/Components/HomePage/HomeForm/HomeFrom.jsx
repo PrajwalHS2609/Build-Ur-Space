@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./HomeForm.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-import emailjs from 'emailjs-com';
+import emailjs from "emailjs-com";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 const HomeFrom = () => {
@@ -32,7 +32,8 @@ const HomeFrom = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm(
+    emailjs
+      .sendForm(
         "service_wwo15yl",
         "template_dq6vg9f",
         e.target,
@@ -42,7 +43,9 @@ const HomeFrom = () => {
         (result) => {
           console.log(result.text);
           toast.success("Email sent successfully");
-          window.location.assign("/");
+          setTimeout(() => {
+            window.location.assign("/");
+          }, 5000);
         },
         (error) => {
           console.error(error.text);

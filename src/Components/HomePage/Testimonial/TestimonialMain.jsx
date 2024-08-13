@@ -103,12 +103,6 @@ const TestimonialMain = () => {
             name=" - Ravichandra"
           />
         </div>
-        <div className="testiMainContent">
-          <TestimonialCard para="" name="" />
-        </div>
-        <div className="testiMainContent">
-          <TestimonialCard para="" name="" />
-        </div>
       </Slider>
     </div>
   );
