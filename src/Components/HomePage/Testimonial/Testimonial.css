@@ -7,7 +7,7 @@
   align-items: center;
   flex-direction: column;
   gap: 50px;
-  margin-top: 50px;
+  margin-top: 0px;
   background-color: var(--customWhite);
 
 }
@@ -33,6 +33,9 @@
   /* border: solid; */
   margin-right: 10px;
   width: 40%;
+}
+.testimonialCardContainer > p{
+  text-align: justify;
 }
 .testimonialCardContainer > p > span {
   font-weight: bold;
