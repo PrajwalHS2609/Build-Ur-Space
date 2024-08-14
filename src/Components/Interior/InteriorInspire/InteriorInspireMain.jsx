@@ -22,6 +22,7 @@ import InteriorBanq from "./Clients/InteriorBanq";
 import InteriorShowroom from "./Clients/InteriorShowroom";
 import InteriorClinic from "./Clients/InteriorClinic";
 import InteriorIVR from "./Clients/InteriorIVR";
+
 const InteriorInspireMain = () => {
   const handleKiran = () => {
     let popUp = document.querySelector("#kiranPopUp");

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Suspense } from "react";
 import InteriorTypes from "./InteriorTypes/InteriorTypes";
 import Footer from "../Footer/Footer";
 import HomeAppPage from "../HomePage/HomeAppPage/HomeAppPage";
@@ -9,7 +9,11 @@ import InteriorHead from "./InteriorHead/InteriorHead";
 import InteriorWhy1 from "./InteriorWhy/InteriorWhy1";
 import { Helmet } from "react-helmet";
 import HomeInteriorImg from "../HomePage/HomeImg/HomeInteriorImg";
-import InteriorInspire from "./InteriorInspire/InteriorInspire";
+// import InteriorInspire from "./InteriorInspire/InteriorInspire";
+const InteriorInspire = React.lazy(() =>
+  import("./InteriorInspire/InteriorInspire")
+);
+
 const Interior = () => {
   return (
     <div className="InteriorContainer">
@@ -24,12 +28,14 @@ const Interior = () => {
       </Helmet>
       <InteriorHead />
       <InteriorTypes />
-      <InteriorInspire/>
+      <Suspense fallback={<p>Loading....</p>}>
+        <InteriorInspire />
+      </Suspense>
       <HomeAppPage />
       <InteriorWhy1 />
       <Testimonial />
       <Partners />
-      <HomeInteriorImg/>
+      <HomeInteriorImg />
       <Footer />
     </div>
   );
