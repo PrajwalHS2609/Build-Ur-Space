@@ -1,6 +1,6 @@
-import React from "react";
+import React, { Suspense } from "react";
 import "./InteriorInspire.css";
-import InteriorInspireCard from "./InteriorInspireCard";
+// import InteriorInspireCard from "./InteriorInspireCard";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -22,6 +22,8 @@ import InteriorBanq from "./Clients/InteriorBanq";
 import InteriorShowroom from "./Clients/InteriorShowroom";
 import InteriorClinic from "./Clients/InteriorClinic";
 import InteriorIVR from "./Clients/InteriorIVR";
+const InteriorInspireCard = React.lazy(() => import("./InteriorInspireCard"));
+
 const InteriorInspireMain = () => {
   const handleKiran = () => {
     let popUp = document.querySelector("#kiranPopUp");
@@ -190,22 +192,32 @@ const InteriorInspireMain = () => {
       <Slider {...settings} className="inspireSliderContainer">
         <div>
           <div className="inspireSliderContent">
-            <InteriorInspireCard
-              img1={kiranLivingroom}
-              h1="Mr.Kiran's Home"
-              onClick={handleKiran}
-            />
-            <InteriorInspireCard
-              img1={raja1}
-              h1="Mr.Rajashekhar's Home"
-              onClick={handleRajaShekar}
-            />
-            <InteriorInspireCard
-              img1={chetan1}
-              h1="Mr.Chetan's Home"
-              onClick={handleChetan}
-            />
-            <InteriorInspireCard img1={gym} h1="Gym" onClick={handleGym} />
+            <Suspense fallback={<p>Loading....</p>}>
+              <InteriorInspireCard
+                img1={kiranLivingroom}
+                h1="Mr.Kiran's Home"
+                onClick={handleKiran}
+              />
+            </Suspense>
+            <Suspense fallback={<p>Loading....</p>}>
+              <InteriorInspireCard
+                img1={raja1}
+                h1="Mr.Rajashekhar's Home"
+                onClick={handleRajaShekar}
+              />
+            </Suspense>
+
+            <Suspense fallback={<p>Loading....</p>}>
+              <InteriorInspireCard
+                img1={chetan1}
+                h1="Mr.Chetan's Home"
+                onClick={handleChetan}
+              />
+            </Suspense>
+
+            <Suspense fallback={<p>Loading....</p>}>
+              <InteriorInspireCard img1={gym} h1="Gym" onClick={handleGym} />
+            </Suspense>
           </div>
         </div>
         <div>
@@ -215,9 +227,21 @@ const InteriorInspireMain = () => {
               h1="Clinic"
               onClick={handleClinic}
             />
-            <InteriorInspireCard img1={office} h1="Brigade IVR" onClick={handleIVR}/>
-            <InteriorInspireCard img1={showroom} h1="showroom" onClick={handleShowroom}/>
-            <InteriorInspireCard img1={office2} h1="MBanQ" onClick={handleMBanq}/>
+            <InteriorInspireCard
+              img1={office}
+              h1="Brigade IVR"
+              onClick={handleIVR}
+            />
+            <InteriorInspireCard
+              img1={showroom}
+              h1="showroom"
+              onClick={handleShowroom}
+            />
+            <InteriorInspireCard
+              img1={office2}
+              h1="MBanQ"
+              onClick={handleMBanq}
+            />
           </div>
         </div>
       </Slider>
@@ -227,7 +251,7 @@ const InteriorInspireMain = () => {
       <InteriorGym />
       <InteriorClinic />
       <InteriorShowroom />
-      <InteriorIVR/>
+      <InteriorIVR />
       <InteriorBanq />
     </div>
   );
