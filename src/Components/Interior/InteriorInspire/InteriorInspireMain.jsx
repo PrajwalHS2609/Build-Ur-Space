@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./InteriorInspire.css";
 import InteriorInspireCard from "./InteriorInspireCard";
 import Slider from "react-slick";
@@ -22,8 +22,20 @@ import InteriorBanq from "./Clients/InteriorBanq";
 import InteriorShowroom from "./Clients/InteriorShowroom";
 import InteriorClinic from "./Clients/InteriorClinic";
 import InteriorIVR from "./Clients/InteriorIVR";
+import ContentLoader from "react-content-loader";
 
 const InteriorInspireMain = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulate data loading with a timeout
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 2000); // Adjust the timeout to your needs
+
+    return () => clearTimeout(timer);
+  }, []);
+
   const handleKiran = () => {
     let popUp = document.querySelector("#kiranPopUp");
     popUp.style.display = "flex";
@@ -186,6 +198,9 @@ const InteriorInspireMain = () => {
       },
     ],
   };
+  if (loading) {
+    return <ContentLoader/>; // Show the loader while loading
+  }
   return (
     <div className="inspireMainContainer">
       <Slider {...settings} className="inspireSliderContainer">
