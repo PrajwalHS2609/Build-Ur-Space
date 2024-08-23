@@ -20,6 +20,7 @@ const WhereToFind = () => {
               allowfullscreen=""
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
+              title="Bangalore Location"
             ></iframe>
           }
           head="Bengaluru location"
@@ -35,6 +36,7 @@ const WhereToFind = () => {
               allowfullscreen=""
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
+              title="Bellary location"
             ></iframe>
           }
           head="Bellary location"
@@ -52,6 +54,7 @@ const WhereToFind = () => {
               allowfullscreen=""
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
+              title="Chitradurga location"
             ></iframe>
           }
           head="Chitradurga location"

@@ -66,8 +66,8 @@ const PortfolioCard = (props) => {
               ></FontAwesomeIcon>
             </div>
             <div className="portfolioLocAddItem2">
-              <h3>Cost</h3>
-              <p>{props.cost}</p>
+              <h3>Duration</h3>
+              <p>{props.duration}</p>
             </div>
           </div>
         </div>

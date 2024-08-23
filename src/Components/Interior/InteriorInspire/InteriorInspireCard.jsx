@@ -3,11 +3,11 @@ import "./InteriorInspire.css";
 import { Link } from "react-router-dom";
 
 const InteriorInspireCard = (props) => {
-  const handlePopup = () => {
-    let popUp = document.querySelector(".inspirePopUp");
-    popUp.style.display = "flex";
-    console.log("pop");
-  };
+  // const handlePopup = () => {
+  //   let popUp = document.querySelector(".inspirePopUp");
+  //   popUp.style.display = "flex";
+  //   console.log("pop");
+  // };
 
   return (
     <div

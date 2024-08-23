@@ -103,7 +103,7 @@ const Footer = () => {
                 </a>
               </div>
               <div className="socialList">
-                <a href="https://www.facebook.com/buildurspace">
+                <a href="https://www.instagram.com/buildurspace/">
                   <FontAwesomeIcon
                     icon={faInstagram}
                     className="socialIcon"
@@ -111,7 +111,7 @@ const Footer = () => {
                 </a>
               </div>
               <div className="socialList">
-                <a href="https://www.instagram.com/buildurspace/">
+                <a href="https://www.facebook.com/buildurspace">
                   <FontAwesomeIcon
                     icon={faFacebook}
                     className="socialIcon"

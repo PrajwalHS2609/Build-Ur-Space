@@ -5,7 +5,7 @@ import "./Fonts/futura/FUTURA45LIGHT.TTF";
 import NavBar from "./Components/NavBar/NavBar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Package from "./Components/PackagePage/Package";
-import PackageList from "./Components/PackagePage/PackageList";
+// import PackageList from "./Components/PackagePage/PackageList";
 import ScrollTo from "./Components/ScrollTo/ScrollTo";
 import AboutUs from "./Components/AboutUs/AboutUs";
 import Interior from "./Components/Interior/Interior";

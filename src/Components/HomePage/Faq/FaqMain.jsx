@@ -8,7 +8,7 @@ import {
   AccordionItemButton,
   AccordionItemPanel,
 } from "react-accessible-accordion";
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 const FaqMain = () => {
   return (
     <div className="faqMainContainer">

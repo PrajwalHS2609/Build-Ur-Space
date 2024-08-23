@@ -13,7 +13,7 @@ const PortfolioMain = () => {
         loc="Hegde Nagar, Bangalore"
         floor="G+3.5"
         area="4,650 sq.ft."
-        cost="72 Lakhs"
+        duration="1.5 yrs"
       />
       <PortfolioCard
         img={raja}
@@ -21,7 +21,7 @@ const PortfolioMain = () => {
         loc="Bellary"
         floor="G"
         area="2,150 sq.ft."
-        cost="69.2 Lakhs"
+        duration="10 months"
       />
       <PortfolioCard
         img={chetan}
@@ -29,7 +29,7 @@ const PortfolioMain = () => {
         loc="chitradurga"
         floor="G"
         area="1650 sq.ft."
-        cost="53 Lakhs"
+        duration="10 months"
       />
       {/* <PortfolioCard
         img="https://www.buildahome.in/_next/image?url=https%3A%2F%2Fwww.buildahome.in%2Fwp%2Fwp-content%2Fuploads%2F2024%2F04%2FNew-scaled.jpg&w=1920&q=75"
