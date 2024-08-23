@@ -13,7 +13,7 @@ const PortfolioMain = () => {
         loc="Hegde Nagar, Bangalore"
         floor="G+3.5"
         area="4,650 sq.ft."
-        duration="1.5 yrs"
+        duration="1.5 years"
       />
       <PortfolioCard
         img={raja}
