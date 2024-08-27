@@ -1,0 +1,59 @@
+.architectsHeadContainer {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  padding: 30px;
+}
+.architectsHeadContainer > h2 {
+  font-size: 25px;
+  color: var(--customColor);
+  text-align: center;
+  width: 100%;
+}
+.architectsHeadContainer > p {
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+}
+.architectsHeadContainer > p > a {
+  color: var(--customColor);
+  text-decoration: none;
+}
+.architectsHeadContainer > li > p > a {
+  text-decoration: none;
+  color: var(--customColor);
+}
+.architectsHeadContainer > li {
+  list-style: none;
+  font-size: 20px;
+  text-align: justify;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  width: 90%;
+}
+.architectsHeadContainer > li > span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: var(--customColor);
+  text-align: start;
+}
+.architectsHeadContainer > li > span > img {
+  width: 20px;
+  height: 20px;font-weight: bold;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .architectsHeadContainer {
+    /* border: solid red; */
+    padding: 5px;
+  }
+}

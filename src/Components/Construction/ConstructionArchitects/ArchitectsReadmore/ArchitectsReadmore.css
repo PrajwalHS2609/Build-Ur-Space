@@ -1,0 +1,50 @@
+.architectsReadContainer {
+  /* border: solid; */
+  /* height: 70vh; */
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.architectsReadDisplayContainer {
+  /* border: solid green; */
+  width: 100%;
+  height: 100%;
+  display: none;
+  cursor: default;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.architectsReadContainer > button {
+  border: solid red;
+  border-radius: 20px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: var(--customColor);
+  color: white;
+  font-size: 20px;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .architectsReadContainer {
+    /* border: solid red; */
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0px;
+    text-align: justify;
+    padding: 0;
+  }
+
+  .architectsReadDisplayContainer {
+    height: 100%;
+  }
+}

@@ -1,7 +1,7 @@
 import React from "react";
 import "./InteriorTypes.css";
 import { Link } from "react-router-dom";
-const InteriorTypesCard = (props) => {
+const   InteriorTypesCard = (props) => {
   return (
     <div className="interiorTypeCardContainer">
       <Link to={props.link}>

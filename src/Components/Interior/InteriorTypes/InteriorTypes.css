@@ -47,6 +47,8 @@
 .interiorTypeCardContainer > a {
   /* border: solid; */
   margin: 0;
+  color: var(--customColor);
+  text-decoration: none;
 }
 .interiorTypeCardImg {
   /* border: solid blue; */

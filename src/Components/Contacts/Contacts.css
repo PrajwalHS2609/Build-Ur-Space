@@ -8,7 +8,7 @@
   gap: 30px;
   margin-top: 30px;
 }
-.contactHead > h2{
+.contactHead > h2 {
   font-size: 30px;
 }
 .contactHead > h2 > span {
@@ -44,7 +44,7 @@
   background-color: white;
   padding: 10px;
 }
-.contactMainItem1 > h2{
+.contactMainItem1 > h2 {
   font-size: 30px;
 }
 .contactMainItem1 > h2 > span {
@@ -90,6 +90,8 @@
 }
 .contactMail > p > a {
   margin: 0;
+  text-decoration: none;
+  color: var(--customColor);
 }
 .contactMail > p > a:hover {
   color: var(--customColor);
@@ -107,6 +109,8 @@
 .contactPhoneNo > p > a {
   /* border: solid teal; */
   margin: 0;
+  text-decoration: none;
+  color: var(--customColor);
 }
 .contactPhoneNo > p > a:hover {
   color: var(--customColor);
@@ -174,7 +178,7 @@
   font-size: 20px;
   margin-left: 10px;
   outline: none;
-padding: 10px;  
+  padding: 10px;
 }
 
 .contactFormContainer > form > fieldset > table > tr > td > textarea {
@@ -450,10 +454,10 @@ padding: 10px;
     align-items: center;
     flex-direction: column;
   }
-  .contactHead >  h2{
+  .contactHead > h2 {
     font-size: 30px;
   }
-  .contactHead >  h2> span {
+  .contactHead > h2 > span {
     color: var(--customColor);
   }
   .contactMainContainer {

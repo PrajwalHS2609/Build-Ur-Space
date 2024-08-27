@@ -70,14 +70,16 @@ const Footer = () => {
                   icon={faEnvelope}
                   className="footIcon"
                 ></FontAwesomeIcon>
-                <p> hello@buildurspace.com</p>
+                <p><a href="mailto:hello@buildurspace.com">hello@buildurspace.com</a> </p>
               </li>
               <li>
                 <FontAwesomeIcon
                   icon={faGlobe}
                   className="footIcon"
                 ></FontAwesomeIcon>
-                <p> www.buildurspace.com</p>
+                <p>
+                  <a href="www.buildurspace.com"> www.buildurspace.com</a>
+                </p>
               </li>
               <li>
                 <FontAwesomeIcon

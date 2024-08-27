@@ -4,6 +4,7 @@
 }
 .packageHeadContainer > h2 {
   font-size: 30px;
+  text-align: center;
 }
 .packageHeadContainer > h2 > span {
   color: var(--customColor);
@@ -16,7 +17,7 @@
   align-items: center;
   flex-wrap: wrap;
 }
-a {
+.menuCardContainer > a {
   width: 100%;
   height: 100%;
   text-decoration: none;
@@ -44,10 +45,10 @@ a {
 .head2 {
   letter-spacing: 2px;
 }
-.menuCardContainer>a>h3{
+.menuCardContainer > a > h3 {
   font-size: 25px;
 }
-.menuCardContainer>a>h2{
+.menuCardContainer > a > h2 {
   font-size: 30px;
 }
 .menuCardContainer:hover {
@@ -131,7 +132,7 @@ a {
 .packBut > h3 {
   color: var(--customColor);
 }
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .packageContainer {
     /* border: solid red; */
   }
@@ -141,7 +142,6 @@ a {
     justify-content: center;
     align-items: center;
   }
-
 
   .packageMenuContainer {
     /* border: solid; */
@@ -153,7 +153,7 @@ a {
     flex-direction: column;
     margin-top: 30px;
   }
-  a {
+  .menuCardContainer > a {
     width: 100%;
     height: 100%;
     text-decoration: none;
@@ -272,7 +272,6 @@ a {
     /* border: solid green; */
   }
 
-
   .packageMenuContainer {
     /* border: solid; */
     width: 100%;
@@ -282,7 +281,7 @@ a {
     flex-wrap: wrap;
     flex-direction: column;
   }
-  a {
+  .menuCardContainer > a {
     width: 100%;
     height: 100%;
     text-decoration: none;
@@ -400,7 +399,6 @@ a {
     /* border: solid green; */
   }
 
-
   .packageMenuContainer {
     /* border: solid; */
     width: 100%;
@@ -410,7 +408,7 @@ a {
     flex-wrap: wrap;
     flex-direction: row;
   }
-  a {
+  .menuCardContainer > a {
     width: 100%;
     height: 100%;
     text-decoration: none;
@@ -539,7 +537,7 @@ a {
     align-items: center;
     flex-wrap: wrap;
   }
-  a {
+  .menuCardContainer > a {
     width: 100%;
     height: 100%;
     text-decoration: none;

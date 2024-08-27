@@ -22,16 +22,11 @@ h1,
 h2,
 h3,
 h4,
-p {
-  font-family: "customFont", sans-serif;
-}
+p,
 li {
   font-family: "customFont", sans-serif;
 }
+
 li > span {
   font-family: "customFont", sans-serif;
-}
-a {
-  margin: 0;
-  padding: 0;
 }
