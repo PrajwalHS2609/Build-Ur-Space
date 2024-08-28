@@ -17,7 +17,7 @@ const RentalHead = () => {
         </a>{" "}
         is not just about building a structure; it’s about creating a
         sustainable source of income while contributing to the city's urban
-        landscape. At <a href="https://buildurspace.com/x1">Build Ur Space</a>,
+        landscape. At <a href="https://buildurspace.com/">Build Ur Space</a>,
         we specialize in rental house construction in Bangalore, offering
         customized solutions that meet the unique needs of property investors.
       </p>
