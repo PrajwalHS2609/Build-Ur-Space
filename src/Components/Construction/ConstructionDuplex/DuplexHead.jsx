@@ -3,9 +3,7 @@ import React from "react";
 const DuplexHead = () => {
   return (
     <div className="architectsHeadContainer">
-      <h1>
-        <span>Duplex House Construction</span> in Bangalore: Build Ur Space
-      </h1>
+      <h1>Duplex House Construction in Bangalore: Build Ur Space</h1>
 
       <p>
         When it comes to duplex house construction in Bangalore, Build Ur Space

@@ -97,7 +97,7 @@ const Footer = () => {
             <h2>Social Media</h2>
             <div className="socialListContainer">
               <div className="socialList">
-                <a href="">
+                <a href="https://x.com/build_ur_space">
                   <FontAwesomeIcon
                     icon={faXTwitter}
                     className="socialIcon"

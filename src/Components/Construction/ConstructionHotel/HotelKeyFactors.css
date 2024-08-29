@@ -1,23 +1,9 @@
-.architectsHeadContainer {
-  /* border: solid red; */
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
-  gap: 20px;
-  width: 100%;
-  padding: 30px;
-}
-.architectsHeadContainer > h2 {
-  font-size: 25px;
-  color: var(--customColor);
-  text-align: center;
-  width: 100%;
-}
+
+
 .architectsHeadContainer > p {
   font-size: 20px;
   width: 100%;
-  text-align: center;
+  text-align: justify;
 }
 .architectsHeadContainer > p > a {
   color: var(--customColor);

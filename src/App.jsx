@@ -12,7 +12,7 @@ import Interior from "./Components/Interior/Interior";
 import Construction from "./Components/Construction/Construction";
 import Contacts from "./Components/Contacts/Contacts";
 import CommercialInterior from "./Components/CommercialInterior/CommercialInterior";
-import PackageContext from "./Components/PackagePage/PackageContext";
+// import PackageContext from "./Components/PackagePage/PackageContext";
 import ConstructionArchitects from "./Components/Construction/ConstructionArchitects/ConstructionArchitects";
 import ConstructionRental from "./Components/Construction/ConstructionRental/ConstructionRental";
 import ConstructionPg from "./Components/Construction/ConstructionPg/ConstructionPg";
@@ -23,6 +23,14 @@ import ConstructionService from "./Components/Construction/ConstructionService/C
 import ConstructionContractors from "./Components/Construction/ConstructionContractors/ConstructionContractors";
 import ConstructionResidential from "./Components/Construction/ConstructionResidential/ConstructionResidential";
 import ConstructionDuplex from "./Components/Construction/ConstructionDuplex/ConstructionDuplex";
+import ConstructionBudget from "./Components/Construction/ConstructionBudget/ConstructionBudget";
+import ConstructionGlass from "./Components/Construction/ConstructionGlass/ConstructionGlass";
+import ConstructionFalse from "./Components/Construction/ConstructionFalse/ConstructionFalse";
+import ConstructionShower from "./Components/Construction/ConstructionShower/ConstructionShower";
+import ConstructionToughened from "./Components/Construction/ConstructionToughened/ConstructionToughened";
+import ConstructionModular from "./Components/Construction/ConstructionModular/ConstructionModular";
+import ConstructionCabinet from "./Components/Construction/ConstructionCabinet/ConstructionCabinet";
+import ConstructionBed from "./Components/Construction/ConstructionBed/ConstructionBed";
 const App = () => {
   return (
     <div>
@@ -87,7 +95,40 @@ const App = () => {
             path="/duplex-house-construction-in-bangalore"
             element={<ConstructionDuplex />}
           />
+          <Route
+            path="/budget-homes-construction-in-bangalore"
+            element={<ConstructionBudget />}
+          />
+          <Route
+            path="/glass-partition-in-bangalore-for-home-and-office"
+            element={<ConstructionGlass />}
+          />
+          <Route
+            path="/false-ceiling-in-bangalore-for-home-and-office"
+            element={<ConstructionFalse />}
+          />
+          <Route
+            path="/shower-partition-in-bangalore-for-home"
+            element={<ConstructionShower />}
+          />
+          <Route
+            path="/toughened-glass-skylight-in-bangalore-for-home"
+            element={<ConstructionToughened />}
+          />
+          <Route
+            path="/modular-wardrobes-in-bangalore-for-home"
+            element={<ConstructionModular />}
+          />
+          <Route
+            path="/modular-cabinets-in-bangalore-for-home"
+            element={<ConstructionCabinet />}
+          />
+          <Route
+            path="/modular-bed-in-bangalore-for-home"
+            element={<ConstructionBed />}
+          />
         </Routes>
+
         {/* </PackageContext> */}
       </BrowserRouter>
     </div>

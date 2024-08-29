@@ -1,10 +1,10 @@
 import React, { useRef, useState } from "react";
-import ResidentialProcess from "./ResidentialProcess";
-import ResidentialExpertise from "./ResidentialExpertise";
-import ResidentialSuccess from "./ResidentialSuccess";
-import ResidentialWhy from "./ResidentialWhy";
+import FalseTypes from "./FalseTypes";
+import FalseBenefits from "./FalseBenefits";
+import FalseService from "./FalseService";
+import FalseElevate from "./FalseElevate";
 
-const ResidentialReadmore = () => {
+const FalseReadmore = () => {
   let [toggle, setToggle] = useState(false);
   let switchRef = useRef();
   let open = () => {
@@ -18,11 +18,11 @@ const ResidentialReadmore = () => {
   };
   return (
     <div className="architectsReadContainer">
-      <ResidentialProcess />
+      <FalseTypes />
       <div ref={switchRef} className="architectsReadDisplayContainer">
-        <ResidentialExpertise />
-        <ResidentialSuccess />
-        <ResidentialWhy />
+        <FalseBenefits />
+        <FalseService />
+        <FalseElevate />
       </div>
       <button className="openBut" onClick={open} id="openBut">
         Read {toggle ? "Less" : "More"}
@@ -31,4 +31,4 @@ const ResidentialReadmore = () => {
   );
 };
 
-export default ResidentialReadmore;
+export default FalseReadmore;

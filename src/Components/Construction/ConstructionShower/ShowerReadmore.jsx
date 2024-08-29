@@ -1,10 +1,11 @@
 import React, { useRef, useState } from "react";
-import ResidentialProcess from "./ResidentialProcess";
-import ResidentialExpertise from "./ResidentialExpertise";
-import ResidentialSuccess from "./ResidentialSuccess";
-import ResidentialWhy from "./ResidentialWhy";
+import ShowerWhyChoose from "./ShowerWhyChoose";
+import ShowerTypes from "./ShowerTypes";
+import ShowerProcess from "./ShowerProcess";
+import ShowerCustomization from "./ShowerCustomization";
+import ShowerWhy from "./ShowerWhy";
 
-const ResidentialReadmore = () => {
+const ShowerReadmore = () => {
   let [toggle, setToggle] = useState(false);
   let switchRef = useRef();
   let open = () => {
@@ -18,11 +19,12 @@ const ResidentialReadmore = () => {
   };
   return (
     <div className="architectsReadContainer">
-      <ResidentialProcess />
+      <ShowerWhyChoose />
       <div ref={switchRef} className="architectsReadDisplayContainer">
-        <ResidentialExpertise />
-        <ResidentialSuccess />
-        <ResidentialWhy />
+        <ShowerTypes />
+        <ShowerProcess />
+        <ShowerCustomization />
+        <ShowerWhy />
       </div>
       <button className="openBut" onClick={open} id="openBut">
         Read {toggle ? "Less" : "More"}
@@ -31,4 +33,4 @@ const ResidentialReadmore = () => {
   );
 };
 
-export default ResidentialReadmore;
+export default ShowerReadmore;
