@@ -16,7 +16,7 @@ const HomeOur1 = (props) => {
         </div>
         <div className="our1Content2">
           <div className="our1Item2">
-            <img src={props.img} alt="" />
+            <img src={props.img} alt="" loading="lazy" />
           </div>
         </div>
       </div>

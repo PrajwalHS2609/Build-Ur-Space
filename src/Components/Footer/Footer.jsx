@@ -78,7 +78,7 @@ const Footer = () => {
                   className="footIcon"
                 ></FontAwesomeIcon>
                 <p>
-                  <a href="www.buildurspace.com"> www.buildurspace.com</a>
+                  <a href="https://buildurspace.com/"> www.buildurspace.com</a>
                 </p>
               </li>
               <li>
