@@ -20,7 +20,7 @@ const ResidentialExpertise = () => {
       </p>
       <li>
         <span>
-          <img src={house} alt="house" /> Modern Homes:
+          <img src={house} alt="house" loading="lazy" /> Modern Homes:
         </span>
         <p>
           If you’re looking for a sleek, contemporary design, our team is

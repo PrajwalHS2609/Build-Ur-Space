@@ -6,7 +6,7 @@ const   InteriorTypesCard = (props) => {
     <div className="interiorTypeCardContainer">
       <Link to={props.link}>
         <div className="interiorTypeCardImg">
-          <img src={props.img} alt="" />
+          <img src={props.img} alt="" loading="lazy"/>
         </div>
         <div className="interiorTypeCardTxt">
           <div className="interiorTypeCardHead">
