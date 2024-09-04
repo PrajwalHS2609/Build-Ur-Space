@@ -149,34 +149,34 @@ const ClinicPopUpSlide = () => {
     <div className="interiorPopSlider">
       <Slider {...settings} className="inspireSliderPopContainer">
         <div className="inspireSliderPopContent">
-          <img src={clinicInterior1} alt="clinicInterior1" />
+          <img src={clinicInterior1} alt="clinicInterior1" loading="lazy"/>
         </div>
         <div className="inspireSliderPopContent">
-          <img src={clinicInterior2} alt="clinicInterior2" />
+          <img src={clinicInterior2} alt="clinicInterior2" loading="lazy"/>
         </div>
         <div className="inspireSliderPopContent">
-          <img src={clinicInterior3} alt="clinicInterior3" />
+          <img src={clinicInterior3} alt="clinicInterior3" loading="lazy"/>
         </div>
         <div className="inspireSliderPopContent">
-          <img src={clinicInterior4} alt="clinicInterior4" />
+          <img src={clinicInterior4} alt="clinicInterior4" loading="lazy"/>
         </div>
         <div className="inspireSliderPopContent">
-          <img src={clinicInterior5} alt="clinicInterior5" />
+          <img src={clinicInterior5} alt="clinicInterior5" loading="lazy"/>
         </div>
         <div className="inspireSliderPopContent">
-          <img src={clinicInterior6} alt="clinicInterior6" />
+          <img src={clinicInterior6} alt="clinicInterior6" loading="lazy"/>
         </div>
         <div className="inspireSliderPopContent">
-          <img src={clinicInterior7} alt="clinicInterior7" />
+          <img src={clinicInterior7} alt="clinicInterior7" loading="lazy"/>
         </div>
         <div className="inspireSliderPopContent">
-          <img src={clinicInterior8} alt="clinicInterior8" />
+          <img src={clinicInterior8} alt="clinicInterior8" loading="lazy"/>
         </div>
         <div className="inspireSliderPopContent">
-          <img src={clinicInterior9} alt="clinicInterior9" />
+          <img src={clinicInterior9} alt="clinicInterior9" loading="lazy"/>
         </div>
         <div className="inspireSliderPopContent">
-          <img src={clinicInterior10} alt="clinicInterior10" />
+          <img src={clinicInterior10} alt="clinicInterior10" loading="lazy"/>
         </div>
       </Slider>
     </div>

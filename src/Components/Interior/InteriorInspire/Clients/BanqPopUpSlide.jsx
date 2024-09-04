@@ -148,34 +148,34 @@ const BanqPopUpSlide = () => {
     <div className="interiorPopSlider">
       <Slider {...settings} className="inspireSliderPopContainer">
         <div className="inspireSliderPopContent">
-          <img src={mBanqInterior1} alt="mBanqInterior1" />
+          <img src={mBanqInterior1} alt="mBanqInterior1" loading="lazy" />
         </div>
         <div className="inspireSliderPopContent">
-          <img src={mBanqInterior2} alt="mBanqInterior2" />
+          <img src={mBanqInterior2} alt="mBanqInterior2" loading="lazy" />
         </div>
         <div className="inspireSliderPopContent">
-          <img src={mBanqInterior3} alt="mBanqInterior3" />
+          <img src={mBanqInterior3} alt="mBanqInterior3" loading="lazy" />
         </div>
         <div className="inspireSliderPopContent">
-          <img src={mBanqInterior4} alt="mBanqInterior4" />
+          <img src={mBanqInterior4} alt="mBanqInterior4" loading="lazy" />
         </div>
         <div className="inspireSliderPopContent">
-          <img src={mBanqInterior5} alt="mBanqInterior5" />
+          <img src={mBanqInterior5} alt="mBanqInterior5" loading="lazy" />
         </div>
         <div className="inspireSliderPopContent">
-          <img src={mBanqInterior6} alt="mBanqInterior6" />
+          <img src={mBanqInterior6} alt="mBanqInterior6" loading="lazy" />
         </div>
         <div className="inspireSliderPopContent">
-          <img src={mBanqInterior7} alt="mBanqInterior7" />
+          <img src={mBanqInterior7} alt="mBanqInterior7" loading="lazy" />
         </div>
         <div className="inspireSliderPopContent">
-          <img src={mBanqInterior8} alt="mBanqInterior8" />
+          <img src={mBanqInterior8} alt="mBanqInterior8" loading="lazy" />
         </div>
         <div className="inspireSliderPopContent">
-          <img src={mBanqInterior9} alt="mBanqInterior9" />
+          <img src={mBanqInterior9} alt="mBanqInterior9" loading="lazy" />
         </div>
         <div className="inspireSliderPopContent">
-          <img src={mBanqInterior10} alt="mBanqInterior10" />
+          <img src={mBanqInterior10} alt="mBanqInterior10" loading="lazy" />
         </div>
       </Slider>
     </div>

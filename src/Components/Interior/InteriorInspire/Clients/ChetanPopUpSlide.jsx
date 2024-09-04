@@ -148,34 +148,42 @@ const ChetanPopUpSlide = () => {
     <div className="interiorPopSlider">
       <Slider {...settings} className="inspireSliderPopContainer">
         <div className="inspireSliderPopContent">
-          <img src={chetansLivingroom} alt="chetansLivingroom" />
+          <img src={chetansLivingroom} alt="chetansLivingroom" loading="lazy" />
         </div>
         <div className="inspireSliderPopContent">
-          <img src={chetansBedroom} alt="chetansBedroom" />
+          <img src={chetansBedroom} alt="chetansBedroom" loading="lazy" />
         </div>
         <div className="inspireSliderPopContent">
-          <img src={chetansFalseCeling} alt="chetansFalseCeling" />
+          <img
+            src={chetansFalseCeling}
+            alt="chetansFalseCeling"
+            loading="lazy"
+          />
         </div>
         <div className="inspireSliderPopContent">
-          <img src={chetansKitchen} alt="chetansKitchen" />
+          <img src={chetansKitchen} alt="chetansKitchen" loading="lazy" />
         </div>
         <div className="inspireSliderPopContent">
-          <img src={chetansGod} alt="chetansGod" />
+          <img src={chetansGod} alt="chetansGod" loading="lazy" />
         </div>
         <div className="inspireSliderPopContent">
-          <img src={chetansWardrobe} alt="chetansWardrobe" />
+          <img src={chetansWardrobe} alt="chetansWardrobe" loading="lazy" />
         </div>
         <div className="inspireSliderPopContent">
-          <img src={chetansEntrance} alt="chetansEntrance" />
+          <img src={chetansEntrance} alt="chetansEntrance" loading="lazy" />
         </div>
         <div className="inspireSliderPopContent">
-          <img src={chetansWardrobe2} alt="chetansWardrobe2" />
+          <img src={chetansWardrobe2} alt="chetansWardrobe2" loading="lazy" />
         </div>
         <div className="inspireSliderPopContent">
-          <img src={chetansFalseceling2} alt="chetansFalseceling2" />
+          <img
+            src={chetansFalseceling2}
+            alt="chetansFalseceling2"
+            loading="lazy"
+          />
         </div>
         <div className="inspireSliderPopContent">
-          <img src={chetansWardrobe3} alt="chetansWardrobe3" />
+          <img src={chetansWardrobe3} alt="chetansWardrobe3" loading="lazy" />
         </div>
       </Slider>
     </div>

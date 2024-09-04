@@ -151,34 +151,34 @@ const KiranPopUpSlide = () => {
     <div className="interiorPopSlider">
       <Slider {...settings} className="inspireSliderPopContainer">
         <div className="inspireSliderPopContent">
-          <img src={kiransLivingroom} alt="kiransLivingroom" />
+          <img src={kiransLivingroom} alt="kiransLivingroom" loading="lazy" />
         </div>
         <div className="inspireSliderPopContent">
-          <img src={kiransKitchen} alt="kiransKitchen" />
+          <img src={kiransKitchen} alt="kiransKitchen" loading="lazy" />
         </div>
         <div className="inspireSliderPopContent">
-          <img src={kiransBedroom} alt="kiransBedroom" />
+          <img src={kiransBedroom} alt="kiransBedroom" loading="lazy" />
         </div>
         <div className="inspireSliderPopContent">
-          <img src={kiransBathroom} alt="kiransBathroom" />
+          <img src={kiransBathroom} alt="kiransBathroom" loading="lazy" />
         </div>
         <div className="inspireSliderPopContent">
-          <img src={kiransWardrobe} alt="kiransWardrobe" />
+          <img src={kiransWardrobe} alt="kiransWardrobe" loading="lazy" />
         </div>
         <div className="inspireSliderPopContent">
-          <img src={kiransFalseCeling} alt="kiransFalseCeling" />
+          <img src={kiransFalseCeling} alt="kiransFalseCeling" loading="lazy" />
         </div>
         <div className="inspireSliderPopContent">
-          <img src={kiransSink} alt="kiransSink" />
+          <img src={kiransSink} alt="kiransSink" loading="lazy" />
         </div>
         <div className="inspireSliderPopContent">
-          <img src={kiransSeat} alt="kiransSeat" />
+          <img src={kiransSeat} alt="kiransSeat" loading="lazy" />
         </div>
         <div className="inspireSliderPopContent">
-          <img src={kiransCorridor} alt="kiransCorridor" />
+          <img src={kiransCorridor} alt="kiransCorridor" loading="lazy" />
         </div>
         <div className="inspireSliderPopContent">
-          <img src={kiransStairs} alt="kiransStairs" />
+          <img src={kiransStairs} alt="kiransStairs" loading="lazy" />
         </div>
       </Slider>
     </div>
