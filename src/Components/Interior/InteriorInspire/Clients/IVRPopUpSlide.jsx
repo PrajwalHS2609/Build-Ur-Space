@@ -148,30 +148,34 @@ const IVRPopUpSlide = () => {
     <div className="interiorPopSlider">
       <Slider {...settings} className="inspireSliderPopContainer">
         <div className="inspireSliderPopContent">
-          <img src={IVRInterior1} alt="IVRInterior1" />
+          <img src={IVRInterior1} alt="IVRInterior1" loading="lazy" />
         </div>
         <div className="inspireSliderPopContent">
-          <img src={IVRInterior2} alt="IVRInterior2" />
+          <img src={IVRInterior2} alt="IVRInterior2" loading="lazy" />
         </div>
         <div className="inspireSliderPopContent">
-          <img src={IVRInterior3} alt="IVRInterior3" />
+          <img src={IVRInterior3} alt="IVRInterior3" loading="lazy" />
         </div>
         <div className="inspireSliderPopContent">
-          <img src={IVRInterior4} alt="IVRInterior4" />
+          <img src={IVRInterior4} alt="IVRInterior4" loading="lazy" />
         </div>
         <div className="inspireSliderPopContent">
-          <img src={IVRInterior5} alt="IVRInterior5" />
+          <img src={IVRInterior5} alt="IVRInterior5" loading="lazy" />
         </div>
         <div className="inspireSliderPopContent">
-          <img src={IVRInterior6} alt="IVRInterior6" />
-        </div>  <div className="inspireSliderPopContent">
-          <img src={IVRInterior7} alt="IVRInterior7" />
-        </div>  <div className="inspireSliderPopContent">
-          <img src={IVRInterior8} alt="IVRInterior8" />
-        </div>  <div className="inspireSliderPopContent">
-          <img src={IVRInterior9} alt="IVRInterior9" />
-        </div>  <div className="inspireSliderPopContent">
-          <img src={IVRInterior10} alt="IVRInterior10" />
+          <img src={IVRInterior6} alt="IVRInterior6" loading="lazy" />
+        </div>{" "}
+        <div className="inspireSliderPopContent">
+          <img src={IVRInterior7} alt="IVRInterior7" loading="lazy" />
+        </div>{" "}
+        <div className="inspireSliderPopContent">
+          <img src={IVRInterior8} alt="IVRInterior8" loading="lazy" />
+        </div>{" "}
+        <div className="inspireSliderPopContent">
+          <img src={IVRInterior9} alt="IVRInterior9" loading="lazy" />
+        </div>{" "}
+        <div className="inspireSliderPopContent">
+          <img src={IVRInterior10} alt="IVRInterior10" loading="lazy" />
         </div>
       </Slider>
     </div>

@@ -149,31 +149,31 @@ const ShowroomPopUpSlide = () => {
     <div className="interiorPopSlider">
     <Slider {...settings} className="inspireSliderPopContainer">
       <div className="inspireSliderPopContent">
-        <img src={showroomInterior1} alt="showroomInterior1" />
+        <img src={showroomInterior1} alt="showroomInterior1" loading='lazy'/>
       </div>
       <div className="inspireSliderPopContent">
-        <img src={showroomInterior2} alt="showroomInterior2" />
+        <img src={showroomInterior2} alt="showroomInterior2" loading='lazy'/>
       </div>
       <div className="inspireSliderPopContent">
-        <img src={showroomInterior3} alt="showroomInterior3" />
+        <img src={showroomInterior3} alt="showroomInterior3" loading='lazy'/>
       </div>
       <div className="inspireSliderPopContent">
-        <img src={showroomInterior4} alt="showroomInterior4" />
+        <img src={showroomInterior4} alt="showroomInterior4" loading='lazy'/>
       </div>
       <div className="inspireSliderPopContent">
-        <img src={showroomInterior5} alt="showroomInterior5" />
+        <img src={showroomInterior5} alt="showroomInterior5" loading='lazy'/>
       </div>
       <div className="inspireSliderPopContent">
-        <img src={showroomInterior6} alt="showroomInterior6" />
+        <img src={showroomInterior6} alt="showroomInterior6" loading='lazy'/>
       </div>
       <div className="inspireSliderPopContent">
-        <img src={showroomInterior7} alt="showroomInterior7" />
+        <img src={showroomInterior7} alt="showroomInterior7" loading='lazy'/>
       </div>
       <div className="inspireSliderPopContent">
-        <img src={showroomInterior8} alt="showroomInterior8" />
+        <img src={showroomInterior8} alt="showroomInterior8" loading='lazy'/>
       </div>
       <div className="inspireSliderPopContent">
-        <img src={showroomInterior9} alt="showroomInterior9" />
+        <img src={showroomInterior9} alt="showroomInterior9" loading='lazy'/>
       </div>
       <div className="inspireSliderPopContent">
         <img src={showroomInterior10} alt="showroomInterior10" />

@@ -146,31 +146,31 @@ const GymPopUpSlide = () => {
     <div className="interiorPopSlider">
       <Slider {...settings} className="inspireSliderPopContainer">
         <div className="inspireSliderPopContent">
-          <img src={gymInterior6} alt="gymInterior6" />
+          <img src={gymInterior6} alt="gymInterior6" loading="lazy"/>
         </div>
         <div className="inspireSliderPopContent">
-          <img src={gymInterior1} alt="gymInterior1" />
+          <img src={gymInterior1} alt="gymInterior1" loading="lazy"/>
         </div>
         <div className="inspireSliderPopContent">
-          <img src={gymInterior2} alt="gymInterior2" />
+          <img src={gymInterior2} alt="gymInterior2" loading="lazy"/>
         </div>
         <div className="inspireSliderPopContent">
-          <img src={gymInterior3} alt="gymInterior3" />
+          <img src={gymInterior3} alt="gymInterior3" loading="lazy"/>
         </div>
         <div className="inspireSliderPopContent">
-          <img src={gymInterior4} alt="gymInterior4" />
+          <img src={gymInterior4} alt="gymInterior4" loading="lazy"/>
         </div>
         <div className="inspireSliderPopContent">
-          <img src={gymInterior5} alt="gymInterior5" />
+          <img src={gymInterior5} alt="gymInterior5" loading="lazy"/>
         </div>
         <div className="inspireSliderPopContent">
-          <img src={gymInterior7} alt="gymInterior7" />
+          <img src={gymInterior7} alt="gymInterior7" loading="lazy"/>
         </div>
         <div className="inspireSliderPopContent">
-          <img src={gymInterior8} alt="gymInterior8" />
+          <img src={gymInterior8} alt="gymInterior8" loading="lazy"/>
         </div>
         <div className="inspireSliderPopContent">
-          <img src={gymInterior9} alt="gymInterior9" />
+          <img src={gymInterior9} alt="gymInterior9" loading="lazy"/>
         </div>
       </Slider>
     </div>

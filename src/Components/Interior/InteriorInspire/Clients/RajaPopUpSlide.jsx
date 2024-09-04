@@ -150,34 +150,46 @@ const RajaPopUpSlide = () => {
     <div className="interiorPopSlider">
       <Slider {...settings} className="inspireSliderPopContainer">
         <div className="inspireSliderPopContent">
-          <img src={rajasLivingroom} alt="rajasLivingroom" />
+          <img src={rajasLivingroom} alt="rajasLivingroom" loading="lazy" />
         </div>
         <div className="inspireSliderPopContent">
-          <img src={rajaShekarsEntrance} alt="rajaShekarsEntrance" />
+          <img
+            src={rajaShekarsEntrance}
+            alt="rajaShekarsEntrance"
+            loading="lazy"
+          />
         </div>
         <div className="inspireSliderPopContent">
-          <img src={rajaShekarsBedroom} alt="rajaShekarsBedroom" />
+          <img
+            src={rajaShekarsBedroom}
+            alt="rajaShekarsBedroom"
+            loading="lazy"
+          />
         </div>
         <div className="inspireSliderPopContent">
-          <img src={rajasLivingroom2} alt="rajasLivingroom2" />
+          <img src={rajasLivingroom2} alt="rajasLivingroom2" loading="lazy" />
         </div>
         <div className="inspireSliderPopContent">
-          <img src={rajaShekarsWall} alt="rajaShekarsWall" />
+          <img src={rajaShekarsWall} alt="rajaShekarsWall" loading="lazy" />
         </div>
         <div className="inspireSliderPopContent">
-          <img src={rajasLivingRoom3} alt="rajasLivingRoom3" />
+          <img src={rajasLivingRoom3} alt="rajasLivingRoom3" loading="lazy" />
         </div>
         <div className="inspireSliderPopContent">
-          <img src={rajaShekarsFalseCeling} alt="rajaShekarsFalseCeling" />
+          <img
+            src={rajaShekarsFalseCeling}
+            alt="rajaShekarsFalseCeling"
+            loading="lazy"
+          />
         </div>
         <div className="inspireSliderPopContent">
-          <img src={rajaShekarsGod} alt="rajaShekarsGod" />
+          <img src={rajaShekarsGod} alt="rajaShekarsGod" loading="lazy" />
         </div>
         <div className="inspireSliderPopContent">
-          <img src={rajasLivingRoom4} alt="rajasLivingRoom4" />
+          <img src={rajasLivingRoom4} alt="rajasLivingRoom4" loading="lazy" />
         </div>
         <div className="inspireSliderPopContent">
-          <img src={rajasBedRoom2} alt="rajasBedRoom2" />
+          <img src={rajasBedRoom2} alt="rajasBedRoom2" loading="lazy" />
         </div>
       </Slider>
     </div>
