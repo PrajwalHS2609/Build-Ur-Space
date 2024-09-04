@@ -65,18 +65,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border-radius: 20px; */
+  border-radius: 20px;
 }
-.inspireImgContent2 {
-  /* border: solid blue; */
+/* .inspireImgContent2 {
+  border: solid blue;
   width: 20%;
   height: 350px;
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border-radius: 20px; */
-}
+} */
 .inspireImgContent3 {
   /* border: solid green; */
   width: 20%;
@@ -88,6 +87,7 @@
   /* border-radius: 20px; */
 }
 #inspireImgContent > a > img {
+  /* border: solid; */
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -95,6 +95,8 @@
 }
 #inspireImgContent > a {
   position: relative;
+  width: 100%;
+  height: 100%;
 }
 #inspireImgContent > a > h3 {
   color: white;
@@ -108,11 +110,11 @@
   letter-spacing: 1px;
 }
 .inspirePopUp {
-  /* border: solid green; */
-  height: 80vh;
+  border: solid green;
+  height: 100%;
   width: 100%;
   position: fixed;
-  top: 17vh;
+  top: 110px;
   z-index: 2;
   background-color: rgba(0, 0, 0, 0.523);
   backdrop-filter: blur(10px);
@@ -127,25 +129,31 @@
   color: white;
 }
 .interiorPopSlider {
-  /* border: solid red; */
+  border: solid rebeccapurple;
   width: 100%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 20px;
 }
 .inspireSliderPopContainer {
-  /* border: solid green; */
+  border: solid green;
   height: 100%;
-  width: 100%;
+  width: 70%;
   gap: 10px;
-  padding: 30px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .inspireSliderPopContent {
-  /* border: solid red; */
+  border: solid blue;
   height: 100%;
   width: 100%;
-  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .inspireSliderPopContent > img {
   height: 100%;
@@ -201,125 +209,5 @@
     height: 60%;
     width: 100%;
     object-fit: contain;
-  }
-}
-@media screen and (min-width: 768px) {
-  .inspireImgContent1 {
-    /* border: solid red; */
-    min-width: 300px;
-    height: 350px;
-  }
-  .inspirePopUp {
-    /* border: solid green; */
-    height: 90vh;
-    width: 100%;
-    top: 60px;
-  }
-  .interiorPopSlider {
-    /* border: solid red; */
-    width: 70%;
-    height: fit-content;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .inspireSliderPopContainer {
-    /* border: solid green; */
-    height: 100%;
-    width: 100%;
-    gap: 0px;
-    padding: 0px;
-  }
-  .inspireSliderPopContent {
-    /* border: solid red; */
-    height: 100%;
-    width: 100%;
-    margin-top: 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .inspireSliderPopContent > img {
-    height: 60%;
-    width: 100%;
-    object-fit: contain;
-  }
-}
-@media screen and (min-width: 990px) {
-  .inspirePopUp {
-    /* border: solid green; */
-    height: 90vh;
-    width: 100%;
-    position: fixed;
-    top: 130px;
-  }
-  .interiorPopSlider {
-    /* border: solid red; */
-    width: 80%;
-    height: 50%;
-  }
-  .inspireSliderPopContainer {
-    /* border: solid green; */
-    height: 100%;
-    width: 100%;
-    gap: 10px;
-    padding: 0px;
-  }
-  .inspireSliderPopContent {
-    /* border: solid ; */
-    height: 100%;
-    width: 100%;
-    margin-top: 0px;
-  }
-  .inspireSliderPopContent > img {
-    height: 100%;
-    object-fit: cover;
-    width: 100%;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .inspirePopUpExit {
-    /* border: solid red; */
-    position: fixed;
-    right: 80px;
-    top: 100px;
-  }
-  .inspirePopUp {
-    /* border: solid green; */
-    height: 90%;
-    width: 100%;
-    position: fixed;
-    top: 100px;
-  }
-  .interiorPopSlider {
-    /* border: solid red; */
-    width: 100%;
-    height: fit-content;
-    margin-top: 100px;
-    display: flex;
-    justify-content: center;align-items: center;
-  }
-  .inspireSliderPopContainer {
-    /* border: solid green; */
-    height: fit-content;
-    width: 60%;
-    height: 100%;
-    gap: 0px;
-    padding: 0px;
-    margin-top: 0px;
-  }
-  .inspireSliderPopContent {
-    /* border: solid ; */
-    height: 470px;
-    width: 100%;
-    margin-bottom:50px;
-  }
-  .inspireSliderPopContent > img {
-    /* border: solid blue; */
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    margin-left: 0px;
-    object-position: 0, -2 0px;
   }
 }

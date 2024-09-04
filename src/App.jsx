@@ -31,6 +31,17 @@ import ConstructionToughened from "./Components/Construction/ConstructionToughen
 import ConstructionModular from "./Components/Construction/ConstructionModular/ConstructionModular";
 import ConstructionCabinet from "./Components/Construction/ConstructionCabinet/ConstructionCabinet";
 import ConstructionBed from "./Components/Construction/ConstructionBed/ConstructionBed";
+import ConstructionStudy from "./Components/Construction/ConstructionStudy/ConstructionStudy";
+import ConstructionBook from "./Components/Construction/ConstructionBook/ConstructionBook";
+import ConstructionPuja from "./Components/Construction/ConstructionPuja/ConstructionPuja";
+import InteriorHome from "./Components/Interior/InteriorHome/InteriorHome";
+import InteriorCommercial from "./Components/Interior/InteriorCommercial/InteriorCommercial";
+import InteriorRestaurant from "./Components/Interior/InteriorRestaurant/InteriorRestaurant";
+import InteriorSalon from "./Components/Interior/InteriorSalon/InteriorSalon";
+import InteriorHospital from "./Components/Interior/InteriorHospital/InteriorHospital";
+import InteriorKindergarten from "./Components/Interior/InteriorKindergarten/InteriorKindergarten";
+import InteriorResort from "./Components/Interior/InteriorResort/InteriorResort";
+import InteriorJewellery from "./Components/Interior/InteriorJewellery/InteriorJewellery";
 const App = () => {
   return (
     <div>
@@ -126,6 +137,50 @@ const App = () => {
           <Route
             path="/modular-bed-in-bangalore-for-home"
             element={<ConstructionBed />}
+          />
+          <Route
+            path="/modular-study-table-in-bangalore-for-home"
+            element={<ConstructionStudy />}
+          />
+          <Route
+            path="/modular-book-shelves-in-bangalore-for-home"
+            element={<ConstructionBook />}
+          />
+          <Route
+            path="/modular-puja-unit-in-bangalore-for-home"
+            element={<ConstructionPuja />}
+          />
+          <Route
+            path="/home-interiors-in-bangalore"
+            element={<InteriorHome />}
+          />
+          <Route
+            path="/commercial-office-interiors-in-bangalore"
+            element={<InteriorCommercial />}
+          />
+          <Route
+            path="/restaurant-interiors-in-bangalore"
+            element={<InteriorRestaurant />}
+          />
+          <Route
+            path="/salon-interior-designers-in-bangalore"
+            element={<InteriorSalon />}
+          />
+          <Route
+            path="/hospital-and-clinic-interior-designers-in-bangalore"
+            element={<InteriorHospital />}
+          />
+          <Route
+            path="/kindergarten-interiors-designers-in-bangalore"
+            element={<InteriorKindergarten />}
+          />
+          <Route
+            path="/resort-interior-designers-in-bangalore"
+            element={<InteriorResort />}
+          />
+          <Route
+            path="/jewellery-shop-interior-designers-in-bangalore"
+            element={<InteriorJewellery />}
           />
         </Routes>
 
