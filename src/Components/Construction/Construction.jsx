@@ -11,6 +11,7 @@ import PackageConstruction from "./PackageConstruction";
 import { Helmet } from "react-helmet";
 import ConstructionTypeMain from "./ConstructionType/ConstructionTypeMain";
 import HomeConstructionImg from "../HomePage/HomeImg/HomeConstructionImg";
+import WhatsApp from "../HomePage/WhatsApp/WhatsApp";
 
 const Construction = () => {
   return (
@@ -33,6 +34,7 @@ const Construction = () => {
       <Testimonial />
       <BrandWeUse />
       <Partners />
+      <WhatsApp/>
       <HomeConstructionImg/>
       <Footer />
     </div>

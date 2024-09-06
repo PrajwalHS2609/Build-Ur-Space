@@ -8,6 +8,7 @@ import HomeOurPhilo from "../HomePage/HomeOurPhilo/HomeOurPhilo";
 import "./AboutUs.css";
 import Footer from "./../Footer/Footer";
 import { Helmet } from "react-helmet";
+import WhatsApp from "../HomePage/WhatsApp/WhatsApp";
 const AboutUs = () => {
   return (
     <div className="AboutUs">
@@ -25,6 +26,7 @@ const AboutUs = () => {
       <HomeOurPhilo />
       <HomeOurVision />
       <HomeOurMission />
+      <WhatsApp/>
       <OurGoals />
       <Footer />
     </div>

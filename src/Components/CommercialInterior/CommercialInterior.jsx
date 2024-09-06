@@ -8,6 +8,7 @@ import Footer from "../Footer/Footer";
 import InteriorWhy from "./../Interior/InteriorWhy/InteriorWhy";
 import InteriorHead from "./../Interior/InteriorHead/InteriorHead";
 import { Helmet } from "react-helmet";
+import WhatsApp from "../HomePage/WhatsApp/WhatsApp";
 const CommercialInterior = () => {
   return (
     <div className="CommercialInteriorContainer">
@@ -25,6 +26,7 @@ const CommercialInterior = () => {
       <HomeAppPage />
       <InteriorWhy />
       <Testimonial />
+      <WhatsApp/>
       <Partners />
       <Footer />
     </div>

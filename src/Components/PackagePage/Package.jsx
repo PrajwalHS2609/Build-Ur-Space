@@ -8,6 +8,7 @@ import Testimonial from "../HomePage/Testimonial/Testimonial";
 import Partners from "../HomePage/Partners/Partners";
 import HomeAppPage from "../HomePage/HomeAppPage/HomeAppPage";
 import { Helmet } from "react-helmet";
+import WhatsApp from "../HomePage/WhatsApp/WhatsApp";
 const Package = () => {
   return (
     <div className="packageContainer">
@@ -25,6 +26,7 @@ const Package = () => {
       <HomeAppPage />
       <HomeWhy />
       <Testimonial />
+      <WhatsApp/>
       <Partners />
       <Footer />
     </div>
