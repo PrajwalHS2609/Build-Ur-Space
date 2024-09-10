@@ -23,6 +23,11 @@
   width: 100%;
   text-align: center;
 }
+.architectsHeadContainer > h2 {
+  text-align: center;
+  width: 100%;
+  font-size: 25px;
+}
 .architectsHeadContainer > h2 > span {
   color: var(--customColor);
   text-align: center;
