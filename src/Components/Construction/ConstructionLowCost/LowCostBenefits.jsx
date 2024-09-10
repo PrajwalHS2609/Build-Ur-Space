@@ -4,8 +4,8 @@ const LowCostBenefits = () => {
   return (
     <div className="architectsHeadContainer">
       <h2>
-        <span> Benefits </span>of Low Cost House Construction in Bangalore with
-        Build Ur Space{" "}
+        Benefits of Low Cost House Construction in Bangalore with{" "}
+        <span>Build Ur Space</span>{" "}
       </h2>
 
       <p>
@@ -33,9 +33,10 @@ const LowCostBenefits = () => {
         time, allowing you to move into your new home without delays.
       </li>
       <li>
-        <span>Customer Satisfaction:</span> At Build Ur Space, customer satisfaction is our top
-        priority. We work closely with you to ensure that your vision is
-        realized and that you are pleased with the final outcome.
+        <span>Customer Satisfaction:</span> At Build Ur Space, customer
+        satisfaction is our top priority. We work closely with you to ensure
+        that your vision is realized and that you are pleased with the final
+        outcome.
       </li>
     </div>
   );
