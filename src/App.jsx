@@ -42,6 +42,14 @@ import InteriorHospital from "./Components/Interior/InteriorHospital/InteriorHos
 import InteriorKindergarten from "./Components/Interior/InteriorKindergarten/InteriorKindergarten";
 import InteriorResort from "./Components/Interior/InteriorResort/InteriorResort";
 import InteriorJewellery from "./Components/Interior/InteriorJewellery/InteriorJewellery";
+import InteriorRetailStore from "./Components/Interior/InteriorRetailStore/InteriorRetailStore";
+import ConstructionInKrPuram from "./Components/Construction/ConstructionInKrPuram/ConstructionInKrPuram";
+import ConstructionInHoskote from "./Components/Construction/ConstructionInHoskote/ConstructionInHoskote";
+import ConstructionInSarjapura from "./Components/Construction/ConstructionInSarjapura/ConstructionInSarjapura";
+import ConstructionInKanakapura from "./Components/Construction/ConstructionInKanakapura/ConstructionInKanakapura";
+import ConstructionInBanaswadi from "./Components/Construction/ConstructionInBanaswadi/ConstructionInBanaswadi";
+import ConstructionInHebbal from "./Components/Construction/ConstructionInHebbal/ConstructionInHebbal";
+import ConstructionInDevanahalli from './Components/Construction/ConstructionInDevanahalli/ConstructionInDevanahalli';
 const App = () => {
   return (
     <div>
@@ -110,6 +118,35 @@ const App = () => {
             path="/budget-homes-construction-in-bangalore"
             element={<ConstructionBudget />}
           />
+          <Route
+            path="/house-construction-company-in-kr-puram"
+            element={<ConstructionInKrPuram />}
+          />
+          <Route
+            path="/house-construction-company-in-hoskote-road"
+            element={<ConstructionInHoskote />}
+          />
+          <Route
+            path="/house-construction-company-in-sarjapura"
+            element={<ConstructionInSarjapura />}
+          />
+          <Route
+            path="/house-construction-company-in-kanakapura-road"
+            element={<ConstructionInKanakapura />}
+          />
+          <Route
+            path="/house-construction-company-in-banaswadi"
+            element={<ConstructionInBanaswadi />}
+          />
+          <Route
+            path="/house-construction-company-in-hebbal"
+            element={<ConstructionInHebbal />}
+          />
+                    <Route
+            path="/house-construction-company-in-devanahalli"
+            element={<ConstructionInDevanahalli />}
+          />
+          {/* ----------------------Interior-------------------------- */}
           <Route
             path="/glass-partition-in-bangalore-for-home-and-office"
             element={<ConstructionGlass />}
@@ -181,6 +218,10 @@ const App = () => {
           <Route
             path="/jewellery-shop-interior-designers-in-bangalore"
             element={<InteriorJewellery />}
+          />
+          <Route
+            path="/retail-store-interiors-in-bangalore"
+            element={<InteriorRetailStore />}
           />
         </Routes>
 

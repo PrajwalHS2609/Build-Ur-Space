@@ -3,15 +3,14 @@ import check from "./../../../Images/check.png";
 
 const PujaWhy = () => {
   return (
-    <div className="architectsHeadContainer">
+    <div className="divorceInBloreHeadContainer">
       <h2>
-        Why <span>Buildurspace</span> is the Best Choice for Your Modular Puja
-        Unit in Bangalore for Home{" "}
+        Why <span>M M Associates</span> Stands Out Among Divorce Lawyers in
+        Bangalore
       </h2>
       <p>
-        When it comes to choosing the right{" "}
-        <a href="https://buildurspace.com/modular-puja-unit-in-bangalore-for-home">modular puja unit in Bangalore</a> for home,{" "}
-        <a href="https://buildurspace.com/">Buildurspace</a> stands out for several reasons:
+        When it comes to divorce lawyers in Bangalore, M M Associates stands out
+        for several reasons:
       </p>
       <li>
         <span>
@@ -32,8 +31,9 @@ const PujaWhy = () => {
         </span>
         <p>
           Quality is at the core of everything we do. From the materials we use
-          to the craftsmanship involved, we ensure that every <a href="https://buildurspace.com/">modular puja unit
-          in Bangalore</a> for home meets the highest standards of quality.
+          to the craftsmanship involved, we ensure that every{" "}
+          <a href="https://buildurspace.com/">modular puja unit in Bangalore</a>{" "}
+          for home meets the highest standards of quality.
         </p>
       </li>
       <li>
@@ -52,7 +52,10 @@ const PujaWhy = () => {
           Affordable Pricing:{" "}
         </span>
         <p>
-          We offer competitive pricing for our <a href="https://buildurspace.com/modular-puja-unit-in-bangalore-for-home">modular puja unit in Bangalore</a>
+          We offer competitive pricing for our{" "}
+          <a href="https://buildurspace.com/modular-puja-unit-in-bangalore-for-home">
+            modular puja unit in Bangalore
+          </a>
           for home, ensuring that you get the best value for your investment.
           Our transparent pricing means no hidden costs, and you get a premium
           product at an affordable price.

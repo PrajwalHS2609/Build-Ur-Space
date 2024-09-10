@@ -69,6 +69,19 @@
   color: var(--customColor);
   font-weight: bold;
 }
+.architectsHeadContainer > li > ul > li {
+  list-style: none;
+  margin: 10px;
+}
+.architectsHeadContainer > li > ul > li > span {
+  color: var(--customColor);
+  font-weight: bold;
+}
+.architectsHeadContainer > li > ul > li > p > a {
+  color: var(--customColor);
+  text-decoration: none;
+}
+
 .architectsHeadContainer > p {
   text-align: justify;
   font-size: 20px;
@@ -86,7 +99,11 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 0px;
+    padding: 10px;
+  }
+  .architectsHeadContainer {
+    /* border: solid red; */
+    padding: 20px;
   }
   .architectsHeadContainer > h2 {
     text-align: center;
