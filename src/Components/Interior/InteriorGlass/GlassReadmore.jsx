@@ -3,6 +3,7 @@ import GlassTypes from "./GlassTypes";
 import GlassBenefits from "./GlassBenefits";
 import GlassService from "./GlassService";
 import GlassTransform from "./GlassTransform";
+import GlassWhy from "./../../Construction/ConstructionGlass/GlassWhy";
 
 const GlassReadmore = () => {
   let [toggle, setToggle] = useState(false);
@@ -18,8 +19,9 @@ const GlassReadmore = () => {
   };
   return (
     <div className="architectsReadContainer">
-      <GlassTypes />
+      <GlassWhy />
       <div ref={switchRef} className="architectsReadDisplayContainer">
+        <GlassTypes />
         <GlassBenefits />
         <GlassService />
         <GlassTransform />

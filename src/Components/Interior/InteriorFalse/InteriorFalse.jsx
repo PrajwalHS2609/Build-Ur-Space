@@ -1,21 +1,20 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import ConstructionHead from "../ConstructionHead";
-import ConstructionTypeMain from "../ConstructionType/ConstructionTypeMain";
-import Portfolio from "../../Portfolio/Portfolio";
-import PackageConstruction from "../PackageConstruction";
+import InteriorHead from "../InteriorHead/InteriorHead";
+import InteriorTypes from "../InteriorTypes/InteriorTypes";
+import InteriorInspire from "../InteriorInspire/InteriorInspire";
 import HomeAppPage from "../../HomePage/HomeAppPage/HomeAppPage";
-import HomeWhy from "../../HomePage/HomeWhy/HomeWhy";
+import InteriorWhy1 from "../InteriorWhy/InteriorWhy1";
 import Testimonial from "../../HomePage/Testimonial/Testimonial";
-import BrandWeUse from "../../HomePage/BrandWeUse/BrandWeUse";
 import Partners from "../../HomePage/Partners/Partners";
-import HomeConstructionImg from "../../HomePage/HomeImg/HomeConstructionImg";
-import FalseReadmore from "./FalseReadmore";
+import HomeInteriorImg from "../../HomePage/HomeImg/HomeInteriorImg";
+import BookReadmore from "../InteriorBook/BookReadmore";
+import Footer from "../../Footer/Footer";
 import FalseHead from "./FalseHead";
 import FalseWhy from "./FalseWhy";
-import Footer from "../../Footer/Footer";
 
-const ConstructionFalse = () => {
+
+const InteriorFalse = () => {
   return (
     <div>
       <Helmet>
@@ -33,24 +32,22 @@ const ConstructionFalse = () => {
           href="https://buildurspace.com/false-ceiling-in-bangalore-for-home-and-office"
         />
       </Helmet>
-      <ConstructionHead />
-      <ConstructionTypeMain />
+      <InteriorHead />
+      <InteriorTypes />
       <div className="ArchitectsWrapper">
         <FalseHead />
         <FalseWhy />
       </div>
-      <Portfolio />
-      <PackageConstruction />
+      <InteriorInspire />
       <HomeAppPage />
-      <HomeWhy />
+      <InteriorWhy1 />
       <Testimonial />
-      <BrandWeUse />
       <Partners />
-      <HomeConstructionImg />
-      <FalseReadmore />
+      <HomeInteriorImg />
+      <BookReadmore />
       <Footer />
     </div>
   );
 };
 
-export default ConstructionFalse;
+export default InteriorFalse;

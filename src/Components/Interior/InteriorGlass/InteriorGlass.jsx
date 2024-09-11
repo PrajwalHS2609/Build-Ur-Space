@@ -1,21 +1,18 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import ConstructionHead from "../ConstructionHead";
-import ConstructionTypeMain from "../ConstructionType/ConstructionTypeMain";
-import PackageConstruction from "../PackageConstruction";
-import Portfolio from "../../Portfolio/Portfolio";
-import HomeConstructionImg from "../../HomePage/HomeImg/HomeConstructionImg";
-import Footer from "../../Footer/Footer";
-import HomeWhy from "../../HomePage/HomeWhy/HomeWhy";
-import Testimonial from "../../HomePage/Testimonial/Testimonial";
-import BrandWeUse from "../../HomePage/BrandWeUse/BrandWeUse";
-import Partners from "../../HomePage/Partners/Partners";
+import InteriorInspire from "../InteriorInspire/InteriorInspire";
 import HomeAppPage from "../../HomePage/HomeAppPage/HomeAppPage";
+import InteriorWhy1 from "../InteriorWhy/InteriorWhy1";
+import Testimonial from "../../HomePage/Testimonial/Testimonial";
+import Partners from "../../HomePage/Partners/Partners";
+import HomeInteriorImg from "../../HomePage/HomeImg/HomeInteriorImg";
+import BookReadmore from "../InteriorBook/BookReadmore";
 import GlassHead from "./GlassHead";
-import GlassWhy from "./GlassWhy";
-import GlassReadmore from "./GlassReadmore";
+import Footer from "../../Footer/Footer";
+import InteriorHead from "../InteriorHead/InteriorHead";
+import InteriorTypes from "../InteriorTypes/InteriorTypes";
 
-const ConstructionGlass = () => {
+const InteriorGlass = () => {
   return (
     <div>
       <Helmet>
@@ -33,24 +30,21 @@ const ConstructionGlass = () => {
           href="https://buildurspace.com/glass-partition-in-bangalore-for-home-and-office"
         />
       </Helmet>
-      <ConstructionHead />
-      <ConstructionTypeMain />
+      <InteriorHead />
+      <InteriorTypes />
       <div className="ArchitectsWrapper">
         <GlassHead />
-        <GlassWhy />
       </div>
-      <Portfolio />
-      <PackageConstruction />
+      <InteriorInspire />
       <HomeAppPage />
-      <HomeWhy />
+      <InteriorWhy1 />
       <Testimonial />
-      <BrandWeUse />
       <Partners />
-      <HomeConstructionImg />
-      <GlassReadmore />
+      <HomeInteriorImg />
+      <BookReadmore />
       <Footer />
     </div>
   );
 };
 
-export default ConstructionGlass;
+export default InteriorGlass;

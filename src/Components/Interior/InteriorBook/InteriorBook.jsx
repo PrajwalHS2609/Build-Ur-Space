@@ -1,21 +1,19 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import ConstructionHead from "../ConstructionHead";
-import ConstructionTypeMain from "../ConstructionType/ConstructionTypeMain";
-import Portfolio from "../../Portfolio/Portfolio";
-import PackageConstruction from "../PackageConstruction";
-import HomeAppPage from "../../HomePage/HomeAppPage/HomeAppPage";
-import HomeWhy from "../../HomePage/HomeWhy/HomeWhy";
-import Testimonial from "../../HomePage/Testimonial/Testimonial";
-import BrandWeUse from "../../HomePage/BrandWeUse/BrandWeUse";
+import HomeInteriorImg from "../../HomePage/HomeImg/HomeInteriorImg";
 import Partners from "../../HomePage/Partners/Partners";
-import HomeConstructionImg from "../../HomePage/HomeImg/HomeConstructionImg";
-import BookReadmore from "./BookReadmore";
+import Testimonial from "../../HomePage/Testimonial/Testimonial";
+import InteriorWhy1 from "../InteriorWhy/InteriorWhy1";
+import HomeAppPage from "../../HomePage/HomeAppPage/HomeAppPage";
+import InteriorInspire from "../InteriorInspire/InteriorInspire";
+import InteriorTypes from "../InteriorTypes/InteriorTypes";
+import InteriorHead from "../InteriorHead/InteriorHead";
 import BookHead from "./BookHead";
-import BookWhy from "./BookWhy";
 import Footer from "../../Footer/Footer";
+import BookWhy from "./BookWhy";
+import BookReadmore from "./BookReadmore";
 
-const ConstructionBook = () => {
+const InteriorBook = () => {
   return (
     <div>
       <Helmet>
@@ -30,24 +28,22 @@ const ConstructionBook = () => {
           href="https://buildurspace.com/modular-book-shelves-in-bangalore-for-home"
         />
       </Helmet>
-      <ConstructionHead />
-      <ConstructionTypeMain />
+      <InteriorHead />
+      <InteriorTypes />
       <div className="ArchitectsWrapper">
         <BookHead />
         <BookWhy />
       </div>
-      <Portfolio />
-      <PackageConstruction />
+      <InteriorInspire />
       <HomeAppPage />
-      <HomeWhy />
+      <InteriorWhy1 />
       <Testimonial />
-      <BrandWeUse />
       <Partners />
-      <HomeConstructionImg />
+      <HomeInteriorImg />
       <BookReadmore />
       <Footer />
     </div>
   );
 };
 
-export default ConstructionBook;
+export default InteriorBook;

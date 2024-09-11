@@ -24,16 +24,6 @@ import ConstructionContractors from "./Components/Construction/ConstructionContr
 import ConstructionResidential from "./Components/Construction/ConstructionResidential/ConstructionResidential";
 import ConstructionDuplex from "./Components/Construction/ConstructionDuplex/ConstructionDuplex";
 import ConstructionBudget from "./Components/Construction/ConstructionBudget/ConstructionBudget";
-import ConstructionGlass from "./Components/Construction/ConstructionGlass/ConstructionGlass";
-import ConstructionFalse from "./Components/Construction/ConstructionFalse/ConstructionFalse";
-import ConstructionShower from "./Components/Construction/ConstructionShower/ConstructionShower";
-import ConstructionToughened from "./Components/Construction/ConstructionToughened/ConstructionToughened";
-import ConstructionModular from "./Components/Construction/ConstructionModular/ConstructionModular";
-import ConstructionCabinet from "./Components/Construction/ConstructionCabinet/ConstructionCabinet";
-import ConstructionBed from "./Components/Construction/ConstructionBed/ConstructionBed";
-import ConstructionStudy from "./Components/Construction/ConstructionStudy/ConstructionStudy";
-import ConstructionBook from "./Components/Construction/ConstructionBook/ConstructionBook";
-import ConstructionPuja from "./Components/Construction/ConstructionPuja/ConstructionPuja";
 import InteriorHome from "./Components/Interior/InteriorHome/InteriorHome";
 import InteriorCommercial from "./Components/Interior/InteriorCommercial/InteriorCommercial";
 import InteriorRestaurant from "./Components/Interior/InteriorRestaurant/InteriorRestaurant";
@@ -49,7 +39,17 @@ import ConstructionInSarjapura from "./Components/Construction/ConstructionInSar
 import ConstructionInKanakapura from "./Components/Construction/ConstructionInKanakapura/ConstructionInKanakapura";
 import ConstructionInBanaswadi from "./Components/Construction/ConstructionInBanaswadi/ConstructionInBanaswadi";
 import ConstructionInHebbal from "./Components/Construction/ConstructionInHebbal/ConstructionInHebbal";
-import ConstructionInDevanahalli from './Components/Construction/ConstructionInDevanahalli/ConstructionInDevanahalli';
+import ConstructionInDevanahalli from "./Components/Construction/ConstructionInDevanahalli/ConstructionInDevanahalli";
+import InteriorBed from "./Components/Interior/InteriorBed/InteriorBed";
+import InteriorBook from "./Components/Interior/InteriorBook/InteriorBook";
+import InteriorStudy from "./Components/Interior/InteriorStudy/InteriorStudy";
+import InteriorShower from "./Components/Interior/InteriorShower/InteriorShower";
+import InteriorFalse from "./Components/Interior/InteriorFalse/InteriorFalse";
+import InteriorModular from "./Components/Interior/InteriorModular/InteriorModular";
+import InteriorGlass from "./Components/Interior/InteriorGlass/InteriorGlass";
+import InteriorPuja from "./Components/Interior/InteriorPuja/InteriorPuja";
+import InteriorToughened from "./Components/Interior/InteriorToughened/InteriorToughened";
+import InteriorCabinet from "./Components/Interior/InteriorCabinet/InteriorCabinet";
 const App = () => {
   return (
     <div>
@@ -142,50 +142,50 @@ const App = () => {
             path="/house-construction-company-in-hebbal"
             element={<ConstructionInHebbal />}
           />
-                    <Route
+          <Route
             path="/house-construction-company-in-devanahalli"
             element={<ConstructionInDevanahalli />}
           />
           {/* ----------------------Interior-------------------------- */}
           <Route
             path="/glass-partition-in-bangalore-for-home-and-office"
-            element={<ConstructionGlass />}
+            element={<InteriorGlass />}
           />
           <Route
             path="/false-ceiling-in-bangalore-for-home-and-office"
-            element={<ConstructionFalse />}
+            element={<InteriorFalse />}
           />
           <Route
             path="/shower-partition-in-bangalore-for-home"
-            element={<ConstructionShower />}
+            element={<InteriorShower />}
           />
           <Route
             path="/toughened-glass-skylight-in-bangalore-for-home"
-            element={<ConstructionToughened />}
+            element={<InteriorToughened />}
           />
           <Route
             path="/modular-wardrobes-in-bangalore-for-home"
-            element={<ConstructionModular />}
+            element={<InteriorModular />}
           />
           <Route
             path="/modular-cabinets-in-bangalore-for-home"
-            element={<ConstructionCabinet />}
+            element={<InteriorCabinet />}
           />
           <Route
             path="/modular-bed-in-bangalore-for-home"
-            element={<ConstructionBed />}
+            element={<InteriorBed />}
           />
           <Route
             path="/modular-study-table-in-bangalore-for-home"
-            element={<ConstructionStudy />}
+            element={<InteriorStudy />}
           />
           <Route
             path="/modular-book-shelves-in-bangalore-for-home"
-            element={<ConstructionBook />}
+            element={<InteriorBook />}
           />
           <Route
             path="/modular-puja-unit-in-bangalore-for-home"
-            element={<ConstructionPuja />}
+            element={<InteriorPuja />}
           />
           <Route
             path="/home-interiors-in-bangalore"

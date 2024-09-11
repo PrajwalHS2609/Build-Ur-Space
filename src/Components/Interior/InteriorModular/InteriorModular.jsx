@@ -1,21 +1,19 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import ConstructionHead from "../ConstructionHead";
-import ConstructionTypeMain from "../ConstructionType/ConstructionTypeMain";
-import Portfolio from "../../Portfolio/Portfolio";
-import PackageConstruction from "../PackageConstruction";
+import InteriorHead from "../InteriorHead/InteriorHead";
+import InteriorTypes from "../InteriorTypes/InteriorTypes";
+import InteriorInspire from "../InteriorInspire/InteriorInspire";
 import HomeAppPage from "../../HomePage/HomeAppPage/HomeAppPage";
-import HomeWhy from "../../HomePage/HomeWhy/HomeWhy";
+import InteriorWhy1 from "../InteriorWhy/InteriorWhy1";
 import Testimonial from "../../HomePage/Testimonial/Testimonial";
-import BrandWeUse from "../../HomePage/BrandWeUse/BrandWeUse";
 import Partners from "../../HomePage/Partners/Partners";
-import HomeConstructionImg from "../../HomePage/HomeImg/HomeConstructionImg";
-import ModularReadmore from "./ModularReadmore";
+import HomeInteriorImg from "../../HomePage/HomeImg/HomeInteriorImg";
+import BookReadmore from "../InteriorBook/BookReadmore";
+import Footer from "../../Footer/Footer";
 import ModularHead from "./ModularHead";
 import ModularBenefits from "./ModularBenefits";
-import Footer from "../../Footer/Footer";
 
-const ConstructionModular = () => {
+const InteriorModular = () => {
   return (
     <div>
       <Helmet>
@@ -33,24 +31,22 @@ const ConstructionModular = () => {
           href="https://buildurspace.com/modular-wardrobes-in-bangalore-for-home"
         />
       </Helmet>
-      <ConstructionHead />
-      <ConstructionTypeMain />
+      <InteriorHead />
+      <InteriorTypes />
       <div className="ArchitectsWrapper">
         <ModularHead />
         <ModularBenefits />
       </div>
-      <Portfolio />
-      <PackageConstruction />
+      <InteriorInspire />
       <HomeAppPage />
-      <HomeWhy />
+      <InteriorWhy1 />
       <Testimonial />
-      <BrandWeUse />
       <Partners />
-      <HomeConstructionImg />
-      <ModularReadmore />
+      <HomeInteriorImg />
+      <BookReadmore />
       <Footer />
     </div>
   );
 };
 
-export default ConstructionModular;
+export default InteriorModular;

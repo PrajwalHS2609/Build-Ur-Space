@@ -18,7 +18,6 @@ const BedReadmore = () => {
     }
   };
   return (
-    <div>
       <div className="architectsReadContainer">
         <BedBenefits />
         <div ref={switchRef} className="architectsReadDisplayContainer">
@@ -31,7 +30,6 @@ const BedReadmore = () => {
           Read {toggle ? "Less" : "More"}
         </button>
       </div>
-    </div>
   );
 };
 

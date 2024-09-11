@@ -1,20 +1,18 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import ConstructionHead from "../ConstructionHead";
-import ConstructionTypeMain from "../ConstructionType/ConstructionTypeMain";
-import PackageConstruction from "../PackageConstruction";
-import Portfolio from "../../Portfolio/Portfolio";
-import HomeAppPage from "../../HomePage/HomeAppPage/HomeAppPage";
-import HomeWhy from "../../HomePage/HomeWhy/HomeWhy";
-import Testimonial from "../../HomePage/Testimonial/Testimonial";
-import BrandWeUse from "../../HomePage/BrandWeUse/BrandWeUse";
-import Partners from "../../HomePage/Partners/Partners";
-import HomeConstructionImg from "../../HomePage/HomeImg/HomeConstructionImg";
-import ShowerReadmore from "./ShowerReadmore";
-import Footer from "../../Footer/Footer";
+import InteriorHead from "../InteriorHead/InteriorHead";
+import InteriorTypes from "../InteriorTypes/InteriorTypes";
 import ShowerHead from "./ShowerHead";
+import InteriorInspire from "../InteriorInspire/InteriorInspire";
+import HomeAppPage from "../../HomePage/HomeAppPage/HomeAppPage";
+import InteriorWhy1 from "../InteriorWhy/InteriorWhy1";
+import Testimonial from "../../HomePage/Testimonial/Testimonial";
+import Partners from "../../HomePage/Partners/Partners";
+import HomeInteriorImg from "../../HomePage/HomeImg/HomeInteriorImg";
+import BookReadmore from "../InteriorBook/BookReadmore";
+import Footer from "../../Footer/Footer";
 
-const ConstructionShower = () => {
+const InteriorShower = () => {
   return (
     <div>
       <Helmet>
@@ -32,23 +30,21 @@ const ConstructionShower = () => {
           href="https://buildurspace.com/shower-partition-in-bangalore-for-home"
         />
       </Helmet>
-      <ConstructionHead />
-      <ConstructionTypeMain />
+      <InteriorHead />
+      <InteriorTypes />
       <div className="ArchitectsWrapper">
         <ShowerHead />
       </div>
-      <Portfolio />
-      <PackageConstruction />
+      <InteriorInspire />
       <HomeAppPage />
-      <HomeWhy />
+      <InteriorWhy1 />
       <Testimonial />
-      <BrandWeUse />
       <Partners />
-      <HomeConstructionImg />
-      <ShowerReadmore />
+      <HomeInteriorImg />
+      <BookReadmore />
       <Footer />
     </div>
   );
 };
 
-export default ConstructionShower;
+export default InteriorShower;
