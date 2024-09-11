@@ -11,6 +11,7 @@ import { Helmet } from "react-helmet";
 import HomeInteriorImg from "../HomePage/HomeImg/HomeInteriorImg";
 import InteriorInspire from "./InteriorInspire/InteriorInspire";
 import WhatsApp from "../HomePage/WhatsApp/WhatsApp";
+import InteriorReadMore from "./InteriorReadMore/InteriorReadMore";
 const Interior = () => {
   return (
     <div className="InteriorContainer">
@@ -32,6 +33,7 @@ const Interior = () => {
       <Partners />
       <WhatsApp/>
       <HomeInteriorImg/>
+      <InteriorReadMore/>
       <Footer />
     </div>
   );

@@ -6,7 +6,7 @@
   align-items: center;
   /* background: var(--customGradient); */
   background-color: var(--customWhite);
-  margin-top: 50px;
+  margin-top: 0px;
 }
 .footer1 {
   /* border: solid greenyellow; */
@@ -401,7 +401,7 @@
     justify-content: center;
     align-items: center;
     /* background: var(--customGradient); */
-    margin-top: 50px;
+    margin-top: 0px;
   }
   .footer1 {
     /* border: solid greenyellow; */

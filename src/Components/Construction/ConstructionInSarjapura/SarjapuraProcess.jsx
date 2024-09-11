@@ -16,7 +16,7 @@ const SarjapuraProcess = () => {
         possible.
       </p>
       <li>
-        <span>1. Initial Consultation </span>
+        <span>1. Initial Consultation: </span>
         <p>
           Our process begins with a detailed consultation. We take the time to
           understand your vision, preferences, and budget. As a leading house
@@ -27,7 +27,7 @@ const SarjapuraProcess = () => {
       </li>
 
       <li>
-        <span>2. Architectural Design and Approval</span>
+        <span>2. Architectural Design and Approval :</span>
         <p>
           Once the consultation is complete, we move into the design phase. Our
           architects create detailed blueprints and 3D models, giving you a

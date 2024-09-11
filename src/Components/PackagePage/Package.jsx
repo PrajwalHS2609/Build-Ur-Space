@@ -9,6 +9,7 @@ import Partners from "../HomePage/Partners/Partners";
 import HomeAppPage from "../HomePage/HomeAppPage/HomeAppPage";
 import { Helmet } from "react-helmet";
 import WhatsApp from "../HomePage/WhatsApp/WhatsApp";
+import PackageReadMore from "./PackageReadMore/PackageReadMore";
 const Package = () => {
   return (
     <div className="packageContainer">
@@ -28,6 +29,7 @@ const Package = () => {
       <Testimonial />
       <WhatsApp/>
       <Partners />
+      <PackageReadMore/>
       <Footer />
     </div>
   );

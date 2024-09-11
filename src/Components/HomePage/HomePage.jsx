@@ -17,6 +17,7 @@ import { Helmet } from "react-helmet";
 import HomeConstructionImg from "./HomeImg/HomeConstructionImg";
 import InteriorWhatWeDo from "./InteriorWhatWeDo/InteriorWhatWeDo";
 import WhatsApp from "./WhatsApp/WhatsApp";
+import HomeReadMore from "./HomeReadMore/HomeReadMore";
 const HomePage = () => {
   return (
     <div className="homePageContainer">
@@ -42,8 +43,9 @@ const HomePage = () => {
       <BrandWeUse />
       <Partners />
       <Faq />
-      <WhatsApp/>
+      <WhatsApp />
       <HomeConstructionImg />
+      <HomeReadMore />
       <Footer />
     </div>
   );
