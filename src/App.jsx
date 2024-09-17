@@ -50,6 +50,10 @@ import InteriorGlass from "./Components/Interior/InteriorGlass/InteriorGlass";
 import InteriorPuja from "./Components/Interior/InteriorPuja/InteriorPuja";
 import InteriorToughened from "./Components/Interior/InteriorToughened/InteriorToughened";
 import InteriorCabinet from "./Components/Interior/InteriorCabinet/InteriorCabinet";
+import ConstructionInRajankunte from "./Components/Construction/ConstructionInRajankunte/ConstructionInRajankunte";
+import ConstructionInHesaraghatta from "./Components/Construction/ConstructionInHesaraghatta/ConstructionInHesaraghatta";
+import ConstructionInChikkabanavara from "./Components/Construction/ConstructionInChikkabanavara/ConstructionInChikkabanavara";
+import ConstructionInNelamangala from "./Components/Construction/ConstructionInNelamangala/ConstructionInNelamangala";
 const App = () => {
   return (
     <div>
@@ -145,6 +149,22 @@ const App = () => {
           <Route
             path="/house-construction-company-in-devanahalli"
             element={<ConstructionInDevanahalli />}
+          />
+          <Route
+            path="/house-construction-company-in-rajankunte"
+            element={<ConstructionInRajankunte />}
+          />
+          <Route
+            path="/house-construction-company-in-hesaraghatta"
+            element={<ConstructionInHesaraghatta />}
+          />
+          <Route
+            path="/house-construction-company-in-chikkabanavara"
+            element={<ConstructionInChikkabanavara />}
+          />
+               <Route
+            path="/house-construction-company-in-nelamangala"
+            element={<ConstructionInNelamangala />}
           />
           {/* ----------------------Interior-------------------------- */}
           <Route
