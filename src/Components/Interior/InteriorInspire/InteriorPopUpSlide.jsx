@@ -141,37 +141,37 @@ const InteriorPopUpSlide = () => {
         <div className="inspireSliderPopContent">
           <img
             src="https://images.livspace-cdn.com/w:768/h:400/plain/https://d3gq2merok8n5r.cloudfront.net/abhinav/ond-1634120396-Obfdc/amj-2024-1711965337-VsMIK/living-room-1712816585-gZ0OZ/lr9-1712817729-OYh9m.jpg"
-            alt=""
+            alt="" loading="lazy"
           />
         </div>
         <div className="inspireSliderPopContent">
           <img
             src="https://images.livspace-cdn.com/w:768/h:400/plain/https://d3gq2merok8n5r.cloudfront.net/abhinav/ond-1634120396-Obfdc/amj-2024-1711965337-VsMIK/living-room-1712816585-gZ0OZ/lr9-1712817729-OYh9m.jpg"
-            alt=""
+            alt="" loading="lazy"
           />
         </div>
         <div className="inspireSliderPopContent">
           <img
             src="https://images.livspace-cdn.com/w:768/h:400/plain/https://d3gq2merok8n5r.cloudfront.net/abhinav/ond-1634120396-Obfdc/amj-2024-1711965337-VsMIK/living-room-1712816585-gZ0OZ/lr9-1712817729-OYh9m.jpg"
-            alt=""
+            alt="" loading="lazy"
           />
         </div>
         <div className="inspireSliderPopContent">
           <img
             src="https://images.livspace-cdn.com/w:768/h:400/plain/https://d3gq2merok8n5r.cloudfront.net/abhinav/ond-1634120396-Obfdc/amj-2024-1711965337-VsMIK/living-room-1712816585-gZ0OZ/lr9-1712817729-OYh9m.jpg"
-            alt=""
+            alt="" loading="lazy"
           />
         </div>
         <div className="inspireSliderPopContent">
           <img
             src="https://images.livspace-cdn.com/w:768/h:400/plain/https://d3gq2merok8n5r.cloudfront.net/abhinav/ond-1634120396-Obfdc/amj-2024-1711965337-VsMIK/living-room-1712816585-gZ0OZ/lr9-1712817729-OYh9m.jpg"
-            alt=""
+            alt="" loading="lazy"
           />
         </div>
         <div className="inspireSliderPopContent">
           <img
             src="https://images.livspace-cdn.com/w:768/h:400/plain/https://d3gq2merok8n5r.cloudfront.net/abhinav/ond-1634120396-Obfdc/amj-2024-1711965337-VsMIK/living-room-1712816585-gZ0OZ/lr9-1712817729-OYh9m.jpg"
-            alt=""
+            alt="" loading="lazy"
           />
         </div>
       </Slider>

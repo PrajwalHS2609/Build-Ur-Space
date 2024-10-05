@@ -216,3 +216,49 @@
     
   }
 }
+@media screen and (min-width:768px) and (max-width:990px) {
+  .inspireImgContent1 {
+    /* border: solid red; */
+    min-width: 300px;
+    height: 350px;
+  }
+  .inspirePopUp {
+    /* border: solid green; */
+    height: 90vh;
+    width: 100%;
+    top: 60px;
+  }
+  .interiorPopSlider {
+    /* border: solid red; */
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .inspireSliderPopContainer {
+    /* border: solid green; */
+    height: 100%;
+    width: 100%;
+    gap: 30px;
+    padding: 10px;
+  }
+  .inspireSliderPopContent {
+    /* border: solid white; */
+    height: 100%;
+    width: 100%;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .inspireSliderPopContent > img {
+    /* border: solid; */
+    height: 400px;
+    width: 100%;
+    object-fit: contain;
+    padding: 5px;
+    
+  }
+}

@@ -5,7 +5,7 @@ const CommercialSectorsCard = (props) => {
   return (
     <div className="commercialCardContainer">
         <div className="commercialCardImg">
-          <img src={props.img} alt="" />
+          <img src={props.img} alt={props.alt} loading="lazy" />
           <div className="commercialCardHead">
             <h3>{props.head}</h3>
           </div>
