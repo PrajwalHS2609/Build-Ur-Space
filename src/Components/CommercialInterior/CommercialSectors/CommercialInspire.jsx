@@ -1,27 +1,17 @@
 import React, { useEffect, useState } from "react";
-import "./InteriorInspire.css";
-import InteriorInspireCard from "./InteriorInspireCard";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import kiranLivingroom from "./../../../Images/KiranlivingRoom.jpg";
-import raja1 from "./../../../Images/rajaLivingroom.jpg";
-import chetan1 from "./../../../Images/chetanLivingroom.jpg";
+import InteriorInspireCard from "../../Interior/InteriorInspire/InteriorInspireCard";
 import gym from "./../../../Images/gym.jpg";
 import clinic from "./../../../Images/clinic.jpg";
 import office from "./../../../Images/office.jpg";
 import showroom from "./../../../Images/showroom.jpg";
 import office2 from "./../../../Images/office2.jpg";
-import InteriorKiran from "./Clients/InteriorKiran";
-import InteriorRajaShekar from "./Clients/InteriorRajaShekar";
-import InteriorGym from "./Clients/InteriorGym";
-import InteriorChetan from "./Clients/InteriorChetan";
-import InteriorBanq from "./Clients/InteriorBanq";
-import InteriorShowroom from "./Clients/InteriorShowroom";
-import InteriorClinic from "./Clients/InteriorClinic";
-import InteriorIVR from "./Clients/InteriorIVR";
 import ContentLoader from "react-content-loader";
-
-const InteriorInspireMain = () => {
+import InteriorGym from "../../Interior/InteriorInspire/Clients/InteriorGym";
+import InteriorClinic from "../../Interior/InteriorInspire/Clients/InteriorClinic";
+import InteriorShowroom from "../../Interior/InteriorInspire/Clients/InteriorShowroom";
+import InteriorIVR from "../../Interior/InteriorInspire/Clients/InteriorIVR";
+import InteriorBanq from "../../Interior/InteriorInspire/Clients/InteriorBanq";
+const CommercialInspire = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -32,19 +22,6 @@ const InteriorInspireMain = () => {
 
     return () => clearTimeout(timer);
   }, []);
-
-  const handleKiran = () => {
-    let popUp = document.querySelector("#kiranPopUp");
-    popUp.style.display = "flex";
-  };
-  const handleRajaShekar = () => {
-    let popUp = document.querySelector("#rajaPopUp");
-    popUp.style.display = "flex";
-  };
-  const handleChetan = () => {
-    let popUp = document.querySelector("#chetanPopUp");
-    popUp.style.display = "flex";
-  };
 
   const handleGym = () => {
     let popUp = document.querySelector("#gymPopUp");
@@ -72,22 +49,16 @@ const InteriorInspireMain = () => {
   }
   return (
     <div className="inspireMainContainer">
+      <div className="inspireHeadContainer">
+        <h2>
+          Inspiration for <span>Commercial Interiors</span> designs
+        </h2>
+        <p>
+          Transform Your Commercial Space with These Modern Interior Design
+          Ideas Curated for You
+        </p>
+      </div>
       <div className="inspireSliderContent">
-        <InteriorInspireCard
-          img1={kiranLivingroom}
-          h1="Mr.Kiran's Home"
-          onClick={handleKiran}
-        />
-        <InteriorInspireCard
-          img1={raja1}
-          h1="Mr.Rajashekhar's Home"
-          onClick={handleRajaShekar}
-        />
-        <InteriorInspireCard
-          img1={chetan1}
-          h1="Mr.Chetan's Home"
-          onClick={handleChetan}
-        />
         <InteriorInspireCard img1={gym} h1="Gym" onClick={handleGym} />
         <InteriorInspireCard img1={clinic} h1="Clinic" onClick={handleClinic} />
         <InteriorInspireCard
@@ -102,9 +73,6 @@ const InteriorInspireMain = () => {
         />
         <InteriorInspireCard img1={office2} h1="MBanQ" onClick={handleMBanq} />
       </div>
-      <InteriorKiran />
-      <InteriorRajaShekar />
-      <InteriorChetan />
       <InteriorGym />
       <InteriorClinic />
       <InteriorShowroom />
@@ -114,4 +82,4 @@ const InteriorInspireMain = () => {
   );
 };
 
-export default InteriorInspireMain;
+export default CommercialInspire;

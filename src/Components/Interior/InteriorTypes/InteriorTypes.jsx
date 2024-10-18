@@ -10,6 +10,7 @@ const InteriorTypes = () => {
       <InteriorTypesHead />
       <InteriorTypesPara />
       <InteriorTypesMain />
+      
     </div>
   );
 };

@@ -196,7 +196,7 @@
   .packageListContainer {
     /* border: solid red; */
     width: 100%;
-    display: flex;
+    display: none;
     justify-content: center;
     flex-direction: column;
     align-items: center;
@@ -324,7 +324,7 @@
   .packageListContainer {
     /* border: solid red; */
     width: 100%;
-    display: flex;
+    display: none;
     justify-content: center;
     flex-direction: column;
     align-items: center;
@@ -422,7 +422,7 @@
   }
   .menuCardContainer {
     /* border: solid blue; */
-    width: 17%;
+    width: 300px;
     height: 177px;
     display: flex;
     justify-content: center;
@@ -454,7 +454,7 @@
   .packageListContainer {
     /* border: solid red; */
     width: 100%;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: flex-start;
     flex-direction: row;
@@ -551,7 +551,7 @@
   }
   .menuCardContainer {
     /* border: solid blue; */
-    width: 17%;
+    width: 300px;
     height: 177px;
     display: flex;
     justify-content: center;

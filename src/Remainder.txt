@@ -1,3 +1,4 @@
 check responsiveness of interior inspiration
 add whatsapp logo to all packages
 check kr puram page
+add explore buttons to commercial interiors in interiors

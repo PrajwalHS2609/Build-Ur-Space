@@ -9,6 +9,7 @@ import InteriorWhy from "./../Interior/InteriorWhy/InteriorWhy";
 import InteriorHead from "./../Interior/InteriorHead/InteriorHead";
 import { Helmet } from "react-helmet";
 import WhatsApp from "../HomePage/WhatsApp/WhatsApp";
+import CommercialInspire from "./CommercialSectors/CommercialInspire";
 const CommercialInterior = () => {
   return (
     <div className="CommercialInteriorContainer">
@@ -23,6 +24,7 @@ const CommercialInterior = () => {
       </Helmet>
       <InteriorHead />
       <CommercialSectorsMain />
+      <CommercialInspire/>
       <HomeAppPage />
       <InteriorWhy />
       <Testimonial />
