@@ -1,5 +1,27 @@
 .waterProofingHeader {
-    /* border: solid red; */
-    width: 100%;
-    height: 500px;
+  /* border: solid red; */
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.waterProofingHeader > h2 {
+  padding: 10px;
+  font-size: 55px;
+  background-color: var(--customColor);
+  height: 250px;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .waterProofingHeader > h2 {
+    padding: 10px;
+    font-size: 35px;
+    background-color: var(--customColor);
+    text-align: center;
   }
+}

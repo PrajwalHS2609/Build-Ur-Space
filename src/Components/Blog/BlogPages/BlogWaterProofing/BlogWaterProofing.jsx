@@ -7,7 +7,7 @@ import BlogCategories from "../../BlogCategories";
 const BlogWaterProofing = () => {
   return (
     <div className="blogWaterProofing">
-      <WaterProofingHeader />
+      <WaterProofingHeader head="Top Waterproofing Materials worth Investing In for Your New Home" />
       <div className="blogWrapper">
         <WaterProofingContent />
         <BlogCategories />
