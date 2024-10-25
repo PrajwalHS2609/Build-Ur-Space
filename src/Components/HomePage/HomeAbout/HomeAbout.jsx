@@ -15,7 +15,7 @@ const HomeAbout = () => {
       <div className="aboutContent2">
         <AboutTxt />
         <AboutPara />
-      </div>\
+      </div>
       </div>
     </div>
   );

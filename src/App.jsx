@@ -54,6 +54,10 @@ import ConstructionInRajankunte from "./Components/Construction/ConstructionInRa
 import ConstructionInHesaraghatta from "./Components/Construction/ConstructionInHesaraghatta/ConstructionInHesaraghatta";
 import ConstructionInChikkabanavara from "./Components/Construction/ConstructionInChikkabanavara/ConstructionInChikkabanavara";
 import ConstructionInNelamangala from "./Components/Construction/ConstructionInNelamangala/ConstructionInNelamangala";
+import Blog from "./Components/Blog/Blog";
+import BlogWaterProofing from "./Components/Blog/BlogPages/BlogWaterProofing/BlogWaterProofing";
+import BlogBrickMasonry from "./Components/Blog/BlogPages/BlogBrickMasonry/BlogBrickMasonry";
+import BlogHowLong from "./Components/Blog/BlogPages/BlogHowLong/BlogHowLong";
 const App = () => {
   return (
     <div>
@@ -162,7 +166,7 @@ const App = () => {
             path="/house-construction-company-in-chikkabanavara"
             element={<ConstructionInChikkabanavara />}
           />
-               <Route
+          <Route
             path="/house-construction-company-in-nelamangala"
             element={<ConstructionInNelamangala />}
           />
@@ -243,8 +247,21 @@ const App = () => {
             path="/retail-store-interiors-in-bangalore"
             element={<InteriorRetailStore />}
           />
+          {/* ---------------------Blog---------------------------- */}
+          <Route path="/blog" element={<Blog />} />
+          <Route
+            path="/top-waterproofing-materials-worth-investing-in-for-your-new-home"
+            element={<BlogWaterProofing />}
+          />
+          <Route
+            path="/current-types-of-brick-masonry-in-use-today"
+            element={<BlogBrickMasonry />}
+          />
+          <Route
+            path="/how-long-to-build-a-30x40-feet-house-in-bangalore"
+            element={<BlogHowLong />}
+          />
         </Routes>
-
         {/* </PackageContext> */}
       </BrowserRouter>
     </div>

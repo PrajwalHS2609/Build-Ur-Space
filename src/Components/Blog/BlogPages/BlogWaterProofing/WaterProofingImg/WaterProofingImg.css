@@ -1,0 +1,9 @@
+.waterProofingImg {
+    width: 100%;
+    border-radius: 20px;
+  }
+  .waterProofingImg > img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+  }

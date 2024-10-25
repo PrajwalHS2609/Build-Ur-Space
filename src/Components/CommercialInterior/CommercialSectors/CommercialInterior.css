@@ -30,7 +30,7 @@
   width: 100%;
 }
 .commercialHeadContent > h2 {
-  font-size: 30px;
+  font-size: 30px;  
 }
 .commercialHeadContent > h2 > span {
   color: var(--customColor);

@@ -1,0 +1,143 @@
+.waterProofingHead {
+  /* border: solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px;
+}
+.waterProofingHead > h1 {
+  color: var(--customColor);
+  width: 100%;
+  text-align: center;
+}
+.waterProofingHead > h2 {
+  text-align: center;
+  width: 100%;
+  font-size: 25px;
+}
+.waterProofingHead > h2 > span {
+  color: var(--customColor);
+  text-align: center;
+  width: 100%;
+  font-size: 25px;
+}
+
+.waterProofingHead > h3 {
+  color: var(--customColor);
+  text-align: start;
+  width: 100%;
+  font-size: 25px;
+}
+.waterProofingHead > h4 {
+  color: var(--customColor);
+  text-align: start;
+  width: 100%;
+  font-size: 25px;
+}
+.waterProofingHead > h5 {
+  color: var(--customColor);
+  text-align: start;
+  width: 100%;
+  font-size: 25px;
+}
+
+.waterProofingHead > li {
+  list-style: none;
+  margin: 10px;
+  font-size: 20px;
+  text-align: justify;
+}
+.waterProofingHead > li > h6 {
+  font-size: 20px;
+  text-align: justify;
+  color: var(--customColor);
+}
+.waterProofingHead > li > a {
+  text-decoration: none;
+  color: var(--customColor);
+}
+
+.waterProofingHead > li > span {
+  color: var(--customColor);
+  font-weight: bold;
+}
+.waterProofingHead > li > ul > li {
+  list-style: none;
+  margin: 10px;
+}
+.waterProofingHead > li > ul > li > span {
+  color: var(--customColor);
+  font-weight: bold;
+}
+.waterProofingHead > li > ul > li > p > a {
+  color: var(--customColor);
+  text-decoration: none;
+}
+
+.waterProofingHead > p {
+  text-align: justify;
+  font-size: 20px;
+}
+.waterProofingHead > p > span {
+  font-weight: bold;
+  color: var(--customColor);
+}
+
+.waterProofingHead > p > a {
+  color: var(--customColor);
+  text-decoration: none;
+}
+.waterProofingHead > table {
+  width: 70%;
+  border: solid;
+}
+.waterProofingHead > table > tr {
+  border: solid black;
+  width: 50%;
+}
+.waterProofingHead > table > tr > th {
+  border: solid black;
+  font-size: 25px;
+  color: var(--customColor);
+}
+.waterProofingHead > table > tr > td {
+  border: solid black;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .ArchitectsWrapper {
+    /* border: solid; */
+    /* height: 70vh; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .waterProofingHead {
+    /* border: solid red; */
+    padding: 20px;
+  }
+  .waterProofingHead > h2 {
+    text-align: center;
+    font-size: 20px;
+  }
+  .waterProofingHead > h3 {
+    text-align: center;
+    font-size: 20px;
+  }
+  .waterProofingHead > h4 {
+    text-align: center;
+    font-size: 20px;
+  }
+  .waterProofingHead > h5 {
+    text-align: center;
+    font-size: 20px;
+  }
+}
