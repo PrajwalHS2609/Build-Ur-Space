@@ -1,13 +1,14 @@
 import React from "react";
 import point from "./../../../../Images/point.png";
 import WaterProofingImg from "./WaterProofingImg/WaterProofingImg";
+import waterProofingEpdm from "./../../../../Images/WaterProofingBlog/EPDM (Ethylene Propylene Diene Monomer) Rubber.png";
 
 const WaterProofingEpdm = () => {
   return (
     <div className="waterProofingWhy">
       <WaterProofingImg
-        img="https://img.freepik.com/free-photo/worker-performs-overhaul-roof-residential-building_181624-61003.jpg?uid=R153459844&ga=GA1.1.798303094.1721912336&semt=ais_hybrid"
-        alt="waterProofing"
+        img={waterProofingEpdm}
+        alt="waterProofingEpdm"
       />
       <h5>5. EPDM (Ethylene Propylene Diene Monomer) Rubber</h5>
       <p>

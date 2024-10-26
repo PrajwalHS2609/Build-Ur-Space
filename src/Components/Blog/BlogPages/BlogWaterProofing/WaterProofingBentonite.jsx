@@ -1,14 +1,12 @@
 import React from "react";
 import WaterProofingImg from "./WaterProofingImg/WaterProofingImg";
 import point from "./../../../../Images/point.png";
+import waterProofingBentonite from "./../../../../Images/WaterProofingBlog/Bentonite Waterproofing.png";
 
 const WaterProofingBentonite = () => {
   return (
     <div className="waterProofingWhy">
-      <WaterProofingImg
-        img="https://img.freepik.com/free-photo/worker-performs-overhaul-roof-residential-building_181624-61003.jpg?uid=R153459844&ga=GA1.1.798303094.1721912336&semt=ais_hybrid"
-        alt="waterProofing"
-      />
+      <WaterProofingImg img={waterProofingBentonite} alt="waterProofing" />
       <h5>9. Bentonite Waterproofing</h5>
       <p>
         Bentonite is a natural clay material that expands when exposed to
@@ -39,8 +37,8 @@ const WaterProofingBentonite = () => {
         <h4>Best Use:</h4>
         <li>
           <span>
-            <img src={point} alt="point" /> Suitable for foundations,
-            retaining walls, and underground structures.
+            <img src={point} alt="point" /> Suitable for foundations, retaining
+            walls, and underground structures.
           </span>
         </li>{" "}
       </ul>

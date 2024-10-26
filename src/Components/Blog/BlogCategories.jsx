@@ -3,6 +3,10 @@ import "./Blog.css";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDoubleRight } from "@fortawesome/free-solid-svg-icons";
+import waterProofingBanner from "./../../Images/WaterProofingBlog/Banner.png";
+import howLongBanner from "./../../Images/How_Long_to_Build/Banner.png";
+import brickMansoryBanner from "./../../Images/Brick_Masonry/Banner.png";
+
 const BlogCategories = () => {
   return (
     <div className="blogCategories">
@@ -16,30 +20,27 @@ const BlogCategories = () => {
               "/top-waterproofing-materials-worth-investing-in-for-your-new-home   "
             }
           >
-            <img
-              src="https://img.freepik.com/free-photo/worker-performs-overhaul-roof-residential-building_181624-61003.jpg?uid=R153459844&ga=GA1.1.798303094.1721912336&semt=ais_hybrid"
-              alt=""
-            />
+            <img src={waterProofingBanner} alt="" />
             <h6>
               Top Waterproofing Materials worth Investing In for Your New Home
             </h6>
           </Link>
         </li>
         <li>
-          <Link to={"/"}>
+          <Link to={"/how-long-to-build-a-30x40-feet-house-in-bangalore"}>
             {" "}
             <img
-              src="https://img.freepik.com/free-vector/desktop-computer-with-gps-navigation-software_24877-51550.jpg?t=st=1729668307~exp=1729671907~hmac=5651327ee3985f533d51d4d6ca6af7fa20a9e1025e42e9acd0539527c83aa48a&w=740"
-              alt=""
+              src={howLongBanner}
+              alt="howLongBanner"
             />
             <h6>How Long to Build a 30x40 Feet House in Bangalore?</h6>
           </Link>
         </li>
         <li>
-          <Link>
+          <Link to={"/current-types-of-brick-masonry-in-use-today"}>
             <img
-              src="https://img.freepik.com/free-photo/brick-piles-placed-factory-floor_1150-15102.jpg?uid=R153459844&ga=GA1.1.798303094.1721912336&semt=ais_hybrid"
-              alt=""
+              src={brickMansoryBanner}
+              alt="brickMansoryBanner"
             />
             <h6>Current Types of Brick Masonry in Use Today</h6>
           </Link>

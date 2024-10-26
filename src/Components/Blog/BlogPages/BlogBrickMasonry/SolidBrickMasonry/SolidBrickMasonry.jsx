@@ -3,14 +3,11 @@ import point from "./../../../../../Images/point.png";
 import check from "./../../../../../Images/check.png";
 import house from "./../../../../../Images/homeRed.png";
 import WaterProofingImg from "../../BlogWaterProofing/WaterProofingImg/WaterProofingImg";
-
+import solidBrickMasonry from "./../../../../../Images/Brick_Masonry/Solid Brick Masonry.png";
 const SolidBrickMasonry = () => {
   return (
     <div className="waterProofingWhy">
-      <WaterProofingImg
-        img="https://img.freepik.com/free-photo/brick-piles-placed-factory-floor_1150-15102.jpg?uid=R153459844&ga=GA1.1.798303094.1721912336&semt=ais_hybrid"
-        alt="Solid Brick Masonry"
-      />
+      <WaterProofingImg img={solidBrickMasonry} alt="Solid Brick Masonry" />
       <h5>1. Solid Brick Masonry</h5>
       <p>
         Solid brick masonry, also known as traditional brick masonry, is one of

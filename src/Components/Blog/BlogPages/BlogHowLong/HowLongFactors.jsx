@@ -1,12 +1,12 @@
 import React from "react";
 import WaterProofingImg from "../BlogWaterProofing/WaterProofingImg/WaterProofingImg";
 import point from "./../../../../Images/point.png";
-
+import factors from "./../../../../Images/How_Long_to_Build/factors.png"
 const HowLongFactors = () => {
   return (
     <div className="waterProofingWhy">
       <WaterProofingImg
-        img="https://images.unsplash.com/photo-1542621334-a254cf47733d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Ymx1ZXByaW50fGVufDB8fDB8fHww"
+        img={factors}
         alt="HowLongFactors"
       />
       <h5>

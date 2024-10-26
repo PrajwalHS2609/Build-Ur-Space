@@ -9,12 +9,13 @@ import CavityBrickMasonry from "./CavityBrickMasonry";
 import ThinBrickMasonry from "./ThinBrickMasonry";
 import EcoBrickMasonry from "./EcoBrickMasonry";
 import ModularBrickMasonry from "./ModularBrickMasonry";
+import brickMasonryBanner from "./../../../../Images/Brick_Masonry/Banner.png";
 
 const BrickMasonryContent = () => {
   return (
     <div className="blogContent">
       <WaterProofingImg
-        img="https://img.freepik.com/free-photo/brick-piles-placed-factory-floor_1150-15102.jpg?uid=R153459844&ga=GA1.1.798303094.1721912336&semt=ais_hybrid"
+        img={brickMasonryBanner}
         alt="Brick Masonry"
       />
       <BrickMasonryHead />

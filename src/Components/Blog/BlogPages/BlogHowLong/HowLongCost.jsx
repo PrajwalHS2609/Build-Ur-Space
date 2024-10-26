@@ -1,13 +1,13 @@
 import React from "react";
-import WaterProofingImg from "../BlogWaterProofing/WaterProofingImg/WaterProofingImg";
+// import WaterProofingImg from "../BlogWaterProofing/WaterProofingImg/WaterProofingImg";
 
 const HowLongCost = () => {
   return (
     <div className="waterProofingHead">
-      <WaterProofingImg
+      {/* <WaterProofingImg
         img="https://images.unsplash.com/photo-1542621334-a254cf47733d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Ymx1ZXByaW50fGVufDB8fDB8fHww"
         alt="HowLongCost"
-      />
+      /> */}
       <h3>5. Cost Implications of the Construction Timeline</h3>
       <p>
         The longer the construction of your{" "}

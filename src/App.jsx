@@ -3,7 +3,7 @@ import HomePage from "./Components/HomePage/HomePage";
 import "./Global.css";
 import "./Fonts/futura/FUTURA45LIGHT.TTF";
 import NavBar from "./Components/NavBar/NavBar";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Package from "./Components/PackagePage/Package";
 // import PackageList from "./Components/PackagePage/PackageList";
 import ScrollTo from "./Components/ScrollTo/ScrollTo";
@@ -66,6 +66,7 @@ const App = () => {
         <ScrollTo />
         {/* <PackageContext> */}
         <Routes>
+          <Route path="*" element={<Navigate to="/" replace />} />
           <Route path="/" element={<HomePage />} />
           <Route path="/about-us" element={<AboutUs />} />
           <Route
@@ -249,6 +250,8 @@ const App = () => {
           />
           {/* ---------------------Blog---------------------------- */}
           <Route path="/blog" element={<Blog />} />
+          {/* <Route path="/blog/" element={<Navigate to="/blog" replace />} /> */}
+
           <Route
             path="/top-waterproofing-materials-worth-investing-in-for-your-new-home"
             element={<BlogWaterProofing />}

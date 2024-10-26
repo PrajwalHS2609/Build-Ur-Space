@@ -50,7 +50,9 @@ const Footer = () => {
               <li>
                 <Link to={"/home-construction-packages"}>Packages</Link>
               </li>
-              <li></li>
+              <li>
+                <Link to={"/blog"}>Blog</Link>
+              </li>
             </ul>
           </div>
           <div className="footerContent">
@@ -70,7 +72,11 @@ const Footer = () => {
                   icon={faEnvelope}
                   className="footIcon"
                 ></FontAwesomeIcon>
-                <p><a href="mailto:hello@buildurspace.com">hello@buildurspace.com</a> </p>
+                <p>
+                  <a href="mailto:hello@buildurspace.com">
+                    hello@buildurspace.com
+                  </a>{" "}
+                </p>
               </li>
               <li>
                 <FontAwesomeIcon

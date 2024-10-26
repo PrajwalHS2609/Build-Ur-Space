@@ -6,13 +6,14 @@ import HowLongTimeline from "./HowLongTimeline";
 import HowLongCost from "./HowLongCost";
 import HowLongDelay from "./HowLongDelay";
 import HowLongSpeedUp from "./HowLongSpeedUp";
+import howLongBanner from "./../../../../Images/How_Long_to_Build/Banner.png"
 
 const HowLongContent = () => {
   return (
     <div className="blogContent">
       <WaterProofingImg
-        img="https://images.unsplash.com/photo-1542621334-a254cf47733d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Ymx1ZXByaW50fGVufDB8fDB8fHww"
-        alt="HowLong"
+        img={howLongBanner}
+        alt="howLongBanner"
       />
       <HowLongHead />
       <HowLongFactors />

@@ -1,14 +1,14 @@
 import React from "react";
 import point from "./../../../../Images/point.png";
 import WaterProofingImg from "./WaterProofingImg/WaterProofingImg";
+import waterproofingLiquid from "./../../../../Images/WaterProofingBlog/Liquid Waterproofing Membrane.png";
 
 const WaterproofingLiquid = () => {
   return (
     <div className="waterProofingWhy">
       <WaterProofingImg
-        img="https://img.freepik.com/free-photo/worker-performs-overhaul-roof-residential-building_181624-61003.jpg?uid=R153459844&ga=GA1.1.798303094.1721912336&semt=ais_hybrid"
+        img={waterproofingLiquid}
         alt="Liquid Waterproofing Membrane"
-        loading="lazy"
       />
       <h5>2. Liquid Waterproofing Membrane</h5>
       <p>

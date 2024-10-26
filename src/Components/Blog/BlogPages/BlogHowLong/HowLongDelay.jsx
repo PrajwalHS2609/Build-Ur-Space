@@ -1,12 +1,13 @@
 import React from "react";
 import point from "./../../../../Images/point.png";
 import WaterProofingImg from "../BlogWaterProofing/WaterProofingImg/WaterProofingImg";
+import delay from "./../../../../Images/How_Long_to_Build/delay.png"
 
 const HowLongDelay = () => {
   return (
     <div className="waterProofingWhy">
       <WaterProofingImg
-        img="https://images.unsplash.com/photo-1542621334-a254cf47733d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Ymx1ZXByaW50fGVufDB8fDB8fHww"
+        img={delay}
         alt="HowLongDelay"
       />
       <h5>4. Potential Delays in Building a 30x40 Feet House in Bangalore</h5>

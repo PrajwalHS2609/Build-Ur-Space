@@ -1,14 +1,11 @@
 import React from "react";
 import WaterProofingImg from "./WaterProofingImg/WaterProofingImg";
 import point from "./../../../../Images/point.png";
-
+import waterProofingAcrylic from "./../../../../Images/WaterProofingBlog/Acrylic Waterproofing.png";
 const WaterProofingAcrylic = () => {
   return (
     <div className="waterProofingWhy">
-      <WaterProofingImg
-        img="https://img.freepik.com/free-photo/worker-performs-overhaul-roof-residential-building_181624-61003.jpg?uid=R153459844&ga=GA1.1.798303094.1721912336&semt=ais_hybrid"
-        alt="waterProofing"
-      />
+      <WaterProofingImg img={waterProofingAcrylic} alt="waterProofingAcrylic" />
       <h5>10. Acrylic Waterproofing</h5>
       <p>
         Acrylic waterproofing is a liquid-applied system that provides a

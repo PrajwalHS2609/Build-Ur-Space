@@ -1,12 +1,13 @@
 import React from "react";
 import WaterProofingImg from "./WaterProofingImg/WaterProofingImg";
 import point from "./../../../../Images/point.png";
+import waterProofingCrystalline from "./../../../../Images/WaterProofingBlog/Crystalline Waterproofing.png";
 
 const WaterProofingCrystalline = () => {
   return (
     <div className="waterProofingWhy">
       <WaterProofingImg
-        img="https://img.freepik.com/free-photo/worker-performs-overhaul-roof-residential-building_181624-61003.jpg?uid=R153459844&ga=GA1.1.798303094.1721912336&semt=ais_hybrid"
+        img={waterProofingCrystalline}
         alt="waterProofing"
       />
       <h5>7. Crystalline Waterproofing</h5>

@@ -1,8 +1,11 @@
 import React from "react";
+import timeline from "./../../../../Images/How_Long_to_Build/timeline.png";
+import WaterProofingImg from "../BlogWaterProofing/WaterProofingImg/WaterProofingImg";
 
 const HowLongTimeline = () => {
   return (
     <div className="waterProofingHead">
+      <WaterProofingImg img={timeline} alt="HowLongTimeline" />
       <h3>2. Typical Timeline for Building a 30x40 Feet House in Bangalore</h3>
       <p>
         Now that we’ve covered the various stages of construction, let’s look at
@@ -48,10 +51,10 @@ const HowLongTimeline = () => {
         </tr>
       </table>
       <p>
-        <span>Total Estimated Time:</span> On average, it takes around 10 to 14 months to
-        build a 30x40 Feet House in Bangalore. However, this timeline can vary
-        depending on factors such as labor availability, weather conditions, and
-        material supply delays.
+        <span>Total Estimated Time:</span> On average, it takes around 10 to 14
+        months to build a 30x40 Feet House in Bangalore. However, this timeline
+        can vary depending on factors such as labor availability, weather
+        conditions, and material supply delays.
       </p>
       <br />
     </div>

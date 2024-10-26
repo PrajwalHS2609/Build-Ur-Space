@@ -13,12 +13,13 @@ import WaterProofingBituminous from "./WaterProofingBituminous";
 import WaterProofingBentonite from "./WaterProofingBentonite";
 import WaterProofingAcrylic from "./WaterProofingAcrylic";
 import WaterProofChoose from "./WaterProofingChoose/WaterProofChoose";
+import waterProofingBanner from "./../../../../Images/WaterProofingBlog/Banner.png";
 
 const WaterProofingContent = () => {
   return (
     <div className="blogContent">
       <WaterProofingImg
-        img="https://img.freepik.com/free-photo/worker-performs-overhaul-roof-residential-building_181624-61003.jpg?uid=R153459844&ga=GA1.1.798303094.1721912336&semt=ais_hybrid"
+        img={waterProofingBanner}
         alt="waterProofing"
       />
       <WaterProofingHead />

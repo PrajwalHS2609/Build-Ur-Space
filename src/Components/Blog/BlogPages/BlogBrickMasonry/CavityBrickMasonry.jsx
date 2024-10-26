@@ -3,11 +3,13 @@ import point from "./../../../../Images/point.png";
 import check from "./../../../../Images/check.png";
 import house from "./../../../../Images/homeRed.png";
 import WaterProofingImg from "../BlogWaterProofing/WaterProofingImg/WaterProofingImg";
+import cavityBrickMasonry from "./../../../../Images/Brick_Masonry/Cavity Wall Brick Masonry.png";
+
 const CavityBrickMasonry = () => {
   return (
     <div className="waterProofingWhy">
       <WaterProofingImg
-        img="https://img.freepik.com/free-photo/brick-piles-placed-factory-floor_1150-15102.jpg?uid=R153459844&ga=GA1.1.798303094.1721912336&semt=ais_hybrid"
+        img={cavityBrickMasonry}
         alt="Cavity Wall Brick Masonry"
       />
       <h5>5. Cavity Wall Brick Masonry</h5>
