@@ -3,6 +3,12 @@
   width: 100%;
   height: 500px;
 }
+.blogHeader > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 0 -350px;
+}
 .blogWrapper {
   /* border: solid blue; */
   width: 100%;
@@ -144,6 +150,17 @@
   margin-top: 20px;
 }
 @media screen and (min-width: 320px) and (max-width: 768px) {
+  .blogHeader {
+    /* border: solid red; */
+    width: 100%;
+    height: 100%;
+  }
+  .blogHeader > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0 0px;
+  }
   .blogWrapper {
     /* border: solid blue; */
     flex-direction: column;
