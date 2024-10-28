@@ -46,13 +46,11 @@
 }
 .footerContent > ul {
   /* border: solid; */
-  width: 90%;
   height: 100%;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
-  gap: 10px;
 }
 .footerContent > ul > h2 {
   color: var(--customColor);
@@ -79,27 +77,6 @@
 }
 .footerContent > ul > li > p > a:hover {
   color: var(--customColor);
-}
-#footerContent1 > ul {
-  /* border: solid; */
-  width: 90%;
-  height: 100%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-direction: column;
-  gap: 20px;
-}
-#footerContent1 > ul > li {
-  /* border: solid green; */
-  width: 90%;
-  list-style: none;
-  margin: 10px;
-  text-align: start;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  /* gap: 30px; */
 }
 .footer2 {
   /* border: solid brown; */
@@ -206,7 +183,11 @@
     flex-direction: column;
     margin-top: 20px;
   }
-
+  #footerContent1 > ul {
+    /* border: solid; */
+    width: 100%;
+    gap: 20px;
+  }
   #BioFooter {
     /* border: solid blue; */
     width: 90%;
@@ -486,6 +467,11 @@
     justify-content: flex-start;
     align-items: flex-start;
     gap: 20px;
+  }
+  #footerContent1 > ul {
+    /* border: solid; */
+    width: 100%;
+    gap: 0px;
   }
   .footerContent > ul > li > a {
     list-style: none;
