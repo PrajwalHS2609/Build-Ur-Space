@@ -9,7 +9,6 @@ import Testimonial from "../../HomePage/Testimonial/Testimonial";
 import Partners from "../../HomePage/Partners/Partners";
 import HomeInteriorImg from "../../HomePage/HomeImg/HomeInteriorImg";
 import RestaurantReadmore from "./RestaurantReadmore";
-import Footer from "../../Footer/Footer";
 import RestaurantHead from "./RestaurantHead";
 import RestaurantWhyChoose from "./RestaurantWhyChoose";
 
@@ -44,7 +43,6 @@ const InteriorRestaurant = () => {
       <Partners />
       <HomeInteriorImg />
       <RestaurantReadmore />
-      <Footer />
     </div>
   );
 };

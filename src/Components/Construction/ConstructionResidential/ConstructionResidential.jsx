@@ -13,7 +13,6 @@ import HomeConstructionImg from "../../HomePage/HomeImg/HomeConstructionImg";
 import ResidentialHead from "./ResidentialHead";
 import ResidentialWhyChoose from "./ResidentialWhyChoose";
 import ResidentialReadmore from "./ResidentialReadmore";
-import Footer from "../../Footer/Footer";
 
 const ConstructionResidential = () => {
   return (
@@ -48,7 +47,6 @@ const ConstructionResidential = () => {
       <Partners />
       <HomeConstructionImg />
       <ResidentialReadmore />
-      <Footer />
     </div>
   );
 };

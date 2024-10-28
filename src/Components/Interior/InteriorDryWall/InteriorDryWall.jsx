@@ -10,7 +10,6 @@ import Partners from "../../HomePage/Partners/Partners";
 import HomeInteriorImg from "../../HomePage/HomeImg/HomeInteriorImg";
 import DryWallReadMore from "./DryWallReadMore";
 import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import Footer from "../../Footer/Footer";
 
 const InteriorDryWall = () => {
   return (
@@ -41,7 +40,6 @@ const InteriorDryWall = () => {
       <HomeInteriorImg />
       <DryWallReadMore />
       <WhatsApp />
-      <Footer />
     </div>
   );
 };

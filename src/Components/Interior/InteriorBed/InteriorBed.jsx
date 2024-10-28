@@ -11,7 +11,6 @@ import BrandWeUse from "../../HomePage/BrandWeUse/BrandWeUse";
 import Partners from "../../HomePage/Partners/Partners";
 import HomeConstructionImg from "../../HomePage/HomeImg/HomeConstructionImg";
 import BedReadmore from "./BedReadmore";
-import Footer from "../../Footer/Footer";
 import BedHead from "./BedHead";
 
 const InteriorBed = () => {
@@ -45,7 +44,6 @@ const InteriorBed = () => {
       <Partners />
       <HomeConstructionImg />
       <BedReadmore />
-      <Footer />
     </div>
   );
 };

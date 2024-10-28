@@ -5,7 +5,6 @@ import HomeAppPage from "../../HomePage/HomeAppPage/HomeAppPage";
 import Testimonial from "../../HomePage/Testimonial/Testimonial";
 import Partners from "../../HomePage/Partners/Partners";
 import HomeReadmore from "./HomeReadmore";
-import Footer from "../../Footer/Footer";
 import HomeHead from "./HomeHead";
 import InteriorHead from "../InteriorHead/InteriorHead";
 import InteriorTypes from "../InteriorTypes/InteriorTypes";
@@ -44,7 +43,7 @@ const InteriorHome = () => {
       <Partners />
       <HomeInteriorImg />
       <HomeReadmore />
-      <Footer />
+
     </div>
   );
 };

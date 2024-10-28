@@ -12,8 +12,7 @@ import BrandWeUse from "../../HomePage/BrandWeUse/BrandWeUse";
 import Partners from "../../HomePage/Partners/Partners";
 import HomeConstructionImg from "../../HomePage/HomeImg/HomeConstructionImg";
 import NelamangalaReadmore from "./NelamangalaReadmore";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import Footer from "../../Footer/Footer";
+
 
 const ConstructionInNelamangala = () => {
   return (
@@ -47,8 +46,6 @@ const ConstructionInNelamangala = () => {
       <Partners />
       <HomeConstructionImg />
       <NelamangalaReadmore />
-      <WhatsApp />
-      <Footer />
     </div>
   );
 };

@@ -8,7 +8,6 @@ import InteriorWhy1 from "../InteriorWhy/InteriorWhy1";
 import Testimonial from "../../HomePage/Testimonial/Testimonial";
 import Partners from "../../HomePage/Partners/Partners";
 import HomeInteriorImg from "../../HomePage/HomeImg/HomeInteriorImg";
-import Footer from "../../Footer/Footer";
 import KindergartenHead from "./KindergartenHead";
 import KindergartenReadmore from "./KindergartenReadmore";
 
@@ -42,7 +41,6 @@ const InteriorKindergarten = () => {
       <Partners />
       <HomeInteriorImg />
       <KindergartenReadmore />
-      <Footer />
     </div>
   );
 };

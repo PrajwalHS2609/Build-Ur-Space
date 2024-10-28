@@ -9,8 +9,6 @@ import Testimonial from "../../HomePage/Testimonial/Testimonial";
 import Partners from "../../HomePage/Partners/Partners";
 import HomeInteriorImg from "../../HomePage/HomeImg/HomeInteriorImg";
 import ToughenedGlassDoorReadMore from "./ToughenedGlassDoorReadMore";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import Footer from "../../Footer/Footer";
 
 const InteriorToughenedGlassDoor = () => {
   return (
@@ -41,8 +39,6 @@ const InteriorToughenedGlassDoor = () => {
       <Partners />
       <HomeInteriorImg />
       <ToughenedGlassDoorReadMore />
-      <WhatsApp />
-      <Footer />
     </div>
   );
 };

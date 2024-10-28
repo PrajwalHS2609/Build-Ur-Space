@@ -10,7 +10,6 @@ import Testimonial from "../../HomePage/Testimonial/Testimonial";
 import Partners from "../../HomePage/Partners/Partners";
 import HomeInteriorImg from "../../HomePage/HomeImg/HomeInteriorImg";
 import BookReadmore from "../InteriorBook/BookReadmore";
-import Footer from "../../Footer/Footer";
 
 const InteriorShower = () => {
   return (
@@ -42,7 +41,6 @@ const InteriorShower = () => {
       <Partners />
       <HomeInteriorImg />
       <BookReadmore />
-      <Footer />
     </div>
   );
 };

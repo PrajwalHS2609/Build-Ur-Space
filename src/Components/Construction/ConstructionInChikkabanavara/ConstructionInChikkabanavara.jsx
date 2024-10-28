@@ -12,8 +12,6 @@ import BrandWeUse from "../../HomePage/BrandWeUse/BrandWeUse";
 import Partners from "../../HomePage/Partners/Partners";
 import HomeConstructionImg from "../../HomePage/HomeImg/HomeConstructionImg";
 import ChikkabanavaraReadmore from "./ChikkabanavaraReadmore";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import Footer from "../../Footer/Footer";
 
 const ConstructionInChikkabanavara = () => {
   return (
@@ -47,8 +45,6 @@ const ConstructionInChikkabanavara = () => {
       <Partners />
       <HomeConstructionImg />
       <ChikkabanavaraReadmore />
-      <WhatsApp />
-      <Footer />
     </div>
   );
 };

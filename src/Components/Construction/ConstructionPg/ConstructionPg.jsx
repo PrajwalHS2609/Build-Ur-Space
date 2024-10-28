@@ -13,7 +13,6 @@ import HomeConstructionImg from "../../HomePage/HomeImg/HomeConstructionImg";
 import PgHead from "./PgHead";
 import PgWhy from "./PgWhy";
 import PgReadmore from "./PgReadmore";
-import Footer from "../../Footer/Footer";
 
 const ConstructionPg = () => {
   return (
@@ -47,7 +46,6 @@ const ConstructionPg = () => {
       <Partners />
       <HomeConstructionImg />
       <PgReadmore />
-      <Footer />
     </div>
   );
 };

@@ -13,7 +13,6 @@ import BrandWeUse from "../../HomePage/BrandWeUse/BrandWeUse";
 import Partners from "../../HomePage/Partners/Partners";
 import HomeConstructionImg from "../../HomePage/HomeImg/HomeConstructionImg";
 import HotelReadmore from "./HotelReadmore";
-import Footer from "../../Footer/Footer";
 
 const ConstructionHotel = () => {
   return (
@@ -47,7 +46,6 @@ const ConstructionHotel = () => {
       <Partners />
       <HomeConstructionImg />
       <HotelReadmore />
-      <Footer />
     </div>
   );
 };

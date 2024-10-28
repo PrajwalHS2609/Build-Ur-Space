@@ -9,8 +9,7 @@ import Testimonial from "../../HomePage/Testimonial/Testimonial";
 import Partners from "../../HomePage/Partners/Partners";
 import HomeInteriorImg from "../../HomePage/HomeImg/HomeInteriorImg";
 import GridCeilingReadMore from "./GridCeilingReadMore";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import Footer from "../../Footer/Footer";
+
 
 const InteriorGridCeiling = () => {
   return (
@@ -40,8 +39,6 @@ const InteriorGridCeiling = () => {
       <Partners />
       <HomeInteriorImg />
       <GridCeilingReadMore />
-      <WhatsApp />
-      <Footer />
     </div>
   );
 };

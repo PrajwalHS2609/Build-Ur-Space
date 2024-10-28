@@ -8,10 +8,8 @@ import Partners from "../../HomePage/Partners/Partners";
 import HomeInteriorImg from "../../HomePage/HomeImg/HomeInteriorImg";
 import BookReadmore from "../InteriorBook/BookReadmore";
 import GlassHead from "./GlassHead";
-import Footer from "../../Footer/Footer";
 import InteriorHead from "../InteriorHead/InteriorHead";
 import InteriorTypes from "../InteriorTypes/InteriorTypes";
-import WhatsApp from './../../HomePage/WhatsApp/WhatsApp';
 
 const InteriorGlass = () => {
   return (
@@ -43,8 +41,6 @@ const InteriorGlass = () => {
       <Partners />
       <HomeInteriorImg />
       <BookReadmore />
-      <WhatsApp/>
-      <Footer />
     </div>
   );
 };

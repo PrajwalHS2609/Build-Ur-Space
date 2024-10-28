@@ -2,8 +2,6 @@ import React from "react";
 import WaterProofingHeader from "../BlogWaterProofing/WaterProofingHeader/WaterProofingHeader";
 import BlogCategories from "../../BlogCategories";
 import HowLongContent from "./HowLongContent";
-import WhatsApp from "../../../HomePage/WhatsApp/WhatsApp";
-import Footer from "../../../Footer/Footer";
 
 const BlogHowLong = () => {
   return (
@@ -15,8 +13,6 @@ const BlogHowLong = () => {
         <HowLongContent />
         <BlogCategories />
       </div>
-      <WhatsApp />
-      <Footer />
     </div>
   );
 };

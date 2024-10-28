@@ -7,7 +7,6 @@ import Testimonial from "../../HomePage/Testimonial/Testimonial";
 import Partners from "../../HomePage/Partners/Partners";
 import HomeInteriorImg from "../../HomePage/HomeImg/HomeInteriorImg";
 import BookReadmore from "../InteriorBook/BookReadmore";
-import Footer from "../../Footer/Footer";
 import PujaHead from "./PujaHead";
 import InteriorHead from "../InteriorHead/InteriorHead";
 import InteriorTypes from "../InteriorTypes/InteriorTypes";
@@ -40,7 +39,6 @@ const InteriorPuja = () => {
       <Partners />
       <HomeInteriorImg />
       <BookReadmore />
-      <Footer />
     </div>
   );
 };

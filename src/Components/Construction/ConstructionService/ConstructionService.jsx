@@ -13,7 +13,6 @@ import HomeConstructionImg from "../../HomePage/HomeImg/HomeConstructionImg";
 import ServiceReadmore from "./ServiceReadmore";
 import ServiceHead from "./ServiceHead";
 import ServiceWhyChoose from "./ServiceWhyChoose";
-import Footer from "../../Footer/Footer";
 
 const ConstructionService = () => {
   return (
@@ -47,7 +46,6 @@ const ConstructionService = () => {
       <Partners />
       <HomeConstructionImg />
       <ServiceReadmore />
-      <Footer />
     </div>
   );
 };

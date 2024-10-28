@@ -11,7 +11,6 @@ import HomeInteriorImg from "../../HomePage/HomeImg/HomeInteriorImg";
 import ResortReadmore from "./ResortReadmore";
 import ResortHead from "./ResortHead";
 import ResortWhyChoose from "./ResortWhyChoose";
-import Footer from "../../Footer/Footer";
 
 const InteriorResort = () => {
   return (
@@ -44,7 +43,6 @@ const InteriorResort = () => {
       <Partners />
       <HomeInteriorImg />
       <ResortReadmore />
-      <Footer />
     </div>
   );
 };

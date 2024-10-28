@@ -10,7 +10,6 @@ import Testimonial from '../../HomePage/Testimonial/Testimonial'
 import BrandWeUse from '../../HomePage/BrandWeUse/BrandWeUse'
 import Partners from '../../HomePage/Partners/Partners'
 import HomeConstructionImg from '../../HomePage/HomeImg/HomeConstructionImg'
-import Footer from '../../Footer/Footer'
 import BudgetHead from './BudgetHead';
 import BudgetReadmore from './BudgetReadmore';
 
@@ -45,7 +44,6 @@ const ConstructionBudget = () => {
     <Partners />
     <HomeConstructionImg />
     <BudgetReadmore/>
-    <Footer />
   </div>
   )
 }

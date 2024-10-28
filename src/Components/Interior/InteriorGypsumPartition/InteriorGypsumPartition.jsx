@@ -8,8 +8,7 @@ import Testimonial from "../../HomePage/Testimonial/Testimonial";
 import Partners from "../../HomePage/Partners/Partners";
 import HomeInteriorImg from "../../HomePage/HomeImg/HomeInteriorImg";
 import GypsumCelingReadMore from "../InteriorGypsumCeling/GypsumCelingReadMore";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import Footer from "../../Footer/Footer";
+
 import { Helmet } from "react-helmet";
 
 const InteriorGypsumPartition = () => {
@@ -40,8 +39,6 @@ const InteriorGypsumPartition = () => {
       <Partners />
       <HomeInteriorImg />
       <GypsumCelingReadMore />
-      <WhatsApp />
-      <Footer />
     </div>
   );
 };

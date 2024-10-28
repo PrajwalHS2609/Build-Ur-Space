@@ -11,8 +11,6 @@ import Testimonial from "../../HomePage/Testimonial/Testimonial";
 import HomeConstructionImg from "../../HomePage/HomeImg/HomeConstructionImg";
 import Partners from "../../HomePage/Partners/Partners";
 import SarjapuraReadmore from "./SarjapuraReadmore";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import Footer from "../../Footer/Footer";
 import SarjapuraHead from "./SarjapuraHead";
 
 const ConstructionInSarjapura = () => {
@@ -46,8 +44,6 @@ const ConstructionInSarjapura = () => {
       <Partners />
       <HomeConstructionImg />
       <SarjapuraReadmore />
-      <WhatsApp />
-      <Footer />
     </div>
   );
 };

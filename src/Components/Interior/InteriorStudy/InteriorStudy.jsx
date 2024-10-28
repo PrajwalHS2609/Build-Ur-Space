@@ -11,7 +11,6 @@ import HomeInteriorImg from "../../HomePage/HomeImg/HomeInteriorImg";
 import StudyReadmore from "./StudyReadmore";
 import StudyWhy from "./StudyWhy";
 import StudyHead from "./StudyHead";
-import Footer from "../../Footer/Footer";
 
 const InteriorStudy = () => {
   return (
@@ -41,7 +40,6 @@ const InteriorStudy = () => {
       <Partners />
       <HomeInteriorImg />
       <StudyReadmore />
-      <Footer />
     </div>
   );
 };

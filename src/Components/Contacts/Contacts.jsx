@@ -3,9 +3,7 @@ import ContactsHead from "./ContactsHead";
 import ContactsMain from "./ContactsMain";
 import "./Contacts.css";
 import WhereToFind from "./WhereToFind/WhereToFind";
-import Footer from "../Footer/Footer";
 import { Helmet } from "react-helmet";
-import WhatsApp from "../HomePage/WhatsApp/WhatsApp";
 const Contacts = () => {
   return (
     <div className="contactContainer">
@@ -21,9 +19,7 @@ const Contacts = () => {
       </Helmet>
       <ContactsHead />
       <ContactsMain />
-      <WhatsApp/>
       <WhereToFind />
-      <Footer />
     </div>
   );
 };

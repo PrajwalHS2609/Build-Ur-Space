@@ -1,7 +1,2 @@
-check responsiveness of interior inspiration
 add whatsapp logo to all packages
 check kr puram page
-
-
-add "other service" menu to navbar and make drop down of 1)Gypsum Ceilings in Bangalore ,2)Transform Your Space with Gypsum Partitions in Bangalore .....
-make the page copy of construction but remove portfolio and packages example page : /duplex-house-construction-in-bangalore

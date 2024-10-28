@@ -2,8 +2,6 @@ import React from "react";
 import BlogCategories from "../../BlogCategories";
 import WaterProofingHeader from "../BlogWaterProofing/WaterProofingHeader/WaterProofingHeader";
 import BrickMasonryContent from "./BrickMasonryContent";
-import WhatsApp from "../../../HomePage/WhatsApp/WhatsApp";
-import Footer from "../../../Footer/Footer";
 
 const BlogBrickMasonry = () => {
   return (
@@ -13,8 +11,6 @@ const BlogBrickMasonry = () => {
         <BrickMasonryContent />
         <BlogCategories />
       </div>{" "}
-      <WhatsApp />
-      <Footer />
     </div>
   );
 };

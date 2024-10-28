@@ -66,6 +66,8 @@ import InteriorPvcCeiling from "./Components/Interior/InteriorPvcCeiling/Interio
 import InteriorWoodenCeiling from "./Components/Interior/InteriorWoodenCeiling/InteriorWoodenCeiling";
 import InteriorToughenedGlassPartition from "./Components/Interior/InteriorToughenedGlassPartition/InteriorToughenedGlassPartition";
 import InteriorToughenedGlassDoor from "./Components/Interior/InteriorToughenedGlassDoor/InteriorToughenedGlassDoor";
+import WhatsApp from "./Components/HomePage/WhatsApp/WhatsApp";
+import Footer from "./Components/Footer/Footer";
 const App = () => {
   return (
     <div>
@@ -305,6 +307,8 @@ const App = () => {
           />
         </Routes>
         {/* </PackageContext> */}
+        <WhatsApp />
+        <Footer />
       </BrowserRouter>
     </div>
   );

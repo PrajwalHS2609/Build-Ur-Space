@@ -6,7 +6,6 @@ import Testimonial from "../../HomePage/Testimonial/Testimonial";
 import Partners from "../../HomePage/Partners/Partners";
 import HomeInteriorImg from "../../HomePage/HomeImg/HomeInteriorImg";
 import JewelleryReadmore from "./JewelleryReadmore";
-import Footer from "../../Footer/Footer";
 import JewelleryHead from "./JewelleryHead";
 import { Helmet } from "react-helmet";
 import InteriorHead from "../InteriorHead/InteriorHead";
@@ -42,7 +41,6 @@ const InteriorJewellery = () => {
       <Partners />
       <HomeInteriorImg />
       <JewelleryReadmore />
-      <Footer />
     </div>
   );
 };

@@ -11,8 +11,6 @@ import Partners from "../../HomePage/Partners/Partners";
 import BrandWeUse from "../../HomePage/BrandWeUse/BrandWeUse";
 import HomeConstructionImg from "../../HomePage/HomeImg/HomeConstructionImg";
 import HesaraghattaReadmore from "./HesaraghattaReadmore";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import Footer from "../../Footer/Footer";
 import HesaraghattaHead from './HesaraghattaHead';
 const ConstructionInHesaraghatta = () => {
   return (
@@ -46,8 +44,6 @@ const ConstructionInHesaraghatta = () => {
       <Partners />
       <HomeConstructionImg />
       <HesaraghattaReadmore />
-      <WhatsApp />
-      <Footer />
     </div>
   );
 };

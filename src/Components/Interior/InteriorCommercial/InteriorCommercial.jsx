@@ -10,7 +10,6 @@ import Partners from "../../HomePage/Partners/Partners";
 import HomeInteriorImg from "../../HomePage/HomeImg/HomeInteriorImg";
 import CommercialReadmore from "./CommercialReadmore";
 import CommercialHead from "./CommercialHead";
-import Footer from "../../Footer/Footer";
 
 const InteriorCommercial = () => {
   return (
@@ -42,7 +41,6 @@ const InteriorCommercial = () => {
       <Partners />
       <HomeInteriorImg />
       <CommercialReadmore />
-      <Footer />
     </div>
   );
 };

@@ -1,6 +1,5 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import Footer from "../../Footer/Footer";
 import BookReadmore from "../InteriorBook/BookReadmore";
 import HomeInteriorImg from "../../HomePage/HomeImg/HomeInteriorImg";
 import Partners from "../../HomePage/Partners/Partners";
@@ -43,7 +42,6 @@ const InteriorCabinet = () => {
       <Partners />
       <HomeInteriorImg />
       <BookReadmore />
-      <Footer />
     </div>
   );
 };

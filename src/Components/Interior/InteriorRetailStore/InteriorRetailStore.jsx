@@ -10,7 +10,6 @@ import Testimonial from "../../HomePage/Testimonial/Testimonial";
 import InteriorWhy1 from "../InteriorWhy/InteriorWhy1";
 import HomeAppPage from "../../HomePage/HomeAppPage/HomeAppPage";
 import InteriorInspire from "../InteriorInspire/InteriorInspire";
-import Footer from "../../Footer/Footer";
 
 const InteriorRetailStore = () => {
   return (
@@ -41,7 +40,6 @@ const InteriorRetailStore = () => {
       <Partners />
       <HomeInteriorImg />
       <RetailStoreReadmore />
-      <Footer />
     </div>
   );
 };

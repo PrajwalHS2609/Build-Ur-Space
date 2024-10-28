@@ -11,7 +11,6 @@ import HomeInteriorImg from "../../HomePage/HomeImg/HomeInteriorImg";
 import HospitalHead from "./HospitalHead";
 import HospitalWhyChoose from "./HospitalWhyChoose";
 import HospitalReadmore from "./HospitalReadmore";
-import Footer from "../../Footer/Footer";
 
 const InteriorHospital = () => {
   return (
@@ -43,8 +42,7 @@ const InteriorHospital = () => {
       <Testimonial />
       <Partners />
       <HomeInteriorImg />
-      <HospitalReadmore />
-      <Footer />
+      <HospitalReadmore />{" "}
     </div>
   );
 };

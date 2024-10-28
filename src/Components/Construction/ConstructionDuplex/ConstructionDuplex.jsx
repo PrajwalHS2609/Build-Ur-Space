@@ -13,7 +13,6 @@ import HomeConstructionImg from "../../HomePage/HomeImg/HomeConstructionImg";
 import DuplexReadmore from "./DuplexReadmore";
 import DuplexHead from "./DuplexHead";
 import DuplexWhyChoose from "./DuplexWhyChoose";
-import Footer from "../../Footer/Footer";
 
 const ConstructionDuplex = () => {
   return (
@@ -48,7 +47,6 @@ const ConstructionDuplex = () => {
       <Partners />
       <HomeConstructionImg />
       <DuplexReadmore />
-      <Footer />
     </div>
   );
 };

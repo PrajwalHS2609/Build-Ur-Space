@@ -11,7 +11,6 @@ import BrandWeUse from "../../HomePage/BrandWeUse/BrandWeUse";
 import Partners from "../../HomePage/Partners/Partners";
 import HomeConstructionImg from "../../HomePage/HomeImg/HomeConstructionImg";
 import ContractorsReadmore from "./ContractorsReadmore";
-import Footer from "../../Footer/Footer";
 import ContractorsHead from "./ContractorsHead";
 import ContractorsWhyChoose from "./ContractorsWhyChoose";
 
@@ -47,7 +46,6 @@ const ConstructionContractors = () => {
       <Partners />
       <HomeConstructionImg />
       <ContractorsReadmore />
-      <Footer />
     </div>
   );
 };

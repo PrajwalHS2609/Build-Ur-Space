@@ -10,7 +10,6 @@ import Testimonial from "../../HomePage/Testimonial/Testimonial";
 import BrandWeUse from "../../HomePage/BrandWeUse/BrandWeUse";
 import Partners from "../../HomePage/Partners/Partners";
 import HomeConstructionImg from "../../HomePage/HomeImg/HomeConstructionImg";
-import Footer from "../../Footer/Footer";
 import ShopReadmore from "./ShopReadmore";
 import ShopHead from "./ShopHead";
 import ShopWhy from "./ShopWhy";
@@ -48,7 +47,6 @@ const ConstructionShop = () => {
       <Partners />
       <HomeConstructionImg />
       <ShopReadmore />
-      <Footer />
     </div>
   );
 };

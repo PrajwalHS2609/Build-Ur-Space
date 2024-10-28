@@ -9,7 +9,6 @@ import InteriorInspire from "../InteriorInspire/InteriorInspire";
 import InteriorTypes from "../InteriorTypes/InteriorTypes";
 import InteriorHead from "../InteriorHead/InteriorHead";
 import BookHead from "./BookHead";
-import Footer from "../../Footer/Footer";
 import BookWhy from "./BookWhy";
 import BookReadmore from "./BookReadmore";
 
@@ -41,7 +40,6 @@ const InteriorBook = () => {
       <Partners />
       <HomeInteriorImg />
       <BookReadmore />
-      <Footer />
     </div>
   );
 };

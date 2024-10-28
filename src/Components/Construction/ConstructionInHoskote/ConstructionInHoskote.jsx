@@ -12,8 +12,6 @@ import BrandWeUse from "../../HomePage/BrandWeUse/BrandWeUse";
 import Partners from "../../HomePage/Partners/Partners";
 import HomeConstructionImg from "../../HomePage/HomeImg/HomeConstructionImg";
 import HoskoteReadmore from "./HoskoteReadmore";
-import Footer from "../../Footer/Footer";
-import WhatsApp from "./../../HomePage/WhatsApp/WhatsApp";
 
 const ConstructionInHoskote = () => {
   return (
@@ -46,8 +44,6 @@ const ConstructionInHoskote = () => {
       <Partners />
       <HomeConstructionImg />
       <HoskoteReadmore />
-      <WhatsApp />
-      <Footer />
     </div>
   );
 };

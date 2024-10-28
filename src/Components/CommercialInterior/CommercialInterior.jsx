@@ -4,11 +4,9 @@ import "./CommercialSectors/CommercialInterior.css";
 import HomeAppPage from "../HomePage/HomeAppPage/HomeAppPage";
 import Testimonial from "../HomePage/Testimonial/Testimonial";
 import Partners from "../HomePage/Partners/Partners";
-import Footer from "../Footer/Footer";
 import InteriorWhy from "./../Interior/InteriorWhy/InteriorWhy";
 import InteriorHead from "./../Interior/InteriorHead/InteriorHead";
 import { Helmet } from "react-helmet";
-import WhatsApp from "../HomePage/WhatsApp/WhatsApp";
 import CommercialInspire from "./CommercialSectors/CommercialInspire";
 const CommercialInterior = () => {
   return (
@@ -28,9 +26,7 @@ const CommercialInterior = () => {
       <HomeAppPage />
       <InteriorWhy />
       <Testimonial />
-      <WhatsApp/>
       <Partners />
-      <Footer />
     </div>
   );
 };

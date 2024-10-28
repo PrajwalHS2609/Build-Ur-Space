@@ -12,8 +12,6 @@ import Testimonial from "../../HomePage/Testimonial/Testimonial";
 import Partners from "../../HomePage/Partners/Partners";
 import HomeConstructionImg from "../../HomePage/HomeImg/HomeConstructionImg";
 import HebbalReadmore from "./HebbalReadmore";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import Footer from "../../Footer/Footer";
 
 const ConstructionInHebbal = () => {
   return (
@@ -46,8 +44,6 @@ const ConstructionInHebbal = () => {
       <Partners />
       <HomeConstructionImg />
       <HebbalReadmore />
-      <WhatsApp />
-      <Footer />
     </div>
   );
 };

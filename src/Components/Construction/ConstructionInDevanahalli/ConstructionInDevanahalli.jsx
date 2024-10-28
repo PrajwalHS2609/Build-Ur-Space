@@ -11,8 +11,6 @@ import BrandWeUse from "../../HomePage/BrandWeUse/BrandWeUse";
 import HomeConstructionImg from "../../HomePage/HomeImg/HomeConstructionImg";
 import Partners from "../../HomePage/Partners/Partners";
 import DevanahalliReadmore from "./DevanahalliReadmore";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import Footer from "../../Footer/Footer";
 import DevanahalliHead from "./DevanahalliHead";
 
 const ConstructionInDevanahalli = () => {
@@ -46,8 +44,6 @@ const ConstructionInDevanahalli = () => {
       <Partners />
       <HomeConstructionImg />
       <DevanahalliReadmore />
-      <WhatsApp />
-      <Footer />
     </div>
   );
 };

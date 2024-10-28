@@ -9,10 +9,8 @@ import Testimonial from "../../HomePage/Testimonial/Testimonial";
 import Partners from "../../HomePage/Partners/Partners";
 import HomeInteriorImg from "../../HomePage/HomeImg/HomeInteriorImg";
 import BookReadmore from "../InteriorBook/BookReadmore";
-import Footer from "../../Footer/Footer";
 import FalseHead from "./FalseHead";
 import FalseWhy from "./FalseWhy";
-
 
 const InteriorFalse = () => {
   return (
@@ -45,7 +43,6 @@ const InteriorFalse = () => {
       <Partners />
       <HomeInteriorImg />
       <BookReadmore />
-      <Footer />
     </div>
   );
 };

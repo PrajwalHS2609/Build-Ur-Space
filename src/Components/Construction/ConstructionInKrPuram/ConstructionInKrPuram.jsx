@@ -8,12 +8,10 @@ import BrandWeUse from "../../HomePage/BrandWeUse/BrandWeUse";
 import HomeConstructionImg from "../../HomePage/HomeImg/HomeConstructionImg";
 import Partners from "../../HomePage/Partners/Partners";
 import KrPuramReadmore from "./KrPuramReadmore";
-import Footer from "../../Footer/Footer";
 import ConstructionTypeMain from "../ConstructionType/ConstructionTypeMain";
 import ConstructionHead from "../ConstructionHead";
 import { Helmet } from "react-helmet";
 import KrPuramHead from "./KrPuramHead";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 
 const ConstructionInKrPuram = () => {
   return (
@@ -46,8 +44,6 @@ const ConstructionInKrPuram = () => {
       <Partners />
       <HomeConstructionImg />
       <KrPuramReadmore />
-      <WhatsApp />
-      <Footer />
     </div>
   );
 };

@@ -3,8 +3,6 @@ import React from "react";
 import WaterProofingHeader from "./WaterProofingHeader/WaterProofingHeader";
 import WaterProofingContent from "./WaterProofingContent";
 import BlogCategories from "../../BlogCategories";
-import WhatsApp from "../../../HomePage/WhatsApp/WhatsApp";
-import Footer from "../../../Footer/Footer";
 
 const BlogWaterProofing = () => {
   return (
@@ -14,8 +12,6 @@ const BlogWaterProofing = () => {
         <WaterProofingContent />
         <BlogCategories />
       </div>
-      <WhatsApp />
-      <Footer />
     </div>
   );
 };

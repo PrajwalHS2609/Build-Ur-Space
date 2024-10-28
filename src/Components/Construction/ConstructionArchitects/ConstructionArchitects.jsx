@@ -2,7 +2,6 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import ConstructionHead from "../ConstructionHead";
 import ArchitectsHead from "./ArchitectsHead/ArchitectsHead";
-import Footer from "../../Footer/Footer";
 import ConstructionTypeMain from "../ConstructionType/ConstructionTypeMain";
 import ArchitectsRole from "./ArchitectsRole";
 import ArchitectsReadmore from "./ArchitectsReadmore/ArchitectsReadmore";
@@ -47,7 +46,6 @@ const ConstructionArchitects = () => {
       <Partners />
       <HomeConstructionImg />
       <ArchitectsReadmore />
-      <Footer />
     </div>
   );
 };

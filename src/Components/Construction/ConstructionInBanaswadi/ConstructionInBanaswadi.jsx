@@ -11,8 +11,6 @@ import BrandWeUse from "../../HomePage/BrandWeUse/BrandWeUse";
 import Partners from "../../HomePage/Partners/Partners";
 import HomeConstructionImg from "../../HomePage/HomeImg/HomeConstructionImg";
 import BanaswadiReadmore from "./BanaswadiReadmore";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import Footer from "../../Footer/Footer";
 import { Helmet } from "react-helmet";
 
 const ConstructionInBanaswadi = () => {
@@ -46,8 +44,6 @@ const ConstructionInBanaswadi = () => {
       <Partners />
       <HomeConstructionImg />
       <BanaswadiReadmore />
-      <WhatsApp />
-      <Footer />
     </div>
   );
 };

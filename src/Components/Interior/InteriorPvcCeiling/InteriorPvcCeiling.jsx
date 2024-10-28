@@ -9,8 +9,6 @@ import Testimonial from "../../HomePage/Testimonial/Testimonial";
 import Partners from "../../HomePage/Partners/Partners";
 import HomeInteriorImg from "../../HomePage/HomeImg/HomeInteriorImg";
 import PvcCeilingReadMore from "./PvcCeilingReadMore";
-import WhatsApp from "./../../HomePage/WhatsApp/WhatsApp";
-import Footer from "./../../Footer/Footer";
 
 const InteriorPvcCeiling = () => {
   return (
@@ -40,8 +38,6 @@ const InteriorPvcCeiling = () => {
       <Partners />
       <HomeInteriorImg />
       <PvcCeilingReadMore />
-      <WhatsApp />
-      <Footer />
     </div>
   );
 };

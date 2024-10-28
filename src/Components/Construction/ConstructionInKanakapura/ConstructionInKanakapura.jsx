@@ -1,8 +1,6 @@
 import React from "react";
 import KanakapuraHead from "./KanakapuraHead";
 import KanakapuraReadmore from "./KanakapuraReadmore";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import Footer from "../../Footer/Footer";
 import Partners from "../../HomePage/Partners/Partners";
 import HomeConstructionImg from "../../HomePage/HomeImg/HomeConstructionImg";
 import BrandWeUse from "../../HomePage/BrandWeUse/BrandWeUse";
@@ -46,8 +44,6 @@ const ConstructionInKanakapura = () => {
       <Partners />
       <HomeConstructionImg />
       <KanakapuraReadmore />
-      <WhatsApp />
-      <Footer />
     </div>
   );
 };

@@ -9,7 +9,6 @@ import Testimonial from "../../HomePage/Testimonial/Testimonial";
 import Partners from "../../HomePage/Partners/Partners";
 import HomeInteriorImg from "../../HomePage/HomeImg/HomeInteriorImg";
 import BookReadmore from "../InteriorBook/BookReadmore";
-import Footer from "../../Footer/Footer";
 import ModularHead from "./ModularHead";
 import ModularBenefits from "./ModularBenefits";
 
@@ -44,7 +43,6 @@ const InteriorModular = () => {
       <Partners />
       <HomeInteriorImg />
       <BookReadmore />
-      <Footer />
     </div>
   );
 };

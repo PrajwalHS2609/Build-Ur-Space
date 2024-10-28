@@ -7,8 +7,6 @@ import InteriorWhy1 from "../InteriorWhy/InteriorWhy1";
 import Testimonial from "../../HomePage/Testimonial/Testimonial";
 import Partners from "../../HomePage/Partners/Partners";
 import HomeInteriorImg from "../../HomePage/HomeImg/HomeInteriorImg";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import Footer from "../../Footer/Footer";
 import WoodenCeilingHead from "./WoodenCeilingHead";
 import WoodenCeilingReadMore from "./WoodenCeilingReadMore";
 
@@ -41,8 +39,6 @@ const InteriorWoodenCeiling = () => {
       <Partners />
       <HomeInteriorImg />
       <WoodenCeilingReadMore />
-      <WhatsApp />
-      <Footer />
     </div>
   );
 };

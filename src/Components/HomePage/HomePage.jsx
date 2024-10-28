@@ -6,7 +6,6 @@ import "./HomePage.css";
 import HomeWelcome from "./HomeWelcome/HomeWelcome";
 import HomeWhat from "./HomeWhatWeDo/HomeWhat";
 import OurProcess from "./HomeOurProcess/OurProcess";
-import Footer from "../Footer/Footer";
 import Faq from "./Faq/Faq";
 import Partners from "./Partners/Partners";
 import Testimonial from "./Testimonial/Testimonial";
@@ -16,7 +15,6 @@ import BrandWeUse from "./BrandWeUse/BrandWeUse";
 import { Helmet } from "react-helmet";
 import HomeConstructionImg from "./HomeImg/HomeConstructionImg";
 import InteriorWhatWeDo from "./InteriorWhatWeDo/InteriorWhatWeDo";
-import WhatsApp from "./WhatsApp/WhatsApp";
 import HomeReadMore from "./HomeReadMore/HomeReadMore";
 import HomeBlog from "./HomeBlog/HomeBlog";
 const HomePage = () => {
@@ -44,11 +42,9 @@ const HomePage = () => {
       <BrandWeUse />
       <Partners />
       <Faq />
-      <WhatsApp />
       <HomeConstructionImg />
       <HomeBlog/>
       <HomeReadMore />
-      <Footer />
     </div>
   );
 };
