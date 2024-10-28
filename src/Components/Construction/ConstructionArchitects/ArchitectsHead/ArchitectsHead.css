@@ -42,18 +42,19 @@
   font-size: 25px;
 }
 .architectsHeadContainer > h4 {
-  color: var(--customColor);
   text-align: start;
   width: 100%;
   font-size: 25px;
 }
 .architectsHeadContainer > h5 {
-  color: var(--customColor);
   text-align: start;
   width: 100%;
   font-size: 25px;
 }
-
+.architectsHeadContainer > h5 > span,
+.architectsHeadContainer > h4 > span {
+  color: var(--customColor);
+}
 .architectsHeadContainer > li {
   list-style: none;
   margin: 10px;

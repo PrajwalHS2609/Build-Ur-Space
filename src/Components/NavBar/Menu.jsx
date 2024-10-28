@@ -6,6 +6,7 @@ import {
   faLocationDot,
   faBars,
   faX,
+  faChevronDown,
 } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 import favicon from "./../../Images/favicon.png";
@@ -63,7 +64,59 @@ const Menu = () => {
         <li>
           <Link to={"/home-construction-packages"}>Packages</Link>
         </li>
-
+        <li>
+          <span>
+            Other Services{" "}
+            <FontAwesomeIcon
+              icon={faChevronDown}
+              className="dropIcon"
+            ></FontAwesomeIcon>
+            <div className="dropScroll">
+              <div className="dropDown">
+                <li>
+                  <Link to={"/gypsum-ceilings-in-bangalore"}>
+                    Gypsum Ceilings
+                  </Link>
+                </li>
+                <li>
+                  <Link to={"/gypsum-partition-in-bangalore"}>
+                    Gypsum Partitions
+                  </Link>
+                </li>
+                <li>
+                  <Link to={"/dry-wall-partition-in-bangalore"}>
+                    Dry Wall Partition{" "}
+                  </Link>
+                </li>
+                <li>
+                  <Link to={"/grid-false-ceiling-in-bangalore"}>
+                    Grid False Ceiling{" "}
+                  </Link>
+                </li>
+                <li>
+                  <Link to={"/pvc-false-ceiling-in-bangalore"}>
+                    PVC False Ceiling
+                  </Link>
+                </li>
+                <li>
+                  <Link to={"/wooden-false-ceiling-in-bangalore"}>
+                    Wooden False Ceiling{" "}
+                  </Link>
+                </li>
+                <li>
+                  <Link to={"/toughened-glass-door-in-bangalore"}>
+                    Toughened Glass Door{" "}
+                  </Link>
+                </li>
+                <li>
+                  <Link to={"/toughened-glass-partition-in-bangalore"}>
+                    Toughened Glass Partition{" "}
+                  </Link>
+                </li>
+              </div>
+            </div>
+          </span>
+        </li>
         <li>
           <Link to={"/about-us"}>About Us</Link>
         </li>

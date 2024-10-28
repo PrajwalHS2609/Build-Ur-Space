@@ -58,6 +58,14 @@ import Blog from "./Components/Blog/Blog";
 import BlogWaterProofing from "./Components/Blog/BlogPages/BlogWaterProofing/BlogWaterProofing";
 import BlogBrickMasonry from "./Components/Blog/BlogPages/BlogBrickMasonry/BlogBrickMasonry";
 import BlogHowLong from "./Components/Blog/BlogPages/BlogHowLong/BlogHowLong";
+import InteriorGypsumCeling from "./Components/Interior/InteriorGypsumCeling/InteriorGypsumCeling";
+import InteriorGypsumPartition from "./Components/Interior/InteriorGypsumPartition/InteriorGypsumPartition";
+import InteriorDryWall from "./Components/Interior/InteriorDryWall/InteriorDryWall";
+import InteriorGridCeiling from "./Components/Interior/InteriorGridCeiling/InteriorGridCeiling";
+import InteriorPvcCeiling from "./Components/Interior/InteriorPvcCeiling/InteriorPvcCeiling";
+import InteriorWoodenCeiling from "./Components/Interior/InteriorWoodenCeiling/InteriorWoodenCeiling";
+import InteriorToughenedGlassPartition from "./Components/Interior/InteriorToughenedGlassPartition/InteriorToughenedGlassPartition";
+import InteriorToughenedGlassDoor from "./Components/Interior/InteriorToughenedGlassDoor/InteriorToughenedGlassDoor";
 const App = () => {
   return (
     <div>
@@ -248,10 +256,41 @@ const App = () => {
             path="/retail-store-interiors-in-bangalore"
             element={<InteriorRetailStore />}
           />
+          <Route
+            path="/gypsum-ceilings-in-bangalore"
+            element={<InteriorGypsumCeling />}
+          />
+          <Route
+            path="/gypsum-partition-in-bangalore"
+            element={<InteriorGypsumPartition />}
+          />
+          <Route
+            path="/grid-false-ceiling-in-bangalore"
+            element={<InteriorGridCeiling />}
+          />
+          <Route
+            path="/dry-wall-partition-in-bangalore"
+            element={<InteriorDryWall />}
+          />
+          <Route
+            path="/pvc-false-ceiling-in-bangalore"
+            element={<InteriorPvcCeiling />}
+          />
+          <Route
+            path="/wooden-false-ceiling-in-bangalore"
+            element={<InteriorWoodenCeiling />}
+          />
+          <Route
+            path="/toughened-glass-door-in-bangalore"
+            element={<InteriorToughenedGlassDoor />}
+          />{" "}
+          <Route
+            path="/toughened-glass-partition-in-bangalore"
+            element={<InteriorToughenedGlassPartition />}
+          />
           {/* ---------------------Blog---------------------------- */}
           <Route path="/blog" element={<Blog />} />
           {/* <Route path="/blog/" element={<Navigate to="/blog" replace />} /> */}
-
           <Route
             path="/top-waterproofing-materials-worth-investing-in-for-your-new-home"
             element={<BlogWaterProofing />}

@@ -23,8 +23,8 @@
 
 .architectsReadContainer > button {
   border: solid red;
-  border-radius: 20px;
-  padding: 10px;
+  border-radius: 5px;
+  padding: 5px;
   cursor: pointer;
   background-color: var(--customColor);
   color: white;

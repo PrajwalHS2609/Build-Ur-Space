@@ -149,6 +149,14 @@
 #blogCategories {
   margin-top: 20px;
 }
+.blogAuthor {
+  border: solid green;
+  width: 60%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .blogHeader {
     /* border: solid red; */

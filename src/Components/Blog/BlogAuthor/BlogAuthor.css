@@ -1,0 +1,9 @@
+.blogAuthorContainer {
+  border: solid red;
+  width: 100%;
+  padding: 10px;
+}
+.blogAuthorContent{
+    border: solid yellowgreen;
+    width: 100%;
+}
