@@ -18,6 +18,7 @@ import HomeConstructionImg from "./HomeImg/HomeConstructionImg";
 import InteriorWhatWeDo from "./InteriorWhatWeDo/InteriorWhatWeDo";
 import WhatsApp from "./WhatsApp/WhatsApp";
 import HomeReadMore from "./HomeReadMore/HomeReadMore";
+import HomeBlog from "./HomeBlog/HomeBlog";
 const HomePage = () => {
   return (
     <div className="homePageContainer">
@@ -45,6 +46,7 @@ const HomePage = () => {
       <Faq />
       <WhatsApp />
       <HomeConstructionImg />
+      <HomeBlog/>
       <HomeReadMore />
       <Footer />
     </div>

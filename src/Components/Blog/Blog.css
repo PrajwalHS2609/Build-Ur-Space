@@ -150,12 +150,14 @@
   margin-top: 20px;
 }
 .blogAuthor {
-  border: solid green;
+  /* border: solid green; */
   width: 60%;
   padding: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  gap: 30px;
 }
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .blogHeader {
@@ -197,5 +199,15 @@
     font-size: 25px;
     color: var(--customColor);
     text-align: justify;
+  }
+  .blogAuthor {
+    /* border: solid green; */
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
   }
 }
