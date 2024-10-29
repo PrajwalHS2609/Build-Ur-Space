@@ -1,2 +1,2 @@
-add whatsapp logo to all packages
 check kr puram page
+add view more button to home page
