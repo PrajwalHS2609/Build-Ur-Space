@@ -3,15 +3,15 @@ import "../InteriorInspire.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import gymInterior6 from "./../../../../Images/gym.jpg";
-import gymInterior1 from "./../../../../Images/gymInterior1.jpg";
-import gymInterior2 from "./../../../../Images/gymInterior2.jpg";
-import gymInterior3 from "./../../../../Images/gymInterior3.jpg";
-import gymInterior4 from "./../../../../Images/gymInterior4.jpg";
-import gymInterior5 from "./../../../../Images/gymInterior5.jpg";
-import gymInterior7 from "./../../../../Images/gymInterior7.jpg";
-import gymInterior8 from "./../../../../Images/gymInterior8.jpg";
-import gymInterior9 from "./../../../../Images/gymInterior9.jpg";
+import gymInterior6 from "./../../../../Images/Gym/gym.jpg";
+import gymInterior1 from "./../../../../Images/Gym/gymInterior1.jpg";
+import gymInterior2 from "./../../../../Images/Gym/gymInterior2.jpg";
+import gymInterior3 from "./../../../../Images/Gym/gymInterior3.jpg";
+import gymInterior4 from "./../../../../Images/Gym/gymInterior4.jpg";
+import gymInterior5 from "./../../../../Images/Gym/gymInterior5.jpg";
+import gymInterior7 from "./../../../../Images/Gym/gymInterior7.jpg";
+import gymInterior8 from "./../../../../Images/Gym/gymInterior8.jpg";
+import gymInterior9 from "./../../../../Images/Gym/gymInterior9.jpg";
 const GymPopUpSlide = () => {
   function SampleNextArrow(props) {
     const { className, style, onClick } = props;

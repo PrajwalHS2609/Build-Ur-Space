@@ -3,16 +3,16 @@ import "../InteriorInspire.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import rajasLivingroom from "./../../../../Images/rajaLivingroom.jpg";
-import rajaShekarsEntrance from "./../../../../Images/RajaShekhar'sEnterance.jpg";
-import rajaShekarsBedroom from "./../../../../Images/RajaShekhar'sBeadroom.jpg";
-import rajaShekarsWall from "./../../../../Images/RajaShekhar'sWall.jpg";
-import rajaShekarsFalseCeling from "./../../../../Images/RajaShekhar'sfalseCeling.jpg";
-import rajaShekarsGod from "./../../../../Images/RajaShekhar'sGod.jpg";
-import rajasLivingroom2 from "./../../../../Images/raja'slLivingRoom2.jpg";
-import rajasLivingRoom3 from "./../../../../Images/raja'slLivingRoom3.jpg";
-import rajasLivingRoom4 from "./../../../../Images/raja'slLivingRoom4.jpg";
-import rajasBedRoom2 from "./../../../../Images/raja'sBedroom2.jpg";
+import rajasLivingroom from "./../../../../Images/RajaShekarHome/rajaLivingroom.jpg";
+import rajaShekarsEntrance from "./../../../../Images/RajaShekarHome/RajaShekhar'sEnterance.jpg";
+import rajaShekarsBedroom from "./../../../../Images/RajaShekarHome/RajaShekhar'sBeadroom.jpg";
+import rajaShekarsWall from "./../../../../Images/RajaShekarHome/RajaShekhar'sWall.jpg";
+import rajaShekarsFalseCeling from "./../../../../Images/RajaShekarHome/RajaShekhar'sfalseCeling.jpg";
+import rajaShekarsGod from "./../../../../Images/RajaShekarHome/RajaShekhar'sGod.jpg";
+import rajasLivingroom2 from "./../../../../Images/RajaShekarHome/raja'slLivingRoom2.jpg";
+import rajasLivingRoom3 from "./../../../../Images/RajaShekarHome/raja'slLivingRoom3.jpg";
+import rajasLivingRoom4 from "./../../../../Images/RajaShekarHome/raja'slLivingRoom4.jpg";
+import rajasBedRoom2 from "./../../../../Images/RajaShekarHome/raja'sBedroom2.jpg";
 
 const RajaPopUpSlide = () => {
   function SampleNextArrow(props) {

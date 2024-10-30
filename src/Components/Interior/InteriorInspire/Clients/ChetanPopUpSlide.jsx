@@ -3,16 +3,16 @@ import "../InteriorInspire.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import chetansLivingroom from "./../../../../Images/chetanLivingroom.jpg";
-import chetansBedroom from "./../../../../Images/Chetan'sBeadroom.jpg";
-import chetansFalseCeling from "./../../../../Images/Chetan'sFalseCeling.jpg";
-import chetansKitchen from "./../../../../Images/Chetan'sKitchen.jpg";
-import chetansGod from "./../../../../Images/Chetan'sGod.jpg";
-import chetansWardrobe from "./../../../../Images/Chetan'sWardrobe.jpg";
-import chetansEntrance from "./../../../../Images/chetan'sEntrance.jpg";
-import chetansWardrobe2 from "./../../../../Images/chetan'sWardrobe2.jpg";
-import chetansFalseceling2 from "./../../../../Images/chetan'sfalseCeling2.jpg";
-import chetansWardrobe3 from "./../../../../Images/chetan'sWardrobe3.jpg";
+import chetansLivingroom from "./../../../../Images/ChetanHome/chetanLivingroom.jpg";
+import chetansBedroom from "./../../../../Images/ChetanHome/Chetan'sBeadroom.jpg";
+import chetansFalseCeling from "./../../../../Images/ChetanHome/Chetan'sFalseCeling.jpg";
+import chetansKitchen from "./../../../../Images/ChetanHome/Chetan'sKitchen.jpg";
+import chetansGod from "./../../../../Images/ChetanHome/Chetan'sGod.jpg";
+import chetansWardrobe from "./../../../../Images/ChetanHome/Chetan'sWardrobe.jpg";
+import chetansEntrance from "./../../../../Images/ChetanHome/chetan'sEntrance.jpg";
+import chetansWardrobe2 from "./../../../../Images/ChetanHome/chetan'sWardrobe2.jpg";
+import chetansFalseceling2 from "./../../../../Images/ChetanHome/Chetan'sFalseCeling.jpg";
+import chetansWardrobe3 from "./../../../../Images/ChetanHome/chetan'sWardrobe3.jpg";
 
 const ChetanPopUpSlide = () => {
   function SampleNextArrow(props) {

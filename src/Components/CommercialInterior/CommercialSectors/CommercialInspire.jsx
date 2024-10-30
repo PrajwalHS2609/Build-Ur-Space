@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import InteriorInspireCard from "../../Interior/InteriorInspire/InteriorInspireCard";
-import gym from "./../../../Images/gym.jpg";
-import clinic from "./../../../Images/clinic.jpg";
+import gym from "./../../../Images/Gym/gym.jpg";
+import clinic from "./../../../Images/Clinic/clinic.jpg";
 import office from "./../../../Images/office.jpg";
-import showroom from "./../../../Images/showroom.jpg";
-import office2 from "./../../../Images/office2.jpg";
+import showroom from "./../../../Images/Showroom/showroom.jpg";
+import office2 from "./../../../Images/MBanq/office2.jpg";
 import ContentLoader from "react-content-loader";
 import InteriorGym from "../../Interior/InteriorInspire/Clients/InteriorGym";
 import InteriorClinic from "../../Interior/InteriorInspire/Clients/InteriorClinic";

@@ -1,9 +1,10 @@
 import React from "react";
 import "./Portfolio.css";
 import PortfolioCard from "./PortfolioCard";
-import kiran from "./../../Images/kiran.png";
-import raja from "./../../Images/raja.png";
-import chetan from "./../../Images/chetan.png";
+import kiran from "./../../Images/KiranHome/kiran.png";
+import raja from "./../../Images/RajaShekarHome/raja.png";
+import chetan from "./../../Images/ChetanHome/chetan.png";
+
 const PortfolioMain = () => {
   return (
     <div className="portfolioMainContainer">

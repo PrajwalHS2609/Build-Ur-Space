@@ -3,16 +3,16 @@ import "../InteriorInspire.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import clinicInterior1 from "./../../../../Images/clinic1.jpg"
-import clinicInterior2 from "./../../../../Images/clinic2.jpg"
-import clinicInterior3 from "./../../../../Images/clinic3.jpg"
-import clinicInterior4 from "./../../../../Images/clinic4.jpg"
-import clinicInterior5 from "./../../../../Images/clinic5.jpg"
-import clinicInterior6 from "./../../../../Images/clinic.jpg"
-import clinicInterior7 from "./../../../../Images/clinicInterior7.jpg"
-import clinicInterior8 from "./../../../../Images/clinicInterior8.jpg"
-import clinicInterior9 from "./../../../../Images/clinicInterior9.jpg"
-import clinicInterior10 from "./../../../../Images/clinicInterior10.jpg"
+import clinicInterior1 from "./../../../../Images/Clinic/clinic1.jpg"
+import clinicInterior2 from "./../../../../Images/Clinic/clinic2.jpg"
+import clinicInterior3 from "./../../../../Images/Clinic/clinic3.jpg"
+import clinicInterior4 from "./../../../../Images/Clinic/clinic4.jpg"
+import clinicInterior5 from "./../../../../Images/Clinic/clinic5.jpg"
+import clinicInterior6 from "./../../../../Images/Clinic/clinic.jpg"
+import clinicInterior7 from "./../../../../Images/Clinic/clinicInterior7.jpg"
+import clinicInterior8 from "./../../../../Images/Clinic/clinicInterior8.jpg"
+import clinicInterior9 from "./../../../../Images/Clinic/clinicInterior9.jpg"
+import clinicInterior10 from "./../../../../Images/Clinic/clinicInterior10.jpg"
 
 
 const ClinicPopUpSlide = () => {

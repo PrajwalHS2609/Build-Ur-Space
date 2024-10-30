@@ -3,16 +3,16 @@ import "../InteriorInspire.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import kiransLivingroom from "./../../../../Images/KiranlivingRoom.jpg";
-import kiransKitchen from "./../../../../Images/Kiran'skitchen.jpg";
-import kiransBedroom from "./../../../../Images/Kiran'sbedroom.jpg";
-import kiransBathroom from "./../../../../Images/Kiran'sbathroom.jpg";
-import kiransWardrobe from "./../../../../Images/Kiran'swardrobe.jpg";
-import kiransFalseCeling from "./../../../../Images/Kiran'sfalseCeling.jpg";
-import kiransSink from "./../../../../Images/kiran'sSink.jpg";
-import kiransSeat from "./../../../../Images/kiran'stSeat.jpg";
-import kiransCorridor from "./../../../../Images/kiran'sCorridor.jpg";
-import kiransStairs from "./../../../../Images/kiran'sStairs.jpg";
+import kiransLivingroom from "./../../../../Images/KiranHome/KiranlivingRoom.jpg";
+import kiransKitchen from "./../../../../Images/KiranHome/Kiran'skitchen.jpg";
+import kiransBedroom from "./../../../../Images/KiranHome/Kiran'sbedroom.jpg";
+import kiransBathroom from "./../../../../Images/KiranHome/Kiran'sbathroom.jpg";
+import kiransWardrobe from "./../../../../Images/KiranHome/Kiran'swardrobe.jpg";
+import kiransFalseCeling from "./../../../../Images/KiranHome/Kiran'sfalseCeling.jpg";
+import kiransSink from "./../../../../Images/KiranHome/kiran'sSink.jpg";
+import kiransSeat from "./../../../../Images/KiranHome/kiran'stSeat.jpg";
+import kiransCorridor from "./../../../../Images/KiranHome/kiran'sCorridor.jpg";
+import kiransStairs from "./../../../../Images/KiranHome/kiran'sStairs.jpg";
 
 const KiranPopUpSlide = () => {
   function SampleNextArrow(props) {

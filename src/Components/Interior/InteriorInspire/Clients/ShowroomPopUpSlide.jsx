@@ -3,16 +3,16 @@ import "../InteriorInspire.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import showroomInterior1 from "./../../../../Images/showRoom1.jpg"
-import showroomInterior2 from "./../../../../Images/showRoom2.jpg"
-import showroomInterior3 from "./../../../../Images/showRoom3.jpg"
-import showroomInterior4 from "./../../../../Images/showRoom4.jpg"
-import showroomInterior5 from "./../../../../Images/showRoom5.jpg"
-import showroomInterior6 from "./../../../../Images/showroom.jpg"
-import showroomInterior7 from "./../../../../Images/showroom7.jpg"
-import showroomInterior8 from "./../../../../Images/showroom8.jpg"
-import showroomInterior9 from "./../../../../Images/showroom9.jpg"
-import showroomInterior10 from "./../../../../Images/showroom10.jpg"
+import showroomInterior1 from "./../../../../Images/Showroom/showRoom1.jpg"
+import showroomInterior2 from "./../../../../Images/Showroom/showRoom2.jpg"
+import showroomInterior3 from "./../../../../Images/Showroom/showRoom3.jpg"
+import showroomInterior4 from "./../../../../Images/Showroom/showRoom4.jpg"
+import showroomInterior5 from "./../../../../Images/Showroom/showRoom5.jpg"
+import showroomInterior6 from "./../../../../Images/Showroom/showroom.jpg"
+import showroomInterior7 from "./../../../../Images/Showroom/showroom7.jpg"
+import showroomInterior8 from "./../../../../Images/Showroom/showroom8.jpg"
+import showroomInterior9 from "./../../../../Images/Showroom/showroom9.jpg"
+import showroomInterior10 from "./../../../../Images/Showroom/showroom10.jpg"
 
 
 const ShowroomPopUpSlide = () => {

@@ -3,9 +3,9 @@ import CommercialSectorsCard from "./CommercialSectorsCard";
 import "./CommercialInterior.css";
 import CommercialSectorsHead from "./CommercialSectorsHead";
 import office from "./../../../Images/office.jpg";
-import clinic from "./../../../Images/clinic.jpg";
-import gym from "./../../../Images/gym.jpg";
-import showroom from "./../../../Images/showroom.jpg";
+import clinic from "./../../../Images/Clinic/clinic.jpg";
+import gym from "./../../../Images/Gym/gym.jpg";
+import showroom from "./../../../Images/Showroom/showroom.jpg";
 import interiorSalon from "./../../../Images/interiorSalon.png";
 import interiorRestaurant from "./../../../Images/interiorRestaurant.png";
 

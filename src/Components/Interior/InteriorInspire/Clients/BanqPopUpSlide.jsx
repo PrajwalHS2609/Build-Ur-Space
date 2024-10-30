@@ -3,16 +3,16 @@ import "../InteriorInspire.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import mBanqInterior1 from "./../../../../Images/mBanq1.jpg";
-import mBanqInterior2 from "./../../../../Images/mBanq2.jpg";
-import mBanqInterior3 from "./../../../../Images/mBanq3.jpg";
-import mBanqInterior4 from "./../../../../Images/mBanq4.jpg";
-import mBanqInterior5 from "./../../../../Images/mBanq5.jpg";
-import mBanqInterior6 from "./../../../../Images/office2.jpg";
-import mBanqInterior7 from "./../../../../Images/mBanqInterior7.jpg";
-import mBanqInterior8 from "./../../../../Images/mBanqInterior8.jpg";
-import mBanqInterior9 from "./../../../../Images/mBanqInterior9.jpg";
-import mBanqInterior10 from "./../../../../Images/mBanqInterior10.jpg";
+import mBanqInterior1 from "./../../../../Images/MBanq/mBanq1.jpg";
+import mBanqInterior2 from "./../../../../Images/MBanq/mBanq2.jpg";
+import mBanqInterior3 from "./../../../../Images/MBanq/mBanq3.jpg";
+import mBanqInterior4 from "./../../../../Images/MBanq/mBanq4.jpg";
+import mBanqInterior5 from "./../../../../Images/MBanq/mBanq5.jpg";
+import mBanqInterior6 from "./../../../../Images/MBanq/office2.jpg";
+import mBanqInterior7 from "./../../../../Images/MBanq/mBanqInterior7.jpg";
+import mBanqInterior8 from "./../../../../Images/MBanq/mBanqInterior8.jpg";
+import mBanqInterior9 from "./../../../../Images/MBanq/mBanqInterior9.jpg";
+import mBanqInterior10 from "./../../../../Images/MBanq/mBanqInterior10.jpg";
 
 const BanqPopUpSlide = () => {
   function SampleNextArrow(props) {
