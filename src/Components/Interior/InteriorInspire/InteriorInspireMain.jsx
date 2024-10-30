@@ -8,7 +8,7 @@ import raja1 from "./../../../Images/RajaShekarHome/rajaLivingroom.jpg";
 import chetan1 from "./../../../Images/ChetanHome/chetanLivingroom.jpg";
 import gym from "./../../../Images/Gym/gym.jpg";
 import clinic from "./../../../Images/Clinic/clinic.jpg";
-import office from "./../../../Images/office.jpg";
+import office from "./../../../Images/IVR/office.jpg";
 import showroom from "./../../../Images/Showroom/showroom.jpg";
 import office2 from "./../../../Images/MBanq/office2.jpg";
 import InteriorKiran from "./Clients/InteriorKiran";

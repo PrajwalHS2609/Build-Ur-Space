@@ -1,6 +1,6 @@
 import React from "react";
 import "./HomeAbout.css";
-import aboutImg from "./../../../Images/aboutUsImg.jpg";
+import aboutImg from "./../../../Images/AboutUs/aboutUsImg.jpg";
 const AboutImg = () => {
   return (
     <div className="aboutImgContainer">

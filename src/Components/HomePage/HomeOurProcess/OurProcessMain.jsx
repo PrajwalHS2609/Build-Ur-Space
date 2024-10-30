@@ -1,11 +1,11 @@
 import React from "react";
 import "./OurProcess.css";
 import OurProcessCard from "./OurProcessCard";
-import img1 from "./../../../Images/Free Consulation.png";
-import img2 from "./../../../Images/Sign Off.png";
-import img3 from "./../../../Images/Icon1.png";
-import img4 from "./../../../Images/Construction.png";
-import img5 from "./../../../Images/Handover.png"
+import img1 from "./../../../Images/HomeProcess/Free Consulation.png";
+import img2 from "./../../../Images/HomeProcess/Sign Off.png";
+import img3 from "./../../../Images/HomeProcess/Icon1.png";
+import img4 from "./../../../Images/HomeProcess/Construction.png";
+import img5 from "./../../../Images/HomeProcess/Handover.png"
 const OurProcessMain = () => {
   return (
     <div className="ourProcessMainContainer">

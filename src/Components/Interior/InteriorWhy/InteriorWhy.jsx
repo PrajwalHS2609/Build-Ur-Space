@@ -1,14 +1,14 @@
 import React from "react";
 import "./../../HomePage/HomeWhy/HomeWhy.css";
 import HomeWhyCard from "../../HomePage/HomeWhy/HomeWhyCard";
-import icon1 from "../../../Images/Customer_Centric.png";
-import icon2 from "../../../Images/puzzle.png";
-import icon3 from "../../../Images/calender-45.png";
-import icon4 from "../../../Images/Superior_Quality_Check.png";
-import icon5 from "../../../Images/No_hidden_cost.png";
-import icon6 from "../../../Images/Sqft.png";
-import icon7 from "../../../Images/10_years.png";
-import icon8 from "../../../Images/No_Sub_Contract.png";
+import icon1 from "../../../Images/ConstructionWhy/Customer_Centric.png";
+import icon2 from "../../../Images/ConstructionWhy/puzzle.png";
+import icon3 from "../../../Images/InteriorWhy/calender-45.png";
+import icon4 from "../../../Images/ConstructionWhy/Superior_Quality_Check.png";
+import icon5 from "../../../Images/ConstructionWhy/No_hidden_cost.png";
+import icon6 from "../../../Images/ConstructionWhy/Sqft.png";
+import icon7 from "../../../Images/ConstructionWhy/10_years.png";
+import icon8 from "../../../Images/ConstructionWhy/No_Sub_Contract.png";
 const InteriorWhy = () => {
   return (
     <div className="homeWhyMainContainer">

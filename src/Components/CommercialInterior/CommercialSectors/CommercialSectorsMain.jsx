@@ -2,7 +2,7 @@ import React from "react";
 import CommercialSectorsCard from "./CommercialSectorsCard";
 import "./CommercialInterior.css";
 import CommercialSectorsHead from "./CommercialSectorsHead";
-import office from "./../../../Images/office.jpg";
+import office from "./../../../Images/IVR/office.jpg";
 import clinic from "./../../../Images/Clinic/clinic.jpg";
 import gym from "./../../../Images/Gym/gym.jpg";
 import showroom from "./../../../Images/Showroom/showroom.jpg";

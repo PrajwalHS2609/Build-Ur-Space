@@ -1,6 +1,6 @@
 import React from "react";
 import HomeOur1 from "../HomeOur/HomeOur1";
-import  ourApproach from "../../../Images/ourApproach.jpg"
+import  ourApproach from "../../../Images/AboutUs/ourApproach.jpg"
 const HomeOurApproach = () => {
   return (
     <>

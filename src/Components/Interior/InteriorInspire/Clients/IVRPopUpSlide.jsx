@@ -3,16 +3,16 @@ import "../InteriorInspire.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import IVRInterior1 from "./../../../../Images/IRV1.jpg";
-import IVRInterior2 from "./../../../../Images/IRV2.jpg";
-import IVRInterior3 from "./../../../../Images/IRV3.jpg";
-import IVRInterior4 from "./../../../../Images/IRV4.jpg";
-import IVRInterior5 from "./../../../../Images/IRV5.jpg";
-import IVRInterior6 from "./../../../../Images/office.jpg";
-import IVRInterior7 from "./../../../../Images/IVRInterior7.jpg";
-import IVRInterior8 from "./../../../../Images/IVRInterior8.jpg";
-import IVRInterior9 from "./../../../../Images/IVRInterior9.jpg";
-import IVRInterior10 from "./../../../../Images/IVRInterior10.jpg";
+import IVRInterior1 from "./../../../../Images/IVR/IRV1.jpg";
+import IVRInterior2 from "./../../../../Images/IVR/IRV2.jpg";
+import IVRInterior3 from "./../../../../Images/IVR/IRV3.jpg";
+import IVRInterior4 from "./../../../../Images/IVR/IRV4.jpg";
+import IVRInterior5 from "./../../../../Images/IVR/IRV5.jpg";
+import IVRInterior6 from "./../../../../Images/IVR/office.jpg";
+import IVRInterior7 from "./../../../../Images/IVR/IVRInterior7.jpg";
+import IVRInterior8 from "./../../../../Images/IVR/IVRInterior8.jpg";
+import IVRInterior9 from "./../../../../Images/IVR/IVRInterior9.jpg";
+import IVRInterior10 from "./../../../../Images/IVR/IVRInterior10.jpg";
 
 const IVRPopUpSlide = () => {
   function SampleNextArrow(props) {

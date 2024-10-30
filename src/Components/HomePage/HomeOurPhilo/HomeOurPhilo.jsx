@@ -1,7 +1,7 @@
 import React from "react";
 import OurPhiloList from "./OurPhiloList";
 import HomeOur2 from "../HomeOur/HomeOur2";
-import ourPhilo  from "../../../Images/ourPhilo.jpg"
+import ourPhilo  from "../../../Images/AboutUs/ourPhilo.jpg"
 const HomeOurPhilo = () => {
   return (
     <>
