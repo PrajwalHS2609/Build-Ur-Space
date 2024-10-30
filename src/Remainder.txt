@@ -1,2 +1,1 @@
 check kr puram page
-add view more button to home page

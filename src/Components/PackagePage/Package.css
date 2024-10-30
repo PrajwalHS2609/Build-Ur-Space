@@ -128,14 +128,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  cursor: pointer;
 }
 .packBut > h3 {
   color: var(--customColor);
 }
 @media screen and (min-width: 320px) and (max-width: 768px) {
-  .packageContainer {
-    /* border: solid red; */
-  }
+
   .packageHeadContainer {
     /* border: solid green; */
     display: flex;
