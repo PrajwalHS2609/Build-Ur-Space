@@ -5,7 +5,7 @@ const HomeWhatHead = (props) => {
   return (
     <div className="whatHeadContainer">
       <h2>
-        WHAT WE DO - <span>{props.head}</span>
+        WHAT WE DO -  <span>{props.head}</span>
       </h2>
     </div>
   );

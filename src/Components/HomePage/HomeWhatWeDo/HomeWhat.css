@@ -106,6 +106,10 @@
     flex-wrap: wrap;
     height: 100%;
   }
+  .whatHeadContainer > h2 {
+    font-size: 25px;
+    text-align: center;
+  }
   .whatCardContainer {
     /* border: solid blue; */
     width: 60%;
@@ -318,7 +322,10 @@
     align-items: center;
     width: 100%;
   }
-
+  .whatHeadContainer > h2 {
+    font-size: 30px;
+    text-align: center;
+  }
   .whatMainContainer {
     /* border: solid; */
     width: 100%;

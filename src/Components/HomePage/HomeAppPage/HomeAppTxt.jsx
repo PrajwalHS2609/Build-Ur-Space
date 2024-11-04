@@ -1,5 +1,6 @@
 import React from "react";
 import "./HomeAppPage.css";
+import appCheck from "./../../../Images/appCheck.png"
 const HomeAppTxt = () => {
   return (
     <div className="homeAppTxtContainer">
@@ -15,9 +16,9 @@ const HomeAppTxt = () => {
         </p>
         <div className="homeAppParaList">
           <ul>
-            <li>Explore packages, floor plans, and design recommendations</li>
-            <li>Capture construction progress in 3D</li>
-            <li>Track the project in real-time until completion</li>
+            <li><img src={appCheck} alt="appCheck" />Explore packages, floor plans, and design recommendations</li>
+            <li><img src={appCheck} alt="appCheck" />Capture construction progress in 3D</li>
+            <li><img src={appCheck} alt="appCheck" />Track the project in real-time until completion</li>
           </ul>
         </div>
       </div>
