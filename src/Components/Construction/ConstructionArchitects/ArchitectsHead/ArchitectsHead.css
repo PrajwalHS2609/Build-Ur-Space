@@ -37,7 +37,7 @@
 
 .architectsHeadContainer > h3 {
   color: var(--customColor);
-  text-align: start;
+  text-align: center;
   width: 100%;
   font-size: 25px;
 }

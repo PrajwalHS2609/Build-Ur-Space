@@ -68,6 +68,11 @@ import InteriorToughenedGlassPartition from "./Components/Interior/InteriorTough
 import InteriorToughenedGlassDoor from "./Components/Interior/InteriorToughenedGlassDoor/InteriorToughenedGlassDoor";
 import WhatsApp from "./Components/HomePage/WhatsApp/WhatsApp";
 import Footer from "./Components/Footer/Footer";
+import ConstructionInMadanaykanahalli from "./Components/Construction/ConstructionInMadanaykanahalli/ConstructionInMadanaykanahalli";
+import ConstructionInMagadi from "./Components/Construction/ConstructionInMagadi.jsx/ConstructionInMagadi";
+import ConstructionInHerohalli from "./Components/Construction/ConstructionInHerohalli/ConstructionInHerohalli";
+import ConstructionInKengeri from "./Components/Construction/ConstructionInKengeri/ConstructionInKengeri";
+import ConstructionInBidadi from "./Components/Construction/ConstructionInBidadi/ConstructionInBidadi";
 const App = () => {
   return (
     <div>
@@ -180,6 +185,26 @@ const App = () => {
           <Route
             path="/house-construction-company-in-nelamangala"
             element={<ConstructionInNelamangala />}
+          />
+          <Route
+            path="/house-construction-company-in-madanayakana-halli"
+            element={<ConstructionInMadanaykanahalli />}
+          />
+          <Route
+            path="/house-construction-company-in-magadi-road"
+            element={<ConstructionInMagadi />}
+          />
+          <Route
+            path="/house-construction-company-in-herohalli"
+            element={<ConstructionInHerohalli />}
+          />
+          <Route
+            path="/house-construction-company-in-kengeri"
+            element={<ConstructionInKengeri />}
+          />
+          <Route
+            path="/house-construction-company-in-bidadi"
+            element={<ConstructionInBidadi />}
           />
           {/* ----------------------Interior-------------------------- */}
           <Route
