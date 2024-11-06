@@ -33,10 +33,10 @@ const KengeriStep = () => {
         something incredible together with Build Ur Space—the House Construction
         Company in Kengeri dedicated to your satisfaction and peace of mind.
       </p>
-      <h2 style={{color:"red"}}>
+      <h3>
         Contact us today to learn more about how we can make your dream home a
         reality!
-      </h2>
+      </h3>
     </div>
   );
 };
