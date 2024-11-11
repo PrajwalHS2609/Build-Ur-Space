@@ -8,6 +8,7 @@
   align-items: flex-start;
   flex-direction: column;
   gap: 10px;
+  margin-left: 100px;
 }
 .blogAuthorContent {
   /* border: solid yellowgreen; */
@@ -33,7 +34,7 @@
   color: rgb(177, 177, 177);
 }
 .blogAuthorName > h3 {
-  color:var(--customColor);
+  color: var(--customColor);
 }
 .blogAuthorContent > p {
   font-size: 20px;
@@ -51,6 +52,10 @@
   font-size: 20px;
 }
 @media screen and (min-width: 320px) and (max-width: 768px) {
+  .blogAuthorContainer {
+    /* border: solid red; */
+    margin-left: 0px;
+  }
   .blogAuthorContent {
     /* border: solid yellowgreen; */
     display: flex;

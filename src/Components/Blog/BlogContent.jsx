@@ -4,7 +4,6 @@ import BlogContentCard from "./BlogContentCard";
 import waterProofingBanner from "./../../Images/WaterProofingBlog/Banner.png";
 import howLongBanner from "./../../Images/How_Long_to_Build/Banner.png";
 import brickMansoryBanner from "./../../Images/Brick_Masonry/Banner.png";
-import BlogAuthor from "./BlogAuthor/BlogAuthor";
 
 const BlogContent = () => {
   return (
@@ -30,10 +29,7 @@ const BlogContent = () => {
         head="Current Types of Brick Masonry in Use Today"
         para="Brick masonry for home construction remains one of the most popular and enduring building methods across the globe. With roots tracing back thousands of years, this technique..."
       />
-      <div className="blogAuthor">
-        <BlogAuthor />
-        {/* <BlogAuthor /> */}
-      </div>
+  
     </div>
   );
 };

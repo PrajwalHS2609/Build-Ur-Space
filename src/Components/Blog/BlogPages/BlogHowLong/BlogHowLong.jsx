@@ -2,6 +2,7 @@ import React from "react";
 import WaterProofingHeader from "../BlogWaterProofing/WaterProofingHeader/WaterProofingHeader";
 import BlogCategories from "../../BlogCategories";
 import HowLongContent from "./HowLongContent";
+import BlogAuthor from "../../BlogAuthor/BlogAuthor";
 
 const BlogHowLong = () => {
   return (
@@ -12,6 +13,9 @@ const BlogHowLong = () => {
       <div className="blogWrapper">
         <HowLongContent />
         <BlogCategories />
+      </div>
+      <div className="blogAuthor">
+        <BlogAuthor />
       </div>
     </div>
   );

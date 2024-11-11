@@ -2,6 +2,7 @@ import React from "react";
 import BlogCategories from "../../BlogCategories";
 import WaterProofingHeader from "../BlogWaterProofing/WaterProofingHeader/WaterProofingHeader";
 import BrickMasonryContent from "./BrickMasonryContent";
+import BlogAuthor from "../../BlogAuthor/BlogAuthor";
 
 const BlogBrickMasonry = () => {
   return (
@@ -11,6 +12,9 @@ const BlogBrickMasonry = () => {
         <BrickMasonryContent />
         <BlogCategories />
       </div>{" "}
+      <div className="blogAuthor">
+        <BlogAuthor />
+      </div>
     </div>
   );
 };
