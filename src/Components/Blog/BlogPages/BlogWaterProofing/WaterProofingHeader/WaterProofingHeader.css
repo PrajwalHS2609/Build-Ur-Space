@@ -16,6 +16,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .waterProofingHeader > h2 {
