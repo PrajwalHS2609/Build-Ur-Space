@@ -65,7 +65,7 @@ const BlogCategories = () => {
         </li>
         <li>
           {" "}
-          <Link to={"/"}>
+          <Link to={"/category-doors-and-windows"}>
             {" "}
             <FontAwesomeIcon
               icon={faAngleDoubleRight}

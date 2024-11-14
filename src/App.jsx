@@ -75,6 +75,7 @@ import ConstructionInKengeri from "./Components/Construction/ConstructionInKenge
 import ConstructionInBidadi from "./Components/Construction/ConstructionInBidadi/ConstructionInBidadi";
 import BlogWindowAndDoor from "./Components/Blog/BlogPages/BlogWindowAndDoor/BlogWindowAndDoor";
 import BlogEssentialVastu from "./Components/Blog/BlogPages/BlogEssentialVastu/BlogEssentialVastu";
+import CategoryDoorsAndWindows from "./Components/Blog/CategoryDoorsAndWindows/CategoryDoorsAndWindows";
 const App = () => {
   return (
     <div>
@@ -339,6 +340,11 @@ const App = () => {
           <Route
             path="/essential-vastu-tips-for-building-your-dream-home"
             element={<BlogEssentialVastu />}
+          />
+          {/* --------------------------CategoryDoorsAndWindows------------------------------------------- */}
+          <Route
+            path="/category-doors-and-windows"
+            element={<CategoryDoorsAndWindows />}
           />
         </Routes>
         {/* </PackageContext> */}
