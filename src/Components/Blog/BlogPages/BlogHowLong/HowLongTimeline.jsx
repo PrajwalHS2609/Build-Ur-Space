@@ -1,5 +1,5 @@
 import React from "react";
-import timeline from "./../../../../Images/How_Long_to_Build/timeline.png";
+import timeline from "./../../../../Images/BlogImgs/How_Long_to_Build/timeline.png";
 import WaterProofingImg from "../BlogWaterProofing/WaterProofingImg/WaterProofingImg";
 
 const HowLongTimeline = () => {

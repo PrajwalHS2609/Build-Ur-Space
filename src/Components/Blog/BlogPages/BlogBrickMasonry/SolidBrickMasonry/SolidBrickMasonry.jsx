@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 import check from "./../../../../../Images/check.png";
 import house from "./../../../../../Images/homeRed.png";
 import WaterProofingImg from "../../BlogWaterProofing/WaterProofingImg/WaterProofingImg";
-import solidBrickMasonry from "./../../../../../Images/Brick_Masonry/Solid Brick Masonry.png";
+import solidBrickMasonry from "./../../../../../Images/BlogImgs/Brick_Masonry/Solid Brick Masonry.png";
 const SolidBrickMasonry = () => {
   return (
     <div className="waterProofingWhy">

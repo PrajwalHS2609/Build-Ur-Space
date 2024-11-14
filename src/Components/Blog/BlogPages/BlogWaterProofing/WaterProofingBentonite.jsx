@@ -1,7 +1,7 @@
 import React from "react";
 import WaterProofingImg from "./WaterProofingImg/WaterProofingImg";
 import point from "./../../../../Images/point.png";
-import waterProofingBentonite from "./../../../../Images/WaterProofingBlog/Bentonite Waterproofing.png";
+import waterProofingBentonite from "./../../../../Images/BlogImgs/WaterProofingBlog/Bentonite Waterproofing.png";
 
 const WaterProofingBentonite = () => {
   return (

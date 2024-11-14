@@ -4,7 +4,7 @@ import check from "./../../../../Images/check.png";
 import house from "./../../../../Images/homeRed.png";
 import WaterProofingImg from "../BlogWaterProofing/WaterProofingImg/WaterProofingImg";
 import BrickMasonryFooter from "./BrickMasonryFooter";
-import modularBrickMasonry from "./../../../../Images/Brick_Masonry/Modular Brick Masonry.png";
+import modularBrickMasonry from "./../../../../Images/BlogImgs/Brick_Masonry/Modular Brick Masonry.png";
 
 const ModularBrickMasonry = () => {
   return (

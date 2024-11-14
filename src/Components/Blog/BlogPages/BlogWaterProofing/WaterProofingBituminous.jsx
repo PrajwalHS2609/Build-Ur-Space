@@ -1,7 +1,7 @@
 import React from "react";
 import point from "./../../../../Images/point.png";
 import WaterProofingImg from "./WaterProofingImg/WaterProofingImg";
-import waterProofingBituminous from "./../../../../Images/WaterProofingBlog/Bituminous Waterproofing.png";
+import waterProofingBituminous from "./../../../../Images/BlogImgs/WaterProofingBlog/Bituminous Waterproofing.png";
 
 const WaterProofingBituminous = () => {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import point from "./../../../../Images/point.png";
 import WaterProofingImg from "./WaterProofingImg/WaterProofingImg";
-import waterProofingPolyurethane from "./../../../../Images/WaterProofingBlog/Polyurethane Waterproofing.png";
+import waterProofingPolyurethane from "./../../../../Images/BlogImgs/WaterProofingBlog/Polyurethane Waterproofing.png";
 
 const WaterProofingPolyurethane = () => {
   return (

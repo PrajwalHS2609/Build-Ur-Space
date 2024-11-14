@@ -1,9 +1,11 @@
 import React from "react";
 import "./Blog.css";
 import BlogContentCard from "./BlogContentCard";
-import waterProofingBanner from "./../../Images/WaterProofingBlog/Banner.png";
-import howLongBanner from "./../../Images/How_Long_to_Build/Banner.png";
-import brickMansoryBanner from "./../../Images/Brick_Masonry/Banner.png";
+import waterProofingBanner from "./../../Images/BlogImgs/WaterProofingBlog/Banner.png";
+import howLongBanner from "./../../Images/BlogImgs/How_Long_to_Build/Banner.png";
+import brickMansoryBanner from "./../../Images/BlogImgs/Brick_Masonry/Banner.png";
+import trendingWindowDoorBanner from "./../../Images/BlogImgs/Trending Window and Door/Banner.png";
+import essentialVastuBanner  from "./../../Images/BlogImgs/EssentialVastuBanner.png";
 
 const BlogContent = () => {
   return (
@@ -29,7 +31,20 @@ const BlogContent = () => {
         head="Current Types of Brick Masonry in Use Today"
         para="Brick masonry for home construction remains one of the most popular and enduring building methods across the globe. With roots tracing back thousands of years, this technique..."
       />
-  
+      <BlogContentCard
+        img={essentialVastuBanner}
+        alt="essentialVastuBanner"
+        link="/essential-vastu-tips-for-building-your-dream-home"
+        head="Essential Vastu Tips for Building Your Dream Home"
+        para="Creating a harmonious living space goes beyond aesthetics. Incorporating principles of Vastu Shastra—a traditional Indian system of architecture and ..."
+      />
+      <BlogContentCard
+        img={trendingWindowDoorBanner}
+        alt="trendingWindowDoorBanner"
+        link="/trending-window-and-door-options-for-modern-homes"
+        head="Trending Window and Door Options for Modern Homes: Elevating Style and Functionality"
+        para="In contemporary home design, windows and doors are far more than structural elements; they define the character, enhance energy efficiency, and..."
+      />
     </div>
   );
 };

@@ -1,7 +1,7 @@
 import React from "react";
 import WaterProofingImg from "../BlogWaterProofing/WaterProofingImg/WaterProofingImg";
 import point from "./../../../../Images/point.png";
-import factors from "./../../../../Images/How_Long_to_Build/factors.png"
+import factors from "./../../../../Images/BlogImgs/How_Long_to_Build/factors.png"
 const HowLongFactors = () => {
   return (
     <div className="waterProofingWhy">

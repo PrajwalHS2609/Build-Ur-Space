@@ -1,7 +1,7 @@
 import React from "react";
 import point from "./../../../../Images/point.png";
 import WaterProofingImg from "./WaterProofingImg/WaterProofingImg";
-import waterProofingEpdm from "./../../../../Images/WaterProofingBlog/EPDM (Ethylene Propylene Diene Monomer) Rubber.png";
+import waterProofingEpdm from "./../../../../Images/BlogImgs/WaterProofingBlog/EPDM (Ethylene Propylene Diene Monomer) Rubber.png";
 
 const WaterProofingEpdm = () => {
   return (

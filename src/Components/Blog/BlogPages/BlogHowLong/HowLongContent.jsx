@@ -6,7 +6,7 @@ import HowLongTimeline from "./HowLongTimeline";
 import HowLongCost from "./HowLongCost";
 import HowLongDelay from "./HowLongDelay";
 import HowLongSpeedUp from "./HowLongSpeedUp";
-import howLongBanner from "./../../../../Images/How_Long_to_Build/Banner.png"
+import howLongBanner from "./../../../../Images/BlogImgs/How_Long_to_Build/Banner.png"
 
 const HowLongContent = () => {
   return (

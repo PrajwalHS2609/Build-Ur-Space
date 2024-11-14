@@ -1,7 +1,7 @@
 import React from "react";
 import point from "./../../../../Images/point.png";
 import WaterProofingImg from "./WaterProofingImg/WaterProofingImg";
-import waterproofingLiquid from "./../../../../Images/WaterProofingBlog/Liquid Waterproofing Membrane.png";
+import waterproofingLiquid from "./../../../../Images/BlogImgs/WaterProofingBlog/Liquid Waterproofing Membrane.png";
 
 const WaterproofingLiquid = () => {
   return (

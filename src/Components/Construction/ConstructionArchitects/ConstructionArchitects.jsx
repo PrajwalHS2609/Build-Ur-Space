@@ -28,7 +28,7 @@ const ConstructionArchitects = () => {
         />
         <link
           rel="canonical"
-          href="https://buildurspace.com/architects-in-bangalore   "
+          href="https://buildurspace.com/architects-in-bangalore"
         />
       </Helmet>
       <ConstructionHead />

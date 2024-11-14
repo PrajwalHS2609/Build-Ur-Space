@@ -13,7 +13,7 @@ import WaterProofingBituminous from "./WaterProofingBituminous";
 import WaterProofingBentonite from "./WaterProofingBentonite";
 import WaterProofingAcrylic from "./WaterProofingAcrylic";
 import WaterProofChoose from "./WaterProofingChoose/WaterProofChoose";
-import waterProofingBanner from "./../../../../Images/WaterProofingBlog/Banner.png";
+import waterProofingBanner from "./../../../../Images/BlogImgs/WaterProofingBlog/Banner.png";
 
 const WaterProofingContent = () => {
   return (

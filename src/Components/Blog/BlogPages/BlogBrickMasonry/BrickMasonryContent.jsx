@@ -9,7 +9,7 @@ import CavityBrickMasonry from "./CavityBrickMasonry";
 import ThinBrickMasonry from "./ThinBrickMasonry";
 import EcoBrickMasonry from "./EcoBrickMasonry";
 import ModularBrickMasonry from "./ModularBrickMasonry";
-import brickMasonryBanner from "./../../../../Images/Brick_Masonry/Banner.png";
+import brickMasonryBanner from "./../../../../Images/BlogImgs/Brick_Masonry/Banner.png";
 
 const BrickMasonryContent = () => {
   return (

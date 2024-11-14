@@ -73,6 +73,8 @@ import ConstructionInMagadi from "./Components/Construction/ConstructionInMagadi
 import ConstructionInHerohalli from "./Components/Construction/ConstructionInHerohalli/ConstructionInHerohalli";
 import ConstructionInKengeri from "./Components/Construction/ConstructionInKengeri/ConstructionInKengeri";
 import ConstructionInBidadi from "./Components/Construction/ConstructionInBidadi/ConstructionInBidadi";
+import BlogWindowAndDoor from "./Components/Blog/BlogPages/BlogWindowAndDoor/BlogWindowAndDoor";
+import BlogEssentialVastu from "./Components/Blog/BlogPages/BlogEssentialVastu/BlogEssentialVastu";
 const App = () => {
   return (
     <div>
@@ -329,6 +331,14 @@ const App = () => {
           <Route
             path="/how-long-to-build-a-30x40-feet-house-in-bangalore"
             element={<BlogHowLong />}
+          />
+          <Route
+            path="/trending-window-and-door-options-for-modern-homes"
+            element={<BlogWindowAndDoor />}
+          />
+          <Route
+            path="/essential-vastu-tips-for-building-your-dream-home"
+            element={<BlogEssentialVastu />}
           />
         </Routes>
         {/* </PackageContext> */}

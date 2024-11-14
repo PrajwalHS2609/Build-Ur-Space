@@ -1,7 +1,7 @@
 import React from "react";
 import WaterProofingImg from "./WaterProofingImg/WaterProofingImg";
 import point from "./../../../../Images/point.png";
-import waterProofingSelfAdhesive from "./../../../../Images/WaterProofingBlog/Self-Adhesive Waterproofing Membranes.png";
+import waterProofingSelfAdhesive from "./../../../../Images/BlogImgs/WaterProofingBlog/Self-Adhesive Waterproofing Membranes.png";
 
 const WaterProofingSelfAdhesive = () => {
   return (

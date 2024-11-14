@@ -1,7 +1,7 @@
 import React from "react";
 import WaterProofingImg from "./WaterProofingImg/WaterProofingImg";
 import point from "./../../../../Images/point.png";
-import waterProofingAcrylic from "./../../../../Images/WaterProofingBlog/Acrylic Waterproofing.png";
+import waterProofingAcrylic from "./../../../../Images/BlogImgs/WaterProofingBlog/Acrylic Waterproofing.png";
 const WaterProofingAcrylic = () => {
   return (
     <div className="waterProofingWhy">

@@ -1,7 +1,7 @@
 import React from "react";
 import WaterProofingImg from "../BlogWaterProofing/WaterProofingImg/WaterProofingImg";
 import point from "./../../../../Images/point.png";
-import speedup from "./../../../../Images/How_Long_to_Build/speedup.png"
+import speedup from "./../../../../Images/BlogImgs/How_Long_to_Build/speedup.png"
 
 const HowLongSpeedUp = () => {
   return (

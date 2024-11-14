@@ -1,9 +1,9 @@
 import React from "react";
 import "./HomeBlog.css";
 import HomeBlogCard from "./HomeBlogCard";
-import waterProofingBanner from "./../../../Images/WaterProofingBlog/Banner.png";
-import howLongBanner from "./../../../Images/How_Long_to_Build/Banner.png";
-import brickBanner from "./../../../Images/Brick_Masonry/Banner.png";
+import waterProofingBanner from "./../../../Images/BlogImgs/WaterProofingBlog/Banner.png";
+import howLongBanner from "./../../../Images/BlogImgs/How_Long_to_Build/Banner.png";
+import brickBanner from "./../../../Images/BlogImgs/Brick_Masonry/Banner.png";
 import { Link } from "react-router-dom";
 const HomeBlogMain = () => {
   return (
