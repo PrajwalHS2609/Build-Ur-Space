@@ -1,5 +1,6 @@
 .categoryDoorsAndWindows {
   padding: 20px;
+  width: 100%;
 }
 .categoryDoorsAndWindows-Wrapper {
   display: flex;
@@ -7,6 +8,7 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 20px;
+  width: 100%;
 }
 .categoryDoorsAndWindowsCard {
   /* border: solid green; */
@@ -26,7 +28,6 @@
   height: 100%;
   object-fit: cover;
   border-radius: 20px;
-
 }
 .categoryDoorsAndWindowsCard-Btn {
   /* border: solid brown; */
@@ -35,6 +36,7 @@
 }
 .categoryDoorsAndWindowsCard-Title > h2 {
   color: var(--customColor);
+  text-align: justify;
 }
 .categoryDoorsAndWindowsCard-Btn > button {
   width: 100%;
@@ -49,4 +51,16 @@
 .categoryDoorsAndWindowsCard-Btn > button > a {
   text-decoration: none;
   color: white;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .categoryDoorsAndWindowsCard {
+    /* border: solid green; */
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
 }
