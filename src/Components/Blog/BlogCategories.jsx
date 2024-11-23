@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDoubleRight } from "@fortawesome/free-solid-svg-icons";
 import essentialVastuBanner from "./../../Images/BlogImgs/EssentialVastuBanner.png";
 import trendingWindowDoor from "./../../Images/BlogImgs/Trending Window and Door/Banner.png";
+import kitchenHallDesignBanner from "./../../Images/BlogImgs/Modern Kitchen and Hall Design/Banner.png";
 
 const BlogCategories = () => {
   return (
@@ -24,6 +25,13 @@ const BlogCategories = () => {
             {" "}
             <img src={trendingWindowDoor} alt="trendingWindowDoor" />
             <h6>Trending Window and Door Options for Modern Homes</h6>
+          </Link>
+        </li>
+        <li>
+          <Link to={"/modern-kitchen-and-hall-design-ideas-for-your-home"}>
+            {" "}
+            <img src={kitchenHallDesignBanner} alt="trendingWindowDoor" />
+            <h6>Modern Kitchen and Hall Design Ideas for Your Home</h6>
           </Link>
         </li>
       </div>

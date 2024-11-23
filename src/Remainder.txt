@@ -1,2 +1,1 @@
 check kr puram page
-put the autor inside a particular blog page

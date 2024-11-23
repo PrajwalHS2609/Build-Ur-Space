@@ -1,34 +1,34 @@
 import React from "react";
 import "./HomeBlog.css";
 import HomeBlogCard from "./HomeBlogCard";
-import waterProofingBanner from "./../../../Images/BlogImgs/WaterProofingBlog/Banner.png";
-import howLongBanner from "./../../../Images/BlogImgs/How_Long_to_Build/Banner.png";
-import brickBanner from "./../../../Images/BlogImgs/Brick_Masonry/Banner.png";
+import trendingWindowDoorBanner from "./../../../Images/BlogImgs/Trending Window and Door/Banner.png";
+import essentialVastuBanner from "./../../../Images/BlogImgs/EssentialVastuBanner.png";
+import kitchenHallDesignBanner from "./../../../Images/BlogImgs/Modern Kitchen and Hall Design/Banner.png";
 import { Link } from "react-router-dom";
 const HomeBlogMain = () => {
   return (
     <div className="homeBlogMain">
       <div className="homeBlogMainContainer">
         <HomeBlogCard
-          img={waterProofingBanner}
-          alt="waterProofingBanner"
-          head="Top Waterproofing Materials worth Investing In for Your New Home"
-          para="Building a new home is one of the most significant investments you'll ever make, and safeguarding it from damage is essential for maintaining..."
-          link="/top-waterproofing-materials-worth-investing-in-for-your-new-home"
+          img={essentialVastuBanner}
+          alt="essentialVastuBanner"
+          link="/essential-vastu-tips-for-building-your-dream-home"
+          head="Essential Vastu Tips for Building Your Dream Home"
+          para="Creating a harmonious living space goes beyond aesthetics. Incorporating principles of Vastu Shastra—a traditional Indian system of architecture and ..."
         />
         <HomeBlogCard
-          img={howLongBanner}
-          alt="howLongBanner"
-          head="How Long to Build a 30x40 Feet House in Bangalore?"
-          para="Building a house is one of the most exciting, yet complex, projects anyone can undertake. If you are planning to construct a 30x40 Feet House in Bangalore, it’s essential to..."
-          link="/how-long-to-build-a-30x40-feet-house-in-bangalore"
+          img={trendingWindowDoorBanner}
+          alt="trendingWindowDoorBanner"
+          link="/trending-window-and-door-options-for-modern-homes"
+          head="Trending Window and Door Options for Modern Homes: Elevating Style and Functionality"
+          para="In contemporary home design, windows and doors are far more than structural elements; they define the character, enhance energy efficiency, and..."
         />
         <HomeBlogCard
-          img={brickBanner}
-          alt="brickBanner"
-          head="Current Types of Brick Masonry in Use Today"
-          para="Brick masonry for home construction remains one of the most popular and enduring building methods across the globe. With roots tracing back thousands of years, this technique..."
-          link="/current-types-of-brick-masonry-in-use-today"
+          img={kitchenHallDesignBanner}
+          alt="kitchenHallDesignBanner"
+          link="/modern-kitchen-and-hall-design-ideas-for-your-home"
+          head="Modern Kitchen and Hall Design Ideas for Your Home"
+          para="When it comes to designing your home, the kitchen and hall are two spaces that hold significant importance. The kitchen is the heart of the home, where ..."
         />
       </div>
       <div className="homeBlogBtn">

@@ -5,7 +5,8 @@ import waterProofingBanner from "./../../Images/BlogImgs/WaterProofingBlog/Banne
 import howLongBanner from "./../../Images/BlogImgs/How_Long_to_Build/Banner.png";
 import brickMansoryBanner from "./../../Images/BlogImgs/Brick_Masonry/Banner.png";
 import trendingWindowDoorBanner from "./../../Images/BlogImgs/Trending Window and Door/Banner.png";
-import essentialVastuBanner  from "./../../Images/BlogImgs/EssentialVastuBanner.png";
+import essentialVastuBanner from "./../../Images/BlogImgs/EssentialVastuBanner.png";
+import kitchenHallDesignBanner from "./../../Images/BlogImgs/Modern Kitchen and Hall Design/Banner.png";
 
 const BlogContent = () => {
   return (
@@ -44,6 +45,13 @@ const BlogContent = () => {
         link="/trending-window-and-door-options-for-modern-homes"
         head="Trending Window and Door Options for Modern Homes: Elevating Style and Functionality"
         para="In contemporary home design, windows and doors are far more than structural elements; they define the character, enhance energy efficiency, and..."
+      />
+      <BlogContentCard
+        img={kitchenHallDesignBanner}
+        alt="kitchenHallDesignBanner"
+        link="/modern-kitchen-and-hall-design-ideas-for-your-home"
+        head="Modern Kitchen and Hall Design Ideas for Your Home"
+        para="When it comes to designing your home, the kitchen and hall are two spaces that hold significant importance. The kitchen is the heart of the home, where ..."
       />
     </div>
   );
