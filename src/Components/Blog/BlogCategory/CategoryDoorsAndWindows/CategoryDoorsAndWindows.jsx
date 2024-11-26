@@ -1,8 +1,8 @@
 import React from "react";
-import CategoryDoorsAndWindowsCard from "./CategoryDoorsAndWindowsCard";
-import windowAndDoorBanner from "./../../../Images/BlogImgs/Trending Window and Door/Banner.png";
+import windowAndDoorBanner from "./../../../../Images/BlogImgs/Trending Window and Door/Banner.png";
 import "./CategoryDoorsAndWindows.css";
-import WaterProofingHeader from "../BlogPages/BlogWaterProofing/WaterProofingHeader/WaterProofingHeader";
+import CategoryDoorsAndWindowsCard from './CategoryDoorsAndWindowsCard';
+import WaterProofingHeader from "../../BlogPages/BlogWaterProofing/WaterProofingHeader/WaterProofingHeader";
 const CategoryDoorsAndWindows = () => {
   return (
     <div className="categoryDoorsAndWindows">
