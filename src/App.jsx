@@ -77,11 +77,13 @@ import BlogWindowAndDoor from "./Components/Blog/BlogPages/BlogWindowAndDoor/Blo
 import BlogEssentialVastu from "./Components/Blog/BlogPages/BlogEssentialVastu/BlogEssentialVastu";
 import CategoryDoorsAndWindows from "./Components/Blog/BlogCategory/CategoryDoorsAndWindows/CategoryDoorsAndWindows";
 import BlogKitchenHallDesign from "./Components/Blog/BlogPages/BlogKitchenHallDesign/BlogKitchenHallDesign";
+import Snowfall from "./Components/Christmas/Snowfall/Snowfall";
 const App = () => {
   return (
     <div>
       <BrowserRouter>
         <NavBar />
+        <Snowfall/>
         <ScrollTo />
         {/* <PackageContext> */}
         <Routes>

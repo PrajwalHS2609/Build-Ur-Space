@@ -1,0 +1,43 @@
+.snowfallContainer {
+    /* border: solid red; */
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+  }
+  .snowfall-container {
+    position: relative;
+    width: 100%;
+    height:0 ;
+    background: transparent; /* Matches your website's theme */
+  }
+  
+  .snowflake {
+    position: absolute;
+    top: -10px;
+    color: #fff;
+    opacity: 0.8;
+    animation: fall linear infinite, sway ease-in-out infinite;
+  }
+  
+  @keyframes fall {
+    0% {
+      top: -10px;
+    }
+    100% {
+      top: 100vh;
+    }
+  }
+  
+  @keyframes sway {
+    0%,
+    100% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(15px);
+    }
+  }
+  
