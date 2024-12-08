@@ -3,37 +3,49 @@ import "./Blog.css";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDoubleRight } from "@fortawesome/free-solid-svg-icons";
-import essentialVastuBanner from "./../../Images/BlogImgs/EssentialVastuBanner.png";
 import trendingWindowDoor from "./../../Images/BlogImgs/Trending Window and Door/Banner.png";
 import kitchenHallDesignBanner from "./../../Images/BlogImgs/Modern Kitchen and Hall Design/Banner.png";
+import falseCeilingBanner from "./../../Images/BlogImgs/False_ceiling/Banner.png";
 
 const BlogCategories = () => {
+  const categories = [
+    {
+      id: "1",
+      link: "/trending-window-and-door-options-for-modern-homes",
+      img: trendingWindowDoor,
+      alt: "trendingWindowDoor",
+      head: "Modern Kitchen and Hall Design Ideas for Your Home",
+    },
+    {
+      id: "2",
+      link: "/modern-kitchen-and-hall-design-ideas-for-your-home",
+      img: kitchenHallDesignBanner,
+      alt: "kitchenHallDesignBanner",
+      head: "Modern Kitchen and Hall Design Ideas for Your Home",
+    },
+    {
+      id: "3",
+      link: "/everything-you-need-to-know-about-false-ceiling-costs-in-bangalore",
+      img: falseCeilingBanner,
+      alt: "falseCeilingBanner",
+      head: "Everything You Need to Know About False Ceiling Costs in Bangalore",
+    },
+  ];
   return (
     <div className="blogCategories">
       <div className="blogCategoriesHead">
         <h3>Recent Posts</h3>
       </div>
       <div className="blogCategoriesList">
-        <li>
-          <Link to={"/essential-vastu-tips-for-building-your-dream-home "}>
-            <img src={essentialVastuBanner} alt="essentialVastuBanner" />
-            <h6>Essential Vastu Tips for Building Your Dream Home </h6>
-          </Link>
-        </li>
-        <li>
-          <Link to={"/trending-window-and-door-options-for-modern-homes"}>
-            {" "}
-            <img src={trendingWindowDoor} alt="trendingWindowDoor" />
-            <h6>Trending Window and Door Options for Modern Homes</h6>
-          </Link>
-        </li>
-        <li>
-          <Link to={"/modern-kitchen-and-hall-design-ideas-for-your-home"}>
-            {" "}
-            <img src={kitchenHallDesignBanner} alt="trendingWindowDoor" />
-            <h6>Modern Kitchen and Hall Design Ideas for Your Home</h6>
-          </Link>
-        </li>
+        {categories.map((x) => (
+          <li>
+            <Link to={x.link}>
+              {" "}
+              <img src={x.img} alt={x.alt} />
+              <h6>{x.head}</h6>
+            </Link>
+          </li>
+        ))}
       </div>
       <div className="blogCategoriesHead" id="blogCategories">
         <h3>Categories</h3>
@@ -62,7 +74,7 @@ const BlogCategories = () => {
         </li>
         <li>
           {" "}
-          <Link to={"/"}>
+          <Link to={"/category-construction"}>
             {" "}
             <FontAwesomeIcon
               icon={faAngleDoubleRight}
@@ -84,13 +96,13 @@ const BlogCategories = () => {
         </li>
         <li>
           {" "}
-          <Link to={"/"}>
+          <Link to={"/category-false-ceiling"}>
             {" "}
             <FontAwesomeIcon
               icon={faAngleDoubleRight}
               className="blogIcon"
             ></FontAwesomeIcon>{" "}
-            Green Building{" "}
+            False Ceiling{" "}
           </Link>
         </li>
       </div>

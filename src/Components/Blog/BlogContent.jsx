@@ -7,6 +7,7 @@ import brickMansoryBanner from "./../../Images/BlogImgs/Brick_Masonry/Banner.png
 import trendingWindowDoorBanner from "./../../Images/BlogImgs/Trending Window and Door/Banner.png";
 import essentialVastuBanner from "./../../Images/BlogImgs/EssentialVastuBanner.png";
 import kitchenHallDesignBanner from "./../../Images/BlogImgs/Modern Kitchen and Hall Design/Banner.png";
+import falseCeilingBanner from "./../../Images/BlogImgs/False_ceiling/Banner.png";
 
 const BlogContent = () => {
   return (
@@ -52,6 +53,13 @@ const BlogContent = () => {
         link="/modern-kitchen-and-hall-design-ideas-for-your-home"
         head="Modern Kitchen and Hall Design Ideas for Your Home"
         para="When it comes to designing your home, the kitchen and hall are two spaces that hold significant importance. The kitchen is the heart of the home, where ..."
+      />
+      <BlogContentCard
+        img={falseCeilingBanner}
+        alt="false Ceiling Banner"
+        link="/everything-you-need-to-know-about-false-ceiling-costs-in-bangalore"
+        head="Everything You Need to Know About False Ceiling Costs in Bangalore"
+        para="False ceilings, also known as drop ceilings or suspended ceilings, are becoming an integral part of modern interior design in Bangalore. Not only do they enhance..."
       />
     </div>
   );

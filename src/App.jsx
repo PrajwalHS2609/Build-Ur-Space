@@ -78,12 +78,15 @@ import BlogEssentialVastu from "./Components/Blog/BlogPages/BlogEssentialVastu/B
 import CategoryDoorsAndWindows from "./Components/Blog/BlogCategory/CategoryDoorsAndWindows/CategoryDoorsAndWindows";
 import BlogKitchenHallDesign from "./Components/Blog/BlogPages/BlogKitchenHallDesign/BlogKitchenHallDesign";
 import Snowfall from "./Components/Christmas/Snowfall/Snowfall";
+import BlogFalseCeiling from "./Components/Blog/BlogPages/BlogFalseCeiling/BlogFalseCeiling";
+import CategoryFalseCeiling from "./Components/Blog/BlogCategory/CategoryFalseCeiling/CategoryFalseCeiling";
+import CategoryConstruction from "./Components/Blog/BlogCategory/CategoryConstruction/CategoryConstruction";
 const App = () => {
   return (
     <div>
       <BrowserRouter>
         <NavBar />
-        <Snowfall/>
+        <Snowfall />
         <ScrollTo />
         {/* <PackageContext> */}
         <Routes>
@@ -348,11 +351,24 @@ const App = () => {
             path="/modern-kitchen-and-hall-design-ideas-for-your-home"
             element={<BlogKitchenHallDesign />}
           />
+          <Route
+            path="/everything-you-need-to-know-about-false-ceiling-costs-in-bangalore"
+            element={<BlogFalseCeiling />}
+          />
           {/* --------------------------CategoryDoorsAndWindows------------------------------------------- */}
+          <Route
+            path="/category-construction"
+            element={<CategoryConstruction />}
+          />
           <Route
             path="/category-doors-and-windows"
             element={<CategoryDoorsAndWindows />}
           />
+          <Route
+            path="/category-false-ceiling"
+            element={<CategoryFalseCeiling />}
+          />
+          {/* --------------------------/CategoryDoorsAndWindows------------------------------------------- */}
         </Routes>
         {/* </PackageContext> */}
         <WhatsApp />
