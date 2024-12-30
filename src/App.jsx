@@ -81,6 +81,7 @@ import Snowfall from "./Components/Christmas/Snowfall/Snowfall";
 import BlogFalseCeiling from "./Components/Blog/BlogPages/BlogFalseCeiling/BlogFalseCeiling";
 import CategoryFalseCeiling from "./Components/Blog/BlogCategory/CategoryFalseCeiling/CategoryFalseCeiling";
 import CategoryConstruction from "./Components/Blog/BlogCategory/CategoryConstruction/CategoryConstruction";
+import BlogPccConcreting from "./Components/Blog/BlogPages/BlogPccConcreting/BlogPccConcreting";
 const App = () => {
   return (
     <div>
@@ -354,6 +355,10 @@ const App = () => {
           <Route
             path="/everything-you-need-to-know-about-false-ceiling-costs-in-bangalore"
             element={<BlogFalseCeiling />}
+          />
+          <Route
+            path="/building-strong-foundations-with-durable-pcc-concreting-for-your-projects"
+            element={<BlogPccConcreting />}
           />
           {/* --------------------------CategoryDoorsAndWindows------------------------------------------- */}
           <Route

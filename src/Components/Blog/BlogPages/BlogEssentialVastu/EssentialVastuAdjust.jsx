@@ -18,7 +18,8 @@ const EssentialVastuAdjust = () => {
             Use mirrors to correct energy imbalances. Place them in the north or
             east direction to amplify positive energy.
           </p>
-          <br />
+          </li>
+          <li>
           <span>
             <img src={point} alt="point" /> Salt:
           </span>
@@ -26,7 +27,8 @@ const EssentialVastuAdjust = () => {
             Keeping a bowl of salt in a non-compliant area is believed to help
             absorb negative energies.
           </p>
-          <br />
+          </li>
+          <li>
           <span>
             <img src={point} alt="point" />
             Metallic Items:

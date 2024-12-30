@@ -3,32 +3,32 @@ import "./Blog.css";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDoubleRight } from "@fortawesome/free-solid-svg-icons";
-import trendingWindowDoor from "./../../Images/BlogImgs/Trending Window and Door/Banner.png";
 import kitchenHallDesignBanner from "./../../Images/BlogImgs/Modern Kitchen and Hall Design/Banner.png";
 import falseCeilingBanner from "./../../Images/BlogImgs/False_ceiling/Banner.png";
+import pccConcretingBanner from "./../../Images/BlogImgs/PccConcreting/Banner.png";
 
 const BlogCategories = () => {
   const categories = [
     {
-      id: "1",
-      link: "/trending-window-and-door-options-for-modern-homes",
-      img: trendingWindowDoor,
-      alt: "trendingWindowDoor",
-      head: "Modern Kitchen and Hall Design Ideas for Your Home",
+      id: 1,
+      link: "/building-strong-foundations-with-durable-pcc-concreting-for-your-projects",
+      img: pccConcretingBanner,
+      alt: "pcc Concreting Banner",
+      head: "Building Strong Foundations with Durable PCC Concreting for Your Projects",
     },
     {
-      id: "2",
-      link: "/modern-kitchen-and-hall-design-ideas-for-your-home",
-      img: kitchenHallDesignBanner,
-      alt: "kitchenHallDesignBanner",
-      head: "Modern Kitchen and Hall Design Ideas for Your Home",
-    },
-    {
-      id: "3",
+      id: 2,
       link: "/everything-you-need-to-know-about-false-ceiling-costs-in-bangalore",
       img: falseCeilingBanner,
       alt: "falseCeilingBanner",
       head: "Everything You Need to Know About False Ceiling Costs in Bangalore",
+    },
+    {
+      id: 3,
+      link: "/modern-kitchen-and-hall-design-ideas-for-your-home",
+      img: kitchenHallDesignBanner,
+      alt: "kitchenHallDesignBanner",
+      head: "Modern Kitchen and Hall Design Ideas for Your Home",
     },
   ];
   return (

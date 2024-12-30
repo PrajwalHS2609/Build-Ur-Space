@@ -8,6 +8,7 @@ import trendingWindowDoorBanner from "./../../Images/BlogImgs/Trending Window an
 import essentialVastuBanner from "./../../Images/BlogImgs/EssentialVastuBanner.png";
 import kitchenHallDesignBanner from "./../../Images/BlogImgs/Modern Kitchen and Hall Design/Banner.png";
 import falseCeilingBanner from "./../../Images/BlogImgs/False_ceiling/Banner.png";
+import pccConcretingBanner from "./../../Images/BlogImgs/PccConcreting/Banner.png";
 
 const BlogContent = () => {
   return (
@@ -60,6 +61,13 @@ const BlogContent = () => {
         link="/everything-you-need-to-know-about-false-ceiling-costs-in-bangalore"
         head="Everything You Need to Know About False Ceiling Costs in Bangalore"
         para="False ceilings, also known as drop ceilings or suspended ceilings, are becoming an integral part of modern interior design in Bangalore. Not only do they enhance..."
+      />
+      <BlogContentCard
+        img={pccConcretingBanner}
+        alt="PCC Concreting Banner"
+        link="/building-strong-foundations-with-durable-pcc-concreting-for-your-projects"
+        head="Building Strong Foundations with Durable PCC Concreting for Your Projects"
+        para="When embarking on any construction project, the foundation is the most critical element that determines its strength and..."
       />
     </div>
   );

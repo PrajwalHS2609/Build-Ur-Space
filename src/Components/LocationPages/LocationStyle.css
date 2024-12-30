@@ -1,0 +1,42 @@
+.locationHeadContainer {
+    /* border: solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+  } 
+  .locationHeadContainer > h1 {
+    color: var(--customColor);
+    width: 100%;
+    text-align: center;
+  }
+  .locationHeadContainer > h2 {
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+  }
+  .locationHeadContainer > h2 > span {
+    color: var(--customColor);
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+  }
+  .locationHeadContainer > h3 {
+    color: var(--customColor);
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+  }
+  .locationHeadContainer > h4 {
+    text-align: start;
+    width: 100%;
+    font-size: 25px;
+  }
+  .locationHeadContainer > h5 {
+    text-align: start;
+    width: 100%;
+    font-size: 25px;
+  }
