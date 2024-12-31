@@ -82,6 +82,9 @@ import BlogFalseCeiling from "./Components/Blog/BlogPages/BlogFalseCeiling/BlogF
 import CategoryFalseCeiling from "./Components/Blog/BlogCategory/CategoryFalseCeiling/CategoryFalseCeiling";
 import CategoryConstruction from "./Components/Blog/BlogCategory/CategoryConstruction/CategoryConstruction";
 import BlogPccConcreting from "./Components/Blog/BlogPages/BlogPccConcreting/BlogPccConcreting";
+import ConstructionInMSPalya from "./Components/LocationPages/ConstructionInMSPalya/ConstructionInMSPalya";
+import ConstructionInVidyaranyapura from "./Components/LocationPages/ConstructionInVidyaranyapura/ConstructionInVidyaranyapura";
+import ConstructionInBagaluru from "./Components/LocationPages/ConstructionInBagaluru/ConstructionInBagaluru";
 const App = () => {
   return (
     <div>
@@ -373,8 +376,21 @@ const App = () => {
             path="/category-false-ceiling"
             element={<CategoryFalseCeiling />}
           />
-          {/* --------------------------/CategoryDoorsAndWindows------------------------------------------- */}
+          {/* -----------------------------Locations------------------------------ */}
+          <Route
+            path="/house-construction-company-in-ms-palya"
+            element={<ConstructionInMSPalya />}
+          />
+          <Route
+            path="/house-construction-company-in-vidyaranyapura"
+            element={<ConstructionInVidyaranyapura />}
+          />{" "}
+          <Route
+            path="/house-construction-company-in-bagaluru"
+            element={<ConstructionInBagaluru />}
+          />
         </Routes>
+
         {/* </PackageContext> */}
         <WhatsApp />
         <Footer />
