@@ -33,13 +33,6 @@ import InteriorKindergarten from "./Components/Interior/InteriorKindergarten/Int
 import InteriorResort from "./Components/Interior/InteriorResort/InteriorResort";
 import InteriorJewellery from "./Components/Interior/InteriorJewellery/InteriorJewellery";
 import InteriorRetailStore from "./Components/Interior/InteriorRetailStore/InteriorRetailStore";
-import ConstructionInKrPuram from "./Components/Construction/ConstructionInKrPuram/ConstructionInKrPuram";
-import ConstructionInHoskote from "./Components/Construction/ConstructionInHoskote/ConstructionInHoskote";
-import ConstructionInSarjapura from "./Components/Construction/ConstructionInSarjapura/ConstructionInSarjapura";
-import ConstructionInKanakapura from "./Components/Construction/ConstructionInKanakapura/ConstructionInKanakapura";
-import ConstructionInBanaswadi from "./Components/Construction/ConstructionInBanaswadi/ConstructionInBanaswadi";
-import ConstructionInHebbal from "./Components/Construction/ConstructionInHebbal/ConstructionInHebbal";
-import ConstructionInDevanahalli from "./Components/Construction/ConstructionInDevanahalli/ConstructionInDevanahalli";
 import InteriorBed from "./Components/Interior/InteriorBed/InteriorBed";
 import InteriorBook from "./Components/Interior/InteriorBook/InteriorBook";
 import InteriorStudy from "./Components/Interior/InteriorStudy/InteriorStudy";
@@ -50,10 +43,6 @@ import InteriorGlass from "./Components/Interior/InteriorGlass/InteriorGlass";
 import InteriorPuja from "./Components/Interior/InteriorPuja/InteriorPuja";
 import InteriorToughened from "./Components/Interior/InteriorToughened/InteriorToughened";
 import InteriorCabinet from "./Components/Interior/InteriorCabinet/InteriorCabinet";
-import ConstructionInRajankunte from "./Components/Construction/ConstructionInRajankunte/ConstructionInRajankunte";
-import ConstructionInHesaraghatta from "./Components/Construction/ConstructionInHesaraghatta/ConstructionInHesaraghatta";
-import ConstructionInChikkabanavara from "./Components/Construction/ConstructionInChikkabanavara/ConstructionInChikkabanavara";
-import ConstructionInNelamangala from "./Components/Construction/ConstructionInNelamangala/ConstructionInNelamangala";
 import Blog from "./Components/Blog/Blog";
 import BlogWaterProofing from "./Components/Blog/BlogPages/BlogWaterProofing/BlogWaterProofing";
 import BlogBrickMasonry from "./Components/Blog/BlogPages/BlogBrickMasonry/BlogBrickMasonry";
@@ -68,11 +57,7 @@ import InteriorToughenedGlassPartition from "./Components/Interior/InteriorTough
 import InteriorToughenedGlassDoor from "./Components/Interior/InteriorToughenedGlassDoor/InteriorToughenedGlassDoor";
 import WhatsApp from "./Components/HomePage/WhatsApp/WhatsApp";
 import Footer from "./Components/Footer/Footer";
-import ConstructionInMadanaykanahalli from "./Components/Construction/ConstructionInMadanaykanahalli/ConstructionInMadanaykanahalli";
-import ConstructionInMagadi from "./Components/Construction/ConstructionInMagadi.jsx/ConstructionInMagadi";
-import ConstructionInHerohalli from "./Components/Construction/ConstructionInHerohalli/ConstructionInHerohalli";
-import ConstructionInKengeri from "./Components/Construction/ConstructionInKengeri/ConstructionInKengeri";
-import ConstructionInBidadi from "./Components/Construction/ConstructionInBidadi/ConstructionInBidadi";
+
 import BlogWindowAndDoor from "./Components/Blog/BlogPages/BlogWindowAndDoor/BlogWindowAndDoor";
 import BlogEssentialVastu from "./Components/Blog/BlogPages/BlogEssentialVastu/BlogEssentialVastu";
 import CategoryDoorsAndWindows from "./Components/Blog/BlogCategory/CategoryDoorsAndWindows/CategoryDoorsAndWindows";
@@ -85,6 +70,23 @@ import BlogPccConcreting from "./Components/Blog/BlogPages/BlogPccConcreting/Blo
 import ConstructionInMSPalya from "./Components/LocationPages/ConstructionInMSPalya/ConstructionInMSPalya";
 import ConstructionInVidyaranyapura from "./Components/LocationPages/ConstructionInVidyaranyapura/ConstructionInVidyaranyapura";
 import ConstructionInBagaluru from "./Components/LocationPages/ConstructionInBagaluru/ConstructionInBagaluru";
+import ConstructionInHoskote from './Components/LocationPages/ConstructionInHoskote/ConstructionInHoskote';
+import ConstructionInKrPuram from './Components/LocationPages/ConstructionInKrPuram/ConstructionInKrPuram';
+import ConstructionInSarjapura from './Components/LocationPages/ConstructionInSarjapura/ConstructionInSarjapura';
+import ConstructionInKanakapura from './Components/LocationPages/ConstructionInKanakapura/ConstructionInKanakapura';
+import ConstructionInBanaswadi from './Components/LocationPages/ConstructionInBanaswadi/ConstructionInBanaswadi';
+import ConstructionInHebbal from './Components/LocationPages/ConstructionInHebbal/ConstructionInHebbal';
+import ConstructionInDevanahalli from './Components/LocationPages/ConstructionInDevanahalli/ConstructionInDevanahalli';
+import ConstructionInRajankunte from './Components/LocationPages/ConstructionInRajankunte/ConstructionInRajankunte';
+import ConstructionInHesaraghatta from './Components/LocationPages/ConstructionInHesaraghatta/ConstructionInHesaraghatta';
+import ConstructionInNelamangala from './Components/LocationPages/ConstructionInNelamangala/ConstructionInNelamangala';
+import ConstructionInChikkabanavara from './Components/LocationPages/ConstructionInChikkabanavara/ConstructionInChikkabanavara';
+import ConstructionInMadanaykanahalli from './Components/LocationPages/ConstructionInMadanaykanahalli/ConstructionInMadanaykanahalli';
+import ConstructionInMagadi from './Components/LocationPages/ConstructionInMagadi.jsx/ConstructionInMagadi';
+import ConstructionInHerohalli from './Components/LocationPages/ConstructionInHerohalli/ConstructionInHerohalli';
+import ConstructionInKengeri from './Components/LocationPages/ConstructionInKengeri/ConstructionInKengeri';
+import ConstructionInBidadi from './Components/LocationPages/ConstructionInBidadi/ConstructionInBidadi';
+
 const App = () => {
   return (
     <div>
@@ -155,70 +157,7 @@ const App = () => {
             path="/budget-homes-construction-in-bangalore"
             element={<ConstructionBudget />}
           />
-          <Route
-            path="/house-construction-company-in-kr-puram"
-            element={<ConstructionInKrPuram />}
-          />
-          <Route
-            path="/house-construction-company-in-hoskote-road"
-            element={<ConstructionInHoskote />}
-          />
-          <Route
-            path="/house-construction-company-in-sarjapura"
-            element={<ConstructionInSarjapura />}
-          />
-          <Route
-            path="/house-construction-company-in-kanakapura-road"
-            element={<ConstructionInKanakapura />}
-          />
-          <Route
-            path="/house-construction-company-in-banaswadi"
-            element={<ConstructionInBanaswadi />}
-          />
-          <Route
-            path="/house-construction-company-in-hebbal"
-            element={<ConstructionInHebbal />}
-          />
-          <Route
-            path="/house-construction-company-in-devanahalli"
-            element={<ConstructionInDevanahalli />}
-          />
-          <Route
-            path="/house-construction-company-in-rajankunte"
-            element={<ConstructionInRajankunte />}
-          />
-          <Route
-            path="/house-construction-company-in-hesaraghatta"
-            element={<ConstructionInHesaraghatta />}
-          />
-          <Route
-            path="/house-construction-company-in-chikkabanavara"
-            element={<ConstructionInChikkabanavara />}
-          />
-          <Route
-            path="/house-construction-company-in-nelamangala"
-            element={<ConstructionInNelamangala />}
-          />
-          <Route
-            path="/house-construction-company-in-madanayakana-halli"
-            element={<ConstructionInMadanaykanahalli />}
-          />
-          <Route
-            path="/house-construction-company-in-magadi-road"
-            element={<ConstructionInMagadi />}
-          />
-          <Route
-            path="/house-construction-company-in-herohalli"
-            element={<ConstructionInHerohalli />}
-          />
-          <Route
-            path="/house-construction-company-in-kengeri"
-            element={<ConstructionInKengeri />}
-          />
-          <Route
-            path="/house-construction-company-in-bidadi"
-            element={<ConstructionInBidadi />}
-          />
+        
           {/* ----------------------Interior-------------------------- */}
           <Route
             path="/glass-partition-in-bangalore-for-home-and-office"
@@ -377,6 +316,70 @@ const App = () => {
             element={<CategoryFalseCeiling />}
           />
           {/* -----------------------------Locations------------------------------ */}
+          <Route
+            path="/house-construction-company-in-kr-puram"
+            element={<ConstructionInKrPuram />}
+          />
+          <Route
+            path="/house-construction-company-in-hoskote-road"
+            element={<ConstructionInHoskote />}
+          />
+          <Route
+            path="/house-construction-company-in-sarjapura"
+            element={<ConstructionInSarjapura />}
+          />
+          <Route
+            path="/house-construction-company-in-kanakapura-road"
+            element={<ConstructionInKanakapura />}
+          />
+          <Route
+            path="/house-construction-company-in-banaswadi"
+            element={<ConstructionInBanaswadi />}
+          />
+          <Route
+            path="/house-construction-company-in-hebbal"
+            element={<ConstructionInHebbal />}
+          />
+          <Route
+            path="/house-construction-company-in-devanahalli"
+            element={<ConstructionInDevanahalli />}
+          />
+          <Route
+            path="/house-construction-company-in-rajankunte"
+            element={<ConstructionInRajankunte />}
+          />
+          <Route
+            path="/house-construction-company-in-hesaraghatta"
+            element={<ConstructionInHesaraghatta />}
+          />
+          <Route
+            path="/house-construction-company-in-chikkabanavara"
+            element={<ConstructionInChikkabanavara />}
+          />
+          <Route
+            path="/house-construction-company-in-nelamangala"
+            element={<ConstructionInNelamangala />}
+          />
+          <Route
+            path="/house-construction-company-in-madanayakana-halli"
+            element={<ConstructionInMadanaykanahalli />}
+          />
+          <Route
+            path="/house-construction-company-in-magadi-road"
+            element={<ConstructionInMagadi />}
+          />
+          <Route
+            path="/house-construction-company-in-herohalli"
+            element={<ConstructionInHerohalli />}
+          />
+          <Route
+            path="/house-construction-company-in-kengeri"
+            element={<ConstructionInKengeri />}
+          />
+          <Route
+            path="/house-construction-company-in-bidadi"
+            element={<ConstructionInBidadi />}
+          />
           <Route
             path="/house-construction-company-in-ms-palya"
             element={<ConstructionInMSPalya />}
