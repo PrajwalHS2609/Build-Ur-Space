@@ -57,12 +57,10 @@ import InteriorToughenedGlassPartition from "./Components/Interior/InteriorTough
 import InteriorToughenedGlassDoor from "./Components/Interior/InteriorToughenedGlassDoor/InteriorToughenedGlassDoor";
 import WhatsApp from "./Components/HomePage/WhatsApp/WhatsApp";
 import Footer from "./Components/Footer/Footer";
-
 import BlogWindowAndDoor from "./Components/Blog/BlogPages/BlogWindowAndDoor/BlogWindowAndDoor";
 import BlogEssentialVastu from "./Components/Blog/BlogPages/BlogEssentialVastu/BlogEssentialVastu";
 import CategoryDoorsAndWindows from "./Components/Blog/BlogCategory/CategoryDoorsAndWindows/CategoryDoorsAndWindows";
 import BlogKitchenHallDesign from "./Components/Blog/BlogPages/BlogKitchenHallDesign/BlogKitchenHallDesign";
-import Snowfall from "./Components/Christmas/Snowfall/Snowfall";
 import BlogFalseCeiling from "./Components/Blog/BlogPages/BlogFalseCeiling/BlogFalseCeiling";
 import CategoryFalseCeiling from "./Components/Blog/BlogCategory/CategoryFalseCeiling/CategoryFalseCeiling";
 import CategoryConstruction from "./Components/Blog/BlogCategory/CategoryConstruction/CategoryConstruction";
@@ -92,7 +90,6 @@ const App = () => {
     <div>
       <BrowserRouter>
         <NavBar />
-        <Snowfall />
         <ScrollTo />
         {/* <PackageContext> */}
         <Routes>
