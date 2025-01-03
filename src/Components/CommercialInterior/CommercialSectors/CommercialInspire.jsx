@@ -68,7 +68,7 @@ const CommercialInspire = () => {
         />
         <InteriorInspireCard
           img1={showroom}
-          h1="showroom"
+          h1="Showroom"
           onClick={handleShowroom}
         />
         <InteriorInspireCard img1={office2} h1="MBanQ" onClick={handleMBanq} />
