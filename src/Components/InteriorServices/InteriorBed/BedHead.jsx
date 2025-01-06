@@ -1,8 +1,9 @@
 import React from "react";
+import "./../InteriorServices.css";
 
 const BedHead = () => {
   return (
-    <div className="architectsHeadContainer">
+    <div className="interiorHeadContainer">
       <h1>Modular Bed in Bangalore for Home: Redefining Comfort and Style</h1>
 
       <p>

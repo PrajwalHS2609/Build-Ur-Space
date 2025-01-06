@@ -2,7 +2,7 @@ import React from "react";
 
 const RentalWhy = () => {
   return (
-    <div className="architectsHeadContainer">
+    <div className="constructionHeadContainer">
       <h2>
         Why Choose Build Ur Space for Rental House Construction in Bangalore?
       </h2>

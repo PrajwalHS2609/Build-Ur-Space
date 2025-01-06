@@ -2,7 +2,7 @@ import React from "react";
 
 const RentalSustainable = () => {
   return (
-    <div className="architectsHeadContainer">
+    <div className="constructionHeadContainer">
       <h2>
         <span>Sustainable</span> Rental House Construction in Bangalore
       </h2>

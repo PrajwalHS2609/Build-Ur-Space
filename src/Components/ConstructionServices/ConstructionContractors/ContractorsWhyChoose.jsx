@@ -3,7 +3,7 @@ import check from "./../../../Images/check.png";
 
 const ContractorsWhyChoose = () => {
   return (
-    <div className="architectsHeadContainer">
+    <div className="constructionHeadContainer">
       <h2>
         Why Choose <span>Build Ur Space</span> as Your Contractors in Bangalore?{" "}
       </h2>

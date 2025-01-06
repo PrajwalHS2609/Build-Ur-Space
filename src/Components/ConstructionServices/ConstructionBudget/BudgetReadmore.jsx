@@ -18,9 +18,9 @@ const BudgetReadmore = () => {
       }
     };
   return (
-    <div className="architectsReadContainer">
+    <div className="constructionReadContainer">
       <BudgetKey />
-      <div ref={switchRef} className="architectsReadDisplayContainer">
+      <div ref={switchRef} className="constructionReadDisplayContainer">
         <BudgetApproach />
         <BudgetBenefits />
         <BudgetPopular/>

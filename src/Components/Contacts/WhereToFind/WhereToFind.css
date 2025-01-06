@@ -17,7 +17,7 @@
 .whereHead > h1 > {
   text-align: center;
 }
-.whereHead > h1 > span {
+.whereHead > h2 > span {
   color: var(--customColor);
 }
 .map {

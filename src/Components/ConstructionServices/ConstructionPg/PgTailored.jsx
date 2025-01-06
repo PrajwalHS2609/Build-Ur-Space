@@ -2,7 +2,7 @@ import React from "react";
 
 const PgTailored = () => {
   return (
-    <div className="architectsHeadContainer">
+    <div className="constructionHeadContainer">
       <h2>
         <span>Tailored Solutions</span> for PG Construction in Bangalore
       </h2>

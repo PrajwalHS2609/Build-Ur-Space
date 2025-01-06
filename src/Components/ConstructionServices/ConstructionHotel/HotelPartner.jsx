@@ -2,7 +2,7 @@ import React from "react";
 
 const HotelPartner = () => {
   return (
-    <div className="architectsHeadContainer">
+    <div className="constructionHeadContainer">
       <h2>
         Partner with <span> Build Ur Space</span> for Hotel Construction in
         Bangalore

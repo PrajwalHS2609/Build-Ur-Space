@@ -2,7 +2,7 @@ import React from "react";
 
 const LowCostCaseStudy = () => {
   return (
-    <div className="architectsHeadContainer">
+    <div className="constructionHeadContainer">
       <h2>
         <span>Case Studies:</span> Successful Low Cost House Construction
         Projects{" "}

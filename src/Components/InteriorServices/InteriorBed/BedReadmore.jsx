@@ -4,6 +4,7 @@ import BedChoosing from "./BedChoosing";
 import BedInstall from "./BedInstall";
 import BedWhy from "./BedWhy";
 import BedProcess from "./BedProcess";
+import "./../InteriorServices.css";
 
 const BedReadmore = () => {
   let [toggle, setToggle] = useState(false);
@@ -18,9 +19,9 @@ const BedReadmore = () => {
     }
   };
   return (
-      <div className="architectsReadContainer">
+      <div className="interiorReadContainer">
         <BedBenefits />
-        <div ref={switchRef} className="architectsReadDisplayContainer">
+        <div ref={switchRef} className="interiorReadDisplayContainer">
           <BedChoosing />
           <BedInstall />
           <BedWhy />

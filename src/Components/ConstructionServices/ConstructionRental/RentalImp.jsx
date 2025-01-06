@@ -2,7 +2,7 @@ import React from "react";
 
 const RentalImp = () => {
   return (
-    <div className="architectsHeadContainer">
+    <div className="constructionHeadContainer">
       <h2>
         The <span>Importance of Rental House</span> Construction in Bangalore
       </h2>

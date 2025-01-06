@@ -13,6 +13,7 @@ import BrandWeUse from "../../HomePage/BrandWeUse/BrandWeUse";
 import Partners from "../../HomePage/Partners/Partners";
 import HomeConstructionImg from "../../HomePage/HomeImg/HomeConstructionImg";
 import HotelReadmore from "./HotelReadmore";
+import "./../ConstructionService.css";
 
 const ConstructionHotel = () => {
   return (
@@ -33,7 +34,7 @@ const ConstructionHotel = () => {
       </Helmet>
       <ConstructionHead />
       <ConstructionTypeMain />
-      <div className="ArchitectsWrapper">
+      <div className="constructionWrapper">
         <HotelHead />
         <HotelImp />
       </div>

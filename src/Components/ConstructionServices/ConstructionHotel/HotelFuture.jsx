@@ -2,7 +2,7 @@ import React from "react";
 
 const HotelFuture = () => {
   return (
-    <div className="architectsHeadContainer">
+    <div className="constructionHeadContainer">
       <h2>
         <span>Future Trends</span> in Hotel Construction in Bangalore
       </h2>

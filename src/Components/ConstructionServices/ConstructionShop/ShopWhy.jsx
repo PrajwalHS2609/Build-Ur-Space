@@ -2,8 +2,8 @@ import React from "react";
 
 const ShopWhy = () => {
   return (
-    <div className="architectsHeadContainer">
-      <h2>Why Shop Construction in Bangalore Matters</h2>
+    <div className="constructionHeadContainer">
+      <h2><span>Why </span>Shop Construction in Bangalore Matters</h2>
 
       <p>
         <a href="https://buildurspace.com/home-and-commercial-construction"> Shop construction in Bangalore</a> is more than just

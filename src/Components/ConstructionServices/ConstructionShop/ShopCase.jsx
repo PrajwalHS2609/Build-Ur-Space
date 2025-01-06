@@ -2,7 +2,7 @@ import React from "react";
 
 const ShopCase = () => {
   return (
-    <div className="architectsHeadContainer">
+    <div className="constructionHeadContainer">
       <h2>
         <span>Case Studies:</span> Successful Shop Construction Projects
       </h2>

@@ -2,7 +2,7 @@ import React from "react";
 
 const PgWhy = () => {
   return (
-    <div className="architectsHeadContainer">
+    <div className="constructionHeadContainer">
       <h2>
         <span>Why Choose</span> PG Construction in Bangalore?
       </h2>

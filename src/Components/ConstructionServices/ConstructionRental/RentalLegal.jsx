@@ -2,7 +2,7 @@ import React from "react";
 
 const RentalLegal = () => {
   return (
-    <div className="architectsHeadContainer">
+    <div className="constructionHeadContainer">
       <h2>
         <span>Legal and Regulatory </span>Considerations in Rental House
         Construction in Bangalore

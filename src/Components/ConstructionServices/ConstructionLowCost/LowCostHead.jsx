@@ -2,7 +2,7 @@ import React from "react";
 
 const LowCostHead = () => {
   return (
-    <div className="architectsHeadContainer">
+    <div className="constructionHeadContainer">
       <h1>
         Low Cost House Construction in Bangalore: Building Your Dream Home
         Affordably{" "}

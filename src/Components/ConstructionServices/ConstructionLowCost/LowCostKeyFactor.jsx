@@ -3,7 +3,7 @@ import house from "./../../../Images/homeRed.png";
 
 const LowCostKeyFactor = () => {
   return (
-    <div className="architectsHeadContainer">
+    <div className="constructionHeadContainer">
       <h2>
         <span>Key Factors</span> in Low Cost House Construction in Bangalore{" "}
       </h2>

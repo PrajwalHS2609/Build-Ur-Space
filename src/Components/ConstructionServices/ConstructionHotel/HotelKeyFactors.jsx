@@ -3,7 +3,7 @@ import house from "./../../../Images/homeRed.png";
 import "./HotelKeyFactors.css";
 const HotelKeyFactors = () => {
   return (
-    <div className="architectsHeadContainer">
+    <div className="constructionHeadContainer">
       <h2>
         <span>Key Factors</span> in Successful Hotel Construction in Bangalore
       </h2>

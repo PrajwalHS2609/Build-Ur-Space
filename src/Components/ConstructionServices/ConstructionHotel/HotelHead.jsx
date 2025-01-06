@@ -2,7 +2,7 @@ import React from "react";
 
 const HotelHead = () => {
   return (
-    <div className="architectsHeadContainer">
+    <div className="constructionHeadContainer">
       <h1>
         Hotel Construction in Bangalore: Building the Future of Hospitalityx
       </h1>

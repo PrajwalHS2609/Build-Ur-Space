@@ -1,8 +1,8 @@
 import React from "react";
-
+import "./../ConstructionService.css";
 const HotelTailored = () => {
   return (
-    <div className="architectsHeadContainer">
+    <div className="constructionHeadContainer">
       <h2>
         <span>Tailored Solutions</span> for Hotel Construction in Bangalore
       </h2>

@@ -3,7 +3,7 @@ import check from "./../../../Images/check.png";
 
 const DuplexWhyChoose = () => {
   return (
-    <div className="architectsHeadContainer">
+    <div className="constructionHeadContainer">
       <h2>
         <span>Why Choose</span> a Duplex House?
       </h2>

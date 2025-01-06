@@ -1,0 +1,218 @@
+.constructionWrapper {
+  /* border: solid; */
+  /* height: 70vh; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+}
+.constructionHeadContainer {
+  /* border: solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px;
+}
+.constructionHeadContainer > h1 {
+  color: var(--customColor);
+  width: 100%;
+  text-align: center;
+}
+.constructionHeadContainer > h2 {
+  text-align: center;
+  width: 100%;
+  font-size: 25px;
+}
+.constructionHeadContainer > h2 > span {
+  color: var(--customColor);
+  text-align: center;
+  width: 100%;
+  font-size: 25px;
+}
+
+.constructionHeadContainer > h3 {
+  color: var(--customColor);
+  text-align: center;
+  width: 100%;
+  font-size: 25px;
+}
+.constructionHeadContainer > h4 {
+  text-align: start;
+  width: 100%;
+  font-size: 25px;
+}
+.constructionHeadContainer > h5 {
+  text-align: start;
+  width: 100%;
+  font-size: 25px;
+}
+.constructionHeadContainer > h5 > span,
+.constructionHeadContainer > h4 > span {
+  color: var(--customColor);
+}
+/* .constructionHeadContainer > li {
+    list-style: none;
+    margin: 10px;
+    font-size: 20px;
+    text-align: justify;
+  } */
+.constructionHeadContainer > li > h6 {
+  font-size: 20px;
+  text-align: justify;
+  color: var(--customColor);
+}
+.constructionHeadContainer > li > a {
+  text-decoration: none;
+  color: var(--customColor);
+}
+
+/* .constructionHeadContainer > li > span {
+    color: var(--customColor);
+    font-weight: bold;
+  } */
+.constructionHeadContainer > li > ul > li {
+  list-style: none;
+  margin: 10px;
+}
+.constructionHeadContainer > li > ul > li > span {
+  color: var(--customColor);
+  font-weight: bold;
+}
+.constructionHeadContainer > li > ul > li > p > a {
+  color: var(--customColor);
+  text-decoration: none;
+}
+
+/* .constructionHeadContainer > p {
+    text-align: justify;
+    font-size: 20px;
+  } */
+
+.constructionHeadContainer > p {
+  font-size: 20px;
+  width: 100%;
+  text-align: justify;
+}
+.constructionHeadContainer > p > a {
+  color: var(--customColor);
+  text-decoration: none;
+}
+.constructionHeadContainer > li > p > a {
+  text-decoration: none;
+  color: var(--customColor);
+}
+.constructionHeadContainer > li {
+  list-style: none;
+  font-size: 20px;
+  text-align: justify;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  width: 90%;
+}
+.constructionHeadContainer > li > span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: var(--customColor);
+  text-align: start;
+  font-weight: bold;
+}
+.constructionHeadContainer > li > span > img {
+  width: 20px;
+  height: 20px;
+  font-weight: bold;
+}
+
+/* ----------------------------construction Readmore----------------------------------- */
+.constructionReadContainer {
+  /* border: solid; */
+  /* height: 70vh; */
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.constructionReadDisplayContainer {
+  /* border: solid green; */
+  width: 100%;
+  height: 100%;
+  display: none;
+  cursor: default;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.constructionReadContainer > button {
+  border: solid red;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  background-color: var(--customColor);
+  color: white;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .constructionWrapper {
+    /* border: solid; */
+    /* height: 70vh; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .constructionHeadContainer {
+    /* border: solid red; */
+    padding: 20px;
+  }
+  .constructionHeadContainer > h2 {
+    text-align: center;
+    font-size: 20px;
+  }
+  .constructionHeadContainer > h3 {
+    text-align: center;
+    font-size: 20px;
+  }
+  .constructionHeadContainer > h4 {
+    text-align: center;
+    font-size: 20px;
+  }
+  .constructionHeadContainer > h5 {
+    text-align: center;
+    font-size: 20px;
+  }
+  /* -------------------construction Readmore------------------------------------- */
+  .constructionReadContainer {
+    /* border: solid red; */
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0px;
+    text-align: justify;
+    padding: 10px;
+  }
+
+  .constructionReadDisplayContainer {
+    height: 100%;
+  }
+}

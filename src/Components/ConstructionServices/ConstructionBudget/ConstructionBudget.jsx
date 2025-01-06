@@ -32,7 +32,7 @@ const ConstructionBudget = () => {
     </Helmet>
     <ConstructionHead />
     <ConstructionTypeMain />
-    <div className="ArchitectsWrapper">
+    <div className="constructionWrapper">
       <BudgetHead />
     </div>
     <Portfolio />

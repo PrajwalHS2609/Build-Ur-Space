@@ -33,7 +33,7 @@ const ConstructionPg = () => {
       </Helmet>
       <ConstructionHead />
       <ConstructionTypeMain />
-      <div className="ArchitectsWrapper">
+      <div className="constructionWrapper">
         <PgHead />
         <PgWhy />
       </div>

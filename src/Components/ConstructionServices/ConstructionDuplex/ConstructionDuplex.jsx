@@ -34,7 +34,7 @@ const ConstructionDuplex = () => {
       </Helmet>
       <ConstructionHead />
       <ConstructionTypeMain />
-      <div className="ArchitectsWrapper">
+      <div className="constructionWrapper">
         <DuplexHead />
         <DuplexWhyChoose />
       </div>

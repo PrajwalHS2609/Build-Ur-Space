@@ -2,7 +2,7 @@ import React from "react";
 
 const HotelRole = () => {
   return (
-    <div className="architectsHeadContainer">
+    <div className="constructionHeadContainer">
       <h2>
         <span>The Role of Technology</span> in Hotel Construction in Bangalore
       </h2>

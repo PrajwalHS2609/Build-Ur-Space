@@ -2,7 +2,7 @@ import React from "react";
 
 const ShopProcess = () => {
   return (
-    <div className="architectsHeadContainer">
+    <div className="constructionHeadContainer">
       <h2>
         <span>The Process</span> of Shop Construction in Bangalore with Build Ur
         Space

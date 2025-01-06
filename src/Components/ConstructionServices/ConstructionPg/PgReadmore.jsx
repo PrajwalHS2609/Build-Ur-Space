@@ -21,10 +21,10 @@ const PgReadmore = () => {
       }
     };
   return (
-    <div className="architectsReadContainer">
+    <div className="constructionReadContainer">
       <PgTailored />
       <PgDesigning />
-      <div ref={switchRef} className="architectsReadDisplayContainer">
+      <div ref={switchRef} className="constructionReadDisplayContainer">
         <PgNavigation />
         <PgSustainable />
         <PgMaximize />

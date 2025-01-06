@@ -2,7 +2,7 @@ import React from "react";
 
 const ResidentialSuccess = () => {
   return (
-    <div className="architectsHeadContainer">
+    <div className="constructionHeadContainer">
       <h2>
         <span>Success Stories</span> in Residential House Construction in
         Bangalore

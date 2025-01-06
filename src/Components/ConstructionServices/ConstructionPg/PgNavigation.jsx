@@ -2,7 +2,7 @@ import React from "react";
 
 const PgNavigation = () => {
   return (
-    <div className="architectsHeadContainer">
+    <div className="constructionHeadContainer">
       <h2>
         <span> Navigating Regulations and Compliance</span> in PG Construction
         in Bangalore

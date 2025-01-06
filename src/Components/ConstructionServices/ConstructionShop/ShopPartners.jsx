@@ -2,7 +2,7 @@ import React from "react";
 
 const ShopPartners = () => {
   return (
-    <div className="architectsHeadContainer">
+    <div className="constructionHeadContainer">
       <h2>
         Partner with Build Ur Space for Your Shop Construction in Bangalore
       </h2>

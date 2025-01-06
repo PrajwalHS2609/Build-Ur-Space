@@ -9,12 +9,12 @@ const ConstructionHead = () => {
   return (
     <>
       <div className="homeHeaderImgContainer">
-        <img src={constructionBanner} alt="" loading="lazy"/>
+        <img src={constructionBanner} alt="constructionBanner" loading="lazy"/>
         <HomeFrom />
       </div>
       <div className="respHomeHeaderImgContainer">
-        <img src={constructionImg} alt="" loading="lazy"/>
-        <img src={splitContent} alt="" loading="lazy"/>
+        <img src={constructionImg} alt="constructionBanner1" loading="lazy"/>
+        <img src={splitContent} alt="constructionBanner2" loading="lazy"/>
       </div>
       <RespHomeForm />
     </>

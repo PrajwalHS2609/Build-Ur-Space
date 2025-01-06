@@ -3,7 +3,7 @@ import check from "./../../../Images/check.png";
 
 const ShopBenefits = () => {
   return (
-    <div className="architectsHeadContainer">
+    <div className="constructionHeadContainer">
       <h2>
         Benefits of Choosing <span>Build Ur Space</span> for Shop Construction
         in Bangalore{" "}

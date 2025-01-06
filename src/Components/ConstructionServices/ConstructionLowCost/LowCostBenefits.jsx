@@ -2,7 +2,7 @@ import React from "react";
 
 const LowCostBenefits = () => {
   return (
-    <div className="architectsHeadContainer">
+    <div className="constructionHeadContainer">
       <h2>
         Benefits of Low Cost House Construction in Bangalore with{" "}
         <span>Build Ur Space</span>{" "}

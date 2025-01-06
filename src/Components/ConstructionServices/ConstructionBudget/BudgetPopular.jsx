@@ -2,7 +2,7 @@ import React from "react";
 
 const BudgetPopular = () => {
   return (
-    <div className="architectsHeadContainer">
+    <div className="constructionHeadContainer">
       <h2>
         <span>Popular Areas </span>for Budget Homes Construction in Bangalore
       </h2>

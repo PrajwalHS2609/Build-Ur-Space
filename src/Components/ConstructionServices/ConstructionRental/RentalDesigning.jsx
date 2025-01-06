@@ -2,7 +2,7 @@ import React from "react";
 
 const RentalDesigning = () => {
   return (
-    <div className="architectsHeadContainer">
+    <div className="constructionHeadContainer">
       <h2>
         <span> Designing for Tenant</span> Satisfaction in Rental House
         Construction in Bangalore

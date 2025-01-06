@@ -2,7 +2,7 @@ import React from "react";
 
 const RentalLongTerm = () => {
   return (
-    <div className="architectsHeadContainer">
+    <div className="constructionHeadContainer">
       <h2>
         <span>Long-Term Support</span> for Rental House Construction in
         Bangalore

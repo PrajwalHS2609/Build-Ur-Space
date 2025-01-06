@@ -2,7 +2,7 @@ import React from "react";
 
 const RentalMaximize = () => {
   return (
-    <div className="architectsHeadContainer">
+    <div className="constructionHeadContainer">
       <h2>
         <span>Maximizing ROI</span> with Rental House Construction in Bangalore
       </h2>

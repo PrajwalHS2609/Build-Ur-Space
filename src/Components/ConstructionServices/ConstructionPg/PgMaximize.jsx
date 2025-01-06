@@ -2,7 +2,7 @@ import React from "react";
 
 const PgMaximize = () => {
   return (
-    <div className="architectsHeadContainer">
+    <div className="constructionHeadContainer">
       <h2>
         <span>Maximizing ROI</span> with PG Construction in Bangalore
       </h2>

@@ -33,7 +33,7 @@ const ConstructionContractors = () => {
       </Helmet>
       <ConstructionHead />
       <ConstructionTypeMain />
-      <div className="ArchitectsWrapper">
+      <div className="constructionWrapper">
         <ContractorsHead />
         <ContractorsWhyChoose />
       </div>

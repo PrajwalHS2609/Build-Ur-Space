@@ -1,9 +1,10 @@
 import React from "react";
 import point from "./../../../Images/point.png";
+import "./../InteriorServices.css";
 
 const BedChoosing = () => {
   return (
-    <div className="architectsHeadContainer">
+    <div className="interiorHeadContainer">
       <h2>
         <span>Choosing </span>the Right Modular Bed{" "}
       </h2>

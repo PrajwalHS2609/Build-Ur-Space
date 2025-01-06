@@ -2,7 +2,7 @@ import React from "react";
 
 const DuplexProcess = () => {
   return (
-    <div className="architectsHeadContainer">
+    <div className="constructionHeadContainer">
       <h2>
         <span> The Process</span> of Duplex House Construction in Bangalore{" "}
       </h2>

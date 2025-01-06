@@ -2,7 +2,7 @@ import React from "react";
 
 const ResidentialWhy = () => {
   return (
-    <div className="architectsHeadContainer">
+    <div className="constructionHeadContainer">
       <h2>
         Why <span>Build Ur Space </span>is the Right Choice for Residential
         House Construction in Bangalore?

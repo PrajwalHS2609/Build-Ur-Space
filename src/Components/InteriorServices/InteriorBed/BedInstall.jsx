@@ -2,7 +2,7 @@ import React from "react";
 
 const BedInstall = () => {
   return (
-    <div className="architectsHeadContainer">
+    <div className="interiorHeadContainer">
       <h2>
         <span>The Installation</span> Process{" "}
       </h2>

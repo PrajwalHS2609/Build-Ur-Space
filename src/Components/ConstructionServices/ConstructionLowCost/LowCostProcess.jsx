@@ -15,7 +15,7 @@ const LowCostProcess = () => {
         consultation to understand your goals, budget, and vision for the hotel.
       </li>
       <li>
-        <span> 2. Design Development:</span> Our architects and designers create
+        <span> 2. Design Development:</span> Our construction and designers create
         a comprehensive design plan for your hotel construction in Bangalore,
         incorporating your preferences and market trends.
       </li>

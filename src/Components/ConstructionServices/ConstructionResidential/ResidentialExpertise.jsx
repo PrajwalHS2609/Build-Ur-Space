@@ -3,7 +3,7 @@ import house from "./../../../Images/homeRed.png";
 
 const ResidentialExpertise = () => {
   return (
-    <div className="architectsHeadContainer">
+    <div className="constructionHeadContainer">
       <h2>
         <span>Our Expertise</span> in Residential House Construction in
         Bangalore{" "}

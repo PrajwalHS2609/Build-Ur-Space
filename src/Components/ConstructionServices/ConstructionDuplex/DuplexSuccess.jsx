@@ -2,7 +2,7 @@ import React from "react";
 
 const DuplexSuccess = () => {
   return (
-    <div className="architectsHeadContainer">
+    <div className="constructionHeadContainer">
       <h2>
         <span>Success Stories</span> in Duplex House Construction in Bangalore
       </h2>

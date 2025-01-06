@@ -1,8 +1,9 @@
 import React from "react";
+import "./../InteriorServices.css";
 
 const BedWhy = () => {
   return (
-    <div className="architectsHeadContainer">
+    <div className="interiorHeadContainer">
       <h2>
         Why Choose <span>Build Ur Space</span>?
       </h2>

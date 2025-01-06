@@ -2,7 +2,7 @@ import React from "react";
 
 const BudgetBuilding = () => {
   return (
-    <div className="architectsHeadContainer">
+    <div className="constructionHeadContainer">
       <h2>
         Building Your Dream with <span>Build Ur Space</span>
       </h2>

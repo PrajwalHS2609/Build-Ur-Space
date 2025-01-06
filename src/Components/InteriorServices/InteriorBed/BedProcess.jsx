@@ -1,8 +1,9 @@
 import React from "react";
+import "./../InteriorServices.css";
 
 const BedProcess = () => {
   return (
-    <div className="architectsHeadContainer">
+    <div className="interiorHeadContainer">
       <h2>
         Our <span>Process</span>{" "}
       </h2>

@@ -17,10 +17,10 @@ const DuplexReadmore = () => {
     }
   };
   return (
-    <div className="architectsReadContainer">
+    <div className="constructionReadContainer">
       <DuplexProcess />
       <DuplexExpertise />
-      <div ref={switchRef} className="architectsReadDisplayContainer">
+      <div ref={switchRef} className="constructionReadDisplayContainer">
         <DuplexSuccess />
         <DuplexWhy />
       </div>

@@ -34,7 +34,7 @@ const ConstructionResidential = () => {
       </Helmet>
       <ConstructionHead />
       <ConstructionTypeMain />
-      <div className="ArchitectsWrapper">
+      <div className="constructionWrapper">
         <ResidentialHead />
         <ResidentialWhyChoose />
       </div>

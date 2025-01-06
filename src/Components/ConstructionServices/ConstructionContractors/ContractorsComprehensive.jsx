@@ -3,7 +3,7 @@ import house from "./../../../Images/homeRed.png";
 
 const ContractorsComprehensive = () => {
   return (
-    <div className="architectsHeadContainer">
+    <div className="constructionHeadContainer">
       <h2>
         <span>Our Comprehensive Services</span> as Contractors in Bangalore{" "}
       </h2>

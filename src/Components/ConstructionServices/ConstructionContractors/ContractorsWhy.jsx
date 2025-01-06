@@ -2,7 +2,7 @@ import React from "react";
 
 const ContractorsWhy = () => {
   return (
-    <div className="architectsHeadContainer">
+    <div className="constructionHeadContainer">
       <h2>
         Why <span>Build Ur Space</span> is Your Top Choice for Contractors in
         Bangalore?

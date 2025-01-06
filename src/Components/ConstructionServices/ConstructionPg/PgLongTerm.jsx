@@ -2,7 +2,7 @@ import React from "react";
 
 const PgLongTerm = () => {
   return (
-    <div className="architectsHeadContainer">
+    <div className="constructionHeadContainer">
       <h2>
         <span>Long-Term Benefits</span> of PG Construction in Bangalore
       </h2>

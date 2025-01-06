@@ -2,7 +2,7 @@ import React from "react";
 
 const ContractorsProcess = () => {
   return (
-    <div className="architectsHeadContainer">
+    <div className="constructionHeadContainer">
       <h2>
         <span>The Process of Working</span> with Our Contractors in Bangalore
       </h2>

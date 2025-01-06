@@ -2,7 +2,7 @@ import React from "react";
 
 const HotelImp = () => {
   return (
-    <div className="architectsHeadContainer">
+    <div className="constructionHeadContainer">
       <h2>
         <span>The Importance of</span> Professional Hotel Construction in
         Bangalore

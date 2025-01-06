@@ -21,10 +21,10 @@ const HotelReadmore = () => {
     }
   };
   return (
-    <div className="architectsReadContainer">
+    <div className="constructionReadContainer">
       <HotelTailored />
       <HotelKeyFactors />
-      <div ref={switchRef} className="architectsReadDisplayContainer">
+      <div ref={switchRef} className="constructionReadDisplayContainer">
         <HotelProcess />
         <HotelEnhancing />
         <HotelMaximize />

@@ -3,7 +3,7 @@ import house from "./../../../Images/homeRed.png";
 
 const BudgetKey = () => {
   return (
-    <div className="architectsHeadContainer">
+    <div className="constructionHeadContainer">
       <h2>
         <span>Key Features</span> of Budget Homes Construction in Bangalore{" "}
       </h2>

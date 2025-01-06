@@ -12,7 +12,7 @@ import Partners from "../../HomePage/Partners/Partners";
 import HomeConstructionImg from "../../HomePage/HomeImg/HomeConstructionImg";
 import BedReadmore from "./BedReadmore";
 import BedHead from "./BedHead";
-
+import "./../InteriorServices.css";
 const InteriorBed = () => {
   return (
     <div>
@@ -32,7 +32,7 @@ const InteriorBed = () => {
       </Helmet>
       <ConstructionHead />
       <ConstructionTypeMain />
-      <div className="ArchitectsWrapper">
+      <div className="interiorWrapper">
         <BedHead />
       </div>
       <Portfolio />

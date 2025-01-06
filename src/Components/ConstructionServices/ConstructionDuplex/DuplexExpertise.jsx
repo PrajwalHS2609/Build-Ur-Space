@@ -3,7 +3,7 @@ import house from "./../../../Images/homeRed.png";
 
 const DuplexExpertise = () => {
   return (
-    <div className="architectsHeadContainer">
+    <div className="constructionHeadContainer">
       <h2>
         <span>Our Expertise </span>in Duplex House Construction in Bangalore
       </h2>

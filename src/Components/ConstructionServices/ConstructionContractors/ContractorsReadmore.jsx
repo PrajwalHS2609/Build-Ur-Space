@@ -17,10 +17,10 @@ const ContractorsReadmore = () => {
     }
   };
   return (
-    <div className="architectsReadContainer">
+    <div className="constructionReadContainer">
       <ContractorsComprehensive />
       <ContractorsProcess />
-      <div ref={switchRef} className="architectsReadDisplayContainer">
+      <div ref={switchRef} className="constructionReadDisplayContainer">
         <ContractorsSuccess />
         <ContractorsWhy />
       </div>

@@ -3,7 +3,7 @@ import house from "./../../../Images/homeRed.png";
 
 const ShopKey = () => {
   return (
-    <div className="architectsHeadContainer">
+    <div className="constructionHeadContainer">
       <h2>
         <span>Key Aspects of Successful</span> Shop Construction in Bangalore{" "}
       </h2>

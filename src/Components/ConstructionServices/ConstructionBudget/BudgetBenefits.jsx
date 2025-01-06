@@ -3,7 +3,7 @@ import check from "./../../../Images/check.png";
 
 const BudgetBenefits = () => {
   return (
-    <div className="architectsHeadContainer">
+    <div className="constructionHeadContainer">
       <h2>
         Benefits of Budget Homes Construction in Bangalore with{" "}
         <span>Build Ur Space</span>

@@ -2,7 +2,7 @@ import React from "react";
 
 const ShopHead = () => {
   return (
-    <div className="architectsHeadContainer">
+    <div className="constructionHeadContainer">
       <h1>Shop Construction in Bangalore: Building Your Business’s Future</h1>
 
       <p>

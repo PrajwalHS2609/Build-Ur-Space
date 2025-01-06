@@ -18,10 +18,10 @@ const LowCostReadmore = () => {
       }
     };
   return (
-    <div className="architectsReadContainer">
+    <div className="constructionReadContainer">
     <LowCostKeyFactor />
     <LowCostProcess />
-    <div ref={switchRef} className="architectsReadDisplayContainer">
+    <div ref={switchRef} className="constructionReadDisplayContainer">
       <LowCostBenefits />
       <LowCostCaseStudy />
       <LowCostStart />

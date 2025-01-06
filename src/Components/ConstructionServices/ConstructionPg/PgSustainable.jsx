@@ -2,7 +2,7 @@ import React from "react";
 
 const PgSustainable = () => {
   return (
-    <div className="architectsHeadContainer">
+    <div className="constructionHeadContainer">
       <h2>
         <span>Sustainable Practices</span> in PG Construction in Bangalore
       </h2>

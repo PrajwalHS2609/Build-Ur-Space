@@ -22,10 +22,10 @@ const RentalReadmore = () => {
       }
     };
   return (
-    <div className="architectsReadContainer">
+    <div className="constructionReadContainer">
       <RentalWhy />
       <RentalTailored />
-      <div ref={switchRef} className="architectsReadDisplayContainer">
+      <div ref={switchRef} className="constructionReadDisplayContainer">
         <RentalUnderstanding />
         <RentalSustainable />
         <RentalMaximize />

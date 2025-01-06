@@ -2,7 +2,7 @@ import React from "react";
 
 const RentalHead = () => {
   return (
-    <div className="architectsHeadContainer">
+    <div className="constructionHeadContainer">
       <h1>
         Rental House Construction in Bangalore: Building Your Path to Steady
         Income

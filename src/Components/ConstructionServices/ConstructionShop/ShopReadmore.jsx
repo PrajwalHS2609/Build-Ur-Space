@@ -18,10 +18,10 @@ const ShopReadmore = () => {
     }
   };
   return (
-    <div className="architectsReadContainer">
+    <div className="constructionReadContainer">
       <ShopKey />
       <ShopProcess />
-      <div ref={switchRef} className="architectsReadDisplayContainer">
+      <div ref={switchRef} className="constructionReadDisplayContainer">
         <ShopBenefits />
         <ShopCase />
         <ShopPartners />
