@@ -3,32 +3,34 @@ import "./Blog.css";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDoubleRight } from "@fortawesome/free-solid-svg-icons";
-import kitchenHallDesignBanner from "./../../Images/BlogImgs/Modern Kitchen and Hall Design/Banner.png";
-import falseCeilingBanner from "./../../Images/BlogImgs/False_ceiling/Banner.png";
+import duplexHouseBanner from "./../../Images/BlogImgs/Duplex House Construction/Banner.png";
+import interiorPaintBanner from "./../../Images/BlogImgs/Trending Interior Paint Colors and Expert Tips/Banner.png";
 import pccConcretingBanner from "./../../Images/BlogImgs/PccConcreting/Banner.png";
 
 const BlogCategories = () => {
   const categories = [
     {
       id: 1,
+      img: interiorPaintBanner,
+      alt: "Interior Paint Colors Banner",
+      link: "/trending-interior-paint-colors-and-expert-tips-for-your-home",
+      head: "Trending Interior Paint Colors and Expert Tips for Your Home!",
+      para: "Choosing the right home interior paint colors can completely transform the look and feel of your space. Whether you're...",
+    },
+    {
+      id: 2,
+      img: duplexHouseBanner,
+      alt: "Duplex House Banner",
+      link: "/expert-duplex-house-construction-crafting-dreams-for-modern-living",
+      head: "Expert Duplex House Construction: Crafting Dreams for Modern Living",
+      para: "Building a home is a significant milestone in life, and choosing the right construction style plays a crucial role in defining your ...",
+    },
+    {
+      id: 3,
       link: "/building-strong-foundations-with-durable-pcc-concreting-for-your-projects",
       img: pccConcretingBanner,
       alt: "pcc Concreting Banner",
       head: "Building Strong Foundations with Durable PCC Concreting for Your Projects",
-    },
-    {
-      id: 2,
-      link: "/everything-you-need-to-know-about-false-ceiling-costs-in-bangalore",
-      img: falseCeilingBanner,
-      alt: "falseCeilingBanner",
-      head: "Everything You Need to Know About False Ceiling Costs in Bangalore",
-    },
-    {
-      id: 3,
-      link: "/modern-kitchen-and-hall-design-ideas-for-your-home",
-      img: kitchenHallDesignBanner,
-      alt: "kitchenHallDesignBanner",
-      head: "Modern Kitchen and Hall Design Ideas for Your Home",
     },
   ];
   return (

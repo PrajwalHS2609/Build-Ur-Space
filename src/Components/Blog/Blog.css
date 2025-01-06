@@ -15,15 +15,16 @@
   display: flex;
   justify-content: space-between;
   align-self: center;
+  gap: 50px;
   padding: 10px;
 }
 .blogMain{
   /* border: solid red; */
-  width: 60%;
+  width: 50%;
 }
 .blogCategories {
   /* border: solid black; */
-  width: 30%;
+  width: 40%;
   height: 100%;
   padding: 10px;
   display: flex;

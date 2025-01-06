@@ -9,6 +9,8 @@ import essentialVastuBanner from "./../../Images/BlogImgs/EssentialVastuBanner.p
 import kitchenHallDesignBanner from "./../../Images/BlogImgs/Modern Kitchen and Hall Design/Banner.png";
 import falseCeilingBanner from "./../../Images/BlogImgs/False_ceiling/Banner.png";
 import pccConcretingBanner from "./../../Images/BlogImgs/PccConcreting/Banner.png";
+import duplexHouseBanner from "./../../Images/BlogImgs/Duplex House Construction/Banner.png";
+import interiorPaintBanner from "./../../Images/BlogImgs/Trending Interior Paint Colors and Expert Tips/Banner.png";
 
 const BlogContent = () => {
   const blogs = [
@@ -67,6 +69,20 @@ const BlogContent = () => {
       link: "/building-strong-foundations-with-durable-pcc-concreting-for-your-projects",
       head: "Building Strong Foundations with Durable PCC Concreting for Your Projects",
       para: "When embarking on any construction project, the foundation is the most critical element that determines its strength and...",
+    },
+    {
+      img: duplexHouseBanner,
+      alt: "Duplex House Banner",
+      link: "/expert-duplex-house-construction-crafting-dreams-for-modern-living",
+      head: "Expert Duplex House Construction: Crafting Dreams for Modern Living",
+      para: "Building a home is a significant milestone in life, and choosing the right construction style plays a crucial role in defining your ...",
+    },
+    {
+      img: interiorPaintBanner,
+      alt: "Interior Paint Colors Banner",
+      link: "/trending-interior-paint-colors-and-expert-tips-for-your-home",
+      head: "Trending Interior Paint Colors and Expert Tips for Your Home!",
+      para: "Choosing the right home interior paint colors can completely transform the look and feel of your space. Whether you're...",
     },
   ];
 

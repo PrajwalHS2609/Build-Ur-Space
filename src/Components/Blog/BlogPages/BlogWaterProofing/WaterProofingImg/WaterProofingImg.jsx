@@ -3,7 +3,7 @@ import "./WaterProofingImg.css"
 const WaterProofingImg = (props) => {
   return (
     <div className='waterProofingImg'>
-      <img src={props.img} alt="" />
+      <img src={props.img} alt={props.alt}  loading='lazy'/>
     </div>
   )
 }

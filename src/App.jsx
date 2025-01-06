@@ -30,60 +30,62 @@ import BlogPccConcreting from "./Components/Blog/BlogPages/BlogPccConcreting/Blo
 import ConstructionInMSPalya from "./Components/LocationPages/ConstructionInMSPalya/ConstructionInMSPalya";
 import ConstructionInVidyaranyapura from "./Components/LocationPages/ConstructionInVidyaranyapura/ConstructionInVidyaranyapura";
 import ConstructionInBagaluru from "./Components/LocationPages/ConstructionInBagaluru/ConstructionInBagaluru";
-import ConstructionInHoskote from './Components/LocationPages/ConstructionInHoskote/ConstructionInHoskote';
-import ConstructionInKrPuram from './Components/LocationPages/ConstructionInKrPuram/ConstructionInKrPuram';
-import ConstructionInSarjapura from './Components/LocationPages/ConstructionInSarjapura/ConstructionInSarjapura';
-import ConstructionInKanakapura from './Components/LocationPages/ConstructionInKanakapura/ConstructionInKanakapura';
-import ConstructionInBanaswadi from './Components/LocationPages/ConstructionInBanaswadi/ConstructionInBanaswadi';
-import ConstructionInHebbal from './Components/LocationPages/ConstructionInHebbal/ConstructionInHebbal';
-import ConstructionInDevanahalli from './Components/LocationPages/ConstructionInDevanahalli/ConstructionInDevanahalli';
-import ConstructionInRajankunte from './Components/LocationPages/ConstructionInRajankunte/ConstructionInRajankunte';
-import ConstructionInHesaraghatta from './Components/LocationPages/ConstructionInHesaraghatta/ConstructionInHesaraghatta';
-import ConstructionInNelamangala from './Components/LocationPages/ConstructionInNelamangala/ConstructionInNelamangala';
-import ConstructionInChikkabanavara from './Components/LocationPages/ConstructionInChikkabanavara/ConstructionInChikkabanavara';
-import ConstructionInMadanaykanahalli from './Components/LocationPages/ConstructionInMadanaykanahalli/ConstructionInMadanaykanahalli';
-import ConstructionInMagadi from './Components/LocationPages/ConstructionInMagadi.jsx/ConstructionInMagadi';
-import ConstructionInHerohalli from './Components/LocationPages/ConstructionInHerohalli/ConstructionInHerohalli';
-import ConstructionInKengeri from './Components/LocationPages/ConstructionInKengeri/ConstructionInKengeri';
-import ConstructionInBidadi from './Components/LocationPages/ConstructionInBidadi/ConstructionInBidadi';
-import ConstructionResidential from './Components/ConstructionServices/ConstructionResidential/ConstructionResidential';
-import ConstructionContractors from './Components/ConstructionServices/ConstructionContractors/ConstructionContractors';
-import ConstructionService from './Components/Construction/ConstructionService/ConstructionService';
-import ConstructionShop from './Components/ConstructionServices/ConstructionShop/ConstructionShop';
-import ConstructionLowCost from './Components/ConstructionServices/ConstructionLowCost/ConstructionLowCost';
-import ConstructionHotel from './Components/ConstructionServices/ConstructionHotel/ConstructionHotel';
-import ConstructionPg from './Components/ConstructionServices/ConstructionPg/ConstructionPg';
-import ConstructionRental from './Components/ConstructionServices/ConstructionRental/ConstructionRental';
-import ConstructionArchitects from './Components/ConstructionServices/ConstructionArchitects/ConstructionArchitects';
-import ConstructionDuplex from './Components/ConstructionServices/ConstructionDuplex/ConstructionDuplex';
-import ConstructionBudget from './Components/ConstructionServices/ConstructionBudget/ConstructionBudget';
-import InteriorGlass from './Components/InteriorServices/InteriorGlass/InteriorGlass';
-import InteriorFalse from './Components/InteriorServices/InteriorFalse/InteriorFalse';
-import InteriorShower from './Components/InteriorServices/InteriorShower/InteriorShower';
-import InteriorToughened from './Components/InteriorServices/InteriorToughened/InteriorToughened';
-import InteriorModular from './Components/InteriorServices/InteriorModular/InteriorModular';
-import InteriorCabinet from './Components/InteriorServices/InteriorCabinet/InteriorCabinet';
-import InteriorBed from './Components/InteriorServices/InteriorBed/InteriorBed';
-import InteriorStudy from './Components/InteriorServices/InteriorStudy/InteriorStudy';
-import InteriorBook from './Components/InteriorServices/InteriorBook/InteriorBook';
-import InteriorPuja from './Components/InteriorServices/InteriorPuja/InteriorPuja';
-import InteriorCommercial from './Components/InteriorServices/InteriorCommercial/InteriorCommercial';
-import InteriorRestaurant from './Components/InteriorServices/InteriorRestaurant/InteriorRestaurant';
-import InteriorSalon from './Components/InteriorServices/InteriorSalon/InteriorSalon';
-import InteriorHospital from './Components/InteriorServices/InteriorHospital/InteriorHospital';
-import InteriorKindergarten from './Components/InteriorServices/InteriorKindergarten/InteriorKindergarten';
-import InteriorGypsumPartition from './Components/InteriorServices/InteriorGypsumPartition/InteriorGypsumPartition';
-import InteriorGypsumCeling from './Components/InteriorServices/InteriorGypsumCeling/InteriorGypsumCeling';
-import InteriorRetailStore from './Components/InteriorServices/InteriorRetailStore/InteriorRetailStore';
-import InteriorJewellery from './Components/InteriorServices/InteriorJewellery/InteriorJewellery';
-import InteriorResort from './Components/InteriorServices/InteriorResort/InteriorResort';
-import InteriorGridCeiling from './Components/InteriorServices/InteriorGridCeiling/InteriorGridCeiling';
-import InteriorDryWall from './Components/InteriorServices/InteriorDryWall/InteriorDryWall';
-import InteriorPvcCeiling from './Components/InteriorServices/InteriorPvcCeiling/InteriorPvcCeiling';
-import InteriorWoodenCeiling from './Components/InteriorServices/InteriorWoodenCeiling/InteriorWoodenCeiling';
-import InteriorToughenedGlassDoor from './Components/InteriorServices/InteriorToughenedGlassDoor/InteriorToughenedGlassDoor';
-import InteriorToughenedGlassPartition from './Components/InteriorServices/InteriorToughenedGlassPartition/InteriorToughenedGlassPartition';
+import ConstructionInHoskote from "./Components/LocationPages/ConstructionInHoskote/ConstructionInHoskote";
+import ConstructionInKrPuram from "./Components/LocationPages/ConstructionInKrPuram/ConstructionInKrPuram";
+import ConstructionInSarjapura from "./Components/LocationPages/ConstructionInSarjapura/ConstructionInSarjapura";
+import ConstructionInKanakapura from "./Components/LocationPages/ConstructionInKanakapura/ConstructionInKanakapura";
+import ConstructionInBanaswadi from "./Components/LocationPages/ConstructionInBanaswadi/ConstructionInBanaswadi";
+import ConstructionInHebbal from "./Components/LocationPages/ConstructionInHebbal/ConstructionInHebbal";
+import ConstructionInDevanahalli from "./Components/LocationPages/ConstructionInDevanahalli/ConstructionInDevanahalli";
+import ConstructionInRajankunte from "./Components/LocationPages/ConstructionInRajankunte/ConstructionInRajankunte";
+import ConstructionInHesaraghatta from "./Components/LocationPages/ConstructionInHesaraghatta/ConstructionInHesaraghatta";
+import ConstructionInNelamangala from "./Components/LocationPages/ConstructionInNelamangala/ConstructionInNelamangala";
+import ConstructionInChikkabanavara from "./Components/LocationPages/ConstructionInChikkabanavara/ConstructionInChikkabanavara";
+import ConstructionInMadanaykanahalli from "./Components/LocationPages/ConstructionInMadanaykanahalli/ConstructionInMadanaykanahalli";
+import ConstructionInMagadi from "./Components/LocationPages/ConstructionInMagadi.jsx/ConstructionInMagadi";
+import ConstructionInHerohalli from "./Components/LocationPages/ConstructionInHerohalli/ConstructionInHerohalli";
+import ConstructionInKengeri from "./Components/LocationPages/ConstructionInKengeri/ConstructionInKengeri";
+import ConstructionInBidadi from "./Components/LocationPages/ConstructionInBidadi/ConstructionInBidadi";
+import ConstructionResidential from "./Components/ConstructionServices/ConstructionResidential/ConstructionResidential";
+import ConstructionContractors from "./Components/ConstructionServices/ConstructionContractors/ConstructionContractors";
+import ConstructionService from "./Components/Construction/ConstructionService/ConstructionService";
+import ConstructionShop from "./Components/ConstructionServices/ConstructionShop/ConstructionShop";
+import ConstructionLowCost from "./Components/ConstructionServices/ConstructionLowCost/ConstructionLowCost";
+import ConstructionHotel from "./Components/ConstructionServices/ConstructionHotel/ConstructionHotel";
+import ConstructionPg from "./Components/ConstructionServices/ConstructionPg/ConstructionPg";
+import ConstructionRental from "./Components/ConstructionServices/ConstructionRental/ConstructionRental";
+import ConstructionArchitects from "./Components/ConstructionServices/ConstructionArchitects/ConstructionArchitects";
+import ConstructionDuplex from "./Components/ConstructionServices/ConstructionDuplex/ConstructionDuplex";
+import ConstructionBudget from "./Components/ConstructionServices/ConstructionBudget/ConstructionBudget";
+import InteriorGlass from "./Components/InteriorServices/InteriorGlass/InteriorGlass";
+import InteriorFalse from "./Components/InteriorServices/InteriorFalse/InteriorFalse";
+import InteriorShower from "./Components/InteriorServices/InteriorShower/InteriorShower";
+import InteriorToughened from "./Components/InteriorServices/InteriorToughened/InteriorToughened";
+import InteriorModular from "./Components/InteriorServices/InteriorModular/InteriorModular";
+import InteriorCabinet from "./Components/InteriorServices/InteriorCabinet/InteriorCabinet";
+import InteriorBed from "./Components/InteriorServices/InteriorBed/InteriorBed";
+import InteriorStudy from "./Components/InteriorServices/InteriorStudy/InteriorStudy";
+import InteriorBook from "./Components/InteriorServices/InteriorBook/InteriorBook";
+import InteriorPuja from "./Components/InteriorServices/InteriorPuja/InteriorPuja";
+import InteriorCommercial from "./Components/InteriorServices/InteriorCommercial/InteriorCommercial";
+import InteriorRestaurant from "./Components/InteriorServices/InteriorRestaurant/InteriorRestaurant";
+import InteriorSalon from "./Components/InteriorServices/InteriorSalon/InteriorSalon";
+import InteriorHospital from "./Components/InteriorServices/InteriorHospital/InteriorHospital";
+import InteriorKindergarten from "./Components/InteriorServices/InteriorKindergarten/InteriorKindergarten";
+import InteriorGypsumPartition from "./Components/InteriorServices/InteriorGypsumPartition/InteriorGypsumPartition";
+import InteriorGypsumCeling from "./Components/InteriorServices/InteriorGypsumCeling/InteriorGypsumCeling";
+import InteriorRetailStore from "./Components/InteriorServices/InteriorRetailStore/InteriorRetailStore";
+import InteriorJewellery from "./Components/InteriorServices/InteriorJewellery/InteriorJewellery";
+import InteriorResort from "./Components/InteriorServices/InteriorResort/InteriorResort";
+import InteriorGridCeiling from "./Components/InteriorServices/InteriorGridCeiling/InteriorGridCeiling";
+import InteriorDryWall from "./Components/InteriorServices/InteriorDryWall/InteriorDryWall";
+import InteriorPvcCeiling from "./Components/InteriorServices/InteriorPvcCeiling/InteriorPvcCeiling";
+import InteriorWoodenCeiling from "./Components/InteriorServices/InteriorWoodenCeiling/InteriorWoodenCeiling";
+import InteriorToughenedGlassDoor from "./Components/InteriorServices/InteriorToughenedGlassDoor/InteriorToughenedGlassDoor";
+import InteriorToughenedGlassPartition from "./Components/InteriorServices/InteriorToughenedGlassPartition/InteriorToughenedGlassPartition";
 import InteriorHome from "./Components/InteriorServices/InteriorHome/InteriorHome";
+import BlogDuplexHouse from "./Components/Blog/BlogPages/BlogDuplexHouse.jsx/BlogDuplexHouse";
+import BlogInteriorPaint from "./Components/Blog/BlogPages/BlogInteriorPaint/BlogInteriorPaint";
 
 const App = () => {
   return (
@@ -154,7 +156,6 @@ const App = () => {
             path="/budget-homes-construction-in-bangalore"
             element={<ConstructionBudget />}
           />
-        
           {/* ----------------------Interior-------------------------- */}
           <Route
             path="/glass-partition-in-bangalore-for-home-and-office"
@@ -298,6 +299,14 @@ const App = () => {
           <Route
             path="/building-strong-foundations-with-durable-pcc-concreting-for-your-projects"
             element={<BlogPccConcreting />}
+          />
+          <Route
+            path="/expert-duplex-house-construction-crafting-dreams-for-modern-living"
+            element={<BlogDuplexHouse />}
+          />
+          <Route
+            path="/trending-interior-paint-colors-and-expert-tips-for-your-home"
+            element={<BlogInteriorPaint />}
           />
           {/* --------------------------CategoryDoorsAndWindows------------------------------------------- */}
           <Route
