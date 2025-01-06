@@ -122,8 +122,8 @@ const BlogContent = () => {
   }, [currentPage]);
 
   return (
-    <div className="blogMain">
-      <div className="blogContent">
+    <div className="blogMainWrapper">
+      <div className="blogMainContent">
         {currentBlogs.map((blog, index) => (
           <BlogContentCard
             key={index}
