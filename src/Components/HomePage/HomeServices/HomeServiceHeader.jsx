@@ -6,7 +6,7 @@ const HomeServiceHeader = () => {
       <div className="homeServiceHeaderContent">
         <div className="serviceHeadContainer">
           <h2>
-            HOME <span>SERVICE</span>
+            Our <span>SERVICE</span>
           </h2>
         </div>
       </div>

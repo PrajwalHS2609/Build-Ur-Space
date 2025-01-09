@@ -42,17 +42,20 @@
   /* border: solid yellow; */
   height: 100%;
   width: 25%;
-  background-color: var(--customColor);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   font-size: 20px;
+  background-color: var(--customWhite);
+}
+#navInnerItem1 {
+  border-bottom-left-radius: 20px;
 }
 .navIcon {
-  color: white;
+  color: black;
 }
 .navInnerItem > p {
-  color: white;
+  color: var(--customColor);
 }
 .navLine {
   border-right: 1px solid white;
@@ -60,7 +63,8 @@
 }
 .navInnerItem > p > a {
   margin: 0;
-  color: white;
+  color: black;
+  text-decoration: none;
 }
 .navBarItem2 {
   /* border: solid green; */
@@ -80,7 +84,7 @@
 }
 .navBarItem2 > li > a {
   font-size: 20px;
-  color: var(--customColor);
+  color: black;
   list-style: none;
   text-decoration: none;
 }
@@ -91,6 +95,7 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
+  color: black;
 }
 .dropScroll {
   /* border: solid red; */
@@ -141,7 +146,7 @@
   box-shadow: 0 0 5px grey;
 }
 .dropDown > li > a {
-  color: var(--customColor);
+  color: black;
   text-decoration: none;
   &:hover {
     text-decoration: underline;
@@ -388,7 +393,6 @@
     /* border: solid yellow; */
     height: 100%;
     width: 50%;
-    background-color: var(--customColor);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -397,16 +401,11 @@
   #navInnerItem1 {
     width: 30%;
   }
-  .navIcon {
-    color: white;
-  }
+
   .navInnerItem > p {
     color: white;
   }
-  .navInnerItem > p > a {
-    color: white;
-    text-decoration: none;
-  }
+
   .navBarItem2 {
     /* border: solid green; */
     height: 60%;
@@ -468,7 +467,6 @@
     /* border: solid yellow; */
     height: 100%;
     width: 40%;
-    /* background-color: var(--customColor); */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -477,9 +475,7 @@
   #navInnerItem1 {
     width: 20%;
   }
-  .navIcon {
-    color: white;
-  }
+
   .navInnerItem > p {
     color: white;
   }
@@ -494,7 +490,6 @@
   }
   .navBarItem2 > li > a {
     font-size: 20px;
-    color: var(--customColor);
     list-style: none;
   }
   .navBarItem2 > li > a > img {
