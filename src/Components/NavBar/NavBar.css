@@ -58,7 +58,7 @@
   color: var(--customColor);
 }
 .navLine {
-  border-right: 1px solid white;
+  border-right: 1px solid black;
   height: 80%;
 }
 .navInnerItem > p > a {
