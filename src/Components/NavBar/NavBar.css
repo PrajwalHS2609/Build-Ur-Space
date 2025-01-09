@@ -206,8 +206,8 @@
 }
 
 .respMenuScroll > ul {
-  border-bottom: solid 1px #fff6f4;
-  background-color: var(--customColor);
+  border-bottom: solid 1px black;
+  background-color: var(--customWhite);
   width: 100%;
   display: flex;
   justify-content: flex-start;
@@ -233,7 +233,7 @@
   font-weight: lighter;
 }
 .respMenuScroll > ul > h2 > a {
-  color: white;
+  color: black;
   text-decoration: none;
   padding: 20px;
 }
@@ -244,6 +244,9 @@
   justify-content: flex-start;
   align-items: center;
   width: 100%;
+}
+.respIcon {
+  color: black;
 }
 .respMenuSpace {
   height: 300px;
