@@ -225,6 +225,9 @@
     flex-direction: column;
     gap: 40px;
   }
+  .blogMainWrapper {
+  width: 100%;
+  }
   .blogCategories {
     /* border: solid black; */
     width: 100%;

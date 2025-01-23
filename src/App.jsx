@@ -86,6 +86,8 @@ import InteriorToughenedGlassPartition from "./Components/InteriorServices/Inter
 import InteriorHome from "./Components/InteriorServices/InteriorHome/InteriorHome";
 import BlogDuplexHouse from "./Components/Blog/BlogPages/BlogDuplexHouse.jsx/BlogDuplexHouse";
 import BlogInteriorPaint from "./Components/Blog/BlogPages/BlogInteriorPaint/BlogInteriorPaint";
+import Projects from "./Components/Projects/Projects";
+import SculptingProject from "./Components/Projects/ProjectPages/SculptingProject/SculptingProject";
 
 const App = () => {
   return (
@@ -398,6 +400,18 @@ const App = () => {
             path="/house-construction-company-in-bagaluru"
             element={<ConstructionInBagaluru />}
           />
+          {/* -----------------------------------Projects------------------------------- */}
+          <Route
+            path="/projects"
+            element={<Projects />}
+          />
+          
+          <Route
+            path="/project1"
+            element={<SculptingProject />}
+          />
+
+
         </Routes>
 
         {/* </PackageContext> */}
