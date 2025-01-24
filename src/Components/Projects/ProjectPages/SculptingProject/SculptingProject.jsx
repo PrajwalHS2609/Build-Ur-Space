@@ -3,6 +3,7 @@ import "./../ProjectPage.css";
 import ProjectHeader from "../../ProjectHeader";
 import ProjectPageCarousel from "../ProjectPageCarousel";
 import ProjectPagesContent from "../ProjectPagesContent";
+import ProjectManagement from "../ProjectManagement";
 const SculptingProject = () => {
   return (
     <div className="projectPage-container">
@@ -32,6 +33,7 @@ const SculptingProject = () => {
           <ProjectPageCarousel />
         </div>
       </div>
+      <ProjectManagement/>
     </div>
   );
 };
