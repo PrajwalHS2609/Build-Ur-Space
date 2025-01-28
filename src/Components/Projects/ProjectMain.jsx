@@ -1,23 +1,26 @@
 import React, { useEffect, useState } from "react";
 import "./Project.css";
 import { Link } from "react-router-dom";
+import ResidentialProjectinJakkur9 from "./../../Images/Residential House Construction at Jakkur/ResidentialProjectinJakkur9.jpg";
+import CommercialProjectinChannasandra8 from "./../../Images/Commercial Building Construction in Channasandra/CommercialProjectinChannasandra8.jpeg";
+
 const ProjectMain = () => {
   const project = [
     {
       id: 1,
-      img: "https://kothu.wpengine.com/wp-content/uploads/2024/11/new-project-listing-01.jpg",
-      title: "SCULPTING MODERN HOUSE",
-      subTitle1: "STRUCTURAL DESIGN",
-      subTitle2: "MODERN HOUSE",
+      img: ResidentialProjectinJakkur9,
+      title: "RESIDENTIAL HOUSE IN JAKKUR",
+      subTitle1: "RESIDENTIAL HOUSE",
+      subTitle2: "JAKKUR",
       link: "/project1",
     },
     {
       id: 2,
-      img: "https://kothu.wpengine.com/wp-content/uploads/2024/11/new-project-listing-02.jpg",
-      title: "ECO MODERN CONSTRUCTION",
-      subTitle1: "MODERN HOUSE",
-      subTitle2: "HOUSE DESIGN",
-      link: "/project1",
+      img: CommercialProjectinChannasandra8,
+      title: "COMMERCIAL BUILDING IN CHANNASANDRA",
+      subTitle1: "COMMERCIAL BUILDING",
+      subTitle2: "CHANNASANDRA",
+      link: "/project2",
     },
     {
       id: 3,
@@ -146,7 +149,7 @@ const ProjectMain = () => {
                 <span>
                   <h6>{project.subTitle1}</h6>|<h6>{project.subTitle2}</h6>
                 </span>
-                <Link to={"/"}>
+                <Link to={project.link}>
                   {" "}
                   <h3>{project.title}</h3>
                 </Link>

@@ -87,7 +87,8 @@ import InteriorHome from "./Components/InteriorServices/InteriorHome/InteriorHom
 import BlogDuplexHouse from "./Components/Blog/BlogPages/BlogDuplexHouse.jsx/BlogDuplexHouse";
 import BlogInteriorPaint from "./Components/Blog/BlogPages/BlogInteriorPaint/BlogInteriorPaint";
 import Projects from "./Components/Projects/Projects";
-import SculptingProject from "./Components/Projects/ProjectPages/SculptingProject/SculptingProject";
+import ResidentialHouseInJakkur from "./Components/Projects/ProjectPages/ResidentialHouseInJakkur/ResidentialHouseInJakkur";
+import CommercialBuildinginChannasandra from "./Components/Projects/ProjectPages/CommercialBuildinginChannasandra/CommercialBuildinginChannasandra";
 
 const App = () => {
   return (
@@ -408,9 +409,12 @@ const App = () => {
           
           <Route
             path="/project1"
-            element={<SculptingProject />}
+            element={<ResidentialHouseInJakkur />}
           />
-
+          <Route
+            path="/project2"
+            element={<CommercialBuildinginChannasandra />}
+          />
 
         </Routes>
 

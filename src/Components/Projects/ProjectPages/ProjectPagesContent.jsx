@@ -10,7 +10,7 @@ import {
   faLinkedin,
   faPinterest,
 } from "@fortawesome/free-brands-svg-icons";
-const ProjectPagesContent = () => {
+const ProjectPagesContent = (props) => {
   return (
     <div className="projectPagesContent-container">
       <div className="projectPagesContent-wrapper">
@@ -18,7 +18,7 @@ const ProjectPagesContent = () => {
           <h4>CLIENT</h4>
         </div>
         <div className="projectPagesContent-item">
-          <b>John Doe</b>
+          <b>{props.client}</b>
         </div>
       </div>
       <div className="projectPagesContent-wrapper">
@@ -26,7 +26,7 @@ const ProjectPagesContent = () => {
           <h4>COMPLETION DATE</h4>
         </div>
         <div className="projectPagesContent-item">
-          <b>November 15, 2025</b>
+          <b>{props.date}</b>
         </div>
       </div>
       <div className="projectPagesContent-wrapper">
@@ -34,7 +34,7 @@ const ProjectPagesContent = () => {
           <h4>DELIVERY METHOD</h4>
         </div>
         <div className="projectPagesContent-item">
-          <b>General Contractiong</b>
+          <b>{props.method}</b>
         </div>
       </div>
       <div className="projectPagesContent-wrapper">
@@ -42,7 +42,7 @@ const ProjectPagesContent = () => {
           <h4>TEAM LEADER</h4>
         </div>
         <div className="projectPagesContent-item">
-          <b>Smith</b>
+          <b>{props.leader}</b>
         </div>
       </div>
       <div className="projectPagesContent-wrapper">
@@ -51,8 +51,7 @@ const ProjectPagesContent = () => {
         </div>
         <div className="projectPagesContent-item">
           <b>
-            123, 4th Main Road, JP Nagar 5th Phase, Bengaluru, Karnataka 560078,
-            India.
+            {props.location}
           </b>
         </div>
       </div>

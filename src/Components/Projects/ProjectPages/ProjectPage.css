@@ -14,8 +14,9 @@
   padding: 20px;
 }
 .projectPage-heading > img {
-  width: 1450px;
-  height: 600px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .projectPage-wrapper {
   /* border: solid blue; */
@@ -64,7 +65,7 @@
 .projectPageCarousel-wrapper > .item > img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 /* ----------------------------------------------------------------------- */
 .projectPagesContent-container {

@@ -6,8 +6,8 @@ import ProjectMain from "./ProjectMain";
 const Projects = () => {
   return (
     <div className="project-container">
-      <ProjectHeader heading="Our Projects" />
-      <ProjectMain/>
+      <ProjectHeader heading="Our Ongoing Projects" />
+      <ProjectMain />
     </div>
   );
 };

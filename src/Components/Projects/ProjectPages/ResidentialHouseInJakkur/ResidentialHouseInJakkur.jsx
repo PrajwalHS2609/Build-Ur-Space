@@ -1,22 +1,24 @@
 import React from "react";
 import "./../ProjectPage.css";
 import ProjectHeader from "../../ProjectHeader";
-import ProjectPageCarousel from "../ProjectPageCarousel";
 import ProjectPagesContent from "../ProjectPagesContent";
 import ProjectManagement from "../ProjectManagement";
-const SculptingProject = () => {
+import ResidentialProjectinJakkur6 from "./../../../../Images/Residential House Construction at Jakkur/ResidentialProjectinJakkur6.jpg";
+import ProjectPageCarousel from "./ProjectCarousel";
+
+const ResidentialHouseInJakkur = () => {
   return (
     <div className="projectPage-container">
       <ProjectHeader heading="SCULPTING MODERN HOUSE" id="projectHeaderId" />
       <div className="projectPage-heading">
         <img
-          src="https://kothu.wpengine.com/wp-content/uploads/2024/11/new-project-listing-01.jpg"
-          alt=""
+          src={ResidentialProjectinJakkur6}
+          alt="ResidentialProjectinJakkur6"
         />
       </div>
       <div className="projectPage-wrapper">
         <div className="projectPage-content">
-          <h3>SCULPTING MODERN HOUSE</h3>
+          <h3>RESIDENTIAL HOUSE IN JAKKUR</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione,
             sed. Amet quam nam commodi praesentium. Aliquam eaque magni,
@@ -27,15 +29,21 @@ const SculptingProject = () => {
             commodi fugit rem dignissimos aspernatur aperiam ratione error
             provident!
           </p>
-          <ProjectPagesContent />
+          <ProjectPagesContent
+            client="John Doe"
+            date="29 Nov"
+            method="General"
+            leader="Smith"
+            location="Jakkur"
+          />
         </div>
         <div className="projectPage-content">
           <ProjectPageCarousel />
         </div>
       </div>
-      <ProjectManagement/>
+      <ProjectManagement />
     </div>
   );
 };
 
-export default SculptingProject;
+export default ResidentialHouseInJakkur;
