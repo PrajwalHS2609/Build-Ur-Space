@@ -3,7 +3,7 @@ import "./../ProjectPage.css";
 import ProjectHeader from "../../ProjectHeader";
 import ProjectPagesContent from "../ProjectPagesContent";
 import ProjectManagement from "../ProjectManagement";
-import ResidentialProjectinJakkur6 from "./../../../../Images/Residential House Construction at Jakkur/ResidentialProjectinJakkur6.jpg";
+import ResidentialProjectinJakkur6 from "./../../../../Images/Projects/Residential House Construction at Jakkur/ResidentialProjectinJakkur6.jpg";
 import ProjectPageCarousel from "./ProjectCarousel";
 
 const ResidentialHouseInJakkur = () => {

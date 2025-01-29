@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
 import "./Project.css";
 import { Link } from "react-router-dom";
-import ResidentialProjectinJakkur9 from "./../../Images/Residential House Construction at Jakkur/ResidentialProjectinJakkur9.jpg";
-import CommercialProjectinChannasandra8 from "./../../Images/Commercial Building Construction in Channasandra/CommercialProjectinChannasandra8.jpeg";
+import ResidentialProjectinJakkur9 from "./../../Images/Projects/Residential House Construction at Jakkur/ResidentialProjectinJakkur9.jpg";
+import CommercialProjectinChannasandra8 from "./../../Images/Projects/Commercial Building Construction in Channasandra/CommercialProjectinChannasandra8.jpeg";
+import SizzleMidtown1 from "./../../Images/Projects/Sizzle Midtown/Sizzle Midtown1.png";
 
 const ProjectMain = () => {
   const project = [
@@ -24,11 +25,11 @@ const ProjectMain = () => {
     },
     {
       id: 3,
-      img: "https://kothu.wpengine.com/wp-content/uploads/2024/11/new-project-listing-09.jpg",
-      title: "SIMPLICITY MEET DESIGNERS",
-      subTitle1: "STRUCTURAL DESIGN",
-      subTitle2: "MODERN HOUSE",
-      link: "/project1",
+      img: SizzleMidtown1,
+      title: "SIZZLE MIDTOWN",
+      subTitle1: "RESIDENTIAL HOUSE",
+      subTitle2: "VIGHYAN NAGAR",
+      link: "/project3",
     },
     {
       id: 4,

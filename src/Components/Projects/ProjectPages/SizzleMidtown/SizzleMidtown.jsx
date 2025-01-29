@@ -3,22 +3,22 @@ import "./../ProjectPage.css";
 import ProjectHeader from "../../ProjectHeader";
 import ProjectPagesContent from "../ProjectPagesContent";
 import ProjectManagement from "../ProjectManagement";
-import CommercialProjectinChannasandra9 from "./../../../../Images/Projects/Commercial Building Construction in Channasandra/CommercialProjectinChannasandra9.jpeg";
-import ProjectPageCarousel from "./ProjectPageCarousel";
+import sizzleMidtownBanner from "./../../../../Images/Projects/Sizzle Midtown/sizzleMidtownHeaderBanner.png";
+import ProjectPageCarousel from "./ProjectCarousel";
 
-const CommercialBuildinginChannasandra = () => {
+const SizzleMidtown = () => {
   return (
     <div className="projectPage-container">
       <ProjectHeader heading="SCULPTING MODERN HOUSE" id="projectHeaderId" />
       <div className="projectPage-heading">
         <img
-          src={CommercialProjectinChannasandra9}
-          alt="CommercialProjectinChannasandra9"
+          src={sizzleMidtownBanner}
+          alt="sizzleMidtownBanner"
         />
       </div>
       <div className="projectPage-wrapper">
         <div className="projectPage-content">
-          <h3>COMMERCIAL BUILDING IN CHANNASANDRA</h3>
+          <h3>SIZZLE MIDTOWN IN VIGHYAN NAGAR</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione,
             sed. Amet quam nam commodi praesentium. Aliquam eaque magni,
@@ -34,7 +34,7 @@ const CommercialBuildinginChannasandra = () => {
             date="29 Nov"
             method="General"
             leader="Smith"
-            location="Channasandra"
+            location="Vighyan Nagar"
           />
         </div>
         <div className="projectPage-content">
@@ -46,4 +46,4 @@ const CommercialBuildinginChannasandra = () => {
   );
 };
 
-export default CommercialBuildinginChannasandra;
+export default SizzleMidtown;

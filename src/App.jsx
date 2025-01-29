@@ -89,6 +89,7 @@ import BlogInteriorPaint from "./Components/Blog/BlogPages/BlogInteriorPaint/Blo
 import Projects from "./Components/Projects/Projects";
 import ResidentialHouseInJakkur from "./Components/Projects/ProjectPages/ResidentialHouseInJakkur/ResidentialHouseInJakkur";
 import CommercialBuildinginChannasandra from "./Components/Projects/ProjectPages/CommercialBuildinginChannasandra/CommercialBuildinginChannasandra";
+import SizzleMidtown from "./Components/Projects/ProjectPages/SizzleMidtown/SizzleMidtown";
 
 const App = () => {
   return (
@@ -415,7 +416,10 @@ const App = () => {
             path="/project2"
             element={<CommercialBuildinginChannasandra />}
           />
-
+       <Route
+            path="/project3"
+            element={<SizzleMidtown />}
+          />
         </Routes>
 
         {/* </PackageContext> */}

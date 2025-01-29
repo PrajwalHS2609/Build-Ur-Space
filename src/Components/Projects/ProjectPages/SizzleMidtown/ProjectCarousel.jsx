@@ -2,45 +2,39 @@ import React from "react";
 import "./../ProjectPage.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import ResidentialProjectinJakkur3 from "./../../../../Images/Projects/Residential House Construction at Jakkur/ResidentialProjectinJakkur3.jpg";
-import ResidentialProjectinJakkur4 from "./../../../../Images/Projects/Residential House Construction at Jakkur/ResidentialProjectinJakkur4.jpg";
-import ResidentialProjectinJakkur5 from "./../../../../Images/Projects/Residential House Construction at Jakkur/ResidentialProjectinJakkur5.jpg";
-import ResidentialProjectinJakkur8 from "./../../../../Images/Projects/Residential House Construction at Jakkur/ResidentialProjectinJakkur8.jpg";
-import ResidentialProjectinJakkur11 from "./../../../../Images/Projects/Residential House Construction at Jakkur/ResidentialProjectinJakkur11.jpg";
-import ResidentialProjectinJakkur14 from "./../../../../Images/Projects/Residential House Construction at Jakkur/ResidentialProjectinJakkur14.jpg";
+import SizzleMidtown1 from "./../../../../Images/Projects/Sizzle Midtown/Sizzle Midtown1.png";
+import SizzleMidtown2 from "./../../../../Images/Projects/Sizzle Midtown/Sizzle Midtown2.png";
+import SizzleMidtown3 from "./../../../../Images/Projects/Sizzle Midtown/Sizzle Midtown3.png";
+import SizzleMidtown4 from "./../../../../Images/Projects/Sizzle Midtown/Sizzle Midtown4.png";
+import SizzleMidtown5 from "./../../../../Images/Projects/Sizzle Midtown/Sizzle Midtown5.png";
 
 const ProjectPageCarousel = () => {
   const projectImg = [
     {
       id: 1,
-      img: ResidentialProjectinJakkur3,
-      alt: "ResidentialProjectinJakkur3",
+      img: SizzleMidtown1,
+      alt: "SizzleMidtown1",
     },
     {
       id: 2,
-      img: ResidentialProjectinJakkur4,
-      alt: "ResidentialProjectinJakkur4",
+      img: SizzleMidtown2,
+      alt: "SizzleMidtown2",
     },
     {
       id: 3,
-      img: ResidentialProjectinJakkur5,
-      alt: "ResidentialProjectinJakkur5",
+      img: SizzleMidtown3,
+      alt: "SizzleMidtown3",
     },
 
     {
       id: 4,
-      img: ResidentialProjectinJakkur8,
-      alt: "ResidentialProjectinJakkur8",
+      img: SizzleMidtown4,
+      alt: "SizzleMidtown4",
     },
     {
       id: 5,
-      img: ResidentialProjectinJakkur11,
-      alt: "ResidentialProjectinJakkur11",
-    },
-    {
-      id: 6,
-      img: ResidentialProjectinJakkur14,
-      alt: "ResidentialProjectinJakkur14",
+      img: SizzleMidtown5,
+      alt: "SizzleMidtown5",
     },
   ];
   const responsive = {

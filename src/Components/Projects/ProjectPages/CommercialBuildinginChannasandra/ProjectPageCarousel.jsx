@@ -2,12 +2,12 @@ import React from "react";
 import "./../ProjectPage.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import CommercialProjectinChannasandra2 from "./../../../../Images/Commercial Building Construction in Channasandra/CommercialProjectinChannasandra2.png";
-import CommercialProjectinChannasandra3 from "./../../../../Images/Commercial Building Construction in Channasandra/CommercialProjectinChannasandra3.jpeg";
-import CommercialProjectinChannasandra5 from "./../../../../Images/Commercial Building Construction in Channasandra/CommercialProjectinChannasandra5.png";
-import CommercialProjectinChannasandra8 from "./../../../../Images/Commercial Building Construction in Channasandra/CommercialProjectinChannasandra8.jpeg";
-import CommercialProjectinChannasandra1 from "./../../../../Images/Commercial Building Construction in Channasandra/CommercialProjectinChannasandra1.png";
-import CommercialProjectinChannasandra7 from "./../../../../Images/Commercial Building Construction in Channasandra/CommercialProjectinChannasandra7.png";
+import CommercialProjectinChannasandra2 from "./../../../../Images/Projects/Commercial Building Construction in Channasandra/CommercialProjectinChannasandra2.png";
+import CommercialProjectinChannasandra3 from "./../../../../Images/Projects/Commercial Building Construction in Channasandra/CommercialProjectinChannasandra3.jpeg";
+import CommercialProjectinChannasandra5 from "./../../../../Images/Projects/Commercial Building Construction in Channasandra/CommercialProjectinChannasandra5.png";
+import CommercialProjectinChannasandra8 from "./../../../../Images/Projects/Commercial Building Construction in Channasandra/CommercialProjectinChannasandra8.jpeg";
+import CommercialProjectinChannasandra1 from "./../../../../Images/Projects/Commercial Building Construction in Channasandra/CommercialProjectinChannasandra1.png";
+import CommercialProjectinChannasandra7 from "./../../../../Images/Projects/Commercial Building Construction in Channasandra/CommercialProjectinChannasandra7.png";
 const ProjectPageCarousel = () => {
   const projectImg = [
     {
