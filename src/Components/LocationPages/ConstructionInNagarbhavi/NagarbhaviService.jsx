@@ -13,12 +13,10 @@ const NagarbhaviService = () => {
           Residential Construction{" "}
         </span>
         <p>
-          <ul>
-            <li>• Independent houses</li>
-            <li>• Duplex homes</li>
-            <li>• Villas</li>
-            <li>• Row houses</li>
-          </ul>
+          • Independent houses <br />
+          • Duplex homes <br />
+          • Villas <br />
+          • Row houses <br />
         </p>
       </li>
       <li>
