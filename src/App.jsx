@@ -90,6 +90,11 @@ import Projects from "./Components/Projects/Projects";
 import ResidentialHouseInJakkur from "./Components/Projects/ProjectPages/ResidentialHouseInJakkur/ResidentialHouseInJakkur";
 import CommercialBuildinginChannasandra from "./Components/Projects/ProjectPages/CommercialBuildinginChannasandra/CommercialBuildinginChannasandra";
 import SizzleMidtown from "./Components/Projects/ProjectPages/SizzleMidtown/SizzleMidtown";
+import ConstructionInNagarbhavi from './Components/LocationPages/ConstructionInNagarbhavi/ConstructionInNagarbhavi';
+import ConstructionInUttarhalli from "./Components/LocationPages/ConstructionInUttarhalli/ConstructionInUttarhalli";
+import ConstructionInSunkadakatte from './Components/LocationPages/ConstructionInSunkadakatte/ConstructionInSunkadakatte';
+import ConstructionInSinghanayakanaHalli from './Components/LocationPages/ConstructionInSinghanayakanaHalli/ConstructionInSinghanayakanaHalli';
+import ConstructionInKothnur from "./Components/LocationPages/ConstructionInKothnur/ConstructionInKothnur";
 
 const App = () => {
   return (
@@ -402,24 +407,38 @@ const App = () => {
             path="/house-construction-company-in-bagaluru"
             element={<ConstructionInBagaluru />}
           />
+          <Route
+            path="/house-construction-company-in-nagarbhavi"
+            element={<ConstructionInNagarbhavi />}
+          />
+          <Route
+            path="/house-construction-company-in-uttarhalli"
+            element={<ConstructionInUttarhalli />}
+          />
+          <Route
+            path="/house-construction-company-in-rr-nagar"
+            element={<ConstructionInBagaluru />}
+          />
+          <Route
+            path="/house-construction-company-in-kothnur"
+            element={<ConstructionInKothnur />}
+          />
+          <Route
+            path="/house-construction-company-in-sunkadakatte"
+            element={<ConstructionInSunkadakatte />}
+          />
+          <Route
+            path="/house-construction-company-in-singhanayakana-halli"
+            element={<ConstructionInSinghanayakanaHalli />}
+          />
           {/* -----------------------------------Projects------------------------------- */}
-          <Route
-            path="/projects"
-            element={<Projects />}
-          />
-          
-          <Route
-            path="/project1"
-            element={<ResidentialHouseInJakkur />}
-          />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/project1" element={<ResidentialHouseInJakkur />} />
           <Route
             path="/project2"
             element={<CommercialBuildinginChannasandra />}
           />
-       <Route
-            path="/project3"
-            element={<SizzleMidtown />}
-          />
+          <Route path="/project3" element={<SizzleMidtown />} />
         </Routes>
 
         {/* </PackageContext> */}

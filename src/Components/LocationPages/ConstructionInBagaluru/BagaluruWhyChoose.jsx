@@ -36,7 +36,7 @@ const BagaluruWhyChoose = () => {
       <li>
         <span>
           <img src={check} alt="check" />
-          Timely Delivery:f
+          Timely Delivery:
         </span>
         <p>
           We value your time and commitments. Our efficient project management
