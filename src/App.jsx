@@ -90,11 +90,17 @@ import Projects from "./Components/Projects/Projects";
 import ResidentialHouseInJakkur from "./Components/Projects/ProjectPages/ResidentialHouseInJakkur/ResidentialHouseInJakkur";
 import CommercialBuildinginChannasandra from "./Components/Projects/ProjectPages/CommercialBuildinginChannasandra/CommercialBuildinginChannasandra";
 import SizzleMidtown from "./Components/Projects/ProjectPages/SizzleMidtown/SizzleMidtown";
-import ConstructionInNagarbhavi from './Components/LocationPages/ConstructionInNagarbhavi/ConstructionInNagarbhavi';
+import ConstructionInNagarbhavi from "./Components/LocationPages/ConstructionInNagarbhavi/ConstructionInNagarbhavi";
 import ConstructionInUttarhalli from "./Components/LocationPages/ConstructionInUttarhalli/ConstructionInUttarhalli";
-import ConstructionInSunkadakatte from './Components/LocationPages/ConstructionInSunkadakatte/ConstructionInSunkadakatte';
-import ConstructionInSinghanayakanaHalli from './Components/LocationPages/ConstructionInSinghanayakanaHalli/ConstructionInSinghanayakanaHalli';
+import ConstructionInSunkadakatte from "./Components/LocationPages/ConstructionInSunkadakatte/ConstructionInSunkadakatte";
+import ConstructionInSinghanayakanaHalli from "./Components/LocationPages/ConstructionInSinghanayakanaHalli/ConstructionInSinghanayakanaHalli";
 import ConstructionInKothnur from "./Components/LocationPages/ConstructionInKothnur/ConstructionInKothnur";
+import ConstructionInKannur from "./Components/LocationPages/ConstructionInKannur/ConstructionInKannur";
+import ConstructionInKogilu from "./Components/LocationPages/ConstructionInKogilu/ConstructionInKogilu";
+import ConstructionInYelahankaNew from "./Components/LocationPages/ConstructionInYelahankaNew/ConstructionInYelahankaNew";
+import ConstructionInYelahanka from "./Components/LocationPages/ConstructionInYelahanka/ConstructionInYelahanka";
+import ConstructionInHebbalService from "./Components/LocationPages/ConstructionInHebbalService/ConstructionInHebbalService";
+import ConstructionInSahakarNagar from "./Components/LocationPages/ConstructionInSahakarNagar/ConstructionInSahakarNagar";
 
 const App = () => {
   return (
@@ -430,6 +436,30 @@ const App = () => {
           <Route
             path="/house-construction-company-in-singhanayakana-halli"
             element={<ConstructionInSinghanayakanaHalli />}
+          />
+          <Route
+            path="/house-construction-company-in-kannur"
+            element={<ConstructionInKannur />}
+          />
+          <Route
+            path="/house-construction-services-in-kogilu"
+            element={<ConstructionInKogilu />}
+          />
+          <Route
+            path="/house-construction-services-in-yelahanka-new-town"
+            element={<ConstructionInYelahankaNew />}
+          />
+          <Route
+            path="/house-construction-services-in-yelahanka"
+            element={<ConstructionInYelahanka />}
+          />
+          <Route
+            path="/house-construction-services-in-hebbal"
+            element={<ConstructionInHebbalService />}
+          />
+          <Route
+            path="/house-construction-services-in-sahakar-nagar"
+            element={<ConstructionInSahakarNagar />}
           />
           {/* -----------------------------------Projects------------------------------- */}
           <Route path="/projects" element={<Projects />} />

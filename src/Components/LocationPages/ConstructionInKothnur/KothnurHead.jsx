@@ -3,7 +3,7 @@ import React from "react";
 const KothnurHead = () => {
   return (
     <div className="architectsHeadContainer">
-      <h1>House Construction Company in Kothnurat Lowest Price Per.Sqft</h1>
+      <h1>House Construction Company in Kothnur at Lowest Price Per.Sqft</h1>
       <p>
         Building a dream home requires expertise, meticulous planning, and the
         right construction partner to bring your vision to life. If you are

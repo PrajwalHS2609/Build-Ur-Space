@@ -111,7 +111,10 @@
   text-align: justify;
   font-size: 20px;
 }
-
+.locationReadContainer > p > a {
+  color: var(--customColor);
+  text-decoration: none;
+}
 .locationReadDisplayContainer {
   /* border: solid green; */
   width: 100%;
