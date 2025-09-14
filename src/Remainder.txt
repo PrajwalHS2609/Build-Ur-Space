@@ -1,1 +1,3 @@
 check kr puram page
+
+uncomment the index.js
