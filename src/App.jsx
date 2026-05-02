@@ -480,7 +480,6 @@ const App = () => {
           <Route path="/project3" element={<SizzleMidtown />} />
         </Routes>
 
-        {/* </PackageContext> */}
         <WhatsApp />
         <Footer />
       </BrowserRouter>
