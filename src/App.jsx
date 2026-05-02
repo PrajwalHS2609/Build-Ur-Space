@@ -101,7 +101,6 @@ import ConstructionInYelahankaNew from "./Components/LocationPages/ConstructionI
 import ConstructionInYelahanka from "./Components/LocationPages/ConstructionInYelahanka/ConstructionInYelahanka";
 import ConstructionInHebbalService from "./Components/LocationPages/ConstructionInHebbalService/ConstructionInHebbalService";
 import ConstructionInSahakarNagar from "./Components/LocationPages/ConstructionInSahakarNagar/ConstructionInSahakarNagar";
-import Maintenance from "./Maintenance";
 
 const App = () => {
   // const [isUnderMaintenance, setIsUnderMaintenance] = useState(false);
